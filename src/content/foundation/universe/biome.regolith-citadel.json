@@ -1,0 +1,33 @@
+{
+  "id": "biome.regolith-citadel",
+  "name": "Regolith Citadel",
+  "description": "Lunar domes and fortified regolith streets under a black sky.",
+  "role": "Old, dense and proud settlements where lineage and dome rights matter.",
+  "region": "region.lunar-citadels",
+  "ambience": "Low gravity, filtered light through dome glass and the hush of pressure seals.",
+  "paletteDirection": "Pale grey dust, cyan dome glass, black sky and warm interior amber.",
+  "palette": {
+    "base": [
+      "#b9b7b1",
+      "#9a9892",
+      "#d6d4ce"
+    ],
+    "shadow": [
+      "#5e5c58",
+      "#3c3b38"
+    ],
+    "highlight": [
+      "#f1f0ec",
+      "#8fe3f0"
+    ],
+    "outline": [
+      "#0a0a0c"
+    ],
+    "accent": [
+      "#5fd0e0"
+    ],
+    "special": [
+      "#f2b057"
+    ]
+  }
+}

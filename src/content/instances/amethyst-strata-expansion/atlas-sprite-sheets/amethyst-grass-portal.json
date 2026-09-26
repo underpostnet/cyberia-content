@@ -1,0 +1,104 @@
+{
+  "_id": "6ab5903dbb37c1151110a054",
+  "objectLayerCid": "bafkreicvha6bvvzyype72yv656pgzj5dh7ult57pktxpzdvhcrtog3gnfi",
+  "__v": 0,
+  "createdAt": "2026-09-24T21:03:57.425Z",
+  "fileId": "7b41927ff4532b4988dfe3a0",
+  "idlePreviewFileId": "954ef70556647da290d71503",
+  "metadata": {
+    "itemKey": "amethyst-grass-portal",
+    "atlasWidth": 120,
+    "atlasHeight": 48,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 400,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        },
+        {
+          "x": 24,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 1
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 2
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 72,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 1
+        },
+        {
+          "x": 0,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 2
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 24,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        },
+        {
+          "x": 48,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 1
+        },
+        {
+          "x": 72,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 2
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-09-24T21:03:57.425Z",
+  "upscaleFileId": "bbc86bd454d7b9d39f0260f2"
+}

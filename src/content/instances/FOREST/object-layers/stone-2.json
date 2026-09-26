@@ -1,0 +1,35 @@
+{
+  "_id": "69e91a3e1c7d01218075eb7b",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "stone-2",
+      "type": "obstacle",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreibqohld4tdbiasuptntwpj5r6ohp77v2x55j44nwgvckz5oxltqpa",
+      "metadataCid": "bafkreig2llycafuxaf2amnfybi42papdus2nd2udvhcra5lmaqh47q2w2y"
+    }
+  },
+  "cid": "bafkreigrx6ocy5ja2yaxwqoezrvt2hz4i4p76i5syru4sbxbi3sosno2j4",
+  "contentHash": "d1bf9c2c7520d6017b41c4cc6b3d1f3c471fff23b2c469c906e146e4e935da4f",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:31.143Z",
+  "updatedAt": "2026-09-24T21:04:31.175Z",
+  "__v": 0
+}

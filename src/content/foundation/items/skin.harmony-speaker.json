@@ -1,0 +1,33 @@
+{
+  "id": "skin.harmony-speaker",
+  "name": "Harmony Speaker",
+  "description": "The elected voice of the Harmony Enclaves in a yellow travel cloak sewn with every member clan mark.",
+  "role": "The look of the Harmony Speaker.",
+  "factions": [
+    "faction.harmony-enclaves"
+  ],
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Figure in a wide cloak.",
+    "detail": "Yellow cloak covered with small colored clan marks.",
+    "distinctiveFeatures": [
+      "cloak of clan marks"
+    ],
+    "paletteDirection": "Atlas yellow cloak, many small accent colors, warm skin."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 8,
+      "agility": 3,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    }
+  }
+}

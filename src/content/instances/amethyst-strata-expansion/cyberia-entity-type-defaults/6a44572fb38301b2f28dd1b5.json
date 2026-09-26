@@ -1,0 +1,17 @@
+{
+  "_id": "6a44572fb38301b2f28dd1b5",
+  "entityType": "bot",
+  "liveItemIds": [
+    "elara-voss-kalu"
+  ],
+  "deadItemIds": [
+    "fragmentation"
+  ],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "passive",
+  "createdAt": "2026-06-30T23:54:23.557Z",
+  "updatedAt": "2026-06-30T23:54:23.557Z",
+  "__v": 0
+}

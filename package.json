@@ -1,0 +1,30 @@
+{
+  "name": "cyberia-content",
+  "version": "3.0.0",
+  "description": "Cyberia content: the foundation, instances, sagas, the semantic generator and the versioned content artifact.",
+  "type": "module",
+  "license": "MIT",
+  "repository": "underpostnet/cyberia-content",
+  "engines": {
+    "node": ">=24"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "start": "node bin/cyberia-content.js",
+    "test": "vitest run",
+    "prepack": "node bin/cyberia-content.js build"
+  },
+  "keywords": [
+    "cyberia",
+    "game-content",
+    "semantic-generation",
+    "content-artifact"
+  ],
+  "devDependencies": {
+    "commander": "^15.0.0",
+    "dotenv": "^18.0.2",
+    "vitest": "^5.0.1"
+  }
+}

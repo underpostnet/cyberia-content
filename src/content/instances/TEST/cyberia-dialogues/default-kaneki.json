@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "6a8fcb822ccebd1c7e97d22b",
+    "code": "default-kaneki",
+    "order": 0,
+    "speaker": "Kaneki",
+    "text": "I am not the protagonist of a novel. I am just... me.",
+    "mood": "sad",
+    "createdAt": "2026-08-27T05:30:42.249Z",
+    "updatedAt": "2026-08-27T05:30:42.249Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fcb822ccebd1c7e97d22c",
+    "code": "default-kaneki",
+    "order": 1,
+    "speaker": "Kaneki",
+    "text": "What is 1000 minus 7?",
+    "mood": "angry",
+    "createdAt": "2026-08-27T05:30:42.251Z",
+    "updatedAt": "2026-08-27T05:30:42.251Z",
+    "__v": 0
+  }
+]

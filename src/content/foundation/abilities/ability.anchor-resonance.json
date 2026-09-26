@@ -1,0 +1,9 @@
+{
+  "id": "ability.anchor-resonance",
+  "name": "Anchor Resonance",
+  "description": "Tunes a sealed crossing to its key so that it opens for the holder.",
+  "role": "A narrative ability: quests use it to open crossings. It has no executable handler.",
+  "effects": [
+    "effect.layer-crossing"
+  ]
+}

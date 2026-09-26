@@ -1,0 +1,38 @@
+{
+  "id": "floor.breach-glass",
+  "name": "Breach Glass Floor",
+  "description": "Ground that lost form and set as cyan crystal over a violet void.",
+  "role": "The base ground of a Breach Field.",
+  "locations": [
+    "biome.breach-field"
+  ],
+  "materials": [
+    "material.breach-glass"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile of angular cyan plates over dark violet.",
+    "detail": "White glints on plate edges; violet shows through the fractures.",
+    "distinctiveFeatures": [
+      "angular crystal plates",
+      "violet void in the fractures"
+    ],
+    "paletteDirection": "Cyan crystal, deep purple void, white glints.",
+    "matches": [
+      "portal.breach-gate"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

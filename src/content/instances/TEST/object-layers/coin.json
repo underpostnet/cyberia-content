@@ -1,0 +1,35 @@
+{
+  "_id": "6ab5904237f96ecaa15c5749",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "coin",
+      "type": "coin",
+      "description": "Standard Atlas-sanctioned credit chit accepted across the outpost's vendors and contractors.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreid4ztvkxi3bhbvlpmed4it4gdkkddcisdogguaj2cxi3aws62ftsy",
+      "metadataCid": "bafkreicst3cbu5e5paeukfmyxqdzr4hscnrkfdpr25vublbhop2lygs2ei"
+    }
+  },
+  "cid": "bafkreidaf7725lujzvbrvdiryqkkcikqwy2ribtuooijouupsz3akwbj2a",
+  "contentHash": "602fffaeae89cd431a8d11c414a12150b635140674739097528f9676055829d0",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:02.780Z",
+  "updatedAt": "2026-09-24T21:04:02.817Z",
+  "__v": 0
+}

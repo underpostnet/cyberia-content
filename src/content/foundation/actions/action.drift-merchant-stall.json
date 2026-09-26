@@ -1,0 +1,55 @@
+{
+  "id": "action.drift-merchant-stall",
+  "name": "Drift Merchant's Stall",
+  "description": "The Drift Merchant's travelling stall: frontier supplies, a hatchet bench and the work of the outpost.",
+  "role": "The frontier shop and the place to take and complete the outpost quest.",
+  "provider": "character.drift-merchant",
+  "shop": [
+    {
+      "item": "consumable.med-gel",
+      "price": "currency.coin",
+      "quantity": 5
+    },
+    {
+      "item": "consumable.ration-brick",
+      "price": "currency.coin",
+      "quantity": 2
+    },
+    {
+      "item": "consumable.rad-flush",
+      "price": "currency.coin",
+      "quantity": 6
+    },
+    {
+      "item": "weapon.hatchet",
+      "price": "currency.coin",
+      "quantity": 20
+    },
+    {
+      "item": "tool.cutting-torch",
+      "price": "currency.coin",
+      "quantity": 12
+    }
+  ],
+  "recipes": [
+    {
+      "outputs": [
+        {
+          "item": "weapon.hatchet",
+          "quantity": 1
+        }
+      ],
+      "ingredients": [
+        {
+          "item": "resource.rustbark-log",
+          "quantity": 2
+        },
+        {
+          "item": "resource.scrap-alloy",
+          "quantity": 1
+        }
+      ],
+      "timeMs": 3000
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "rock.rust-boulder-split",
+  "name": "Split Rust Boulder",
+  "description": "A rust boulder broken in two by frost or old blasts.",
+  "role": "An alternate boulder that breaks repetition.",
+  "locations": [
+    "biome.overgrown-ruins",
+    "biome.frontier-grassland"
+  ],
+  "artBrief": {
+    "silhouette": "Two lumps with a gap between them.",
+    "detail": "The same orange tones as the whole boulder, with a dark split.",
+    "distinctiveFeatures": [
+      "clean split down the middle"
+    ],
+    "paletteDirection": "Oranges #82430d, #cc6a14 and #ed9345, black outline.",
+    "spriteScale": "Fills a 1×1 to 2×2 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "rock.rust-boulder"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

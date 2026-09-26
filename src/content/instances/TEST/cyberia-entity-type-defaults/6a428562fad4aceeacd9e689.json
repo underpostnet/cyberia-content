@@ -1,0 +1,18 @@
+{
+  "_id": "6a428562fad4aceeacd9e689",
+  "entityType": "resource",
+  "liveItemIds": [
+    "wood-2"
+  ],
+  "deadItemIds": [
+    "wood-extracted-2"
+  ],
+  "dropItemIds": [
+    "wood-drop-2"
+  ],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "createdAt": "2026-06-29T14:46:58.710Z",
+  "updatedAt": "2026-06-29T14:46:58.710Z",
+  "__v": 0
+}

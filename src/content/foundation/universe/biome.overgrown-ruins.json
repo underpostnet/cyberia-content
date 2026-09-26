@@ -1,0 +1,33 @@
+{
+  "id": "biome.overgrown-ruins",
+  "name": "Overgrown Ruins",
+  "description": "Forests that swallowed the dead cities of Earth: emerald meadows, rust-orange stone and relay dishes tilted under the canopy.",
+  "role": "The most common physical wilderness. It hides relics and salvage under living green.",
+  "region": "region.ruined-earth",
+  "ambience": "Quiet, humid and green, broken by the creak of old metal and distant wildlife.",
+  "paletteDirection": "Emerald and spring greens, rust-orange stone, faded steel blue for pre-Cataclysm machinery.",
+  "palette": {
+    "base": [
+      "#3fa34d",
+      "#6cc24a",
+      "#b8653a"
+    ],
+    "shadow": [
+      "#23652f",
+      "#7a3f22"
+    ],
+    "highlight": [
+      "#a8e06a",
+      "#e0a06a"
+    ],
+    "outline": [
+      "#172414"
+    ],
+    "accent": [
+      "#5f7fa3"
+    ],
+    "special": [
+      "#f2d24a"
+    ]
+  }
+}

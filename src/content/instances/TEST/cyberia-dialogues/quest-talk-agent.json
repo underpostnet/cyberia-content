@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6a8fcb822ccebd1c7e97d242",
+    "code": "quest-talk-agent",
+    "order": 0,
+    "speaker": "Agent",
+    "text": "Civilian. There is a bounty if you have the stomach for it. Eliminate the threat, collect the drop, report back.",
+    "mood": "neutral",
+    "createdAt": "2026-08-27T05:30:42.303Z",
+    "updatedAt": "2026-08-27T05:30:42.303Z",
+    "__v": 0
+  }
+]

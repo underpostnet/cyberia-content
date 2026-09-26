@@ -1,0 +1,10 @@
+{
+  "id": "faction.transcendent-conclave",
+  "name": "Transcendent Conclave",
+  "description": "The Nova movement that values biological augmentation, hybrid identity and a managed fusion of flesh and machine.",
+  "role": "The divers and hybrids of Nova, who live between the body and the Instance.",
+  "color": "blue",
+  "domain": "hyperspace",
+  "parent": "faction.nova-republic",
+  "beliefs": "The layers are one world; the self should live in both."
+}

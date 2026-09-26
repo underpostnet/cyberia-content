@@ -1,0 +1,33 @@
+{
+  "id": "skin.survivor",
+  "name": "Survivor",
+  "description": "A plain figure in pale, worn clothes, anonymous on purpose.",
+  "role": "The look of a new survivor: the player skin every world starts with.",
+  "origin": "origin.baseline-human",
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Plain upright figure with no accessories.",
+    "detail": "White and light grey clothing with black outline; no insignia.",
+    "distinctiveFeatures": [
+      "all-pale clothing",
+      "no insignia"
+    ],
+    "paletteDirection": "White #ffffff and grey #cacaca with black outline.",
+    "matches": []
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 6,
+      "agility": 2,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    }
+  }
+}

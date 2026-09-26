@@ -1,0 +1,41 @@
+{
+  "id": "weapon.legion-carbine",
+  "name": "Legion Carbine",
+  "description": "The Iron Legion service carbine: heavy, reliable and loud, firing solid slugs.",
+  "role": "The weapon of Zenith garrisons; seeing it means the Legion holds the ground.",
+  "factions": [
+    "faction.iron-legion"
+  ],
+  "abilities": [
+    "ability.slug-volley"
+  ],
+  "artBrief": {
+    "silhouette": "Long rifle with a box magazine.",
+    "detail": "Gunmetal body with a red stripe on the stock and a stamped chevron.",
+    "distinctiveFeatures": [
+      "box magazine",
+      "red stock stripe"
+    ],
+    "paletteDirection": "Gunmetal and graphite with Zenith red.",
+    "spriteScale": "Held by a 2×2 cell character; drawn over its skin.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "matches": [
+      "projectile.legion-slug",
+      "armor.legion-plate"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "weapon",
+    "activable": true,
+    "stats": {
+      "effect": 12,
+      "resistance": -2,
+      "agility": -4,
+      "range": 6,
+      "intelligence": 0,
+      "utility": 2
+    }
+  }
+}

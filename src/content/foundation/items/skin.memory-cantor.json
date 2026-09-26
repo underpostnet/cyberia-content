@@ -1,0 +1,31 @@
+{
+  "id": "skin.memory-cantor",
+  "name": "Memory Cantor",
+  "description": "A performer robed in pale blue light, with memory threads trailing from the sleeves.",
+  "role": "The look of the Memory Cantors who perform in the civic Instances.",
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Slim robed figure with long trailing sleeves.",
+    "detail": "Pale blue robe, bright thread lines along the sleeves and dark hair.",
+    "distinctiveFeatures": [
+      "trailing memory threads",
+      "long sleeves"
+    ],
+    "paletteDirection": "Pale blues #bfe3ff and #7fb8e6, white glints, dark accents #1f2a44."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 0,
+      "agility": 10,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 5
+    }
+  }
+}

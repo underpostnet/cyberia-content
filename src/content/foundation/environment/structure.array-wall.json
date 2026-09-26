@@ -1,0 +1,39 @@
+{
+  "id": "structure.array-wall",
+  "name": "Array Wall",
+  "description": "A slate-violet wall section of an environmental-control array, with a column of status lights.",
+  "role": "Encloses array interiors in the Violet Strata.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "materials": [
+    "material.array-alloy"
+  ],
+  "artBrief": {
+    "silhouette": "Tall rectangular panel.",
+    "detail": "Panel seams, a column of green, blue and yellow lights, moss at the base.",
+    "distinctiveFeatures": [
+      "column of status lights"
+    ],
+    "paletteDirection": "Slate violet #241f31 to #312b41, lights #0a5e1b, #1a5fb4 and #f8e45c.",
+    "spriteScale": "Fills a 1×1 cell footprint; chain for longer walls.",
+    "requiredVariants": [],
+    "matches": [
+      "structure.array-wall-worn",
+      "structure.array-wall-crown",
+      "floor.array-plating"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

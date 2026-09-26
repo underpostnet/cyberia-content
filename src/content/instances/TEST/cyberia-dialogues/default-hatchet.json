@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6a8fcb822ccebd1c7e97d221",
+    "code": "default-hatchet",
+    "order": 0,
+    "speaker": "Hatchet",
+    "text": "A crude but reliable melee tool. Good for close quarters.",
+    "mood": "neutral",
+    "createdAt": "2026-08-27T05:30:42.220Z",
+    "updatedAt": "2026-08-27T05:30:42.220Z",
+    "__v": 0
+  }
+]

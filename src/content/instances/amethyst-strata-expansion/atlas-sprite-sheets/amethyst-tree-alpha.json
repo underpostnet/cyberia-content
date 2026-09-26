@@ -1,0 +1,83 @@
+{
+  "_id": "6ab5903ebb37c1151110a05a",
+  "objectLayerCid": "bafkreid3ichhwfuyceq7qukadc2wjgpe3xfvnmip5ybij4bz7tb4t4bgqq",
+  "__v": 0,
+  "createdAt": "2026-09-24T21:03:58.106Z",
+  "fileId": "c080fadb0e6174d394c40536",
+  "idlePreviewFileId": "e90bc4fb25ba648fc6b49539",
+  "metadata": {
+    "itemKey": "amethyst-tree-alpha",
+    "atlasWidth": 120,
+    "atlasHeight": 48,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 500,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        },
+        {
+          "x": 24,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 1
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 48,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        },
+        {
+          "x": 72,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 1
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 96,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        },
+        {
+          "x": 0,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 1
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-09-24T21:03:58.106Z",
+  "upscaleFileId": "d633454a3b9571632ffa85a8"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "6a9de5e0649c6b5aef385251",
+  "entityType": "obstacle",
+  "liveItemIds": [
+    "sap-logic-array-wall-top-alpha"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-06T22:14:56.752Z",
+  "updatedAt": "2026-09-06T22:14:56.752Z",
+  "__v": 0
+}

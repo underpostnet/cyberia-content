@@ -1,0 +1,31 @@
+{
+  "id": "consumable.rad-flush",
+  "name": "Rad Flush",
+  "description": "An injector that flushes radiation from the blood.",
+  "role": "What keeps salvagers alive in the Ash Wastes.",
+  "locations": [
+    "biome.ash-wastes"
+  ],
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Short injector.",
+    "detail": "Yellow and black hazard band around a clear vial.",
+    "distinctiveFeatures": [
+      "hazard band"
+    ],
+    "paletteDirection": "Hazard yellow and black, clear vial with green liquid."
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 6,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

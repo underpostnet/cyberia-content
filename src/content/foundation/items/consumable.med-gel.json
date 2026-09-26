@@ -1,0 +1,28 @@
+{
+  "id": "consumable.med-gel",
+  "name": "Med Gel",
+  "description": "A squeeze tube of wound-sealing gel.",
+  "role": "Field medicine traded in every settlement.",
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Small tube with a cap.",
+    "detail": "White tube with a green cross and a drop of blue gel.",
+    "distinctiveFeatures": [
+      "green cross"
+    ],
+    "paletteDirection": "White, medical green, pale blue gel."
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 4,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

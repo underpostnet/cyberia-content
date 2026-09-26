@@ -1,0 +1,16 @@
+{
+  "id": "region.frontier-colonies",
+  "name": "Frontier Colonies",
+  "description": "Distant colonies and terraforming worlds at the edge of settled space, with open land, young forests and failing infrastructure.",
+  "role": "Where survivors build new lives, and where the confederations compete for land that is not yet theirs.",
+  "tags": [
+    "physical",
+    "frontier",
+    "terraforming"
+  ],
+  "factions": [
+    "faction.atlas-confederation"
+  ],
+  "layer": "physical",
+  "connectsTo": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "structure.index-pillar",
+  "name": "Index Pillar",
+  "description": "A glowing index column that holds a slice of an archive Instance.",
+  "role": "Landmarks and walls of archive Instances; each one indexes a public record set.",
+  "locations": [
+    "biome.archive-instance"
+  ],
+  "factions": [
+    "faction.nova-republic"
+  ],
+  "artBrief": {
+    "silhouette": "Slim rectangular column.",
+    "detail": "Scrolling lines of light on its face; one line glitches magenta.",
+    "distinctiveFeatures": [
+      "scrolling light lines",
+      "one magenta glitch line"
+    ],
+    "paletteDirection": "White and Nova blue light, magenta glitch.",
+    "spriteScale": "Fills a 1×2 cell footprint.",
+    "requiredVariants": []
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

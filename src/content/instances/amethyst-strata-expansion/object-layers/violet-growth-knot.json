@@ -1,0 +1,35 @@
+{
+  "_id": "6ab5904f37f96ecaa15c5797",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "violet-growth-knot",
+      "type": "obstacle",
+      "description": "A dense, pulsating mass of purple-pigmented biomass that obstructs navigation through the undergrowth.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreibykww33bdaakyfwqgisbzc6r3t4xevekyfgb5bu3vlpczdcxfmwa",
+  "contentHash": "3855adbd846002b05b40c890722f4773e5c9522b05307a1a6eab78b2315cacb0",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:15.054Z",
+  "updatedAt": "2026-09-24T21:04:15.085Z",
+  "__v": 0
+}

@@ -1,0 +1,33 @@
+{
+  "id": "skin.atlas-cartographer",
+  "name": "Atlas Cartographer",
+  "description": "A surveyor in a gold field jacket, with instruments at the belt.",
+  "role": "The look of the Atlas Cartographer, who maps the crossings between layers.",
+  "factions": [
+    "faction.atlas-confederation"
+  ],
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Upright figure in a short jacket.",
+    "detail": "Gold jacket, light skin and dark trousers.",
+    "distinctiveFeatures": [
+      "gold field jacket"
+    ],
+    "paletteDirection": "Golds #d89d14 and #ebae21, light skin #ffead5, dark grey."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 8,
+      "agility": 5,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 0
+    }
+  }
+}

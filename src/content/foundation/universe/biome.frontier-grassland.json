@@ -1,0 +1,33 @@
+{
+  "id": "biome.frontier-grassland",
+  "name": "Frontier Grassland",
+  "description": "Open grassland of a settled colony world, with stands of timber trees around young outposts.",
+  "role": "The first home of most survivors: fertile, readable ground where the frontier economy starts.",
+  "region": "region.frontier-colonies",
+  "ambience": "Bright, windy and open, with the sound of timber crews and small settlements.",
+  "paletteDirection": "Bright chartreuse greens, warm timber browns and golden autumn crowns.",
+  "palette": {
+    "base": [
+      "#9bd43a",
+      "#78b52a",
+      "#8a5a2b"
+    ],
+    "shadow": [
+      "#4f7a1e",
+      "#5c3a1b"
+    ],
+    "highlight": [
+      "#d8f27a",
+      "#e9b949"
+    ],
+    "outline": [
+      "#26210f"
+    ],
+    "accent": [
+      "#f2c14e"
+    ],
+    "special": [
+      "#d9822b"
+    ]
+  }
+}

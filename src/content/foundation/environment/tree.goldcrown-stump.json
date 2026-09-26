@@ -1,0 +1,37 @@
+{
+  "id": "tree.goldcrown-stump",
+  "name": "Goldcrown Stump",
+  "description": "What is left of a goldcrown tree after it is cut.",
+  "role": "The depleted state of a goldcrown tree until it grows back.",
+  "locations": [
+    "biome.frontier-grassland"
+  ],
+  "materials": [
+    "material.colony-timber"
+  ],
+  "artBrief": {
+    "silhouette": "Low stump, darker than the rustbark stump.",
+    "detail": "Dark rings on the cut face.",
+    "distinctiveFeatures": [
+      "dark cut face"
+    ],
+    "paletteDirection": "Dark browns #63452c and #865e3c.",
+    "spriteScale": "Fills a 2×2 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "tree.goldcrown"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

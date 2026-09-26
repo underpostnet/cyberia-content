@@ -1,0 +1,32 @@
+{
+  "id": "skin.ash-raider",
+  "name": "Ash Raider",
+  "description": "A Mutagen raider in scavenged plates bound with red cloth, ash ground into every seam.",
+  "role": "The look of the Ash Raiders, the Void Nomad clans that prey on outposts and trade roads.",
+  "origin": "origin.mutagen",
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Hunched figure with a plated back.",
+    "detail": "Dark grey plates, dark red cloth strips and silver buckles.",
+    "distinctiveFeatures": [
+      "plated back",
+      "red cloth strips"
+    ],
+    "paletteDirection": "Dark greys #333333 and #555555, dark reds #800000 and #660000, silver #c0c0c0."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 2,
+      "agility": 6,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    }
+  }
+}

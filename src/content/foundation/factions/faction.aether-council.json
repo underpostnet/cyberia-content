@@ -1,0 +1,16 @@
+{
+  "id": "faction.aether-council",
+  "name": "Aether Council",
+  "description": "The technocratic wing of Zenith that seeks stability, administration and selective cooperation with Nova.",
+  "role": "The administrators of Zenith: taxes, permits, audits and the agents who enforce them.",
+  "color": "red",
+  "domain": "physical",
+  "parent": "faction.zenith-empire",
+  "beliefs": "Control is kept by systems, not by soldiers alone.",
+  "relations": [
+    {
+      "type": "trades-with",
+      "target": "faction.nova-republic"
+    }
+  ]
+}

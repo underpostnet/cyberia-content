@@ -1,0 +1,35 @@
+{
+  "_id": "69ebe46968754419636784c4",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "gp1",
+      "type": "skin",
+      "description": "Procedurally generated character skin (seed: example-skin-random)",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 4,
+      "agility": 3,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreiholt6e25hl4bqxavcfdjmr3diiuewbppcieawto2fttgep4pwxqu",
+      "metadataCid": "bafkreiewfsluytabab75wtqakxjy7f3rz6bd2ygm3uvkkeaixovpa52a7m"
+    }
+  },
+  "cid": "bafkreibe2ygixz5sqwvzx4vzqyle4zs4hmb4j6g77uohvtnxhr3ji65enu",
+  "contentHash": "24d60c8be7b285ab9bf2b986164e665c3b03c4f8dffd1c7acdb73c76947ba46d",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:22.692Z",
+  "updatedAt": "2026-09-24T21:04:22.722Z",
+  "__v": 0
+}

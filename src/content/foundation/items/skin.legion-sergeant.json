@@ -1,0 +1,38 @@
+{
+  "id": "skin.legion-sergeant",
+  "name": "Legion Sergeant",
+  "description": "An Iron Legion sergeant in a red-trimmed field uniform and a closed helmet.",
+  "role": "The look of Zenith garrison soldiers.",
+  "factions": [
+    "faction.iron-legion"
+  ],
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Broad figure with a closed round helmet.",
+    "detail": "Graphite uniform, red trim and a black chevron on the shoulder.",
+    "distinctiveFeatures": [
+      "closed helmet",
+      "red trim"
+    ],
+    "paletteDirection": "Graphite and gunmetal, Zenith red trim, black chevron.",
+    "matches": [
+      "armor.legion-plate",
+      "weapon.legion-carbine"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 14,
+      "agility": -2,
+      "range": 0,
+      "intelligence": 1,
+      "utility": 2
+    }
+  }
+}

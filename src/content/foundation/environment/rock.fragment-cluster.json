@@ -1,0 +1,42 @@
+{
+  "id": "rock.fragment-cluster",
+  "name": "Fragment Cluster",
+  "description": "A cluster of cyan crystal that grew where matter lost form in a breach.",
+  "role": "A resource node of the Breach Fields. Breaking it yields fragment shards.",
+  "locations": [
+    "biome.breach-field"
+  ],
+  "materials": [
+    "material.breach-glass"
+  ],
+  "harvest": {
+    "depleted": "rock.fragment-cluster-spent",
+    "yields": "resource.fragment-shard"
+  },
+  "artBrief": {
+    "silhouette": "Three upward crystal points from one base.",
+    "detail": "White glints on each point; a violet shadow at the base.",
+    "distinctiveFeatures": [
+      "three crystal points"
+    ],
+    "paletteDirection": "Cyan #6bffff and #96ffff, deep blue #204e6a, violet base shadow.",
+    "spriteScale": "Fills a 2×2 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "skin.fragmentation",
+      "rock.fragment-cluster-spent"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

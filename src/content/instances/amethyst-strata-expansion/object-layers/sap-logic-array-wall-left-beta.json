@@ -1,0 +1,35 @@
+{
+  "_id": "6a418c05175934e535d9def2",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "sap-logic-array-wall-left-beta",
+      "type": "obstacle",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreigxmk3p5ttjjelp4hisvqeja5v3hvsqet7iwy4nrkqwhi6umm5p7i",
+      "metadataCid": "bafkreihwjbc3fsgx2ckm4emwp2htgxmljedpuh7gspu6e7b2w6pgqfpoym"
+    }
+  },
+  "cid": "bafkreibhmcqcgbd2w5usgnmc6pacc66amxyg6vw2bvzq56medi4cykquzq",
+  "contentHash": "2760a023047ab769233582f3c0217bc065f06f56da0d730ef9841a382c2a14cc",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:13.691Z",
+  "updatedAt": "2026-09-24T21:04:13.749Z",
+  "__v": 0
+}

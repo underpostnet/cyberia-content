@@ -1,0 +1,35 @@
+{
+  "_id": "69c906c9178523f2652d36a5",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "atlas_pistol_mk2",
+      "type": "weapon",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 5,
+      "resistance": 2,
+      "agility": -3,
+      "range": 0,
+      "intelligence": 5,
+      "utility": 1
+    },
+    "render": {
+      "cid": "bafkreibjncurwmpz5aiwyr5nqo5wwnmkhh53bvlrk4sx7e7s4tifguq4nu",
+      "metadataCid": "bafkreibaq54sw64aeclmj2z4o753fxy7j72o32vm7gcubqfsacobkojlnq"
+    }
+  },
+  "cid": "bafkreibsnhcwbytdlyltmhkj5bfukpfdiy77gdmujohninygvcwmhkfopa",
+  "contentHash": "3269c560e2635e17361d49e84b453ca3463ff30d944b8ed43706a8acc3a8ae78",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:00.185Z",
+  "updatedAt": "2026-09-24T21:04:00.215Z",
+  "__v": 0
+}

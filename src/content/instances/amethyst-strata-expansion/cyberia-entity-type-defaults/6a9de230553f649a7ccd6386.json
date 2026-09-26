@@ -1,0 +1,15 @@
+{
+  "_id": "6a9de230553f649a7ccd6386",
+  "entityType": "static",
+  "liveItemIds": [
+    "amethyst-tree-alpha"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-06T21:59:12.321Z",
+  "updatedAt": "2026-09-06T21:59:12.321Z",
+  "__v": 0
+}

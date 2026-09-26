@@ -1,0 +1,36 @@
+{
+  "id": "character.instance-diver",
+  "name": "Instance Diver",
+  "description": "A Transcendent Conclave diver who spends more time in Instances than in her own body.",
+  "role": "A guide to hyperspace who asks survivors to act where she cannot.",
+  "origin": "origin.baseline-human",
+  "factions": [
+    "faction.transcendent-conclave"
+  ],
+  "locations": [
+    "biome.archive-instance",
+    "region.the-overlap"
+  ],
+  "archetype": "representative",
+  "voice": "Soft and distant; believes the layers are one world.",
+  "loadout": [
+    "skin.instance-diver"
+  ],
+  "carries": [
+    "implant.neural-link"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 5
+  },
+  "greeting": [
+    {
+      "text": "I left my body on a cot two layers down. It is safe. I think it is safe.",
+      "mood": "sad"
+    },
+    {
+      "text": "The archive remembers you differently than you do. Do not argue with it."
+    }
+  ]
+}

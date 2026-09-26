@@ -1,0 +1,33 @@
+{
+  "id": "character.drifter",
+  "name": "Drifter",
+  "description": "One of the countless wanderers who move between settlements with no fixed home.",
+  "role": "The generic wandering bot of any world nobody has populated yet.",
+  "locations": [
+    "region.frontier-colonies",
+    "region.ruined-earth",
+    "region.asteroid-enclaves"
+  ],
+  "archetype": "archetype",
+  "voice": "Distracted and short; always about to leave.",
+  "loadout": [
+    "skin.drifter"
+  ],
+  "carries": [
+    "currency.coin"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 1,
+    "maxLife": 80,
+    "spawnRadius": 6,
+    "drops": [
+      {
+        "item": "currency.coin",
+        "chance": 0.5,
+        "quantity": 2
+      }
+    ]
+  }
+}

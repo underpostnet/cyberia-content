@@ -1,0 +1,32 @@
+{
+  "id": "floor.archive-grid",
+  "name": "Archive Grid",
+  "description": "The white-lined floor grid of a civic archive Instance.",
+  "role": "The base floor of archive Instances.",
+  "locations": [
+    "biome.archive-instance"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile of thin white grid lines on pale blue.",
+    "detail": "One cell of the grid shows a faint magenta glitch offset.",
+    "distinctiveFeatures": [
+      "thin white grid",
+      "one glitched cell"
+    ],
+    "paletteDirection": "Pale Nova blue with white lines and a magenta glitch accent."
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

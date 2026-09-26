@@ -1,0 +1,38 @@
+{
+  "id": "tree.rustbark-stump",
+  "name": "Rustbark Stump",
+  "description": "What is left of a rustbark tree after it is cut.",
+  "role": "The depleted state of a rustbark tree until it grows back.",
+  "locations": [
+    "biome.frontier-grassland",
+    "biome.overgrown-ruins"
+  ],
+  "materials": [
+    "material.colony-timber"
+  ],
+  "artBrief": {
+    "silhouette": "Low stump with a pale cut face.",
+    "detail": "Growth rings on the cut face and two roots gripping the ground.",
+    "distinctiveFeatures": [
+      "pale cut face with rings"
+    ],
+    "paletteDirection": "Browns #944f00 and #c07f35 with pale #eeab5d rings.",
+    "spriteScale": "Fills a 2×2 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "tree.rustbark"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

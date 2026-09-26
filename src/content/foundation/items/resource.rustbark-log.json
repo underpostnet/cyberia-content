@@ -1,0 +1,38 @@
+{
+  "id": "resource.rustbark-log",
+  "name": "Rustbark Log",
+  "description": "A cut log of rustbark timber.",
+  "role": "The common building and crafting wood of the frontier.",
+  "materials": [
+    "material.colony-timber"
+  ],
+  "locations": [
+    "biome.frontier-grassland",
+    "biome.overgrown-ruins"
+  ],
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Short log lying on its side.",
+    "detail": "Bark strips and a pale cut end.",
+    "distinctiveFeatures": [
+      "pale cut end"
+    ],
+    "paletteDirection": "Browns #5d3204, #944e01 and #c07f35.",
+    "matches": [
+      "tree.rustbark"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

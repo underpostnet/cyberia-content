@@ -1,0 +1,32 @@
+{
+  "id": "floor.brine-flats",
+  "name": "Brine Flats",
+  "description": "Wet salt flats washed by chemical tides, with a teal film on the surface.",
+  "role": "The base ground of the Chemical Coast.",
+  "locations": [
+    "biome.chemical-coast"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile with irregular teal pools.",
+    "detail": "Salt crust ridges between shallow teal puddles with oily sheen.",
+    "distinctiveFeatures": [
+      "teal pools",
+      "salt crust ridges"
+    ],
+    "paletteDirection": "Teal-green brine, pale salt, oil-black sheen."
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

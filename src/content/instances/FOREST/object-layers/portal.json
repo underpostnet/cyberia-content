@@ -1,0 +1,35 @@
+{
+  "_id": "69ea64a8ce40cc9c82944aab",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "portal",
+      "type": "portal",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreia3f74d7eeyg7jgwyqtdk3gc5wuo46iub24xhhzrjhdnsyvth6ray",
+      "metadataCid": "bafkreiep5lzvyvginswtuhttgslzq4czryph2edatfdeiyftl7eiydb3ua"
+    }
+  },
+  "cid": "bafkreibqj47rduqie2dqxzw5u46irrvogrkwixwzrf75o5u6on3vdm7coi",
+  "contentHash": "304f3f11d20826870be6dda73c88c6ae3455645ed9897fd7769e737751b3e272",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:28.267Z",
+  "updatedAt": "2026-09-24T21:04:28.344Z",
+  "__v": 0
+}

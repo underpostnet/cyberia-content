@@ -1,0 +1,52 @@
+{
+  "_id": "6a9e0f390a55742d256c262c",
+  "code": "ui-click",
+  "fileId": "3f1de47f49a9aac6f52a5086",
+  "manifest": {
+    "id": "ui-click",
+    "bus": "sfx",
+    "tags": [
+      "interface",
+      "selection",
+      "subtle"
+    ],
+    "author": "cyberia-audio",
+    "version": "0.1.0",
+    "duration": 0.06498866213151927,
+    "sampleRate": 22050,
+    "channels": 1,
+    "loop": false,
+    "audio": "ui-click.wav",
+    "defaults": {
+      "sampleRate": 44100,
+      "volume": 0.37,
+      "duration": 0.065,
+      "brightness": 0.45
+    },
+    "parameters": {
+      "sampleRate": {
+        "min": 22050,
+        "max": 96000,
+        "integer": true
+      },
+      "volume": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "duration": {
+        "min": 0.025,
+        "max": 0.15,
+        "integer": false
+      },
+      "brightness": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      }
+    }
+  },
+  "createdAt": "2026-09-07T01:11:21.393Z",
+  "updatedAt": "2026-09-07T01:11:21.393Z",
+  "__v": 0
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ruin.collapsed-tower",
+  "name": "Collapsed Tower",
+  "description": "The broken base of a pre-Cataclysm tower, its floors pancaked into a slope of concrete.",
+  "role": "A large landmark of the dead cities and a common place to search for relics.",
+  "locations": [
+    "biome.ash-wastes",
+    "biome.overgrown-ruins"
+  ],
+  "materials": [
+    "material.ruin-concrete"
+  ],
+  "artBrief": {
+    "silhouette": "Jagged slope of stacked slabs.",
+    "detail": "Bent rebar, empty window frames and ash or moss depending on the biome.",
+    "distinctiveFeatures": [
+      "stacked slabs",
+      "empty window frames"
+    ],
+    "paletteDirection": "Concrete greys with rust stains.",
+    "spriteScale": "Fills a 3×3 cell footprint.",
+    "requiredVariants": [
+      "ash-covered",
+      "moss-covered"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "character.clan-elder",
+  "name": "Clan Elder",
+  "description": "An old Mutagen who keeps the survival codes of her clan and remembers the camps it left.",
+  "role": "A recurring character for Mutagen stories: kinship, prejudice and survival.",
+  "origin": "origin.mutagen",
+  "factions": [
+    "faction.harmony-enclaves"
+  ],
+  "locations": [
+    "biome.frontier-grassland",
+    "biome.ash-wastes"
+  ],
+  "archetype": "recurring",
+  "voice": "Slow, proverbial and unafraid.",
+  "loadout": [
+    "skin.clan-elder"
+  ],
+  "carries": [
+    "implant.chitin-graft"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 6
+  },
+  "greeting": [
+    {
+      "text": "The ash taught my clan one law: share the water, and remember who shut the gate."
+    },
+    {
+      "text": "Zenith calls us contamination. The grass grows on us all the same.",
+      "mood": "sad"
+    }
+  ]
+}

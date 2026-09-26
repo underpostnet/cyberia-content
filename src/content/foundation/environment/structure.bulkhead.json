@@ -1,0 +1,35 @@
+{
+  "id": "structure.bulkhead",
+  "name": "Bulkhead",
+  "description": "A heavy steel bulkhead of an orbital fortress, with a red warning strip.",
+  "role": "Walls and chokepoints of the Orbital Decks.",
+  "locations": [
+    "biome.orbital-decks"
+  ],
+  "factions": [
+    "faction.zenith-empire"
+  ],
+  "artBrief": {
+    "silhouette": "Thick square wall block.",
+    "detail": "Rivets, a red warning strip and a stenciled deck number.",
+    "distinctiveFeatures": [
+      "red warning strip",
+      "stenciled number"
+    ],
+    "paletteDirection": "Gunmetal and graphite with Zenith red and white stencil.",
+    "spriteScale": "Fills a 1×1 cell footprint.",
+    "requiredVariants": []
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

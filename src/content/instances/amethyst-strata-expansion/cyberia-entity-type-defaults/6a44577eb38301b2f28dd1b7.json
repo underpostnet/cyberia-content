@@ -1,0 +1,15 @@
+{
+  "_id": "6a44577eb38301b2f28dd1b7",
+  "entityType": "bot",
+  "liveItemIds": [
+    "knot-node-terminal"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "provider-static",
+  "createdAt": "2026-06-30T23:55:42.043Z",
+  "updatedAt": "2026-06-30T23:55:42.043Z",
+  "__v": 0
+}

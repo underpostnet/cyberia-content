@@ -1,0 +1,21 @@
+{
+  "_id": "6aa31e437c5b5c1831170be8",
+  "entityType": "player",
+  "liveItemIds": [
+    "anon",
+    "atlas_pistol_mk2"
+  ],
+  "deadItemIds": [
+    "ghost"
+  ],
+  "dropItemIds": [],
+  "inventoryItemsIds": [
+    "gp2",
+    "gp1"
+  ],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-10T21:16:51.911Z",
+  "updatedAt": "2026-09-10T21:16:51.911Z",
+  "__v": 0
+}

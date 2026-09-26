@@ -1,0 +1,83 @@
+{
+  "_id": "6ab5905fbb37c1151110a110",
+  "objectLayerCid": "bafkreianl444r7o4csoajygdfw6y7f44cqygmwi6s2ijmwlcnlodhczyri",
+  "__v": 0,
+  "createdAt": "2026-09-24T21:04:31.610Z",
+  "fileId": "4f2e9eae966e076522af801f",
+  "idlePreviewFileId": "76b9793cf413dc11d203e049",
+  "metadata": {
+    "itemKey": "wood-1",
+    "atlasWidth": 125,
+    "atlasHeight": 50,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 500,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 25,
+          "height": 25,
+          "frameIndex": 0
+        },
+        {
+          "x": 25,
+          "y": 0,
+          "width": 25,
+          "height": 25,
+          "frameIndex": 1
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 50,
+          "y": 0,
+          "width": 25,
+          "height": 25,
+          "frameIndex": 0
+        },
+        {
+          "x": 75,
+          "y": 0,
+          "width": 25,
+          "height": 25,
+          "frameIndex": 1
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 100,
+          "y": 0,
+          "width": 25,
+          "height": 25,
+          "frameIndex": 0
+        },
+        {
+          "x": 0,
+          "y": 25,
+          "width": 25,
+          "height": 25,
+          "frameIndex": 1
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-09-24T21:04:58.650Z",
+  "upscaleFileId": "905d5298ad3d8ac50e264002"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "map.archive-halls",
+  "name": "Archive Halls",
+  "description": "Endless tiled halls of a civic Instance, where Nova indexes every record and the Conclave sings the lost ones.",
+  "role": "The hyperspace archive, where Nova rules and the lost are remembered.",
+  "biome": "biome.archive-instance",
+  "composition": [
+    {
+      "entity": "floor.archive-grid",
+      "count": 1
+    },
+    {
+      "entity": "structure.index-pillar",
+      "count": 8
+    },
+    {
+      "entity": "portal.breach-gate",
+      "count": 2
+    },
+    {
+      "entity": "character.directive-prime",
+      "count": 1
+    },
+    {
+      "entity": "character.directive-architect",
+      "count": 1
+    },
+    {
+      "entity": "character.instance-diver",
+      "count": 1
+    },
+    {
+      "entity": "character.memory-cantor",
+      "count": 1
+    }
+  ]
+}

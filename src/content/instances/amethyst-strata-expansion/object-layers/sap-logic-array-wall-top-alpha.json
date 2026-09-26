@@ -1,0 +1,35 @@
+{
+  "_id": "6a42b1a4733a620634531b4d",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "sap-logic-array-wall-top-alpha",
+      "type": "obstacle",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreidyjsp3usgwji6haocxint6akjluqgtxs4y7ny7ssu4zqvypz7rs4",
+      "metadataCid": "bafkreihrnndykk4mjz2u2b35plaai4owvycvuv6cqmlhgc23w4pzv6iva4"
+    }
+  },
+  "cid": "bafkreif475o6v7uqh4gf2pl3accqmgosxqodpr7i6w2vlslzhhfssuux6e",
+  "contentHash": "bcff5deafe903f0c5d3d7b00850619d2bc1c37c7e8f5b555c97939cb295297f1",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:14.387Z",
+  "updatedAt": "2026-09-24T21:04:14.452Z",
+  "__v": 0
+}

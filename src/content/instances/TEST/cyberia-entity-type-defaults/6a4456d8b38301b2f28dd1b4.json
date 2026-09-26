@@ -1,0 +1,28 @@
+{
+  "_id": "6a4456d8b38301b2f28dd1b4",
+  "entityType": "bot",
+  "liveItemIds": [
+    "kishins",
+    "atlas_pistol_mk2"
+  ],
+  "deadItemIds": [
+    "fragmentation"
+  ],
+  "dropItemIds": [
+    "tim-knife",
+    "kishins"
+  ],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [
+    {
+      "itemId": "kishins",
+      "active": true,
+      "quantity": 1,
+      "dropChance": 0.032
+    }
+  ],
+  "behavior": "hostile",
+  "createdAt": "2026-06-30T23:52:56.704Z",
+  "updatedAt": "2026-06-30T23:52:56.704Z",
+  "__v": 0
+}

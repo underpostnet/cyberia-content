@@ -1,0 +1,41 @@
+{
+  "id": "floor.ruin-meadow",
+  "name": "Ruin Meadow",
+  "description": "Emerald meadow grass that grew over the paved streets of a dead city.",
+  "role": "The base ground of the Overgrown Ruins.",
+  "locations": [
+    "biome.overgrown-ruins"
+  ],
+  "materials": [
+    "material.living-loam"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile of soft grass clumps.",
+    "detail": "Three greens layered in clumps, with pale mint highlights.",
+    "distinctiveFeatures": [
+      "layered emerald clumps",
+      "mint highlights"
+    ],
+    "paletteDirection": "Emerald greens #26a269 to #57e389, mint #8ff0a4 highlights.",
+    "readability": "Low contrast; it sits under everything.",
+    "matches": [
+      "floor.ruin-meadow-lush",
+      "floor.ruin-meadow-poppies",
+      "floor.ruin-meadow-buttercups"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

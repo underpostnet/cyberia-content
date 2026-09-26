@@ -1,0 +1,34 @@
+{
+  "id": "armor.nomad-harness",
+  "name": "Nomad Harness",
+  "description": "Straps and scavenged plates worn by Void Nomad crews.",
+  "role": "Light protection that keeps a raider fast.",
+  "factions": [
+    "faction.void-nomads"
+  ],
+  "artBrief": {
+    "silhouette": "Crossed straps with small plates.",
+    "detail": "Leather straps, mismatched plates and a few hanging tools.",
+    "distinctiveFeatures": [
+      "crossed straps",
+      "mismatched plates"
+    ],
+    "paletteDirection": "Dark leather browns, rusted steel, a neon green tag.",
+    "spriteScale": "Worn over a 2×2 cell character.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "breastplate",
+    "activable": true,
+    "stats": {
+      "effect": 0,
+      "resistance": 8,
+      "agility": -2,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 4
+    }
+  }
+}

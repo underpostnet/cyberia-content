@@ -1,0 +1,43 @@
+{
+  "id": "portal.breach-gate",
+  "name": "Breach Gate",
+  "description": "A standing swirl of violet light where the layers overlap enough to cross.",
+  "role": "The common crossing between maps: every portal a world places is a breach gate unless a biome has its own.",
+  "locations": [
+    "biome.breach-field",
+    "biome.overgrown-ruins",
+    "biome.frontier-grassland",
+    "biome.ash-wastes",
+    "biome.chemical-coast",
+    "biome.hollow-markets",
+    "biome.orbital-decks",
+    "biome.archive-instance"
+  ],
+  "artBrief": {
+    "silhouette": "Round swirl on the ground.",
+    "detail": "Spiral arms in three violets around a dark center.",
+    "distinctiveFeatures": [
+      "violet spiral",
+      "dark center"
+    ],
+    "paletteDirection": "Violets #4b0b6f, #7011a7, #9516df and #ae45ed.",
+    "spriteScale": "Fills a 2×2 to 3×3 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "floor.breach-glass"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "portal",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  },
+  "mode": "inter-portal"
+}

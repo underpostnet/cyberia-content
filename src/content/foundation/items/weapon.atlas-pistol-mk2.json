@@ -1,0 +1,40 @@
+{
+  "id": "weapon.atlas-pistol-mk2",
+  "name": "Atlas Pistol MK2",
+  "description": "A compact Atlas sidearm that fires cyan energy rounds.",
+  "role": "The first weapon of a survivor and the standard arm of Atlas crews.",
+  "factions": [
+    "faction.atlas-confederation"
+  ],
+  "abilities": [
+    "ability.pulse-shot"
+  ],
+  "artBrief": {
+    "silhouette": "Short pistol with a boxy slide.",
+    "detail": "Slate panels, a dark grip and a small cyan emitter at the muzzle.",
+    "distinctiveFeatures": [
+      "boxy slate slide",
+      "cyan muzzle emitter"
+    ],
+    "paletteDirection": "Slate blue-greys #445162 and #131529.",
+    "spriteScale": "Held by a 2×2 cell character; drawn over its skin.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "matches": [
+      "projectile.pulse-round"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "weapon",
+    "activable": true,
+    "stats": {
+      "effect": 5,
+      "resistance": 2,
+      "agility": -3,
+      "range": 0,
+      "intelligence": 5,
+      "utility": 1
+    }
+  }
+}

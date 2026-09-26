@@ -1,0 +1,37 @@
+{
+  "id": "floor.ruin-meadow-poppies",
+  "name": "Ruin Meadow with Poppies",
+  "description": "Meadow grass dotted with red poppies, the first flowers to return to the ruins.",
+  "role": "A flowered alternate that marks paths and clearings.",
+  "locations": [
+    "biome.overgrown-ruins"
+  ],
+  "materials": [
+    "material.living-loam"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat meadow tile with small red dots.",
+    "detail": "Two or three four-pixel poppies with dark centers.",
+    "distinctiveFeatures": [
+      "red poppy dots"
+    ],
+    "paletteDirection": "Emerald meadow set with poppy red #e01b24.",
+    "matches": [
+      "floor.ruin-meadow"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "floor.frontier-grass",
+  "name": "Frontier Grass",
+  "description": "Bright colony grass that covers the open ground around frontier outposts.",
+  "role": "The default ground of the frontier and of any world that authors no floor of its own.",
+  "locations": [
+    "biome.frontier-grassland"
+  ],
+  "materials": [
+    "material.living-loam"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile of short, dense blades with no dominant shape.",
+    "detail": "Blade tips catch yellow-green light; a few darker tufts break the pattern.",
+    "distinctiveFeatures": [
+      "saturated green with yellow tips"
+    ],
+    "paletteDirection": "Bright greens #2af202 and #2cea06 with yellow-green #c4ea06 tips.",
+    "readability": "Keep contrast low so entities read on top of it."
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "floor.ash-crust",
+  "name": "Ash Crust",
+  "description": "A crust of grey ash over dead soil, cracked in hexagons where it dried.",
+  "role": "The base ground of the Ash Wastes.",
+  "locations": [
+    "biome.ash-wastes"
+  ],
+  "materials": [
+    "material.ruin-concrete"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile with faint hexagonal cracks.",
+    "detail": "Soot lines in the cracks; loose ash drifts along one edge.",
+    "distinctiveFeatures": [
+      "hexagonal drying cracks",
+      "soot in the cracks"
+    ],
+    "paletteDirection": "Ash greys, bone white highlights, black soot."
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

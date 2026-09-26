@@ -1,0 +1,32 @@
+{
+  "id": "vegetation.ash-lichen",
+  "name": "Ash Lichen",
+  "description": "A pale lichen that grows on ash and concrete and glows faintly at dusk.",
+  "role": "The only life that thrives in the Ash Wastes; it marks cooler, safer ground.",
+  "locations": [
+    "biome.ash-wastes"
+  ],
+  "artBrief": {
+    "silhouette": "Low irregular patch.",
+    "detail": "Crusty rosettes with a faint yellow-green glow at their centers.",
+    "distinctiveFeatures": [
+      "rosette shapes",
+      "faint glow"
+    ],
+    "paletteDirection": "Bone white and pale yellow-green on grey.",
+    "spriteScale": "Fits one cell.",
+    "requiredVariants": []
+  },
+  "objectLayer": {
+    "itemType": "static",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

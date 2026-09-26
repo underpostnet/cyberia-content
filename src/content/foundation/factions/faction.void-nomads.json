@@ -1,0 +1,10 @@
+{
+  "id": "faction.void-nomads",
+  "name": "Void Nomads",
+  "description": "The Atlas crews and clans that embrace harsh survival ethics, radical independence and violent resistance to outside control.",
+  "role": "The raiders, fences and saboteurs of the frontier, dangerous to everyone and loyal only to their own.",
+  "color": "yellow",
+  "domain": "overlap",
+  "parent": "faction.atlas-confederation",
+  "beliefs": "Rules are code someone else wrote."
+}

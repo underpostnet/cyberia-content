@@ -1,0 +1,35 @@
+{
+  "id": "prop.legion-banner",
+  "name": "Legion Banner",
+  "description": "A red Iron Legion banner on a steel pole, marking a garrison or checkpoint.",
+  "role": "Marks Zenith territory and warns that the ground is watched.",
+  "locations": [
+    "biome.orbital-decks"
+  ],
+  "factions": [
+    "faction.iron-legion"
+  ],
+  "artBrief": {
+    "silhouette": "Tall thin pole with a long hanging banner.",
+    "detail": "A black chevron emblem on red cloth; the pole has a pointed cap.",
+    "distinctiveFeatures": [
+      "long red banner",
+      "black chevron emblem"
+    ],
+    "paletteDirection": "Zenith red, black emblem, gunmetal pole.",
+    "spriteScale": "Fills a 1×2 cell footprint.",
+    "requiredVariants": []
+  },
+  "objectLayer": {
+    "itemType": "static",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

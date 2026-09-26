@@ -1,0 +1,49 @@
+{
+  "id": "map.frontier-outpost",
+  "name": "Frontier Outpost",
+  "description": "A young Harmony outpost on open colony grassland, ringed by timber stands and raided from the ruins beyond its palisade.",
+  "role": "The frontier hub: trade, timber and the first fights against the raiders.",
+  "biome": "biome.frontier-grassland",
+  "composition": [
+    {
+      "entity": "floor.frontier-grass",
+      "count": 1
+    },
+    {
+      "entity": "tree.rustbark",
+      "count": 8
+    },
+    {
+      "entity": "tree.goldcrown",
+      "count": 4
+    },
+    {
+      "entity": "rock.rust-boulder",
+      "count": 3
+    },
+    {
+      "entity": "rock.rust-boulder-split",
+      "count": 2
+    },
+    {
+      "entity": "portal.breach-gate",
+      "count": 2
+    },
+    {
+      "entity": "character.drift-merchant",
+      "count": 1
+    },
+    {
+      "entity": "character.clan-elder",
+      "count": 1
+    },
+    {
+      "entity": "character.drifter",
+      "count": 2
+    },
+    {
+      "entity": "character.ash-raider",
+      "count": 4
+    }
+  ]
+}

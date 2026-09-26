@@ -1,0 +1,37 @@
+{
+  "id": "resource.fragment-shard",
+  "name": "Fragment Shard",
+  "description": "A shard of breach glass that hums when held near a crossing.",
+  "role": "The trade good of the Breach Fields; Atlas crafters and Nova researchers both pay for it.",
+  "materials": [
+    "material.breach-glass"
+  ],
+  "locations": [
+    "biome.breach-field"
+  ],
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Single angular shard.",
+    "detail": "Cyan crystal with a white glint and a violet core.",
+    "distinctiveFeatures": [
+      "angular cyan shard"
+    ],
+    "paletteDirection": "Cyan, white glint, violet core.",
+    "matches": [
+      "rock.fragment-cluster"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 3,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

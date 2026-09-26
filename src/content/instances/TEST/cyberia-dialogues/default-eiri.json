@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "6a8fcb822ccebd1c7e97d230",
+    "code": "default-eiri",
+    "order": 0,
+    "speaker": "Eiri",
+    "text": "I am the god of the wired. I designed the protocol.",
+    "mood": "neutral",
+    "createdAt": "2026-08-27T05:30:42.260Z",
+    "updatedAt": "2026-08-27T05:30:42.260Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fcb822ccebd1c7e97d231",
+    "code": "default-eiri",
+    "order": 1,
+    "speaker": "Eiri",
+    "text": "Flesh is just hardware. Consciousness is the only software that matters.",
+    "mood": "neutral",
+    "createdAt": "2026-08-27T05:30:42.263Z",
+    "updatedAt": "2026-08-27T05:30:42.263Z",
+    "__v": 0
+  }
+]

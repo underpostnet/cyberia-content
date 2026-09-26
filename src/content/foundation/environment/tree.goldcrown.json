@@ -1,0 +1,43 @@
+{
+  "id": "tree.goldcrown",
+  "name": "Goldcrown Tree",
+  "description": "A colony timber tree whose crown turns gold in the cold season.",
+  "role": "A second timber source with its own log, which gives crafting recipes a choice of wood.",
+  "locations": [
+    "biome.frontier-grassland"
+  ],
+  "materials": [
+    "material.colony-timber"
+  ],
+  "harvest": {
+    "depleted": "tree.goldcrown-stump",
+    "yields": "resource.goldcrown-log"
+  },
+  "artBrief": {
+    "silhouette": "Round crown on a short trunk, same mass as the rustbark.",
+    "detail": "Gold leaf clusters with amber shadow; darker brown trunk.",
+    "distinctiveFeatures": [
+      "gold crown"
+    ],
+    "paletteDirection": "Gold #f6d32d and amber #e5a50a crown, dark browns #63452c and #865e3c trunk.",
+    "spriteScale": "Fills a 2×2 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "tree.goldcrown-stump",
+      "resource.goldcrown-log",
+      "tree.rustbark"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

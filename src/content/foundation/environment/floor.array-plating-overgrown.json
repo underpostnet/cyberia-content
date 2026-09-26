@@ -1,0 +1,39 @@
+{
+  "id": "floor.array-plating-overgrown",
+  "name": "Overgrown Array Plating",
+  "description": "Array plating half covered by growth.",
+  "role": "The edge of an array where the biome has won.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "materials": [
+    "material.array-alloy",
+    "material.violet-biomass"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Plate grid tile with green patches.",
+    "detail": "Moss patches cover whole plates; seams disappear under growth.",
+    "distinctiveFeatures": [
+      "whole plates under moss"
+    ],
+    "paletteDirection": "Slate violet plates with moss greens #075517 and #0a5e1b.",
+    "matches": [
+      "floor.array-plating",
+      "floor.violet-undergrowth"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

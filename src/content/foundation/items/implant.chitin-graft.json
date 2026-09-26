@@ -1,0 +1,29 @@
+{
+  "id": "implant.chitin-graft",
+  "name": "Chitin Graft",
+  "description": "A grown plate of Mutagen chitin prepared for grafting.",
+  "role": "Biotechnology of the Mutagen clans, feared by Zenith and traded quietly by Atlas.",
+  "origin": "origin.mutagen",
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Curved plate.",
+    "detail": "Layered brown chitin with a pale growth edge.",
+    "distinctiveFeatures": [
+      "layered chitin"
+    ],
+    "paletteDirection": "Chitin browns, pale growth edge."
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 5,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "region.ruined-earth",
+  "name": "Ruined Earth",
+  "description": "Earth after the Pacific Cataclysm of 2045: shattered continents, changed coastlines and contaminated ruin-zones where the first age of humanity lies buried.",
+  "role": "The origin world and its aftermath. It holds the oldest ruins, the relic sites and the settlements that never left.",
+  "tags": [
+    "physical",
+    "aftermath",
+    "relics"
+  ],
+  "layer": "physical",
+  "connectsTo": [
+    "region.orbital-ring"
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6a8fcb822ccebd1c7e97d243",
+    "code": "quest-talk-lain-timber-run",
+    "order": 0,
+    "speaker": "Lain",
+    "text": "The reserve thanks you. That timber will hold the frame another cycle.",
+    "mood": "neutral",
+    "createdAt": "2026-08-27T05:30:42.305Z",
+    "updatedAt": "2026-08-27T05:30:42.305Z",
+    "__v": 0
+  }
+]

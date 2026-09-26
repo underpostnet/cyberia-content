@@ -1,0 +1,7 @@
+{
+  "id": "effect.kinetic-damage",
+  "name": "Kinetic Damage",
+  "description": "Solid impact that removes life.",
+  "role": "The damage of blades, slugs and thrown tools.",
+  "category": "damage"
+}

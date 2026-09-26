@@ -1,0 +1,30 @@
+{
+  "id": "faction.nova-republic",
+  "name": "Nova Republic",
+  "description": "A technocratic, intelligence-driven civilization that dominates hyperspace through prediction, surveillance and cognitive architecture.",
+  "role": "The power of information. It runs the systems others depend on, and it struggles to understand meaning.",
+  "color": "blue",
+  "domain": "hyperspace",
+  "beliefs": "Civilization must be optimized, and intelligence should guide it.",
+  "strengths": [
+    "information control",
+    "surveillance",
+    "predictive systems",
+    "integration with Instances"
+  ],
+  "weaknesses": [
+    "erosion of unified identity",
+    "factionalism",
+    "decision paralysis"
+  ],
+  "relations": [
+    {
+      "type": "trades-with",
+      "target": "faction.zenith-empire"
+    },
+    {
+      "type": "rival-of",
+      "target": "faction.atlas-confederation"
+    }
+  ]
+}

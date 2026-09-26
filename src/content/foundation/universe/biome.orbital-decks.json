@@ -1,0 +1,33 @@
+{
+  "id": "biome.orbital-decks",
+  "name": "Orbital Decks",
+  "description": "The steel decks, hangars and bulkheads of the orbital fortresses.",
+  "role": "The interior of physical power: garrisons, checkpoints and the logistics of fleets.",
+  "region": "region.orbital-ring",
+  "ambience": "Recycled air, boots on grating, red warning light and the vibration of docking clamps.",
+  "paletteDirection": "Gunmetal and graphite, Zenith red warning light, white stencil marks.",
+  "palette": {
+    "base": [
+      "#5c6168",
+      "#3f4349",
+      "#7a7f86"
+    ],
+    "shadow": [
+      "#26292d",
+      "#1a1c1f"
+    ],
+    "highlight": [
+      "#c4c9cf",
+      "#f2f4f6"
+    ],
+    "outline": [
+      "#0e0f11"
+    ],
+    "accent": [
+      "#d6282b"
+    ],
+    "special": [
+      "#ffffff"
+    ]
+  }
+}

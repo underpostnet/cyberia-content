@@ -1,0 +1,58 @@
+{
+  "_id": "6a9e0f390a55742d256c2628",
+  "code": "hit",
+  "fileId": "f4368d65b2f3d2f7a87bc7c1",
+  "manifest": {
+    "id": "hit",
+    "bus": "sfx",
+    "tags": [
+      "damage",
+      "negative",
+      "impact"
+    ],
+    "author": "cyberia-audio",
+    "version": "0.1.0",
+    "duration": 0.38,
+    "sampleRate": 22050,
+    "channels": 1,
+    "loop": false,
+    "audio": "hit.wav",
+    "defaults": {
+      "sampleRate": 44100,
+      "volume": 0.8,
+      "duration": 0.38,
+      "severity": 0.6,
+      "seed": 73
+    },
+    "parameters": {
+      "sampleRate": {
+        "min": 22050,
+        "max": 96000,
+        "integer": true
+      },
+      "volume": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "duration": {
+        "min": 0.15,
+        "max": 1,
+        "integer": false
+      },
+      "severity": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "seed": {
+        "min": 0,
+        "max": 4294967295,
+        "integer": true
+      }
+    }
+  },
+  "createdAt": "2026-09-07T01:11:21.351Z",
+  "updatedAt": "2026-09-07T01:11:21.351Z",
+  "__v": 0
+}

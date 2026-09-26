@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "69ec9fc74748aefe31a1f122",
+    "code": "default-grass",
+    "order": 0,
+    "speaker": "Grass",
+    "text": "A patch of synthetic grass. It sways gently despite no wind.",
+    "mood": "neutral",
+    "createdAt": "2026-04-25T11:04:39.643Z",
+    "updatedAt": "2026-04-25T11:04:39.643Z",
+    "__v": 0
+  }
+]

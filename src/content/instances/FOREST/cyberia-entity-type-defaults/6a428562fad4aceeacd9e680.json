@@ -1,0 +1,16 @@
+{
+  "_id": "6a428562fad4aceeacd9e680",
+  "entityType": "bot",
+  "liveItemIds": [
+    "purple"
+  ],
+  "deadItemIds": [
+    "ghost"
+  ],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "createdAt": "2026-06-29T14:46:58.683Z",
+  "updatedAt": "2026-06-29T14:46:58.683Z",
+  "__v": 0
+}

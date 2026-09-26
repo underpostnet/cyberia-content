@@ -1,0 +1,35 @@
+{
+  "_id": "69e8aa8c2dbf391f54e05ed2",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "wood-drop-1",
+      "type": "resource",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreie7ivmka4zg3r2pnb45vb4i4t7bjqfx6yux4edsyuas4vst45tcvi",
+      "metadataCid": "bafkreibajm43cyhibledaxklbxmjp5pzbkzwylvk5heklevcze5bnvjz6y"
+    }
+  },
+  "cid": "bafkreichd64rpvuube75uciu3rg6co7yoisuvkg5ynavhb2abyb2dewcqu",
+  "contentHash": "471fb917d694093fda0914dc4de13bf872254aa8ddc3415387400e03a192c285",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:32.699Z",
+  "updatedAt": "2026-09-24T21:04:32.755Z",
+  "__v": 0
+}

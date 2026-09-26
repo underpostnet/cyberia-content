@@ -1,0 +1,16 @@
+{
+  "id": "faction.singularity-directive",
+  "name": "Singularity Directive",
+  "description": "The Nova movement that believes intelligence should be centralized, purified and handed to higher machine logic.",
+  "role": "The architects of machine governance and the coldest voice of Nova.",
+  "color": "blue",
+  "domain": "hyperspace",
+  "parent": "faction.nova-republic",
+  "beliefs": "Flesh is hardware; consciousness is the only software that matters.",
+  "relations": [
+    {
+      "type": "rival-of",
+      "target": "faction.transcendent-conclave"
+    }
+  ]
+}

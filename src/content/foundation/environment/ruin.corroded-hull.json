@@ -1,0 +1,32 @@
+{
+  "id": "ruin.corroded-hull",
+  "name": "Corroded Hull",
+  "description": "The hull of a wrecked ship half dissolved by chemical tides.",
+  "role": "Salvage sites of the Chemical Coast.",
+  "locations": [
+    "biome.chemical-coast"
+  ],
+  "artBrief": {
+    "silhouette": "Curved hull plate rising from the ground.",
+    "detail": "Copper corrosion blooms and holes eaten through the plate.",
+    "distinctiveFeatures": [
+      "corrosion blooms",
+      "eaten-through holes"
+    ],
+    "paletteDirection": "Corroded copper and teal, oil-black shadows.",
+    "spriteScale": "Fills a 3×2 cell footprint.",
+    "requiredVariants": []
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

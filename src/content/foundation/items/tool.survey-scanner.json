@@ -1,0 +1,32 @@
+{
+  "id": "tool.survey-scanner",
+  "name": "Survey Scanner",
+  "description": "A handheld scanner that maps terrain and traces crossings between layers.",
+  "role": "The instrument of Atlas cartographers.",
+  "factions": [
+    "faction.atlas-confederation"
+  ],
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Handheld box with an antenna.",
+    "detail": "Yellow casing with a small green screen.",
+    "distinctiveFeatures": [
+      "antenna",
+      "green screen"
+    ],
+    "paletteDirection": "Atlas yellow casing, green screen."
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

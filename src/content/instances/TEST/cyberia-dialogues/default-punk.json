@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6a8fcb822ccebd1c7e97d227",
+    "code": "default-punk",
+    "order": 0,
+    "speaker": "Punk",
+    "text": "Rules are just code someone else wrote. I write my own.",
+    "mood": "happy",
+    "createdAt": "2026-08-27T05:30:42.239Z",
+    "updatedAt": "2026-08-27T05:30:42.239Z",
+    "__v": 0
+  }
+]

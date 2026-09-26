@@ -1,0 +1,35 @@
+{
+  "_id": "6a4268cdedd599827e7088c9",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "sap-logic-array-floor-degraded-alpha",
+      "type": "floor",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreigb27ubmtamq2ovjsf63kkf2vc4yaonlc5i7rxbnv6unhbq2dejna",
+      "metadataCid": "bafkreifb3ikrhhdquauzx5flu72ihvjdotrclaf2pwxga2rwrxuhgzqyve"
+    }
+  },
+  "cid": "bafkreibsjerabrd3flixkvicjgq4h5vwe26axvuiafqwzb25aecy7etd5y",
+  "contentHash": "32492200c47b2ad175550249a1c3f6b626bc0bd68801616c875d01058f9263ee",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:12.530Z",
+  "updatedAt": "2026-09-24T21:04:12.565Z",
+  "__v": 0
+}

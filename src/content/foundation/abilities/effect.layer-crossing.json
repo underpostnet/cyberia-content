@@ -1,0 +1,7 @@
+{
+  "id": "effect.layer-crossing",
+  "name": "Layer Crossing",
+  "description": "Opens a passage between the physical layer and hyperspace.",
+  "role": "The effect behind keys, anchors and sealed crossings.",
+  "category": "utility"
+}

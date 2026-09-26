@@ -1,0 +1,11 @@
+{
+  "id": "ability.pulse-shot",
+  "name": "Pulse Shot",
+  "description": "Fires a cyan pulse round toward the target. Spawn chance and lifetime scale with Intelligence and Range.",
+  "role": "The ranged attack of Atlas sidearms.",
+  "logicEventId": "projectile",
+  "summons": "projectile.pulse-round",
+  "effects": [
+    "effect.energy-damage"
+  ]
+}

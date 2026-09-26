@@ -1,0 +1,19 @@
+{
+  "_id": "6a9e1084e98a8dfee2a72d73",
+  "entityType": "bot",
+  "liveItemIds": [
+    "kishins"
+  ],
+  "deadItemIds": [
+    "fragmentation"
+  ],
+  "dropItemIds": [
+    "tim-knife"
+  ],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "passive",
+  "createdAt": "2026-09-07T01:16:52.911Z",
+  "updatedAt": "2026-09-07T01:16:52.911Z",
+  "__v": 0
+}

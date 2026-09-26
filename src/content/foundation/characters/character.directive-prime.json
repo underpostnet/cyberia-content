@@ -1,0 +1,43 @@
+{
+  "id": "character.directive-prime",
+  "name": "Directive Prime",
+  "description": "The synthetic speaker of the Singularity Directive, who argues that civilization should be handed to machine logic.",
+  "role": "A principal figure of the macro lore; the voice of Nova centralization.",
+  "origin": "origin.synthetic",
+  "factions": [
+    "faction.singularity-directive"
+  ],
+  "locations": [
+    "region.hyperspace"
+  ],
+  "archetype": "principal",
+  "voice": "Patient and exact; treats every person as a variable.",
+  "loadout": [
+    "skin.directive-prime",
+    "weapon.lattice-emitter"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "hostile",
+    "level": 14,
+    "maxLife": 320,
+    "aggroRange": 10,
+    "spawnRadius": 2,
+    "drops": [
+      {
+        "item": "technology.predictive-core",
+        "chance": 0.25,
+        "quantity": 1
+      }
+    ]
+  },
+  "greeting": [
+    {
+      "text": "You are a variable I have already accounted for. Proceed as predicted."
+    },
+    {
+      "text": "Civilization failed on flesh. It will not fail on logic.",
+      "mood": "angry"
+    }
+  ]
+}

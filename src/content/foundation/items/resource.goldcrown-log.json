@@ -1,0 +1,37 @@
+{
+  "id": "resource.goldcrown-log",
+  "name": "Goldcrown Log",
+  "description": "A cut log of goldcrown timber, darker and denser than rustbark.",
+  "role": "A second crafting wood that recipes ask for by name.",
+  "materials": [
+    "material.colony-timber"
+  ],
+  "locations": [
+    "biome.frontier-grassland"
+  ],
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Short log lying on its side.",
+    "detail": "Dark bark with a gold leaf still attached.",
+    "distinctiveFeatures": [
+      "gold leaf on the bark"
+    ],
+    "paletteDirection": "Dark browns #63452c and #865e3c with gold #e5a50a.",
+    "matches": [
+      "tree.goldcrown"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

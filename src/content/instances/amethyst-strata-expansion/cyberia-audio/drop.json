@@ -1,0 +1,51 @@
+{
+  "_id": "6a9e0f390a55742d256c2624",
+  "code": "drop",
+  "fileId": "7f3fa997f0e154357c0447ce",
+  "manifest": {
+    "id": "drop",
+    "bus": "sfx",
+    "tags": [
+      "loot",
+      "impact"
+    ],
+    "author": "cyberia-audio",
+    "version": "0.1.0",
+    "duration": 0.28,
+    "sampleRate": 22050,
+    "channels": 1,
+    "loop": false,
+    "audio": "drop.wav",
+    "defaults": {
+      "sampleRate": 44100,
+      "volume": 0.7,
+      "duration": 0.28,
+      "seed": 29
+    },
+    "parameters": {
+      "sampleRate": {
+        "min": 22050,
+        "max": 96000,
+        "integer": true
+      },
+      "volume": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "duration": {
+        "min": 0.1,
+        "max": 1,
+        "integer": false
+      },
+      "seed": {
+        "min": 0,
+        "max": 4294967295,
+        "integer": true
+      }
+    }
+  },
+  "createdAt": "2026-09-07T01:11:21.299Z",
+  "updatedAt": "2026-09-07T01:11:21.299Z",
+  "__v": 0
+}

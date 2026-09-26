@@ -1,0 +1,28 @@
+{
+  "id": "tool.cutting-torch",
+  "name": "Cutting Torch",
+  "description": "A compact torch that cuts hull plate and vault hinges.",
+  "role": "The salvager tool that opens what was sealed.",
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Short torch with a nozzle.",
+    "detail": "Black grip, steel nozzle and a blue flame tip.",
+    "distinctiveFeatures": [
+      "blue flame tip"
+    ],
+    "paletteDirection": "Black, steel, blue flame."
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "character.fragment-echo",
+  "name": "Fragment Echo",
+  "description": "A manifestation that fragmented in the breach and never reintegrated: a drifting after-image with limited awareness.",
+  "role": "A remnant of the Fragmented State that drifts where it fell; its collapse leaves fragment shards.",
+  "locations": [
+    "biome.breach-field"
+  ],
+  "archetype": "archetype",
+  "voice": "Repeats the last words it spoke before it fell.",
+  "loadout": [
+    "skin.fragment-echo"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 6,
+    "maxLife": 60,
+    "spawnRadius": 3,
+    "drops": [
+      {
+        "item": "resource.fragment-shard",
+        "chance": 0.6,
+        "quantity": 1
+      }
+    ]
+  }
+}

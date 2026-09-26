@@ -1,0 +1,35 @@
+{
+  "_id": "6a8fcb730faca8157bde420c",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "eiri",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 7,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 3
+    },
+    "render": {
+      "cid": "bafkreihcsfpefs2tzmcjijjbsu252myge4okvukbbnitsocilferlhozgi",
+      "metadataCid": "bafkreic25l4mnjkan7c4iub4qr6mgwmh5mtsac3zsasvjbhpjfwzywqpgu"
+    }
+  },
+  "cid": "bafkreicdcjqxmsafwk3jbfazvp4xjoaucqcufnful2wt4rmr2jgjzkxdoy",
+  "contentHash": "431261764805b2b6909419abf974b814140542b4b45ead3e4591d24c9caae376",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:44.464Z",
+  "updatedAt": "2026-09-24T21:04:44.556Z",
+  "__v": 0
+}

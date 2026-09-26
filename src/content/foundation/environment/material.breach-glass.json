@@ -1,0 +1,23 @@
+{
+  "id": "material.breach-glass",
+  "name": "Breach Glass",
+  "description": "Matter that lost form where the layers overlap, frozen into cyan crystal.",
+  "role": "The visible scar of a crossing, and the same substance a Fragmented body shatters into.",
+  "locations": [
+    "biome.breach-field"
+  ],
+  "artBrief": {
+    "silhouette": "Not a sprite: a texture read through breach floors and fragment clusters.",
+    "detail": "Angular cyan shards with white glints over a deep blue core.",
+    "distinctiveFeatures": [
+      "angular shards",
+      "white glints"
+    ],
+    "paletteDirection": "Cyan #6bffff to deep blue #204e6a, white highlights.",
+    "spriteScale": "Texture only.",
+    "requiredVariants": [],
+    "matches": [
+      "skin.fragmentation"
+    ]
+  }
+}

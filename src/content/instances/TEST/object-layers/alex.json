@@ -1,0 +1,35 @@
+{
+  "_id": "6a8fcb7a0faca8157bde4214",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "alex",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 8,
+      "agility": 5,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreiecz2x4d6vsl6gavjrjy6re4evp2scu3l6e5dpwnwq2zyzbhqi3ym",
+      "metadataCid": "bafkreiczjdoqzqiy4eaylimfp7kke7hxqpiadadavth7u4w4wqnbxakvxi"
+    }
+  },
+  "cid": "bafkreierkm27o2q6fs2tq5rdik7m6zvlfpxlg35mpjtzvslc4wtqn2fq5m",
+  "contentHash": "915335f76a1e2cb538762342becf66ab2beeb36fac7a679ac962e5a706e8b0eb",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:38.120Z",
+  "updatedAt": "2026-09-24T21:04:38.152Z",
+  "__v": 0
+}

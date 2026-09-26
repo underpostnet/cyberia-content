@@ -1,0 +1,32 @@
+{
+  "id": "structure.dome-rib",
+  "name": "Dome Rib",
+  "description": "A curved support rib of a lunar dome where it meets the regolith.",
+  "role": "The walls and edges of the Lunar Citadels.",
+  "locations": [
+    "biome.regolith-citadel"
+  ],
+  "artBrief": {
+    "silhouette": "Curved pillar rising from the ground.",
+    "detail": "Cyan glass panes between the rib and the next.",
+    "distinctiveFeatures": [
+      "curved rib",
+      "cyan glass panes"
+    ],
+    "paletteDirection": "Pale greys, cyan dome glass, black sky behind.",
+    "spriteScale": "Fills a 1×2 cell footprint.",
+    "requiredVariants": []
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

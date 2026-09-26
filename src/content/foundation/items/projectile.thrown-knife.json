@@ -1,0 +1,33 @@
+{
+  "id": "projectile.thrown-knife",
+  "name": "Thrown Knife",
+  "description": "A salvager knife in flight.",
+  "role": "What a knife throw summons.",
+  "artBrief": {
+    "silhouette": "Thin dark streak.",
+    "detail": "A grey edge glint along the streak.",
+    "distinctiveFeatures": [
+      "thin dark streak"
+    ],
+    "paletteDirection": "Dark greys #2e2e2e and #5c5c5c.",
+    "spriteScale": "One cell.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "matches": [
+      "weapon.salvager-knife"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "skill",
+    "activable": true,
+    "stats": {
+      "effect": 2,
+      "resistance": 1,
+      "agility": 5,
+      "range": 5,
+      "intelligence": 1,
+      "utility": 4
+    }
+  }
+}

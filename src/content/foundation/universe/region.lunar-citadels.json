@@ -1,0 +1,15 @@
+{
+  "id": "region.lunar-citadels",
+  "name": "Lunar Citadels",
+  "description": "Domed settlements and fortified regolith cities on the Moon, the oldest permanent homes off Earth.",
+  "role": "A settled, old-money middle ground between the orbital fortresses and the outer frontier.",
+  "tags": [
+    "physical",
+    "domes",
+    "old-colonies"
+  ],
+  "layer": "physical",
+  "connectsTo": [
+    "region.asteroid-enclaves"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "map.ash-plain",
+  "name": "Ash Plain",
+  "description": "A grey irradiated plain over the old continent, where raider clans camp among the collapsed towers.",
+  "role": "Raider ground: the most dangerous stretch of the ruined continent.",
+  "biome": "biome.ash-wastes",
+  "composition": [
+    {
+      "entity": "floor.ash-crust",
+      "count": 1
+    },
+    {
+      "entity": "vegetation.ash-lichen",
+      "count": 5
+    },
+    {
+      "entity": "ruin.collapsed-tower",
+      "count": 3
+    },
+    {
+      "entity": "ruin.vault-door",
+      "count": 1
+    },
+    {
+      "entity": "portal.breach-gate",
+      "count": 2
+    },
+    {
+      "entity": "character.ash-raider",
+      "count": 5
+    }
+  ]
+}

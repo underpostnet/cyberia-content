@@ -1,0 +1,159 @@
+{
+  "_id": "6a8fd0a22ccebd1c7e97d2c2",
+  "code": "TEST",
+  "name": "TEST",
+  "description": "Captured procedural fallback world",
+  "tags": [
+    "fallback",
+    "procedural",
+    "captured"
+  ],
+  "status": "unlisted",
+  "thumbnail": "6aa2d8d9d8cf1ab551ee57c8",
+  "cyberiaMapCodes": [
+    "TEST-map-0",
+    "TEST-map-1",
+    "TEST-map-2",
+    "TEST-map-3"
+  ],
+  "portals": [
+    {
+      "sourceMapCode": "TEST-map-0",
+      "sourceCellX": 55,
+      "sourceCellY": 43,
+      "targetMapCode": "TEST-map-1",
+      "targetCellX": 0,
+      "targetCellY": 16,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "TEST-map-1",
+      "sourceCellX": 0,
+      "sourceCellY": 16,
+      "targetMapCode": "TEST-map-2",
+      "targetCellX": 52,
+      "targetCellY": 9,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "TEST-map-2",
+      "sourceCellX": 57,
+      "sourceCellY": 23,
+      "targetMapCode": "TEST-map-3",
+      "targetCellX": 18,
+      "targetCellY": 6,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "TEST-map-3",
+      "sourceCellX": 18,
+      "sourceCellY": 6,
+      "targetMapCode": "TEST-map-0",
+      "targetCellX": 38,
+      "targetCellY": 40,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "TEST-map-0",
+      "sourceCellX": 38,
+      "sourceCellY": 40,
+      "targetMapCode": "TEST-map-0",
+      "targetCellX": 54,
+      "targetCellY": 36,
+      "portalMode": "intra-portal"
+    },
+    {
+      "sourceMapCode": "TEST-map-0",
+      "sourceCellX": 54,
+      "sourceCellY": 36,
+      "targetMapCode": "TEST-map-0",
+      "targetCellX": 38,
+      "targetCellY": 40,
+      "portalMode": "intra-portal"
+    },
+    {
+      "sourceMapCode": "TEST-map-1",
+      "sourceCellX": 49,
+      "sourceCellY": 11,
+      "targetMapCode": "TEST-map-1",
+      "targetCellX": 0,
+      "targetCellY": 16,
+      "portalMode": "intra-portal"
+    },
+    {
+      "sourceMapCode": "TEST-map-1",
+      "sourceCellX": 48,
+      "sourceCellY": 3,
+      "targetMapCode": "TEST-map-3",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "inter-random"
+    },
+    {
+      "sourceMapCode": "TEST-map-2",
+      "sourceCellX": 52,
+      "sourceCellY": 31,
+      "targetMapCode": "TEST-map-0",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "inter-random"
+    },
+    {
+      "sourceMapCode": "TEST-map-2",
+      "sourceCellX": 29,
+      "sourceCellY": 7,
+      "targetMapCode": "TEST-map-2",
+      "targetCellX": 52,
+      "targetCellY": 9,
+      "portalMode": "intra-portal"
+    },
+    {
+      "sourceMapCode": "TEST-map-2",
+      "sourceCellX": 52,
+      "sourceCellY": 9,
+      "targetMapCode": "TEST-map-2",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "intra-random"
+    },
+    {
+      "sourceMapCode": "TEST-map-3",
+      "sourceCellX": 57,
+      "sourceCellY": 31,
+      "targetMapCode": "TEST-map-3",
+      "targetCellX": 18,
+      "targetCellY": 6,
+      "portalMode": "intra-portal"
+    },
+    {
+      "sourceMapCode": "TEST-map-3",
+      "sourceCellX": 46,
+      "sourceCellY": 26,
+      "targetMapCode": "TEST-map-3",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "intra-random"
+    },
+    {
+      "sourceMapCode": "TEST-map-3",
+      "sourceCellX": 43,
+      "sourceCellY": 37,
+      "targetMapCode": "TEST-map-3",
+      "targetCellX": 46,
+      "targetCellY": 26,
+      "portalMode": "intra-portal"
+    }
+  ],
+  "playerSpawn": {
+    "sourceMapCode": "TEST-map-0",
+    "sourceCellX": 3,
+    "sourceCellY": 3,
+    "random": false
+  },
+  "seed": "",
+  "topologyMode": "procedural",
+  "conf": "6a8fd0a22ccebd1c7e97d2bd",
+  "createdAt": "2026-08-27T05:52:34.326Z",
+  "updatedAt": "2026-08-27T05:52:34.326Z",
+  "__v": 0
+}

@@ -1,0 +1,37 @@
+{
+  "id": "map.hollow-bazaar",
+  "name": "Hollow Bazaar",
+  "description": "A market carved into a hollowed asteroid and lit by sodium lamps, where Harmony treaties and Void Nomad deals share one hall.",
+  "role": "The asteroid market: treaties, fences and personal vaults.",
+  "biome": "biome.hollow-markets",
+  "composition": [
+    {
+      "entity": "floor.market-grating",
+      "count": 1
+    },
+    {
+      "entity": "prop.lamp-stall",
+      "count": 6
+    },
+    {
+      "entity": "portal.breach-gate",
+      "count": 2
+    },
+    {
+      "entity": "character.harmony-speaker",
+      "count": 1
+    },
+    {
+      "entity": "character.vault-keeper",
+      "count": 1
+    },
+    {
+      "entity": "character.void-nomad-fence",
+      "count": 1
+    },
+    {
+      "entity": "character.drifter",
+      "count": 2
+    }
+  ]
+}

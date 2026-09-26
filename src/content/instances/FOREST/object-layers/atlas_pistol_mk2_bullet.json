@@ -1,0 +1,35 @@
+{
+  "_id": "69c72750324871a1514a65e9",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "atlas_pistol_mk2_bullet",
+      "type": "skill",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 5,
+      "resistance": 3,
+      "agility": 5,
+      "range": 5,
+      "intelligence": 3,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreieh2kl77ljrggq3mjyvoqcduma3m7pk3pbjusob6fzymjebahnnve",
+      "metadataCid": "bafkreiazyqxtwidd6gmo3e6hmbhb4ezfk4djziczmetlq6eclkqyme3nny"
+    }
+  },
+  "cid": "bafkreiay7p7cegnpekxhekiebwp547zxueqauii72erpyqmjrlrtr7dyzi",
+  "contentHash": "18fbfe2219af22ae7229040d9fde7f37a1200a211fd122fc41898ae338fc78ca",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:01.440Z",
+  "updatedAt": "2026-09-24T21:04:01.473Z",
+  "__v": 0
+}

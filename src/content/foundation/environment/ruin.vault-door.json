@@ -1,0 +1,36 @@
+{
+  "id": "ruin.vault-door",
+  "name": "Vault Door",
+  "description": "The sealed round door of a pre-Cataclysm bunker, set into a slope of concrete.",
+  "role": "The entrance to relic vaults. A quest can open it; a map can only show it.",
+  "locations": [
+    "biome.ash-wastes",
+    "biome.overgrown-ruins"
+  ],
+  "materials": [
+    "material.ruin-concrete"
+  ],
+  "artBrief": {
+    "silhouette": "Round door in a square frame.",
+    "detail": "Radial bolts, a central wheel and hazard stripes on the frame.",
+    "distinctiveFeatures": [
+      "round door",
+      "hazard-striped frame"
+    ],
+    "paletteDirection": "Steel greys, faded yellow and black hazard stripes.",
+    "spriteScale": "Fills a 2×2 cell footprint.",
+    "requiredVariants": []
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

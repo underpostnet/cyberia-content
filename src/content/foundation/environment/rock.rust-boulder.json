@@ -1,0 +1,36 @@
+{
+  "id": "rock.rust-boulder",
+  "name": "Rust Boulder",
+  "description": "An iron-rich boulder weathered to a rust-orange shell.",
+  "role": "Natural cover and a movement obstacle in the ruins and on the frontier.",
+  "locations": [
+    "biome.overgrown-ruins",
+    "biome.frontier-grassland"
+  ],
+  "artBrief": {
+    "silhouette": "Rounded lump with a flat base.",
+    "detail": "Three orange tones with a dark crack line and one bright highlight.",
+    "distinctiveFeatures": [
+      "rust-orange shell",
+      "dark crack line"
+    ],
+    "paletteDirection": "Oranges #82430d, #cc6a14 and #ed9345, black outline.",
+    "spriteScale": "Fills a 1×1 to 2×2 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "rock.rust-boulder-split"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

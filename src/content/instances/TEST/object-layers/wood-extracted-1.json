@@ -1,0 +1,35 @@
+{
+  "_id": "69e89ba0c4f3358ab235963e",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "wood-extracted-1",
+      "type": "resource",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreihe2y26c7jvkzpaqv47olc6frt7bccbd722unmnzbumsidngwsbae",
+      "metadataCid": "bafkreidu7rflzmt7mhhdnnfkjrinysobvndvflrqcvrx6qaeju3zrdxnaa"
+    }
+  },
+  "cid": "bafkreiezr25ituiwqmnqi3tlq6fqsjhsaz6zevwbzrrmldhajlpkw3b6ne",
+  "contentHash": "998eba89d116831b046e6b878b0924f2067d9256c1cc62c58ce04adeab6c3e69",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:33.306Z",
+  "updatedAt": "2026-09-24T21:04:33.353Z",
+  "__v": 0
+}

@@ -1,0 +1,28 @@
+{
+  "id": "implant.neural-link",
+  "name": "Neural Link",
+  "description": "A port and interface that connects a body to an Instance.",
+  "role": "The everyday bridge to hyperspace, as common as a phone was on old Earth.",
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Small disc with a short cable.",
+    "detail": "Metal disc with blue contacts and a coiled cable.",
+    "distinctiveFeatures": [
+      "coiled cable"
+    ],
+    "paletteDirection": "Steel grey, blue contacts."
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

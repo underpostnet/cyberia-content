@@ -1,0 +1,32 @@
+{
+  "id": "skin.clan-elder",
+  "name": "Clan Elder",
+  "description": "An old Mutagen with chitin plates along the arms, wrapped in a patched yellow shawl.",
+  "role": "The look of the elders who keep the survival codes of the Mutagen clans.",
+  "origin": "origin.mutagen",
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Stooped figure with a staff and a shawl.",
+    "detail": "Chitin plates on the forearms, a patched yellow shawl and a bone staff.",
+    "distinctiveFeatures": [
+      "chitin forearm plates",
+      "yellow shawl"
+    ],
+    "paletteDirection": "Warm greys, chitin browns, Atlas yellow cloth."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 12,
+      "agility": -3,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    }
+  }
+}

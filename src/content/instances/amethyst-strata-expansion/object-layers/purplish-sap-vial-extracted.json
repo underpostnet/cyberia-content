@@ -1,0 +1,35 @@
+{
+  "_id": "6a414836175934e535d9cf7a",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "purplish-sap-vial-extracted",
+      "type": "resource",
+      "description": "A viscous, violet fluid harvested from the rogue biomass, used in improvised biological stabilizers.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 10,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreiduhadut524qshfyjo562pvnus2aa5cmloe5zla2xjunj73oiqod4",
+      "metadataCid": "bafkreicr4vg455urf5iofyrnwzm6ptzqw6nmrdyftt63ocgrv6epqmdutm"
+    }
+  },
+  "cid": "bafkreicezkjviuqeibvc7ykw2jtsy7qp5ns4y4ejewesc6lrxjnmfyc22e",
+  "contentHash": "44ca93545204406a2fe156d2672c7e0feb65cc70892589217971ba5ac2e05ad1",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:11.680Z",
+  "updatedAt": "2026-09-24T21:04:11.715Z",
+  "__v": 0
+}

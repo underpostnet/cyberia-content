@@ -1,0 +1,19 @@
+{
+  "_id": "6a428be8d9e5b253218d053f",
+  "entityType": "resource",
+  "liveItemIds": [
+    "purplish-sap-vial"
+  ],
+  "deadItemIds": [
+    "purplish-sap-vial-extracted"
+  ],
+  "dropItemIds": [
+    "purplish-sap-vial"
+  ],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-06-29T15:14:48.389Z",
+  "updatedAt": "2026-06-29T15:14:48.389Z",
+  "__v": 0
+}

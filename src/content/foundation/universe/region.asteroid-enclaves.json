@@ -1,0 +1,18 @@
+{
+  "id": "region.asteroid-enclaves",
+  "name": "Asteroid Enclaves",
+  "description": "Hollowed asteroids turned into markets, workshops and clan halls, linked by the ferry routes of the belt.",
+  "role": "The trading crossroads of the frontier, where black markets and grey zones thrive between the great powers.",
+  "tags": [
+    "physical",
+    "markets",
+    "grey-zone"
+  ],
+  "factions": [
+    "faction.atlas-confederation"
+  ],
+  "layer": "physical",
+  "connectsTo": [
+    "region.frontier-colonies"
+  ]
+}

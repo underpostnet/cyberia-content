@@ -1,0 +1,18 @@
+{
+  "_id": "6aa31e937c5b5c1831170be9",
+  "entityType": "other_player",
+  "liveItemIds": [
+    "anon",
+    "atlas_pistol_mk2"
+  ],
+  "deadItemIds": [
+    "fragmentation"
+  ],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-10T21:18:11.512Z",
+  "updatedAt": "2026-09-10T21:18:11.512Z",
+  "__v": 0
+}

@@ -1,0 +1,35 @@
+{
+  "id": "prop.lamp-stall",
+  "name": "Lamp Stall",
+  "description": "A market stall lit by a sodium lamp, stacked with salvaged goods.",
+  "role": "The unit of trade in the Hollow Markets; vendors stand behind it.",
+  "locations": [
+    "biome.hollow-markets"
+  ],
+  "factions": [
+    "faction.atlas-confederation"
+  ],
+  "artBrief": {
+    "silhouette": "Box counter with an awning and a lamp on a hook.",
+    "detail": "Yellow cloth awning, crates of scrap on the counter, amber lamp glow.",
+    "distinctiveFeatures": [
+      "yellow awning",
+      "amber lamp glow"
+    ],
+    "paletteDirection": "Atlas yellow cloth, rust reds, sodium amber light.",
+    "spriteScale": "Fills a 2×2 cell footprint.",
+    "requiredVariants": []
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

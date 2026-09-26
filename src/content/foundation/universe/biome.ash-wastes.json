@@ -1,0 +1,33 @@
+{
+  "id": "biome.ash-wastes",
+  "name": "Ash Wastes",
+  "description": "Irradiated plains of grey ash over the old continents, where collapsed towers stand like grave markers.",
+  "role": "The dangerous heart of the aftermath. Rich in relics, poor in life, hostile to the unprepared.",
+  "region": "region.ruined-earth",
+  "ambience": "Dry wind, drifting ash, a sick yellow haze and the silence of dead cities.",
+  "paletteDirection": "Ash greys and bone white, sick yellow haze, black soot in the cracks.",
+  "palette": {
+    "base": [
+      "#8a8a86",
+      "#a8a7a1",
+      "#6e6d69"
+    ],
+    "shadow": [
+      "#45443f",
+      "#2b2a27"
+    ],
+    "highlight": [
+      "#e9e4d6",
+      "#d8d0bb"
+    ],
+    "outline": [
+      "#141311"
+    ],
+    "accent": [
+      "#c9b93a"
+    ],
+    "special": [
+      "#e0d25b"
+    ]
+  }
+}

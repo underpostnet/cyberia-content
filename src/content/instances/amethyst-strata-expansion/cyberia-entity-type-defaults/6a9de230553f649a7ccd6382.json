@@ -1,0 +1,15 @@
+{
+  "_id": "6a9de230553f649a7ccd6382",
+  "entityType": "floor",
+  "liveItemIds": [
+    "amethyst-grass-alpha"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-06T21:59:12.315Z",
+  "updatedAt": "2026-09-06T21:59:12.315Z",
+  "__v": 0
+}

@@ -1,0 +1,32 @@
+{
+  "id": "prop.relay-dish",
+  "name": "Relay Dish",
+  "description": "A tilted pre-Cataclysm satellite dish that still points at an empty sky.",
+  "role": "A landmark of the old network over the Overgrown Ruins, drawn above the entities that walk under it.",
+  "locations": [
+    "biome.overgrown-ruins"
+  ],
+  "artBrief": {
+    "silhouette": "Wide dish on a thin mast, tilted to one side.",
+    "detail": "Blue panels on the dish face and grey struts behind it.",
+    "distinctiveFeatures": [
+      "tilted dish",
+      "blue panel face"
+    ],
+    "paletteDirection": "Blue #4573ed and #7d9bf3, light greys #d7d7d7 and #aeaeae, black outline.",
+    "spriteScale": "Fills a 3×3 cell footprint.",
+    "requiredVariants": []
+  },
+  "objectLayer": {
+    "itemType": "foreground",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

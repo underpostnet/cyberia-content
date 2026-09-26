@@ -1,0 +1,35 @@
+{
+  "_id": "6a8fca73d1e1a48e3f29f812",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "hatchet-skill",
+      "type": "skill",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 4,
+      "resistance": 5,
+      "agility": 4,
+      "range": 5,
+      "intelligence": 1,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreifcw4usnibxcs3dsvvalrqazc32ckhob3a7ikjx7lim26nai6nkqu",
+      "metadataCid": "bafkreid4s3muh7iio76if4ipkplhuiwyaz3z5drvg5esfjtee6l3vgxfji"
+    }
+  },
+  "cid": "bafkreicvf6c57tuxha5zrvahtk4zpscg646u5xnskrutwvjfww7ydzuuzy",
+  "contentHash": "552f85dfce97383b98d4079ab997c846f73d4eddb254693b5525b5bf81e694ce",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:47.150Z",
+  "updatedAt": "2026-09-24T21:04:47.182Z",
+  "__v": 0
+}

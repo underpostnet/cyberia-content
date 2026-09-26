@@ -1,0 +1,12 @@
+{
+  "id": "origin.mutagen",
+  "name": "Mutagen",
+  "description": "Survivors altered by radiation, plague and experimental biology: resilient, adaptive and often outcast.",
+  "role": "A people with their own clans and survival codes. Atlas protects them; Zenith rejects them.",
+  "relations": [
+    {
+      "type": "allied-with",
+      "target": "faction.atlas-confederation"
+    }
+  ]
+}

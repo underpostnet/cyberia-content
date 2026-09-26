@@ -1,0 +1,31 @@
+{
+  "id": "technology.predictive-core",
+  "name": "Predictive Core",
+  "description": "A Nova forecasting module that models the choices of a crowd.",
+  "role": "The machine behind Nova governance, and a prize for Atlas hackers.",
+  "factions": [
+    "faction.nova-republic"
+  ],
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Small cube with a glowing face.",
+    "detail": "White shell with a blue face of moving dots.",
+    "distinctiveFeatures": [
+      "face of moving dots"
+    ],
+    "paletteDirection": "White and Nova blue."
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

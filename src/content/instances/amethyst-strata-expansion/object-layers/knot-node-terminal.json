@@ -1,0 +1,35 @@
+{
+  "_id": "6ab5904937f96ecaa15c5767",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "knot-node-terminal",
+      "type": "skin",
+      "description": "A decommissioned environmental-control terminal at the Sap-Logic Array, now the interface for coordinating node neutralization.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 7,
+      "agility": 2,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreigrexyfve6zxoxenk2bej7lvnlhpcgkvikuho3yiezq2g6ter26p4",
+      "metadataCid": "bafkreidi6cfp4paz76tdxznqwmbeugjbziulkf5xu3awhdf6fdsvtygjte"
+    }
+  },
+  "cid": "bafkreiaukgve74h5efrrdlq7zs6fsewchgowzrybiml5c3imlmzyvw7unm",
+  "contentHash": "1451aa4ff0fd216311ae1fccbc5912c2399d6cc7014317d16d0c5b338adbf46b",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:09.948Z",
+  "updatedAt": "2026-09-24T21:04:09.986Z",
+  "__v": 0
+}

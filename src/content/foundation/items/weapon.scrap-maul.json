@@ -1,0 +1,37 @@
+{
+  "id": "weapon.scrap-maul",
+  "name": "Scrap Maul",
+  "description": "A heavy maul welded from a pipe and an engine block.",
+  "role": "The close-combat weapon of Void Nomad raiders; slow but hard to stand up to.",
+  "factions": [
+    "faction.void-nomads"
+  ],
+  "materials": [
+    "material.ruin-concrete"
+  ],
+  "artBrief": {
+    "silhouette": "Long handle with a big blocky head.",
+    "detail": "Weld seams, a rust-red head and cloth tape on the grip.",
+    "distinctiveFeatures": [
+      "blocky engine-block head",
+      "taped grip"
+    ],
+    "paletteDirection": "Rust reds, dark steel, dirty white tape.",
+    "spriteScale": "Held by a 2×2 cell character; drawn over its skin.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "weapon",
+    "activable": true,
+    "stats": {
+      "effect": 16,
+      "resistance": -4,
+      "agility": -5,
+      "range": 1,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "6a9eb64629d451b9e9217044",
+  "entityType": "bot",
+  "liveItemIds": [
+    "purple",
+    "atlas_pistol_mk2"
+  ],
+  "deadItemIds": [
+    "ghost"
+  ],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "hostile",
+  "createdAt": "2026-09-07T13:04:06.825Z",
+  "updatedAt": "2026-09-07T13:04:06.825Z",
+  "__v": 0
+}

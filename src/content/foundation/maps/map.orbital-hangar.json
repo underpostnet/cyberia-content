@@ -1,0 +1,37 @@
+{
+  "id": "map.orbital-hangar",
+  "name": "Orbital Hangar",
+  "description": "A Zenith hangar deck of the orbital ring, sealed by bulkheads and held by the Iron Legion.",
+  "role": "Zenith ground: a guarded deck where the Iron Legion holds command.",
+  "biome": "biome.orbital-decks",
+  "composition": [
+    {
+      "entity": "floor.deck-grating",
+      "count": 1
+    },
+    {
+      "entity": "structure.bulkhead",
+      "count": 6
+    },
+    {
+      "entity": "prop.legion-banner",
+      "count": 3
+    },
+    {
+      "entity": "portal.breach-gate",
+      "count": 2
+    },
+    {
+      "entity": "character.iron-marshal",
+      "count": 1
+    },
+    {
+      "entity": "character.legion-sergeant",
+      "count": 3
+    },
+    {
+      "entity": "character.aether-agent",
+      "count": 1
+    }
+  ]
+}

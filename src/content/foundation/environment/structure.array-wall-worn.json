@@ -1,0 +1,37 @@
+{
+  "id": "structure.array-wall-worn",
+  "name": "Worn Array Wall",
+  "description": "An array wall section whose lights have gone dark.",
+  "role": "An alternate wall section for dead parts of an array.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "materials": [
+    "material.array-alloy"
+  ],
+  "artBrief": {
+    "silhouette": "Tall rectangular panel.",
+    "detail": "Panel seams only; the light column is dark.",
+    "distinctiveFeatures": [
+      "dark, unlit panel"
+    ],
+    "paletteDirection": "Slate violet #241f31 to #312b41.",
+    "spriteScale": "Fills a 1×1 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "structure.array-wall"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

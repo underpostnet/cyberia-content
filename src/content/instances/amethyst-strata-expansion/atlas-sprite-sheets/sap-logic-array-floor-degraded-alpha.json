@@ -1,0 +1,62 @@
+{
+  "_id": "6ab5904cbb37c1151110a0a4",
+  "objectLayerCid": "bafkreibsjerabrd3flixkvicjgq4h5vwe26axvuiafqwzb25aecy7etd5y",
+  "__v": 0,
+  "createdAt": "2026-09-24T21:04:12.600Z",
+  "fileId": "fa981c985509804d66716b27",
+  "idlePreviewFileId": "c1861ccda5c41c737dd44f06",
+  "metadata": {
+    "itemKey": "sap-logic-array-floor-degraded-alpha",
+    "atlasWidth": 48,
+    "atlasHeight": 48,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 500,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 24,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 0,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-09-24T21:04:12.600Z",
+  "upscaleFileId": "e21c85911517c2cba3da8686"
+}

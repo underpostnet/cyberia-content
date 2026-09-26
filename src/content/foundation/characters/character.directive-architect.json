@@ -1,0 +1,29 @@
+{
+  "id": "character.directive-architect",
+  "name": "Directive Architect",
+  "description": "A Singularity Directive engineer who designs protocols and runs fabrication terminals.",
+  "role": "The crafter of Nova: assemblers, recipes and the logic behind them.",
+  "origin": "origin.baseline-human",
+  "factions": [
+    "faction.singularity-directive"
+  ],
+  "locations": [
+    "biome.archive-instance",
+    "region.orbital-ring"
+  ],
+  "archetype": "representative",
+  "voice": "Calm and absolute; speaks of flesh as hardware.",
+  "loadout": [
+    "skin.directive-architect"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 7
+  },
+  "greeting": [
+    {
+      "text": "Your frame is inefficient, but it is repairable. Most hardware is."
+    }
+  ]
+}

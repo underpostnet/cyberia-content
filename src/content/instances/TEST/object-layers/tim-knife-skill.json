@@ -1,0 +1,35 @@
+{
+  "_id": "6aa5db27917139c2a798d512",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "tim-knife-skill",
+      "type": "skill",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 2,
+      "resistance": 1,
+      "agility": 7,
+      "range": 2,
+      "intelligence": 1,
+      "utility": 4
+    },
+    "render": {
+      "cid": "bafkreia7jivvlwttkekb3ndhu3awxqpmzt3jyltjiqe7pzbsc5odpwleva",
+      "metadataCid": "bafkreide3aewqnwwvhfwyqclvr4fpazzbnehptzdifgre6ahqw5ohqnz24"
+    }
+  },
+  "cid": "bafkreie7tq4dzkgyzdjljhlixhejzsj6cn33tf6roltrb5aq3oa6wc43rm",
+  "contentHash": "9f9c383ca8d8c8d2b49d68b9c89cc93e1377b997d172e710f410db81eb0b9b8b",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:54.193Z",
+  "updatedAt": "2026-09-24T21:04:54.225Z",
+  "__v": 0
+}

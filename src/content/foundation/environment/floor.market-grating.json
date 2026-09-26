@@ -1,0 +1,32 @@
+{
+  "id": "floor.market-grating",
+  "name": "Market Grating",
+  "description": "Rusted grating laid over asteroid rock in the market tunnels.",
+  "role": "The base floor of the Hollow Markets.",
+  "locations": [
+    "biome.hollow-markets"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile of square grating over dark rock.",
+    "detail": "Rust edges and a dropped scrap or two in the gaps.",
+    "distinctiveFeatures": [
+      "rust edges",
+      "dark rock through the gaps"
+    ],
+    "paletteDirection": "Rust reds and dark rock, amber lamp reflections."
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

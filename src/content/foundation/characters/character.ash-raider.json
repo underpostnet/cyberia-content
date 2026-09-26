@@ -1,0 +1,47 @@
+{
+  "id": "character.ash-raider",
+  "name": "Ash Raider",
+  "description": "A Mutagen raider of the Void Nomads, from the clans the ash wastes hardened and Zenith drove from their camps.",
+  "role": "The common hostile of the frontier: raiders attack on sight and drop what they took.",
+  "origin": "origin.mutagen",
+  "factions": [
+    "faction.void-nomads"
+  ],
+  "locations": [
+    "biome.frontier-grassland",
+    "biome.overgrown-ruins",
+    "biome.ash-wastes"
+  ],
+  "archetype": "archetype",
+  "voice": "Clipped clan slang, threats and old grievances against Zenith.",
+  "loadout": [
+    "skin.ash-raider",
+    "weapon.scrap-maul"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "hostile",
+    "level": 4,
+    "maxLife": 120,
+    "aggroRange": 8,
+    "spawnRadius": 5,
+    "drops": [
+      {
+        "item": "resource.scrap-alloy",
+        "chance": 0.5,
+        "quantity": 1
+      },
+      {
+        "item": "currency.coin",
+        "chance": 0.3,
+        "quantity": 3
+      }
+    ]
+  },
+  "greeting": [
+    {
+      "text": "Zenith burned our camps. Now we burn their roads. You on their road?",
+      "mood": "angry"
+    }
+  ]
+}

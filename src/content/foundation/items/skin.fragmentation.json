@@ -1,0 +1,35 @@
+{
+  "id": "skin.fragmentation",
+  "name": "Fragmentation",
+  "description": "A body in the Fragmented State: a cluster of cyan fragments held at the point of collapse.",
+  "role": "The canonical look of every entity that falls; it holds until the body reintegrates.",
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "The outline of a figure broken into shards.",
+    "detail": "Cyan shards with white glints and deep blue gaps; no face.",
+    "distinctiveFeatures": [
+      "figure made of shards",
+      "no face"
+    ],
+    "paletteDirection": "Cyans #6bffff and #96ffff, blues #156d99 and #204e6a, white glints.",
+    "matches": [
+      "material.breach-glass",
+      "skin.fragment-echo"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 6,
+      "agility": 3,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    }
+  }
+}

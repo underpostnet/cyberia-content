@@ -1,0 +1,33 @@
+{
+  "id": "biome.breach-field",
+  "name": "Breach Field",
+  "description": "Ground where the layers overlap and matter loses form, crossed by gates and cyan fragment crystals.",
+  "role": "The physical site of crossings between layers, and the place where Fragmentation can be seen.",
+  "region": "region.the-overlap",
+  "ambience": "Static in the air, shifting light and the feeling that the ground is not fully there.",
+  "paletteDirection": "Deep purple, electric violet swirl and cyan fragment light.",
+  "palette": {
+    "base": [
+      "#3b1f66",
+      "#5a2f9e"
+    ],
+    "shadow": [
+      "#1d0d36",
+      "#2a1450"
+    ],
+    "highlight": [
+      "#b08cff",
+      "#e0d4ff"
+    ],
+    "outline": [
+      "#0a0418"
+    ],
+    "accent": [
+      "#8a4dff"
+    ],
+    "special": [
+      "#3ff2e8",
+      "#a8fff9"
+    ]
+  }
+}

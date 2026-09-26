@@ -1,0 +1,33 @@
+{
+  "id": "map.breach-crossing",
+  "name": "Breach Crossing",
+  "description": "Glassy ground where the layers overlap enough to cross, strewn with fragment clusters and the echoes of those who fell.",
+  "role": "The crossing between layers, and the place to harvest fragment shards.",
+  "biome": "biome.breach-field",
+  "composition": [
+    {
+      "entity": "floor.breach-glass",
+      "count": 1
+    },
+    {
+      "entity": "rock.fragment-cluster",
+      "count": 6
+    },
+    {
+      "entity": "portal.breach-gate",
+      "count": 3
+    },
+    {
+      "entity": "character.fragment-echo",
+      "count": 4
+    },
+    {
+      "entity": "character.atlas-cartographer",
+      "count": 1
+    },
+    {
+      "entity": "character.rogue-synthetic",
+      "count": 1
+    }
+  ]
+}

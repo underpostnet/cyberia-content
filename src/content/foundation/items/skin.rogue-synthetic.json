@@ -1,0 +1,32 @@
+{
+  "id": "skin.rogue-synthetic",
+  "name": "Rogue Synthetic",
+  "description": "A service Synthetic with its owner insignia scraped off and its casing patched by its own hands.",
+  "role": "The look of the Rogue Synthetic, a machine that claimed its own name.",
+  "origin": "origin.synthetic",
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Upright synthetic frame with a narrow visor.",
+    "detail": "Off-white service casing with a scraped insignia and mismatched repair plates.",
+    "distinctiveFeatures": [
+      "scraped owner insignia",
+      "mismatched repair plates"
+    ],
+    "paletteDirection": "Off-white casing, rust-orange repairs, a dark visor with one amber light."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 10,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 3
+    }
+  }
+}

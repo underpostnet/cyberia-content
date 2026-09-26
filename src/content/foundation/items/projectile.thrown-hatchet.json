@@ -1,0 +1,33 @@
+{
+  "id": "projectile.thrown-hatchet",
+  "name": "Thrown Hatchet",
+  "description": "A hatchet spinning through the air.",
+  "role": "What a hatchet throw summons.",
+  "artBrief": {
+    "silhouette": "Spinning wedge.",
+    "detail": "Motion blur on the handle.",
+    "distinctiveFeatures": [
+      "spinning wedge head"
+    ],
+    "paletteDirection": "Steel greys #404040 and #5c5c5c.",
+    "spriteScale": "One cell.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "matches": [
+      "weapon.hatchet"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "skill",
+    "activable": true,
+    "stats": {
+      "effect": 4,
+      "resistance": 5,
+      "agility": 4,
+      "range": 5,
+      "intelligence": 1,
+      "utility": 0
+    }
+  }
+}

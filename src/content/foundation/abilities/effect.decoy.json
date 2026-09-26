@@ -1,0 +1,7 @@
+{
+  "id": "effect.decoy",
+  "name": "Decoy",
+  "description": "A passive copy that draws hostile attention away from its source.",
+  "role": "The effect of doubles and projections.",
+  "category": "summon"
+}

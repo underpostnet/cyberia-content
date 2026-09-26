@@ -1,0 +1,30 @@
+{
+  "id": "skin.drifter",
+  "name": "Drifter",
+  "description": "A wanderer in a magenta coat, one of the countless drifters of the frontier.",
+  "role": "The look of the generic wandering bot that fills a world nobody has populated yet.",
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Figure in a long coat.",
+    "detail": "Magenta coat with purple shading and black trim.",
+    "distinctiveFeatures": [
+      "long magenta coat"
+    ],
+    "paletteDirection": "Magenta #df00df and purple #800080 with black."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 9,
+      "agility": 3,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 0
+    }
+  }
+}

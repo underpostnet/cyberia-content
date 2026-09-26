@@ -1,0 +1,29 @@
+{
+  "id": "character.vault-keeper",
+  "name": "Vault Keeper",
+  "description": "A Mutagen who keeps the personal vaults of a settlement and never forgets a face.",
+  "role": "A supporting character who runs storage.",
+  "origin": "origin.mutagen",
+  "factions": [
+    "faction.harmony-enclaves"
+  ],
+  "locations": [
+    "biome.frontier-grassland",
+    "biome.hollow-markets"
+  ],
+  "archetype": "supporting",
+  "voice": "Guarded and dry; tired of being asked what he is.",
+  "loadout": [
+    "skin.vault-keeper"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 4
+  },
+  "greeting": [
+    {
+      "text": "Name, vault, and nothing else. I do not answer questions about my hands."
+    }
+  ]
+}

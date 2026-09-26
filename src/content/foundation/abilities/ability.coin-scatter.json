@@ -1,0 +1,11 @@
+{
+  "id": "ability.coin-scatter",
+  "name": "Coin Scatter",
+  "description": "When an entity is defeated, its credit chits scatter for the victor. The amount follows the kill-percent rules.",
+  "role": "How credit moves between the defeated and the victor.",
+  "logicEventId": "coin_drop_or_transaction",
+  "summons": "currency.coin",
+  "effects": [
+    "effect.credit-transfer"
+  ]
+}

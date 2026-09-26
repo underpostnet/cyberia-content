@@ -1,0 +1,37 @@
+{
+  "id": "rock.fragment-cluster-spent",
+  "name": "Spent Fragment Cluster",
+  "description": "The dull stumps of a fragment cluster after its shards are taken.",
+  "role": "The depleted state of a fragment cluster.",
+  "locations": [
+    "biome.breach-field"
+  ],
+  "materials": [
+    "material.breach-glass"
+  ],
+  "artBrief": {
+    "silhouette": "Low broken stumps of crystal.",
+    "detail": "No glints; the crystal is grey-blue and clouded.",
+    "distinctiveFeatures": [
+      "clouded, broken stumps"
+    ],
+    "paletteDirection": "Desaturated blues #1d5777 and #204e6a.",
+    "spriteScale": "Fills a 2×2 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "rock.fragment-cluster"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

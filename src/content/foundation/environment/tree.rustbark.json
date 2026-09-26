@@ -1,0 +1,44 @@
+{
+  "id": "tree.rustbark",
+  "name": "Rustbark Tree",
+  "description": "A colony timber tree with a lime-green crown and rust-brown bark.",
+  "role": "The main timber source of the frontier. Cutting it yields logs for crafting and quests.",
+  "locations": [
+    "biome.frontier-grassland",
+    "biome.overgrown-ruins"
+  ],
+  "materials": [
+    "material.colony-timber"
+  ],
+  "harvest": {
+    "depleted": "tree.rustbark-stump",
+    "yields": "resource.rustbark-log"
+  },
+  "artBrief": {
+    "silhouette": "Round crown on a short trunk; reads as a tree at 16×16.",
+    "detail": "Leaf clusters in three greens and visible bark lines on the trunk.",
+    "distinctiveFeatures": [
+      "lime crown",
+      "rust-brown trunk"
+    ],
+    "paletteDirection": "Lime #abfa00 and #97c92c crown, brown #944f00 and #c07f35 trunk.",
+    "spriteScale": "Fills a 2×2 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "tree.rustbark-stump",
+      "resource.rustbark-log"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "material.colony-timber",
+  "name": "Colony Timber",
+  "description": "The wood of the timber trees planted by the first colony waves.",
+  "role": "The first building material of every frontier outpost, and the most traded raw good on colony worlds.",
+  "locations": [
+    "biome.frontier-grassland",
+    "biome.overgrown-ruins"
+  ],
+  "artBrief": {
+    "silhouette": "Not a sprite: a texture read through trees, stumps and logs.",
+    "detail": "Warm brown bark in vertical strips with pale cut rings.",
+    "distinctiveFeatures": [
+      "vertical bark strips",
+      "pale growth rings on cut faces"
+    ],
+    "paletteDirection": "Warm browns from #5d3204 to #eeab5d.",
+    "spriteScale": "Texture only.",
+    "requiredVariants": []
+  }
+}

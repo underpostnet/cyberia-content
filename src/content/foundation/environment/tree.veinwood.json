@@ -1,0 +1,35 @@
+{
+  "id": "tree.veinwood",
+  "name": "Veinwood Tree",
+  "description": "A green-crowned tree of the Violet Strata whose bark and fruit carry violet sap.",
+  "role": "The landmark tree of the Violet Strata; it shows how the mutagenic flora changed native growth.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "materials": [
+    "material.violet-biomass"
+  ],
+  "artBrief": {
+    "silhouette": "Tall crown on a brown trunk; violet dots read even at 16×16.",
+    "detail": "Violet veins run up the trunk into the crown and swell into fruit.",
+    "distinctiveFeatures": [
+      "violet fruit in a green crown",
+      "violet veins on the trunk"
+    ],
+    "paletteDirection": "Greens #0b6f1f and #0f8526, trunk #6f3a0b, violet #671b93 and #4b0b6f.",
+    "spriteScale": "Fills a 2×3 cell footprint.",
+    "requiredVariants": []
+  },
+  "objectLayer": {
+    "itemType": "static",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

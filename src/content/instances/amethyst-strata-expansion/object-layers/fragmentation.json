@@ -1,0 +1,35 @@
+{
+  "_id": "6a56b91a9fab49c408b339e2",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "fragmentation",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 6,
+      "agility": 3,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreibnwu4ekbiuw7r54g4d52dhlece432nmfjz73dsuzwvdafhkrrmnm",
+      "metadataCid": "bafkreiandfxcawcdcehkgxmttcfsa3np75pur4vezriyspyzce4vt235di"
+    }
+  },
+  "cid": "bafkreiba2vggzo36m77ukdh2h46kmydgr3wpaobxy6pvgt4wcexrqitrry",
+  "contentHash": "20d54c6cbb7e67ff450cfa3f3ca660668eecf03837c79f534f96112f1822718e",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:04.820Z",
+  "updatedAt": "2026-09-24T21:04:04.850Z",
+  "__v": 0
+}

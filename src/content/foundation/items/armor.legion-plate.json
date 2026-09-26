@@ -1,0 +1,37 @@
+{
+  "id": "armor.legion-plate",
+  "name": "Legion Plate",
+  "description": "Iron Legion chest armor: graphite plates with a red chevron.",
+  "role": "Standard protection of Zenith garrisons; it is heavy and slows its wearer.",
+  "factions": [
+    "faction.iron-legion"
+  ],
+  "artBrief": {
+    "silhouette": "Chest plate that widens the shoulders.",
+    "detail": "Graphite plates with a red chevron and dark straps.",
+    "distinctiveFeatures": [
+      "red chevron",
+      "broad shoulders"
+    ],
+    "paletteDirection": "Graphite and gunmetal with Zenith red.",
+    "spriteScale": "Worn over a 2×2 cell character.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "matches": [
+      "skin.legion-sergeant"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "breastplate",
+    "activable": true,
+    "stats": {
+      "effect": 0,
+      "resistance": 22,
+      "agility": -10,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 2
+    }
+  }
+}

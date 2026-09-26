@@ -1,0 +1,35 @@
+{
+  "_id": "69e9551f5c639cfaa8d89a49",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "ssatellite",
+      "type": "foreground",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreiczzawtlnjos54uznbhpglg2in36acg3w2ffv66okt6hkc5ud2pxq",
+      "metadataCid": "bafkreif6mt6vxdeb56e2sxvz4toz4etvakmscv7qpzu2a37326sq3ebugm"
+    }
+  },
+  "cid": "bafkreibckxf4hlp6eacd74h57lktiksw4d5i4uka4ds3fpzalvypg64cw4",
+  "contentHash": "2255cbc3adfe20043ff0fdfad5342a56e0fa8e5140e0e5b2bf205d70f37b82b7",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:30.297Z",
+  "updatedAt": "2026-09-24T21:04:30.329Z",
+  "__v": 0
+}

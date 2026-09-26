@@ -1,0 +1,20 @@
+{
+  "id": "material.array-alloy",
+  "name": "Array Alloy",
+  "description": "Slate-violet composite plating used by terraforming and environmental-control machinery.",
+  "role": "The machine material of the terraforming age; its arrays still stand in the Violet Strata.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "artBrief": {
+    "silhouette": "Not a sprite: a texture read through array floors and walls.",
+    "detail": "Dark panels with thin seams, small status lights in green, blue and yellow.",
+    "distinctiveFeatures": [
+      "thin panel seams",
+      "small colored status lights"
+    ],
+    "paletteDirection": "Slate violet #25212e to #383248, with green, blue and yellow lights.",
+    "spriteScale": "Texture only.",
+    "requiredVariants": []
+  }
+}

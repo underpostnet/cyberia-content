@@ -1,0 +1,35 @@
+{
+  "_id": "6a8fcad5d1e1a48e3f29f826",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "wason",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 7,
+      "agility": 8,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreifhnpchl5kf5vpa3mdblg7cxetdk74thckehc52tyrtwcfthl77pe",
+      "metadataCid": "bafkreie3ffh6j6amtzqeefrvnlwnqb3oki524bxwvrmtzarnnuw4nr7rqe"
+    }
+  },
+  "cid": "bafkreictf7rwsdtzr3ytdpyjmsxndjkei7dyyfq2iedhr47xuykfxsxcca",
+  "contentHash": "532fe3690e798ef131bf0964aed1a54447c78c161a410678f3f7a6145bcae210",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:57.147Z",
+  "updatedAt": "2026-09-24T21:04:57.177Z",
+  "__v": 0
+}

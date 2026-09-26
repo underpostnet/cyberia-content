@@ -1,0 +1,35 @@
+{
+  "_id": "6ab5904637f96ecaa15c5758",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "jiro-samsara-lin",
+      "type": "skin",
+      "description": "A veteran Atlas-security-contractor specialized in managing non-compliant botanical-growth.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 0,
+      "agility": 10,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 1
+    },
+    "render": {
+      "cid": "bafkreib23tj3badowyhm2kpnnc4nwvthgqk6bff75tgmnqgnkudvtgkksq",
+      "metadataCid": "bafkreif23vdaofxnvummb7ar3qjgwjpxsnx6t5zl7dey5jisxonk37itbu"
+    }
+  },
+  "cid": "bafkreidvppsp4v5cmbszru6gijnplk35uy3fsfu4vsucx3ktmgrnnoe6sq",
+  "contentHash": "757be4fe57a2606598d3c6425af5ab7da63659169caca82bed5361a2d6b89e94",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:06.162Z",
+  "updatedAt": "2026-09-24T21:04:06.196Z",
+  "__v": 0
+}

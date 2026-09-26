@@ -1,0 +1,35 @@
+{
+  "id": "currency.coin",
+  "name": "Credit Chit",
+  "description": "Standard Atlas-sanctioned credit chit accepted across the outpost's vendors and contractors.",
+  "role": "The common currency of the frontier. Every fountain and sink of the off-chain economy moves it.",
+  "factions": [
+    "faction.atlas-confederation"
+  ],
+  "abilities": [
+    "ability.coin-scatter"
+  ],
+  "artBrief": {
+    "silhouette": "Round coin with a bright rim.",
+    "detail": "A stamped Atlas mark in the center and a white glint on the rim.",
+    "distinctiveFeatures": [
+      "bright gold rim",
+      "stamped center mark"
+    ],
+    "paletteDirection": "Golds #ac7c00, #f8b800 and #f8d878 with a white glint.",
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": []
+  },
+  "objectLayer": {
+    "itemType": "coin",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

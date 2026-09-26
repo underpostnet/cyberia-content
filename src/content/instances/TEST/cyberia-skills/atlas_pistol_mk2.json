@@ -1,0 +1,18 @@
+{
+  "_id": "6a3ff10a7163ccdde8da865f",
+  "triggerItemId": "atlas_pistol_mk2",
+  "logicEventIds": [
+    "projectile"
+  ],
+  "skills": [
+    {
+      "logicEventId": "projectile",
+      "name": "Projectile",
+      "description": "Fires a projectile in the direction of the tap. Spawn chance and lifetime scale with Intelligence and Range.",
+      "summonedEntityItemId": "atlas_pistol_mk2_bullet"
+    }
+  ],
+  "createdAt": "2026-06-27T15:49:30.617Z",
+  "updatedAt": "2026-06-27T15:49:30.617Z",
+  "__v": 0
+}

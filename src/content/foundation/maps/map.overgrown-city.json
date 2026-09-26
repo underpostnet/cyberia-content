@@ -1,0 +1,57 @@
+{
+  "id": "map.overgrown-city",
+  "name": "Overgrown City",
+  "description": "A dead Earth city under meadow and forest, where relay dishes lean over collapsed towers and a sealed vault.",
+  "role": "A ruin of Earth to salvage, with raiders in the streets and a vault to open.",
+  "biome": "biome.overgrown-ruins",
+  "composition": [
+    {
+      "entity": "floor.ruin-meadow",
+      "count": 1
+    },
+    {
+      "entity": "floor.ruin-meadow-lush",
+      "count": 3
+    },
+    {
+      "entity": "floor.ruin-meadow-poppies",
+      "count": 2
+    },
+    {
+      "entity": "floor.ruin-meadow-buttercups",
+      "count": 2
+    },
+    {
+      "entity": "tree.rustbark",
+      "count": 6
+    },
+    {
+      "entity": "rock.rust-boulder",
+      "count": 3
+    },
+    {
+      "entity": "ruin.collapsed-tower",
+      "count": 2
+    },
+    {
+      "entity": "ruin.vault-door",
+      "count": 1
+    },
+    {
+      "entity": "prop.relay-dish",
+      "count": 2
+    },
+    {
+      "entity": "portal.breach-gate",
+      "count": 2
+    },
+    {
+      "entity": "character.ash-raider",
+      "count": 3
+    },
+    {
+      "entity": "character.drifter",
+      "count": 1
+    }
+  ]
+}

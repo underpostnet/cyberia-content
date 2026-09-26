@@ -1,0 +1,58 @@
+{
+  "_id": "6a9e0f390a55742d256c262b",
+  "code": "shoot",
+  "fileId": "63281359b92114da48b98193",
+  "manifest": {
+    "id": "shoot",
+    "bus": "sfx",
+    "tags": [
+      "weapon",
+      "attack",
+      "transient"
+    ],
+    "author": "cyberia-audio",
+    "version": "0.1.0",
+    "duration": 0.24,
+    "sampleRate": 22050,
+    "channels": 1,
+    "loop": false,
+    "audio": "shoot.wav",
+    "defaults": {
+      "sampleRate": 44100,
+      "volume": 0.92,
+      "duration": 0.24,
+      "power": 0.7,
+      "seed": 193
+    },
+    "parameters": {
+      "sampleRate": {
+        "min": 22050,
+        "max": 96000,
+        "integer": true
+      },
+      "volume": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "duration": {
+        "min": 0.1,
+        "max": 0.8,
+        "integer": false
+      },
+      "power": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "seed": {
+        "min": 0,
+        "max": 4294967295,
+        "integer": true
+      }
+    }
+  },
+  "createdAt": "2026-09-07T01:11:21.383Z",
+  "updatedAt": "2026-09-07T01:11:21.383Z",
+  "__v": 0
+}

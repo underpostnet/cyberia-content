@@ -1,0 +1,40 @@
+{
+  "id": "relic.anchor-key",
+  "name": "Anchor Key",
+  "description": "A key of breach glass cut to the pattern of one anchor system.",
+  "role": "Opens a crossing that is otherwise sealed; the kind of object sagas are fought over.",
+  "materials": [
+    "material.breach-glass"
+  ],
+  "locations": [
+    "biome.breach-field"
+  ],
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Long key with a crystal bit.",
+    "detail": "Metal bow with a cyan crystal bit that glows faintly.",
+    "distinctiveFeatures": [
+      "cyan crystal bit"
+    ],
+    "paletteDirection": "Old brass, cyan crystal.",
+    "matches": [
+      "material.breach-glass"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 4,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  },
+  "abilities": [
+    "ability.anchor-resonance"
+  ]
+}

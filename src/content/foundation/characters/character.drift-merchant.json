@@ -1,0 +1,37 @@
+{
+  "id": "character.drift-merchant",
+  "name": "Drift Merchant",
+  "description": "A wandering merchant who has walked every frontier route and seen more than he tells.",
+  "role": "A recurring quest giver and trader who knows the roads and the rumors on them.",
+  "origin": "origin.baseline-human",
+  "factions": [
+    "faction.harmony-enclaves"
+  ],
+  "locations": [
+    "biome.frontier-grassland",
+    "biome.hollow-markets"
+  ],
+  "archetype": "recurring",
+  "voice": "Warm and talkative, a salesman who drops hints about the time before the portals.",
+  "loadout": [
+    "skin.drift-merchant"
+  ],
+  "carries": [
+    "currency.coin",
+    "weapon.hatchet"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "provider-static",
+    "level": 5
+  },
+  "greeting": [
+    {
+      "text": "Walk with me a moment, friend. Every road out here ends at my stall sooner or later.",
+      "mood": "happy"
+    },
+    {
+      "text": "Salve, rations, a good hatchet, and a rumor from before the portals if you buy enough."
+    }
+  ]
+}

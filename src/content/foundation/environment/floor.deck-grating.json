@@ -1,0 +1,32 @@
+{
+  "id": "floor.deck-grating",
+  "name": "Deck Grating",
+  "description": "Steel grating of fortress decks with stenciled lane marks.",
+  "role": "The base floor of the orbital fortresses.",
+  "locations": [
+    "biome.orbital-decks"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile of diagonal grating.",
+    "detail": "Diagonal mesh with a white stencil stripe on one edge.",
+    "distinctiveFeatures": [
+      "diagonal mesh",
+      "white stencil stripe"
+    ],
+    "paletteDirection": "Gunmetal and graphite with white stencil."
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

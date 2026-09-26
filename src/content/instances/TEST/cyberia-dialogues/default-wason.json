@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "6a8fcb822ccebd1c7e97d222",
+    "code": "default-wason",
+    "order": 0,
+    "speaker": "Wason",
+    "text": "They say I am just a wandering merchant... but I have seen things.",
+    "mood": "neutral",
+    "createdAt": "2026-08-27T05:30:42.223Z",
+    "updatedAt": "2026-08-27T05:30:42.223Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a8fcb822ccebd1c7e97d223",
+    "code": "default-wason",
+    "order": 1,
+    "speaker": "Wason",
+    "text": "The network was not always like this. There was a time before the portals.",
+    "mood": "sad",
+    "createdAt": "2026-08-27T05:30:42.226Z",
+    "updatedAt": "2026-08-27T05:30:42.226Z",
+    "__v": 0
+  }
+]

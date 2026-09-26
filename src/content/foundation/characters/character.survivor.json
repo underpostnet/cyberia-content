@@ -1,0 +1,23 @@
+{
+  "id": "character.survivor",
+  "name": "Survivor",
+  "description": "Someone who endured long enough to matter: no chosen one, only a person with a pistol and a few chits.",
+  "role": "The player archetype. Every new player and every unauthored player entity starts as a survivor.",
+  "origin": "origin.baseline-human",
+  "locations": [
+    "region.frontier-colonies",
+    "region.ruined-earth"
+  ],
+  "archetype": "archetype",
+  "voice": "Plain and practical; says little about the past.",
+  "loadout": [
+    "skin.survivor",
+    "weapon.atlas-pistol-mk2"
+  ],
+  "carries": [
+    "currency.coin"
+  ],
+  "entity": {
+    "type": "player"
+  }
+}

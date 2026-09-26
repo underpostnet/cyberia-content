@@ -1,0 +1,67 @@
+{
+  "id": "quest.raider-toll",
+  "name": "The Raider Toll",
+  "description": "Ash Raiders burned the palisade of the frontier outpost. The Drift Merchant pays for timber to rebuild it and for every raider driven off.",
+  "role": "The first quest of the frontier: gather, fight and report back.",
+  "factions": [
+    "faction.harmony-enclaves"
+  ],
+  "locations": [
+    "biome.frontier-grassland"
+  ],
+  "provider": "character.drift-merchant",
+  "steps": [
+    {
+      "id": "gather-timber",
+      "description": "Cut Rustbark logs for the new palisade.",
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "resource.rustbark-log",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "drive-off-raiders",
+      "description": "Drive the Ash Raiders away from the outpost.",
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "character.ash-raider",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "report",
+      "description": "Return to the Drift Merchant.",
+      "objectives": [
+        {
+          "type": "talk",
+          "target": "character.drift-merchant",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "item": "currency.coin",
+      "quantity": 15
+    },
+    {
+      "item": "consumable.med-gel",
+      "quantity": 2
+    }
+  ],
+  "talk": [
+    {
+      "text": "Timber stacked and the raiders gone? Then the palisade stands by nightfall.",
+      "mood": "happy"
+    },
+    {
+      "text": "Take the credit and the gel. Harmony pays its debts, even out here."
+    }
+  ]
+}

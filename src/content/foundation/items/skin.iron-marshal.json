@@ -1,0 +1,34 @@
+{
+  "id": "skin.iron-marshal",
+  "name": "Iron Marshal",
+  "description": "The commander of the Iron Legion in heavy red-and-black armor with a tall crest.",
+  "role": "The look of the Iron Marshal.",
+  "factions": [
+    "faction.iron-legion"
+  ],
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Very broad figure with a tall crest on the helmet.",
+    "detail": "Red and black armor plates, a long cape and a chevron on the chest.",
+    "distinctiveFeatures": [
+      "tall helmet crest",
+      "long cape"
+    ],
+    "paletteDirection": "Zenith red, black, gold detail."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 18,
+      "agility": -5,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 3
+    }
+  }
+}

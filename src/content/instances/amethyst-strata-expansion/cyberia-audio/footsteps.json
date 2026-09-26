@@ -1,0 +1,58 @@
+{
+  "_id": "6a9e0f390a55742d256c2626",
+  "code": "footsteps",
+  "fileId": "a8a7047037728ff0bc573e40",
+  "manifest": {
+    "id": "footsteps",
+    "bus": "sfx",
+    "tags": [
+      "movement",
+      "gait",
+      "ambient"
+    ],
+    "author": "cyberia-audio",
+    "version": "0.1.0",
+    "duration": 0.62,
+    "sampleRate": 22050,
+    "channels": 2,
+    "loop": false,
+    "audio": "footsteps.wav",
+    "defaults": {
+      "sampleRate": 44100,
+      "volume": 0.24,
+      "duration": 0.62,
+      "weight": 0.55,
+      "seed": 4177
+    },
+    "parameters": {
+      "sampleRate": {
+        "min": 22050,
+        "max": 96000,
+        "integer": true
+      },
+      "volume": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "duration": {
+        "min": 0.3,
+        "max": 1.5,
+        "integer": false
+      },
+      "weight": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "seed": {
+        "min": 0,
+        "max": 4294967295,
+        "integer": true
+      }
+    }
+  },
+  "createdAt": "2026-09-07T01:11:21.333Z",
+  "updatedAt": "2026-09-07T01:11:21.333Z",
+  "__v": 0
+}

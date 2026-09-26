@@ -1,0 +1,30 @@
+{
+  "id": "faction.zenith-empire",
+  "name": "Zenith Empire",
+  "description": "A militaristic, hierarchical confederation that masters the physical layer through fleets, fortresses and territorial control.",
+  "role": "The great power of physical force. It holds infrastructure and territory, and it resents its dependency on Nova.",
+  "color": "red",
+  "domain": "physical",
+  "beliefs": "Order must be imposed through strength.",
+  "strengths": [
+    "discipline",
+    "industrial might",
+    "projection of force"
+  ],
+  "weaknesses": [
+    "rigidity",
+    "prejudice against Mutagens",
+    "ecological disregard",
+    "dependency on Nova"
+  ],
+  "relations": [
+    {
+      "type": "depends-on",
+      "target": "faction.nova-republic"
+    },
+    {
+      "type": "rival-of",
+      "target": "faction.atlas-confederation"
+    }
+  ]
+}

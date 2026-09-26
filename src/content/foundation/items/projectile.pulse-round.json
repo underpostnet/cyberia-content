@@ -1,0 +1,33 @@
+{
+  "id": "projectile.pulse-round",
+  "name": "Pulse Round",
+  "description": "A cyan energy round that dissipates on impact.",
+  "role": "What the Atlas pistol fires; the default projectile of the runtime.",
+  "artBrief": {
+    "silhouette": "Short glowing bolt.",
+    "detail": "Bright cyan core with a darker cyan trail.",
+    "distinctiveFeatures": [
+      "bright cyan core"
+    ],
+    "paletteDirection": "Cyans #24f1fd, #0a8eaf and #0085a0.",
+    "spriteScale": "One cell, fired in the direction of the tap.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "matches": [
+      "weapon.atlas-pistol-mk2"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "skill",
+    "activable": true,
+    "stats": {
+      "effect": 5,
+      "resistance": 3,
+      "agility": 5,
+      "range": 5,
+      "intelligence": 3,
+      "utility": 5
+    }
+  }
+}

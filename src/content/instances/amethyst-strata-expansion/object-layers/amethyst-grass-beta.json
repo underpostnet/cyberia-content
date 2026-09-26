@@ -1,0 +1,35 @@
+{
+  "_id": "6a40139c192c16dbcde161c8",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "amethyst-grass-beta",
+      "type": "floor",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreidervkj4yommlcbsmk6yny4e57fy5wr76jf5ggxdcvoktdjqg33si",
+      "metadataCid": "bafkreiennialzr2wui6q6cytiud6frygigy4h4jl6dri42h7ny7glf5jcu"
+    }
+  },
+  "cid": "bafkreiad4dsuutcpv6udaqdcqf3lnej275mhllgs6z6vhhwcr6vzg66se4",
+  "contentHash": "03e0e54a4c4fafa83040628176b6913aff5875acd2f67d539ec28fab937bd227",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:03:56.724Z",
+  "updatedAt": "2026-09-24T21:03:56.757Z",
+  "__v": 0
+}

@@ -1,0 +1,37 @@
+{
+  "id": "floor.ruin-meadow-buttercups",
+  "name": "Ruin Meadow with Buttercups",
+  "description": "Meadow grass dotted with yellow buttercups.",
+  "role": "A flowered alternate for sunny, open ground.",
+  "locations": [
+    "biome.overgrown-ruins"
+  ],
+  "materials": [
+    "material.living-loam"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat meadow tile with small yellow dots.",
+    "detail": "Scattered yellow flowers with single white glints.",
+    "distinctiveFeatures": [
+      "yellow flower dots"
+    ],
+    "paletteDirection": "Emerald meadow set with buttercup yellow #f6d32d.",
+    "matches": [
+      "floor.ruin-meadow"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

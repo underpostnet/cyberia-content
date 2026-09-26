@@ -1,0 +1,35 @@
+{
+  "_id": "6a8fcb7d0faca8157bde4218",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "agent",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 4,
+      "agility": 7,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 1
+    },
+    "render": {
+      "cid": "bafkreifi7mvr3lpd5ipftjkhigp5cnmwlouldpjyatmy4q7m4zkxejwmbu",
+      "metadataCid": "bafkreibjfe7km5kyv7ay755zpqnif7nkrxqyfcy54ocne4mgttfsfxwj34"
+    }
+  },
+  "cid": "bafkreicyjadsouu62hybrq45qgzaklrqjlmyonxmlsamgliahova637qyq",
+  "contentHash": "58480727529ed1f018c39d81b2052e304ad98736ec5c80c32d003baa0f6ff0c4",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:36.449Z",
+  "updatedAt": "2026-09-24T21:04:36.486Z",
+  "__v": 0
+}

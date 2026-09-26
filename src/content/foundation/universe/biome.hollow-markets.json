@@ -1,0 +1,33 @@
+{
+  "id": "biome.hollow-markets",
+  "name": "Hollow Markets",
+  "description": "Bazaars carved inside hollowed asteroids, lit by sodium lamps and stacked with stalls and workshops.",
+  "role": "The trade floor of the belt, where anything can be bought, sold or fenced.",
+  "region": "region.asteroid-enclaves",
+  "ambience": "Crowded, loud and warm, with haggling, welding sparks and echoing tunnels.",
+  "paletteDirection": "Rust reds, sodium amber lamps, Atlas yellow cloth and dark rock.",
+  "palette": {
+    "base": [
+      "#8e3b2c",
+      "#5b4a44",
+      "#3a302d"
+    ],
+    "shadow": [
+      "#2a1f1c",
+      "#5e241b"
+    ],
+    "highlight": [
+      "#ffc26b",
+      "#ffe3a1"
+    ],
+    "outline": [
+      "#150f0d"
+    ],
+    "accent": [
+      "#f2c31b"
+    ],
+    "special": [
+      "#ff8a1f"
+    ]
+  }
+}

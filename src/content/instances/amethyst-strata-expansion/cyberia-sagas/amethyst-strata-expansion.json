@@ -1,0 +1,606 @@
+{
+  "_id": "6a4023c0821b919c65caccf1",
+  "code": "amethyst-strata-expansion",
+  "name": "The Violet-Flora Strata",
+  "description": "A sudden biological re-coding within the Southern-Verdant-Buffer has introduced an invasive, purple-pigmented phenotype. These humanoid-patterned growths are disrupting the local ecological-registry, forcing the Atlas Confederation to deploy field agents to stabilize the terraforming-layers before the shift becomes permanent.",
+  "foundationVersion": "1.0.0",
+  "references": [
+    "biome.frontier-grassland",
+    "biome.violet-strata",
+    "currency.coin",
+    "effect.kinetic-damage",
+    "faction.atlas-confederation",
+    "faction.free-enclaves",
+    "origin.baseline-human",
+    "origin.mutagen",
+    "origin.synthetic",
+    "skin.drifter",
+    "structure.array-wall",
+    "tree.veinwood"
+  ],
+  "definitions": [
+    {
+      "id": "skin.elara-voss-kalu",
+      "name": "Elara Voss-Kalu",
+      "description": "A high-level ecological-registrar with skin stained by violet-spore exposure; she manages the biological records of the buffer-zone.",
+      "role": "The violet phenotype in a human shape: the look the drifting humanoids of the Strata take.",
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "artBrief": {
+        "silhouette": "Upright figure with a long coat, entirely violet.",
+        "detail": "Magenta skin and coat with purple shading; spore stains darker than the coat.",
+        "distinctiveFeatures": [
+          "magenta skin",
+          "spore stains"
+        ],
+        "paletteDirection": "Magenta #df00df and purple #800080 with black.",
+        "spriteScale": "A character of a 2×2 cell footprint.",
+        "requiredVariants": [
+          "8 directions, each with idle and walk frames (the Object Layer direction set)"
+        ],
+        "matches": [
+          "skin.drifter"
+        ]
+      },
+      "objectLayer": {
+        "itemId": "elara-voss-kalu",
+        "itemType": "skin",
+        "activable": true,
+        "stats": {
+          "effect": 1,
+          "resistance": 18,
+          "agility": 10,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 0
+        }
+      }
+    },
+    {
+      "id": "character.elara-voss-kalu",
+      "name": "Elara Voss-Kalu",
+      "description": "An ecological registrar the violet spores changed; her shape now walks the Strata many times over.",
+      "role": "The hostile face of the saga: the divergent humanoids survivors must neutralize.",
+      "origin": "origin.mutagen",
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "archetype": "recurring",
+      "voice": "Fragments of registry entries, spoken as if the forest were listening.",
+      "loadout": [
+        "skin.elara-voss-kalu"
+      ]
+    },
+    {
+      "id": "skin.jiro-samsara-lin",
+      "name": "Jiro Samsara-Lin",
+      "description": "A veteran Atlas-security-contractor specialized in managing non-compliant botanical-growth.",
+      "role": "The look of the Atlas surveyor who leads the buffer audit.",
+      "factions": [
+        "faction.atlas-confederation"
+      ],
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "artBrief": {
+        "silhouette": "Figure in a field coat with a survey pack.",
+        "detail": "Grey field coat, warm skin tone and a worn surveyor badge.",
+        "distinctiveFeatures": [
+          "grey field coat",
+          "surveyor badge"
+        ],
+        "paletteDirection": "Greys #878787 and #ababab, skin #e7bf96, black outline.",
+        "spriteScale": "A character of a 2×2 cell footprint.",
+        "requiredVariants": [
+          "8 directions, each with idle and walk frames (the Object Layer direction set)"
+        ]
+      },
+      "objectLayer": {
+        "itemId": "jiro-samsara-lin",
+        "itemType": "skin",
+        "activable": true,
+        "stats": {
+          "effect": 1,
+          "resistance": 0,
+          "agility": 10,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 1
+        }
+      }
+    },
+    {
+      "id": "character.jiro-samsara-lin",
+      "name": "Jiro Samsara-Lin",
+      "description": "A veteran Atlas security contractor who surveys the buffer and reports how far the violet growth has spread.",
+      "role": "The quest giver who starts the saga with the buffer drift survey.",
+      "factions": [
+        "faction.atlas-confederation"
+      ],
+      "origin": "origin.baseline-human",
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "archetype": "recurring",
+      "voice": "Tired field professional; badge still works, just.",
+      "loadout": [
+        "skin.jiro-samsara-lin"
+      ],
+      "placement": "Provider. Place at the edge of the foliage expanse."
+    },
+    {
+      "id": "skin.knot-node-terminal",
+      "name": "Knot-Node Terminal",
+      "description": "A decommissioned environmental-control terminal at the Sap-Logic Array, now the interface for coordinating node neutralization.",
+      "role": "The body of the array terminal that coordinates node neutralization.",
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "artBrief": {
+        "silhouette": "Boxy standing terminal with a screen.",
+        "detail": "Grey casing, green screen text and dark cable roots.",
+        "distinctiveFeatures": [
+          "green screen",
+          "grey casing"
+        ],
+        "paletteDirection": "Greys #d6d6d6 and #aba9a9, green #56bf40, dark #241f31.",
+        "spriteScale": "A character of a 2×2 cell footprint.",
+        "requiredVariants": [
+          "8 directions, each with idle and walk frames (the Object Layer direction set)"
+        ],
+        "matches": [
+          "structure.array-wall"
+        ]
+      },
+      "objectLayer": {
+        "itemId": "knot-node-terminal",
+        "itemType": "skin",
+        "activable": true,
+        "stats": {
+          "effect": 1,
+          "resistance": 7,
+          "agility": 2,
+          "range": 0,
+          "intelligence": 2,
+          "utility": 0
+        }
+      }
+    },
+    {
+      "id": "character.knot-node-terminal",
+      "name": "Knot-Node Terminal",
+      "description": "A decommissioned environmental-control terminal of the array, awake again and asking for help.",
+      "role": "The machine voice that sends survivors after the growth nodes.",
+      "origin": "origin.synthetic",
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "archetype": "supporting",
+      "voice": "System notices in capitals, then short requests.",
+      "loadout": [
+        "skin.knot-node-terminal"
+      ],
+      "placement": "Provider. Place inside the array; it does not move."
+    },
+    {
+      "id": "skin.vossen-khyber",
+      "name": "Vossen-Khyber",
+      "description": "Elara Vossen-Khyber, the Atlas perimeter officer overseeing the reinforcement of the buffer's boundary lines.",
+      "role": "The look of the Atlas perimeter officer of the buffer.",
+      "factions": [
+        "faction.atlas-confederation"
+      ],
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "artBrief": {
+        "silhouette": "Broad figure in a reinforced coat with a raised collar.",
+        "detail": "Indigo-tinted bark plates over a yellow Atlas coat; a signal lamp on the shoulder.",
+        "distinctiveFeatures": [
+          "bark plates on the coat",
+          "shoulder lamp"
+        ],
+        "paletteDirection": "Atlas yellow, indigo bark, dark leather.",
+        "spriteScale": "A character of a 2×2 cell footprint.",
+        "requiredVariants": [
+          "8 directions, each with idle and walk frames (the Object Layer direction set)"
+        ],
+        "matches": [
+          "armor.composite-bark-plating"
+        ]
+      },
+      "objectLayer": {
+        "itemId": "vossen-khyber",
+        "itemType": "skin",
+        "activable": false,
+        "stats": {
+          "effect": 1,
+          "resistance": 6,
+          "agility": 4,
+          "range": 0,
+          "intelligence": 2,
+          "utility": 4
+        }
+      }
+    },
+    {
+      "id": "character.vossen-khyber",
+      "name": "Elara Vossen-Khyber",
+      "description": "The Atlas perimeter officer who reinforces the boundary of the buffer.",
+      "role": "The provider of perimeter hardening and the seller of suppression gear.",
+      "factions": [
+        "faction.atlas-confederation"
+      ],
+      "origin": "origin.baseline-human",
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "archetype": "supporting",
+      "voice": "Terse warnings about the canopy and the root-works.",
+      "loadout": [
+        "skin.vossen-khyber"
+      ],
+      "placement": "Provider. Place at the buffer boundary."
+    },
+    {
+      "id": "skin.thon-zheng",
+      "name": "Thon-Zheng",
+      "description": "Kaelen Thon-Zheng, a border-watch fabricator who barters reclaimed bark-composite gear for salvage.",
+      "role": "The look of the border-watch fabricator.",
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "artBrief": {
+        "silhouette": "Figure in an apron with a tool belt.",
+        "detail": "Scorched apron, welding goggles pushed up, bark offcuts in the belt.",
+        "distinctiveFeatures": [
+          "welding goggles",
+          "tool belt"
+        ],
+        "paletteDirection": "Soot greys, leather browns, indigo offcuts.",
+        "spriteScale": "A character of a 2×2 cell footprint.",
+        "requiredVariants": [
+          "8 directions, each with idle and walk frames (the Object Layer direction set)"
+        ]
+      },
+      "objectLayer": {
+        "itemId": "thon-zheng",
+        "itemType": "skin",
+        "activable": false,
+        "stats": {
+          "effect": 1,
+          "resistance": 5,
+          "agility": 4,
+          "range": 0,
+          "intelligence": 2,
+          "utility": 5
+        }
+      }
+    },
+    {
+      "id": "character.thon-zheng",
+      "name": "Kaelen Thon-Zheng",
+      "description": "A border-watch fabricator who barters reclaimed bark-composite gear for salvage.",
+      "role": "The crafter of the saga and the provider of the final reclamation.",
+      "factions": [
+        "faction.free-enclaves"
+      ],
+      "origin": "origin.baseline-human",
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "archetype": "supporting",
+      "voice": "Wary trader; warns that Atlas is watching the borders.",
+      "loadout": [
+        "skin.thon-zheng"
+      ],
+      "placement": "Assembler. Place in the outpost."
+    },
+    {
+      "id": "weapon.spore-suppressor-slugger",
+      "name": "Spore Suppressor Slugger",
+      "description": "A pneumatic tool designed to drive off aggressive, mutagen-heavy vegetation with high-pressure bursts.",
+      "role": "The tool-weapon Atlas field agents use against aggressive growth.",
+      "factions": [
+        "faction.atlas-confederation"
+      ],
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "artBrief": {
+        "silhouette": "Short wide-barrel launcher with a tank.",
+        "detail": "Pneumatic tank on the side, a flared muzzle stained violet.",
+        "distinctiveFeatures": [
+          "side tank",
+          "flared muzzle"
+        ],
+        "paletteDirection": "Worn steel, Atlas yellow grip, violet stains.",
+        "spriteScale": "Held by a 2×2 cell character; drawn over its skin.",
+        "requiredVariants": [
+          "8 directions, each with idle and walk frames (the Object Layer direction set)"
+        ],
+        "matches": [
+          "projectile.biometric-masking-array"
+        ]
+      },
+      "objectLayer": {
+        "itemId": "spore-suppressor-slugger",
+        "itemType": "weapon",
+        "activable": true,
+        "stats": {
+          "effect": 5,
+          "resistance": 2,
+          "agility": 5,
+          "range": 2,
+          "intelligence": 5,
+          "utility": 4
+        }
+      },
+      "abilities": [
+        "ability.spore-suppression-volley"
+      ]
+    },
+    {
+      "id": "ability.spore-suppression-volley",
+      "name": "Spore Suppression Volley",
+      "description": "Fires a suppressant projectile toward the target. Spawn chance and lifetime scale with Intelligence and Range.",
+      "role": "The ranged attack of the spore suppressor slugger.",
+      "logicEventId": "projectile",
+      "summons": "projectile.biometric-masking-array",
+      "effects": [
+        "effect.kinetic-damage"
+      ]
+    },
+    {
+      "id": "projectile.biometric-masking-array",
+      "name": "Biometric Masking Array",
+      "description": "A tactical adjustment that mimics the biological signature of the local violet-flora.",
+      "role": "What the spore suppressor slugger fires.",
+      "artBrief": {
+        "silhouette": "Small cloud-shaped burst.",
+        "detail": "Green-violet mist around a bright core.",
+        "distinctiveFeatures": [
+          "mist burst"
+        ],
+        "paletteDirection": "Violet and moss green.",
+        "spriteScale": "One cell.",
+        "requiredVariants": [
+          "8 directions, each with idle and walk frames (the Object Layer direction set)"
+        ],
+        "matches": [
+          "weapon.spore-suppressor-slugger"
+        ]
+      },
+      "objectLayer": {
+        "itemId": "biometric-masking-array",
+        "itemType": "skill",
+        "activable": true,
+        "stats": {
+          "effect": 6,
+          "resistance": 5,
+          "agility": 5,
+          "range": 5,
+          "intelligence": 10,
+          "utility": 0
+        }
+      }
+    },
+    {
+      "id": "vegetation.violet-growth-knot",
+      "name": "Violet Growth Knot",
+      "description": "A dense, pulsating mass of purple-pigmented biomass that obstructs navigation through the undergrowth.",
+      "role": "The growth nodes that anchor the violet phenotype; they block paths and are harvested once neutralized.",
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "artBrief": {
+        "silhouette": "Round knotted mass low to the ground.",
+        "detail": "Pulsing violet veins through dark green fibers.",
+        "distinctiveFeatures": [
+          "knotted mass",
+          "violet veins"
+        ],
+        "paletteDirection": "Violet #671596 veins on deep greens.",
+        "spriteScale": "Fills a 1×1 to 2×2 cell footprint.",
+        "requiredVariants": [],
+        "matches": [
+          "tree.veinwood"
+        ]
+      },
+      "objectLayer": {
+        "itemId": "violet-growth-knot",
+        "itemType": "obstacle",
+        "activable": false,
+        "stats": {
+          "effect": 0,
+          "resistance": 0,
+          "agility": 0,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 0
+        }
+      },
+      "placement": "Blocks movement. Cluster in the undergrowth and around array walls."
+    },
+    {
+      "id": "resource.purplish-sap-vial",
+      "name": "Purplish Sap Vial",
+      "description": "A viscous, violet fluid harvested from the rogue biomass, used in improvised biological stabilizers.",
+      "role": "The sample the buffer survey asks for, and an ingredient of bark plating.",
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "artBrief": {
+        "silhouette": "Small vial.",
+        "detail": "Glass vial full of violet sap with a cork.",
+        "distinctiveFeatures": [
+          "violet sap"
+        ],
+        "paletteDirection": "Violets #671596 to #8530b5.",
+        "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+        "requiredVariants": [],
+        "matches": [
+          "resource.purplish-sap-vial-drained"
+        ]
+      },
+      "objectLayer": {
+        "itemId": "purplish-sap-vial",
+        "itemType": "resource",
+        "activable": false,
+        "stats": {
+          "effect": 0,
+          "resistance": 10,
+          "agility": 0,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 0
+        }
+      }
+    },
+    {
+      "id": "resource.purplish-sap-vial-drained",
+      "name": "Drained Sap Vial",
+      "description": "A viscous, violet fluid harvested from the rogue biomass, used in improvised biological stabilizers.",
+      "role": "The depleted state of a sap source after its vial is taken.",
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "artBrief": {
+        "silhouette": "Small vial.",
+        "detail": "Empty glass with a violet film at the bottom.",
+        "distinctiveFeatures": [
+          "violet film"
+        ],
+        "paletteDirection": "Violets #661497 to #7522a5, pale glass.",
+        "spriteScale": "One cell.",
+        "requiredVariants": [],
+        "matches": [
+          "resource.purplish-sap-vial"
+        ]
+      },
+      "objectLayer": {
+        "itemId": "purplish-sap-vial-extracted",
+        "itemType": "resource",
+        "activable": false,
+        "stats": {
+          "effect": 0,
+          "resistance": 10,
+          "agility": 0,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 0
+        }
+      }
+    },
+    {
+      "id": "armor.composite-bark-plating",
+      "name": "Composite Bark Plating",
+      "description": "Protective gear fashioned from the hardened, indigo-hued stems of the local flora.",
+      "role": "The armor Atlas deploys along the buffer, crafted from growth knots and sap.",
+      "factions": [
+        "faction.atlas-confederation"
+      ],
+      "locations": [
+        "biome.violet-strata"
+      ],
+      "artBrief": {
+        "silhouette": "Chest plate of layered bark strips.",
+        "detail": "Indigo bark strips bound with cord over a padded vest.",
+        "distinctiveFeatures": [
+          "layered indigo bark"
+        ],
+        "paletteDirection": "Indigo bark, tan cord.",
+        "spriteScale": "Worn over a 2×2 cell character.",
+        "requiredVariants": [
+          "8 directions, each with idle and walk frames (the Object Layer direction set)"
+        ]
+      },
+      "objectLayer": {
+        "itemId": "composite-bark-plating",
+        "itemType": "breastplate",
+        "activable": false,
+        "stats": {
+          "effect": 0,
+          "resistance": 9,
+          "agility": 0,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 3
+        }
+      }
+    }
+  ],
+  "mapCodes": [
+    "athel-ferrum-outpost",
+    "verdant-buffer-zone",
+    "amethyst-foliage-expanse",
+    "sap-logic-array",
+    "the-bloom-apex"
+  ],
+  "itemIds": [
+    "amethyst-tree-alpha",
+    "biometric-masking-array",
+    "coin",
+    "composite-bark-plating",
+    "elara-voss-kalu",
+    "jiro-samsara-lin",
+    "knot-node-terminal",
+    "purple",
+    "purplish-sap-vial",
+    "purplish-sap-vial-extracted",
+    "sap-logic-array-wall-left",
+    "spore-suppressor-slugger",
+    "thon-zheng",
+    "violet-growth-knot",
+    "vossen-khyber"
+  ],
+  "questCodes": [
+    {
+      "providerSkinItemId": "jiro-samsara-lin",
+      "questCode": "buffer-drift-survey",
+      "mapCode": "amethyst-foliage-expanse"
+    },
+    {
+      "providerSkinItemId": "knot-node-terminal",
+      "questCode": "knot-node-neutralization",
+      "mapCode": "sap-logic-array"
+    },
+    {
+      "providerSkinItemId": "vossen-khyber",
+      "questCode": "perimeter-hardening",
+      "mapCode": "verdant-buffer-zone"
+    },
+    {
+      "providerSkinItemId": "thon-zheng",
+      "questCode": "the-bloom-reclamation",
+      "mapCode": "athel-ferrum-outpost"
+    }
+  ],
+  "actionCodes": [
+    {
+      "providerSkinItemId": "jiro-samsara-lin",
+      "actionCode": "interact-jiro-samsara-lin",
+      "mapCode": "amethyst-foliage-expanse"
+    },
+    {
+      "providerSkinItemId": "vossen-khyber",
+      "actionCode": "interact-vossen-khyber",
+      "mapCode": "verdant-buffer-zone"
+    },
+    {
+      "providerSkinItemId": "thon-zheng",
+      "actionCode": "interact-thon-zheng",
+      "mapCode": "athel-ferrum-outpost"
+    },
+    {
+      "providerSkinItemId": "knot-node-terminal",
+      "actionCode": "interact-knot-node-terminal",
+      "mapCode": "sap-logic-array"
+    }
+  ],
+  "status": "unlisted",
+  "createdAt": "2026-06-27T19:25:52.213Z",
+  "updatedAt": "2026-06-27T19:25:52.213Z",
+  "__v": 0
+}

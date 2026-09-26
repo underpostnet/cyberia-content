@@ -1,0 +1,34 @@
+{
+  "id": "skin.aether-agent",
+  "name": "Aether Agent",
+  "description": "A Zenith administrator in a black suit and white shirt, with a violet council pin.",
+  "role": "The look of the Aether Council agents who audit, permit and restrict.",
+  "factions": [
+    "faction.aether-council"
+  ],
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Straight figure in a fitted suit.",
+    "detail": "Black suit, white shirt and a violet pin on the lapel.",
+    "distinctiveFeatures": [
+      "black suit",
+      "violet lapel pin"
+    ],
+    "paletteDirection": "Black #000000 and #2a2a2a, white #eeeeee, violets #350035 and #420042."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 4,
+      "agility": 7,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 1
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "69c7274f324871a1514a65d1",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "anon",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 6,
+      "agility": 2,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreigs6lhivd2hh7lzqkrefxw24km3gjbew2axbluwyberaxgdhps6xu",
+      "metadataCid": "bafkreidoppaujpssldbsjc52qoxrdugaibwizwv2gadprxqsuapkijuisi"
+    }
+  },
+  "cid": "bafkreigka6l5nllhlzpazqvz6a44ajofbwcg27l26ja5gpwsqkufaboc2i",
+  "contentHash": "ca0797d6ad675e5e0cc2b9f039c025c50d846d7d7af241d33ed282a85005c2d2",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:03:58.676Z",
+  "updatedAt": "2026-09-24T21:03:58.708Z",
+  "__v": 0
+}

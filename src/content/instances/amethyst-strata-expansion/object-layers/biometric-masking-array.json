@@ -1,0 +1,35 @@
+{
+  "_id": "6ab5904237f96ecaa15c5745",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "biometric-masking-array",
+      "type": "skill",
+      "description": "A tactical adjustment that mimics the biological signature of the local violet-flora.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 6,
+      "resistance": 5,
+      "agility": 5,
+      "range": 5,
+      "intelligence": 10,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreigs2f5yxg7daam3uomc22gxbctz6cvu3iu3zq25rmm43o2pumzwbu",
+  "contentHash": "d2d17b8b9be30019ba3982d68d708a79f0ab4da29bcc35d8b19cdbb4fa33360d",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:02.630Z",
+  "updatedAt": "2026-09-24T21:04:02.667Z",
+  "__v": 0
+}

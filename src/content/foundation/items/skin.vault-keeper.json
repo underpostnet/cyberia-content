@@ -1,0 +1,31 @@
+{
+  "id": "skin.vault-keeper",
+  "name": "Vault Keeper",
+  "description": "A Mutagen with white hair and pale skin in black clothes, keys at the belt.",
+  "role": "The look of the vault keepers who guard personal storage in the settlements.",
+  "origin": "origin.mutagen",
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Slim figure with pale hair.",
+    "detail": "White hair, pale pink skin and black clothes.",
+    "distinctiveFeatures": [
+      "white hair against black clothes"
+    ],
+    "paletteDirection": "Black, pale pinks #e8d2dc, whites #efefef to #c4c4c4."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 8,
+      "agility": 8,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 1
+    }
+  }
+}

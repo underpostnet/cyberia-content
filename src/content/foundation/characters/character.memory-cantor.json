@@ -1,0 +1,28 @@
+{
+  "id": "character.memory-cantor",
+  "name": "Memory Cantor",
+  "description": "A Transcendent Conclave performer who sings archived memories to the crowds of the civic Instances.",
+  "role": "A supporting character for hyperspace stories about memory, identity and audiences.",
+  "factions": [
+    "faction.transcendent-conclave"
+  ],
+  "locations": [
+    "biome.archive-instance"
+  ],
+  "archetype": "supporting",
+  "voice": "Lyrical on the archive stage, quiet and unsure off it.",
+  "loadout": [
+    "skin.memory-cantor"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 3
+  },
+  "greeting": [
+    {
+      "text": "Every song I sing is a memory someone lost. Tonight, perhaps, one of yours.",
+      "mood": "happy"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "floor.ruin-meadow-lush",
+  "name": "Lush Ruin Meadow",
+  "description": "Denser meadow grass where the old city drains still hold water.",
+  "role": "An alternate of the Ruin Meadow that breaks tile repetition.",
+  "locations": [
+    "biome.overgrown-ruins"
+  ],
+  "materials": [
+    "material.living-loam"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile, slightly denser than the base meadow.",
+    "detail": "More mint highlights and fewer gaps between clumps.",
+    "distinctiveFeatures": [
+      "denser clumps than the base meadow"
+    ],
+    "paletteDirection": "Same emerald set as the Ruin Meadow.",
+    "matches": [
+      "floor.ruin-meadow"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

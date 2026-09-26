@@ -1,0 +1,11 @@
+{
+  "id": "ability.hatchet-throw",
+  "name": "Hatchet Throw",
+  "description": "Throws a spinning hatchet toward the target.",
+  "role": "The ranged attack of a frontier hatchet.",
+  "logicEventId": "projectile",
+  "summons": "projectile.thrown-hatchet",
+  "effects": [
+    "effect.kinetic-damage"
+  ]
+}

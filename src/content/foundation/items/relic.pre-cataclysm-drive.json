@@ -1,0 +1,32 @@
+{
+  "id": "relic.pre-cataclysm-drive",
+  "name": "Pre-Cataclysm Drive",
+  "description": "A sealed data drive from before 2045, its contents unknown.",
+  "role": "The typical relic: worth a fortune to archivists, and a reason for sagas to start.",
+  "locations": [
+    "biome.ash-wastes",
+    "biome.overgrown-ruins"
+  ],
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Small rectangular block.",
+    "detail": "Scratched casing, a faded label and a dead status light.",
+    "distinctiveFeatures": [
+      "faded label"
+    ],
+    "paletteDirection": "Faded beige plastic, dark grey, one red light."
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 2,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

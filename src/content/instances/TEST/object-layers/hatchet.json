@@ -1,0 +1,35 @@
+{
+  "_id": "6a8fcad1d1e1a48e3f29f822",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "hatchet",
+      "type": "weapon",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 8,
+      "resistance": 2,
+      "agility": 5,
+      "range": 4,
+      "intelligence": 1,
+      "utility": 3
+    },
+    "render": {
+      "cid": "bafkreifgoq7gmv6muumuvxbmaa7smrendtll2gpst4anpbdlnff4nqcnja",
+      "metadataCid": "bafkreiamfl6hypqjwi72ueq5tm62llnluk77usy2o36lffbnmnqt6kvkr4"
+    }
+  },
+  "cid": "bafkreihx43arogbdype2wqjbfqkcl4odjbzrkvuebkmm2rdmlao32rsbfu",
+  "contentHash": "f7e6c1171823c3c9ab41212c1425f1c348731556840a98cd446c581dbd46412d",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:48.543Z",
+  "updatedAt": "2026-09-24T21:04:48.573Z",
+  "__v": 0
+}

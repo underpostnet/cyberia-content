@@ -1,0 +1,62 @@
+{
+  "_id": "6ab59059bb37c1151110a0da",
+  "objectLayerCid": "bafkreih5wld6kx4q7ibzz6uvsab2iimznbjfwwzdxmpvbauhu3vnsv6sru",
+  "__v": 0,
+  "createdAt": "2026-09-24T21:04:25.957Z",
+  "fileId": "bb6fc6743801d63af5e71a3a",
+  "idlePreviewFileId": "485c5862ec6240d779ddd10c",
+  "metadata": {
+    "itemKey": "grass-0",
+    "atlasWidth": 50,
+    "atlasHeight": 50,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 500,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 25,
+          "height": 25,
+          "frameIndex": 0
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 25,
+          "y": 0,
+          "width": 25,
+          "height": 25,
+          "frameIndex": 0
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 0,
+          "y": 25,
+          "width": 25,
+          "height": 25,
+          "frameIndex": 0
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-09-24T21:04:25.957Z",
+  "upscaleFileId": "f4f17dc348679e9caf603a27"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "effect.energy-damage",
+  "name": "Energy Damage",
+  "description": "A burst of energy that removes life and dissipates on impact.",
+  "role": "The damage of pulse weapons.",
+  "category": "damage"
+}

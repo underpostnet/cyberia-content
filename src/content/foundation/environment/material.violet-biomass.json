@@ -1,0 +1,19 @@
+{
+  "id": "material.violet-biomass",
+  "name": "Violet Biomass",
+  "description": "Mutagenic plant tissue that carries violet sap through green growth.",
+  "role": "The living substance of the Violet Strata; its sap is what the biome is known for.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "artBrief": {
+    "silhouette": "Not a sprite: a texture read through the flora of the Violet Strata.",
+    "detail": "Green fibers with violet veins that brighten where sap gathers.",
+    "distinctiveFeatures": [
+      "violet veins in green tissue"
+    ],
+    "paletteDirection": "Forest green with violet #671596 to #8530b5 veins.",
+    "spriteScale": "Texture only.",
+    "requiredVariants": []
+  }
+}

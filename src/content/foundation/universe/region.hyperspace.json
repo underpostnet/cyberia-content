@@ -1,0 +1,16 @@
+{
+  "id": "region.hyperspace",
+  "name": "Hyperspace",
+  "description": "The network of persistent Instances: living archives, simulated homes, civic systems and worlds that evolved beyond their first purpose.",
+  "role": "The second layer of Cyberia, as ordinary to its people as infrastructure, where information is power.",
+  "tags": [
+    "hyperspace",
+    "instances",
+    "archives"
+  ],
+  "factions": [
+    "faction.nova-republic"
+  ],
+  "layer": "hyperspace",
+  "connectsTo": []
+}

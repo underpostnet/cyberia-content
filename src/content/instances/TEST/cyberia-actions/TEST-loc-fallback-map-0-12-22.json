@@ -1,0 +1,16 @@
+{
+  "_id": "6a8fd0a22ccebd1c7e97d2c8",
+  "sourceMapCode": "TEST-map-0",
+  "sourceCellX": 12,
+  "sourceCellY": 22,
+  "code": "TEST-loc-fallback-map-0-12-22",
+  "label": "Kaneki",
+  "dialogCode": "default-kaneki",
+  "questDialogueCodes": [],
+  "shopItems": [],
+  "craftRecipes": [],
+  "storageSlots": 25,
+  "createdAt": "2026-08-27T05:52:34.348Z",
+  "updatedAt": "2026-08-27T05:52:34.348Z",
+  "__v": 0
+}

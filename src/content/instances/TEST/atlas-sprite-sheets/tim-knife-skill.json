@@ -1,0 +1,308 @@
+{
+  "_id": "6ab59076bb37c1151110a16a",
+  "objectLayerCid": "bafkreie7tq4dzkgyzdjljhlixhejzsj6cn33tf6roltrb5aq3oa6wc43rm",
+  "__v": 0,
+  "createdAt": "2026-09-24T21:04:54.423Z",
+  "fileId": "71c309e1102aad75d16661a1",
+  "idlePreviewFileId": "960709aa55a493d801e32a24",
+  "metadata": {
+    "itemKey": "tim-knife-skill",
+    "atlasWidth": 120,
+    "atlasHeight": 120,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 250,
+    "frames": {
+      "up_idle": [
+        {
+          "x": 40,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 60,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 20,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "right_idle": [
+        {
+          "x": 0,
+          "y": 20,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 20,
+          "y": 20,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "left_idle": [
+        {
+          "x": 80,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 100,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "up_right_idle": [
+        {
+          "x": 40,
+          "y": 40,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 60,
+          "y": 40,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "down_right_idle": [
+        {
+          "x": 80,
+          "y": 20,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 100,
+          "y": 20,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "up_left_idle": [
+        {
+          "x": 0,
+          "y": 40,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 20,
+          "y": 40,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "down_left_idle": [
+        {
+          "x": 40,
+          "y": 20,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 60,
+          "y": 20,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "default_idle": [
+        {
+          "x": 40,
+          "y": 100,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 60,
+          "y": 100,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "up_walking": [
+        {
+          "x": 0,
+          "y": 60,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 20,
+          "y": 60,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "down_walking": [
+        {
+          "x": 80,
+          "y": 40,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 100,
+          "y": 40,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "right_walking": [
+        {
+          "x": 80,
+          "y": 60,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 100,
+          "y": 60,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "left_walking": [
+        {
+          "x": 40,
+          "y": 60,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 60,
+          "y": 60,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "up_right_walking": [
+        {
+          "x": 0,
+          "y": 100,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 20,
+          "y": 100,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "down_right_walking": [
+        {
+          "x": 40,
+          "y": 80,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 60,
+          "y": 80,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "up_left_walking": [
+        {
+          "x": 80,
+          "y": 80,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 100,
+          "y": 80,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "down_left_walking": [
+        {
+          "x": 0,
+          "y": 80,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 20,
+          "y": 80,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ],
+      "none_idle": [
+        {
+          "x": 80,
+          "y": 100,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 0
+        },
+        {
+          "x": 100,
+          "y": 100,
+          "width": 20,
+          "height": 20,
+          "frameIndex": 1
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-09-24T21:04:54.423Z",
+  "upscaleFileId": "f5157f16902034d006128bd9"
+}

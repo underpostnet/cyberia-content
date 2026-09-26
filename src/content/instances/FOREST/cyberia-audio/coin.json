@@ -1,0 +1,52 @@
+{
+  "_id": "6a9e0f390a55742d256c2622",
+  "code": "coin",
+  "fileId": "f8e24dddb833ca880a3c3bda",
+  "manifest": {
+    "id": "coin",
+    "bus": "sfx",
+    "tags": [
+      "reward",
+      "collectible",
+      "positive"
+    ],
+    "author": "cyberia-audio",
+    "version": "0.1.0",
+    "duration": 0.42,
+    "sampleRate": 22050,
+    "channels": 1,
+    "loop": false,
+    "audio": "coin.wav",
+    "defaults": {
+      "sampleRate": 44100,
+      "volume": 0.62,
+      "duration": 0.42,
+      "pitch": 1
+    },
+    "parameters": {
+      "sampleRate": {
+        "min": 22050,
+        "max": 96000,
+        "integer": true
+      },
+      "volume": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "duration": {
+        "min": 0.2,
+        "max": 1,
+        "integer": false
+      },
+      "pitch": {
+        "min": 0.5,
+        "max": 2,
+        "integer": false
+      }
+    }
+  },
+  "createdAt": "2026-09-07T01:11:21.272Z",
+  "updatedAt": "2026-09-07T01:11:21.272Z",
+  "__v": 0
+}

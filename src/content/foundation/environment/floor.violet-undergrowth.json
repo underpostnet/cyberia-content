@@ -1,0 +1,38 @@
+{
+  "id": "floor.violet-undergrowth",
+  "name": "Violet Undergrowth",
+  "description": "Dark, damp undergrowth of the Violet Strata, green on top and violet at the roots.",
+  "role": "The base ground of the Violet Strata.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "materials": [
+    "material.violet-biomass"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile of dark, tight growth.",
+    "detail": "Near-black greens with faint lighter blades; no bright accents.",
+    "distinctiveFeatures": [
+      "very dark greens"
+    ],
+    "paletteDirection": "Deep forest greens #085918 to #0b601c.",
+    "readability": "Dark ground makes violet sap and machinery lights read clearly.",
+    "matches": [
+      "floor.violet-undergrowth-dense"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

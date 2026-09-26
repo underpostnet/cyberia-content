@@ -1,0 +1,28 @@
+{
+  "id": "consumable.ration-brick",
+  "name": "Ration Brick",
+  "description": "A dense brick of pressed grain and protein, wrapped in foil.",
+  "role": "The daily food of crews and outposts, and a common quest reward.",
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Small rectangle.",
+    "detail": "Silver foil with a torn corner showing brown ration.",
+    "distinctiveFeatures": [
+      "torn foil corner"
+    ],
+    "paletteDirection": "Silver foil, warm brown."
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "map.violet-array",
+  "name": "Violet Array",
+  "description": "A failing environmental-control array half swallowed by violet mutagenic growth; its walls still hum.",
+  "role": "A quiet overgrown ruin to explore between the colony roads.",
+  "biome": "biome.violet-strata",
+  "composition": [
+    {
+      "entity": "floor.violet-undergrowth",
+      "count": 1
+    },
+    {
+      "entity": "floor.violet-undergrowth-dense",
+      "count": 4
+    },
+    {
+      "entity": "floor.array-plating",
+      "count": 3
+    },
+    {
+      "entity": "floor.array-plating-mossed",
+      "count": 3
+    },
+    {
+      "entity": "floor.array-plating-overgrown",
+      "count": 2
+    },
+    {
+      "entity": "structure.array-wall",
+      "count": 6
+    },
+    {
+      "entity": "structure.array-wall-worn",
+      "count": 4
+    },
+    {
+      "entity": "structure.array-wall-crown",
+      "count": 3
+    },
+    {
+      "entity": "tree.veinwood",
+      "count": 6
+    },
+    {
+      "entity": "portal.violet-gate",
+      "count": 2
+    },
+    {
+      "entity": "character.drifter",
+      "count": 3
+    }
+  ]
+}

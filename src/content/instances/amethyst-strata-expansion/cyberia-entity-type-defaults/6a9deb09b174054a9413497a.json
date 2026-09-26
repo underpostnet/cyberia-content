@@ -1,0 +1,15 @@
+{
+  "_id": "6a9deb09b174054a9413497a",
+  "entityType": "floor",
+  "liveItemIds": [
+    "sap-logic-array-floor-degraded"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-06T22:36:57.397Z",
+  "updatedAt": "2026-09-06T22:36:57.397Z",
+  "__v": 0
+}

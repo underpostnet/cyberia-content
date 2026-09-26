@@ -1,0 +1,35 @@
+{
+  "_id": "69e7d61e254d50a346509d2f",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "wood-1",
+      "type": "resource",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreigt67cdkukwjkoob7l2v3bn7uwjd5rk2jpkpj6brkomj6uymf5p6u",
+      "metadataCid": "bafkreiebwcnclefb6v6upv5xsx3t5n2qxw244qfq5uus7fiypvjin2okt4"
+    }
+  },
+  "cid": "bafkreianl444r7o4csoajygdfw6y7f44cqygmwi6s2ijmwlcnlodhczyri",
+  "contentHash": "0d5f39c8fddc149c04e0c32dbd8f979c143066591e96909659626adc338b388a",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:31.505Z",
+  "updatedAt": "2026-09-24T21:04:31.548Z",
+  "__v": 0
+}

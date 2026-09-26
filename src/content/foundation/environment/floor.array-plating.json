@@ -1,0 +1,39 @@
+{
+  "id": "floor.array-plating",
+  "name": "Array Plating",
+  "description": "Slate-violet floor plates of an environmental-control array.",
+  "role": "The interior floor of terraforming machinery.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "materials": [
+    "material.array-alloy"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile of square plates.",
+    "detail": "Two slate tones in a plate grid with thin seams.",
+    "distinctiveFeatures": [
+      "square plate grid"
+    ],
+    "paletteDirection": "Slate violet #25212e and #383248.",
+    "matches": [
+      "floor.array-plating-mossed",
+      "floor.array-plating-overgrown",
+      "structure.array-wall"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

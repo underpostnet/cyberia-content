@@ -1,0 +1,34 @@
+{
+  "id": "biome.chemical-coast",
+  "name": "Chemical Coast",
+  "description": "Changed coastlines where chemical tides dissolve untreated metal and wrecks rust into the brine.",
+  "role": "A salvage frontier on Earth, dangerous to equipment and generous to those who know the tides.",
+  "region": "region.ruined-earth",
+  "ambience": "Hissing surf, acrid spray and the groan of hulls settling into the flats.",
+  "paletteDirection": "Teal-green brine, corroded copper, oil black and pale salt crust.",
+  "palette": {
+    "base": [
+      "#3e8f84",
+      "#2f6f67",
+      "#c9c3a8"
+    ],
+    "shadow": [
+      "#1f4a45",
+      "#14302d"
+    ],
+    "highlight": [
+      "#e7e3d2",
+      "#7fd1c2"
+    ],
+    "outline": [
+      "#0b0f0f"
+    ],
+    "accent": [
+      "#b8733d",
+      "#8f5a2e"
+    ],
+    "special": [
+      "#1a1a1c"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "faction.iron-legion",
+  "name": "Iron Legion",
+  "description": "The expansionist military wing of Zenith that seeks direct conquest and permanent martial supremacy.",
+  "role": "The face of Zenith on the frontier: garrisons, patrols and occupations.",
+  "color": "red",
+  "domain": "physical",
+  "parent": "faction.zenith-empire",
+  "beliefs": "Territory held by force is the only territory that is safe.",
+  "relations": [
+    {
+      "type": "rival-of",
+      "target": "faction.aether-council"
+    }
+  ]
+}

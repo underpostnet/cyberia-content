@@ -1,0 +1,33 @@
+{
+  "id": "skin.instance-diver",
+  "name": "Instance Diver",
+  "description": "A quiet diver with dark brown hair and pale skin, dressed plainly for long hours in an Instance.",
+  "role": "The look of the Transcendent Conclave divers who live between body and Instance.",
+  "factions": [
+    "faction.transcendent-conclave"
+  ],
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Small figure with a short, straight haircut.",
+    "detail": "Dark brown hair, pale skin and dark plain clothes.",
+    "distinctiveFeatures": [
+      "short straight dark hair"
+    ],
+    "paletteDirection": "Black, dark browns #440c06 and #290703, pale skin #fceadb and #f8c9a3."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 0,
+      "agility": 8,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    }
+  }
+}

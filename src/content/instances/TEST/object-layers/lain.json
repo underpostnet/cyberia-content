@@ -1,0 +1,35 @@
+{
+  "_id": "6a8fcae5d1e1a48e3f29f83a",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "lain",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 0,
+      "agility": 8,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreiamh6qc3enm37pokysgspx73g672lwzqgd6i7ozpq4ulweplmt4cm",
+      "metadataCid": "bafkreifi2r3dcoiaegglbsvpqulmll3yzezekpwowcpbfjpjev6bjqqo6a"
+    }
+  },
+  "cid": "bafkreicm4cknteia3zxgtxb7ivxnhr4cuplwa6skywfu3sf4odiejns3de",
+  "contentHash": "4ce094d99100de6e69dc3f456ed3c782a3d7607a4ac58b4dc8bc70d044b65b19",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:51.809Z",
+  "updatedAt": "2026-09-24T21:04:51.839Z",
+  "__v": 0
+}

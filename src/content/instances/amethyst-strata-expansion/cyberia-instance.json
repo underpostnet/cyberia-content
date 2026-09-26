@@ -1,0 +1,66 @@
+{
+  "_id": "6a4012df8df0fac6c13c20cb",
+  "code": "amethyst-strata-expansion",
+  "name": "The Violet-Flora Strata",
+  "description": "A sudden biological re-coding within the Southern-Verdant-Buffer has introduced an invasive, purple-pigmented phenotype. These humanoid-patterned growths are disrupting the local ecological-registry, forcing the Atlas Confederation to deploy field agents to stabilize the terraforming-layers before the shift becomes permanent.",
+  "tags": [
+    "saga",
+    "generated"
+  ],
+  "status": "unlisted",
+  "thumbnail": "6aa324dfce26181d4b2d22b7",
+  "cyberiaMapCodes": [
+    "amethyst-foliage-expanse",
+    "sap-logic-array"
+  ],
+  "portals": [
+    {
+      "sourceMapCode": "amethyst-foliage-expanse",
+      "sourceCellX": 27,
+      "sourceCellY": 56,
+      "targetMapCode": "sap-logic-array",
+      "targetCellX": 58,
+      "targetCellY": 58,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "sap-logic-array",
+      "sourceCellX": 7,
+      "sourceCellY": 18,
+      "targetMapCode": "amethyst-foliage-expanse",
+      "targetCellX": 27,
+      "targetCellY": 56,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "amethyst-foliage-expanse",
+      "sourceCellX": 53,
+      "sourceCellY": 5,
+      "targetMapCode": "amethyst-foliage-expanse",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "intra-random"
+    },
+    {
+      "sourceMapCode": "sap-logic-array",
+      "sourceCellX": 58,
+      "sourceCellY": 58,
+      "targetMapCode": "amethyst-foliage-expanse",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "inter-random"
+    }
+  ],
+  "playerSpawn": {
+    "sourceMapCode": "sap-logic-array",
+    "sourceCellX": 35,
+    "sourceCellY": 55,
+    "random": false
+  },
+  "seed": "",
+  "topologyMode": "procedural",
+  "conf": "6a4019d98df0fac6c13c2168",
+  "createdAt": "2026-06-27T18:13:51.301Z",
+  "updatedAt": "2026-06-27T18:13:51.301Z",
+  "__v": 0
+}

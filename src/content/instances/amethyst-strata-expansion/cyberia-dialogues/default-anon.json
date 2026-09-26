@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "69ec9fc74748aefe31a1f120",
+    "code": "default-anon",
+    "order": 0,
+    "speaker": "???",
+    "text": "You should not be here. Turn back.",
+    "mood": "angry",
+    "createdAt": "2026-04-25T11:04:39.638Z",
+    "updatedAt": "2026-04-25T11:04:39.638Z",
+    "__v": 0
+  },
+  {
+    "_id": "69ec9fc74748aefe31a1f121",
+    "code": "default-anon",
+    "order": 1,
+    "speaker": "???",
+    "text": "Or stay. It does not matter. Nothing leaves this place.",
+    "mood": "neutral",
+    "createdAt": "2026-04-25T11:04:39.641Z",
+    "updatedAt": "2026-04-25T11:04:39.641Z",
+    "__v": 0
+  }
+]

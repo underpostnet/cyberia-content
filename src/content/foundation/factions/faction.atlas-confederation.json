@@ -1,0 +1,29 @@
+{
+  "id": "faction.atlas-confederation",
+  "name": "Atlas Confederation",
+  "description": "A decentralized network of frontier settlements, Mutagen clans, Synthetics, scavengers, hackers and nomads that thrives in the spaces between layers.",
+  "role": "The power of adaptation. It maps ruins, runs the grey markets and survives where order is incomplete.",
+  "color": "yellow",
+  "domain": "overlap",
+  "beliefs": "Survival belongs to whoever can move, adapt and outlast.",
+  "strengths": [
+    "adaptation",
+    "improvisation",
+    "asymmetric warfare",
+    "infiltration"
+  ],
+  "weaknesses": [
+    "fragmentation",
+    "internal division"
+  ],
+  "relations": [
+    {
+      "type": "rival-of",
+      "target": "faction.zenith-empire"
+    },
+    {
+      "type": "rival-of",
+      "target": "faction.nova-republic"
+    }
+  ]
+}

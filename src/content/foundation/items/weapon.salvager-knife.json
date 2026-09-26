@@ -1,0 +1,40 @@
+{
+  "id": "weapon.salvager-knife",
+  "name": "Salvager's Knife",
+  "description": "A short black blade with a red-wrapped grip, used to cut cable and open crates.",
+  "role": "The blade of salvagers and raiders; light, fast and easy to throw.",
+  "factions": [
+    "faction.void-nomads"
+  ],
+  "abilities": [
+    "ability.knife-throw"
+  ],
+  "artBrief": {
+    "silhouette": "Thin short blade.",
+    "detail": "Dark blade with a grey edge and a dark red grip wrap.",
+    "distinctiveFeatures": [
+      "dark blade",
+      "red grip wrap"
+    ],
+    "paletteDirection": "Black and greys #5c5c5c to #a6a6a6, dark red #800000.",
+    "spriteScale": "Held by a 2×2 cell character; drawn over its skin.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "matches": [
+      "projectile.thrown-knife"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "weapon",
+    "activable": true,
+    "stats": {
+      "effect": 5,
+      "resistance": 0,
+      "agility": 5,
+      "range": 6,
+      "intelligence": 1,
+      "utility": 0
+    }
+  }
+}

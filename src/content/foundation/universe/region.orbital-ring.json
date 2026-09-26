@@ -1,0 +1,18 @@
+{
+  "id": "region.orbital-ring",
+  "name": "Orbital Ring",
+  "description": "The fortresses, dockyards and habitat rings that circle Earth, built by the colonization waves and held by fleets.",
+  "role": "The gate between the ruined homeworld and the rest of settled space, and the heart of physical military power.",
+  "tags": [
+    "physical",
+    "fortress",
+    "fleet"
+  ],
+  "factions": [
+    "faction.zenith-empire"
+  ],
+  "layer": "physical",
+  "connectsTo": [
+    "region.lunar-citadels"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "character.void-nomad-fence",
+  "name": "Nomad Fence",
+  "description": "A Void Nomad fence who sells what others lost, no questions asked.",
+  "role": "A vendor of the grey market; the place to buy blades and sell salvage.",
+  "origin": "origin.baseline-human",
+  "factions": [
+    "faction.void-nomads"
+  ],
+  "locations": [
+    "biome.hollow-markets",
+    "biome.frontier-grassland"
+  ],
+  "archetype": "representative",
+  "voice": "Cocky and quick; rules are code someone else wrote.",
+  "loadout": [
+    "skin.void-nomad"
+  ],
+  "carries": [
+    "weapon.salvager-knife",
+    "currency.coin"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 5
+  },
+  "greeting": [
+    {
+      "text": "Lost something? Somebody always finds it. Then it finds me, and I sell it back cheap.",
+      "mood": "happy"
+    }
+  ]
+}

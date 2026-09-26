@@ -1,0 +1,35 @@
+{
+  "_id": "6a8fcad8d1e1a48e3f29f82a",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "kishins",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 2,
+      "agility": 6,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreigceggl4lu3rby2l3ctzuo2kaeczzxofjfxw5bigrwc6lv35neh24",
+      "metadataCid": "bafkreif54ftyql5k3cjt3zxjnkjze443mhgixwqlohyy3ax3z6ttxdv5ky"
+    }
+  },
+  "cid": "bafkreidq6p3vtgid7qvto5fnqm2udn5typquf5aeoltqdbqonmz2cq3q5e",
+  "contentHash": "70f3f7599903fc2b3774ad833541b7b3c3e142f40472e701860e6b33a14370e9",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:50.483Z",
+  "updatedAt": "2026-09-24T21:04:50.513Z",
+  "__v": 0
+}

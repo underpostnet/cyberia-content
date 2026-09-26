@@ -1,0 +1,35 @@
+{
+  "id": "skin.directive-prime",
+  "name": "Directive Prime",
+  "description": "The speaker of the Singularity Directive: a synthetic body of white shell and blue light with no face.",
+  "role": "The look of the Directive Prime.",
+  "origin": "origin.synthetic",
+  "factions": [
+    "faction.singularity-directive"
+  ],
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Tall, narrow figure with a smooth oval head.",
+    "detail": "White shell panels, Nova blue light lines and a blank face.",
+    "distinctiveFeatures": [
+      "blank oval face",
+      "blue light lines"
+    ],
+    "paletteDirection": "White, Nova blue, soft grey shadow."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 6,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    }
+  }
+}

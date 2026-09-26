@@ -1,0 +1,38 @@
+{
+  "id": "structure.array-wall-crown",
+  "name": "Array Wall Crown",
+  "description": "The top course of an array wall, where moss spills over the edge.",
+  "role": "Closes the top of array walls.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "materials": [
+    "material.array-alloy",
+    "material.violet-biomass"
+  ],
+  "artBrief": {
+    "silhouette": "Horizontal wall course.",
+    "detail": "Moss spills over the top edge in two greens.",
+    "distinctiveFeatures": [
+      "moss spilling over the edge"
+    ],
+    "paletteDirection": "Slate violet with moss greens #0a5e1b and #106e23.",
+    "spriteScale": "Fills a 1×1 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "structure.array-wall"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "obstacle",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

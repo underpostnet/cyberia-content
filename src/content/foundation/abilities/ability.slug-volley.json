@@ -1,0 +1,11 @@
+{
+  "id": "ability.slug-volley",
+  "name": "Slug Volley",
+  "description": "Fires a heavy slug with a red tracer toward the target.",
+  "role": "The ranged attack of Iron Legion carbines.",
+  "logicEventId": "projectile",
+  "summons": "projectile.legion-slug",
+  "effects": [
+    "effect.kinetic-damage"
+  ]
+}

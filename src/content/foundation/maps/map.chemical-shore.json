@@ -1,0 +1,25 @@
+{
+  "id": "map.chemical-shore",
+  "name": "Chemical Shore",
+  "description": "A changed coastline of brine flats where chemical tides eat the hulls of wrecked ships.",
+  "role": "A salvage shore where drifters strip the wrecks.",
+  "biome": "biome.chemical-coast",
+  "composition": [
+    {
+      "entity": "floor.brine-flats",
+      "count": 1
+    },
+    {
+      "entity": "ruin.corroded-hull",
+      "count": 4
+    },
+    {
+      "entity": "portal.breach-gate",
+      "count": 2
+    },
+    {
+      "entity": "character.drifter",
+      "count": 3
+    }
+  ]
+}

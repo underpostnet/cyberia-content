@@ -1,0 +1,35 @@
+{
+  "id": "portal.violet-gate",
+  "name": "Violet Gate",
+  "description": "A crossing hidden in the undergrowth of the Violet Strata, marked by a ring of darker growth.",
+  "role": "The portal of the Violet Strata, drawn to blend into its ground.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "artBrief": {
+    "silhouette": "Ring of darker growth on the ground.",
+    "detail": "The ring darkens toward its center like a hollow.",
+    "distinctiveFeatures": [
+      "dark ring of growth"
+    ],
+    "paletteDirection": "Deep forest greens #02310b to #0b601c.",
+    "spriteScale": "Fills a 2×2 cell footprint.",
+    "requiredVariants": [],
+    "matches": [
+      "floor.violet-undergrowth"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "portal",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  },
+  "mode": "inter-random"
+}

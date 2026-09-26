@@ -1,0 +1,40 @@
+{
+  "id": "weapon.hatchet",
+  "name": "Hatchet",
+  "description": "A frontier hatchet with a steel head and a timber handle, balanced for throwing.",
+  "role": "A tool that became a weapon: every timber crew carries one.",
+  "materials": [
+    "material.colony-timber"
+  ],
+  "abilities": [
+    "ability.hatchet-throw"
+  ],
+  "artBrief": {
+    "silhouette": "Short handle with a wedge head.",
+    "detail": "Grain lines on the handle and a bright edge on the steel head.",
+    "distinctiveFeatures": [
+      "wedge head",
+      "wooden handle"
+    ],
+    "paletteDirection": "Browns #633f04 and #925a00, steel greys #404040 and #5c5c5c.",
+    "spriteScale": "Held by a 2×2 cell character; drawn over its skin.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "matches": [
+      "projectile.thrown-hatchet"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "weapon",
+    "activable": true,
+    "stats": {
+      "effect": 8,
+      "resistance": 2,
+      "agility": 5,
+      "range": 4,
+      "intelligence": 1,
+      "utility": 3
+    }
+  }
+}

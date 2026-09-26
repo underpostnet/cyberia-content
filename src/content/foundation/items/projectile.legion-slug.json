@@ -1,0 +1,33 @@
+{
+  "id": "projectile.legion-slug",
+  "name": "Legion Slug",
+  "description": "A solid carbine slug with a red tracer.",
+  "role": "What the Legion carbine fires.",
+  "artBrief": {
+    "silhouette": "Short heavy bolt.",
+    "detail": "Dull metal slug with a red tracer tail.",
+    "distinctiveFeatures": [
+      "red tracer tail"
+    ],
+    "paletteDirection": "Gunmetal with Zenith red tracer.",
+    "spriteScale": "One cell.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "matches": [
+      "weapon.legion-carbine"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "skill",
+    "activable": true,
+    "stats": {
+      "effect": 9,
+      "resistance": 0,
+      "agility": 0,
+      "range": 8,
+      "intelligence": 1,
+      "utility": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "6aa32562d6c189a3f8d6bb19",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "junko",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 0,
+      "agility": 10,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreic6ik532buf6fnvqg57qkpfradr3gwwrgij7mrypvoljscggai6qa",
+      "metadataCid": "bafkreibx53bl2slmhqyiv6v4qv7nmnfzr6yoyqb77t7fvkamenqnbvvprq"
+    }
+  },
+  "cid": "bafkreibnjjs4lye5whh3hnte6qucepx7izspynxtw7p2ybzqubbyiugojm",
+  "contentHash": "2d4a65c5e09db1cfb3b664f428223eff4664fc36f3b7dfac0730a0438450ce4b",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:07.415Z",
+  "updatedAt": "2026-09-24T21:04:07.445Z",
+  "__v": 0
+}

@@ -1,0 +1,33 @@
+{
+  "id": "biome.archive-instance",
+  "name": "Archive Instance",
+  "description": "A persistent civic Instance rendered as endless tiled halls of records, indexes and public terminals.",
+  "role": "The everyday face of hyperspace: offices, records and services that people log into as a matter of routine.",
+  "region": "region.hyperspace",
+  "ambience": "Clean, bright and quiet, with the soft tick of indexing and the occasional glitch.",
+  "paletteDirection": "White grid lines, Nova blue panels and glitch magenta artifacts.",
+  "palette": {
+    "base": [
+      "#e8eef7",
+      "#2f6fd6",
+      "#1d4fa3"
+    ],
+    "shadow": [
+      "#16305e",
+      "#0c1b38"
+    ],
+    "highlight": [
+      "#ffffff",
+      "#9cc7ff"
+    ],
+    "outline": [
+      "#081226"
+    ],
+    "accent": [
+      "#ff3fb4"
+    ],
+    "special": [
+      "#39f0ff"
+    ]
+  }
+}

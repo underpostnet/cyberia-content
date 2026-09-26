@@ -1,0 +1,15 @@
+{
+  "_id": "6a9eb2d629d451b9e9216df7",
+  "entityType": "obstacle",
+  "liveItemIds": [
+    "stone-1"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-07T12:49:26.553Z",
+  "updatedAt": "2026-09-07T12:49:26.553Z",
+  "__v": 0
+}

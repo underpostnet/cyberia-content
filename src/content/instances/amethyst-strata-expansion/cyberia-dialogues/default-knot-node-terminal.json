@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6a403b6b821b919c65cace44",
+    "code": "default-knot-node-terminal",
+    "order": 0,
+    "speaker": "Knot-Node Terminal",
+    "text": "ENV-CONTROL NODE ONLINE. Biological interference detected on junction array. Awaiting suppression directive.",
+    "mood": "mechanical",
+    "createdAt": "2026-06-27T21:06:51.895Z",
+    "updatedAt": "2026-06-27T21:06:51.895Z",
+    "__v": 0
+  }
+]

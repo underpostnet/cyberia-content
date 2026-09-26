@@ -1,0 +1,40 @@
+{
+  "id": "character.iron-marshal",
+  "name": "Iron Marshal",
+  "description": "The commander of the Iron Legion, who wants permanent martial rule over every frontier.",
+  "role": "A principal figure of the macro lore; the voice of Zenith expansion.",
+  "origin": "origin.baseline-human",
+  "factions": [
+    "faction.iron-legion"
+  ],
+  "locations": [
+    "region.orbital-ring"
+  ],
+  "archetype": "principal",
+  "voice": "Measured, certain and threatening without raising his voice.",
+  "loadout": [
+    "skin.iron-marshal",
+    "weapon.legion-carbine"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "hostile",
+    "level": 12,
+    "maxLife": 400,
+    "aggroRange": 12,
+    "spawnRadius": 2,
+    "drops": [
+      {
+        "item": "currency.coin",
+        "chance": 1,
+        "quantity": 25
+      }
+    ]
+  },
+  "greeting": [
+    {
+      "text": "This deck belongs to the Legion, and so does every step you take on it.",
+      "mood": "angry"
+    }
+  ]
+}

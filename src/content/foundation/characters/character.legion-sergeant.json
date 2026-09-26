@@ -1,0 +1,49 @@
+{
+  "id": "character.legion-sergeant",
+  "name": "Iron Legion Sergeant",
+  "description": "A garrison sergeant of the Iron Legion who keeps a checkpoint and the soldiers on it.",
+  "role": "The soldier face of Zenith on the frontier: patrols, occupations and blunt orders.",
+  "origin": "origin.baseline-human",
+  "factions": [
+    "faction.iron-legion"
+  ],
+  "locations": [
+    "biome.orbital-decks",
+    "region.frontier-colonies"
+  ],
+  "archetype": "representative",
+  "voice": "Short commands, no patience for Mutagens or excuses.",
+  "loadout": [
+    "skin.legion-sergeant",
+    "weapon.legion-carbine"
+  ],
+  "carries": [
+    "armor.legion-plate"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "hostile",
+    "level": 8,
+    "maxLife": 160,
+    "aggroRange": 10,
+    "spawnRadius": 4,
+    "drops": [
+      {
+        "item": "armor.legion-plate",
+        "chance": 0.05,
+        "quantity": 1
+      },
+      {
+        "item": "currency.coin",
+        "chance": 0.4,
+        "quantity": 5
+      }
+    ]
+  },
+  "greeting": [
+    {
+      "text": "Permit. Now. No permit, no passage.",
+      "mood": "angry"
+    }
+  ]
+}

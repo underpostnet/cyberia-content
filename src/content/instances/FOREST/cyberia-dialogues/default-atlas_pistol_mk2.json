@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "69ec9fc74748aefe31a1f11c",
+    "code": "default-atlas_pistol_mk2",
+    "order": 0,
+    "speaker": "Atlas Pistol MK2",
+    "text": "Military-grade sidearm. Fires energy projectiles.",
+    "mood": "neutral",
+    "createdAt": "2026-04-25T11:04:39.627Z",
+    "updatedAt": "2026-04-25T11:04:39.627Z",
+    "__v": 0
+  }
+]

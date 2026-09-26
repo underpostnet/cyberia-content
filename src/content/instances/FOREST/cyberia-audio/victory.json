@@ -1,0 +1,58 @@
+{
+  "_id": "6a9e0f390a55742d256c262d",
+  "code": "victory",
+  "fileId": "863bbc2fd7505b735ce8b84a",
+  "manifest": {
+    "id": "victory",
+    "bus": "sfx",
+    "tags": [
+      "celebration",
+      "reward",
+      "sparkle"
+    ],
+    "author": "cyberia-audio",
+    "version": "0.3.0",
+    "duration": 1.5,
+    "sampleRate": 22050,
+    "channels": 2,
+    "loop": false,
+    "audio": "victory.wav",
+    "defaults": {
+      "sampleRate": 44100,
+      "volume": 0.5,
+      "duration": 1.5,
+      "sparkle": 14,
+      "seed": 5310
+    },
+    "parameters": {
+      "sampleRate": {
+        "min": 22050,
+        "max": 96000,
+        "integer": true
+      },
+      "volume": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "duration": {
+        "min": 0.8,
+        "max": 2.5,
+        "integer": false
+      },
+      "sparkle": {
+        "min": 0,
+        "max": 32,
+        "integer": true
+      },
+      "seed": {
+        "min": 0,
+        "max": 4294967295,
+        "integer": true
+      }
+    }
+  },
+  "createdAt": "2026-09-07T01:11:21.414Z",
+  "updatedAt": "2026-09-07T01:11:21.414Z",
+  "__v": 0
+}

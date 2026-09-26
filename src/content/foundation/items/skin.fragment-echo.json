@@ -1,0 +1,33 @@
+{
+  "id": "skin.fragment-echo",
+  "name": "Fragment Echo",
+  "description": "A pale, grey after-image of a body, the Fragmented State as some layers render it.",
+  "role": "The look of a Fragment Echo, a remnant that fragmented and never reintegrated.",
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Soft figure outline with a faded lower half.",
+    "detail": "Pale greys with dark eyes and no clothing detail.",
+    "distinctiveFeatures": [
+      "faded lower half"
+    ],
+    "paletteDirection": "Pale greys #d2cdcf and #aaaaaa with black.",
+    "matches": [
+      "skin.fragmentation"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 0,
+      "agility": 3,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    }
+  }
+}

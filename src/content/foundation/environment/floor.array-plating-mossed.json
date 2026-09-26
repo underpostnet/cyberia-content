@@ -1,0 +1,38 @@
+{
+  "id": "floor.array-plating-mossed",
+  "name": "Mossed Array Plating",
+  "description": "Array plating where moss has started to fill the seams.",
+  "role": "The transition between machinery and undergrowth.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "materials": [
+    "material.array-alloy",
+    "material.violet-biomass"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Plate grid tile with green seams.",
+    "detail": "Moss lines follow the seams; one plate edge lifted.",
+    "distinctiveFeatures": [
+      "moss in the seams"
+    ],
+    "paletteDirection": "Slate violet plates with moss green #0a5e1b.",
+    "matches": [
+      "floor.array-plating"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

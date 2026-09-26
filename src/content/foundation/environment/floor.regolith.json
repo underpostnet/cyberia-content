@@ -1,0 +1,31 @@
+{
+  "id": "floor.regolith",
+  "name": "Lunar Regolith",
+  "description": "Fine grey lunar dust packed into streets between the domes.",
+  "role": "The base ground of the Lunar Citadels.",
+  "locations": [
+    "biome.regolith-citadel"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile of fine grain with footprints.",
+    "detail": "Pale dust with a few boot prints and tiny crater dimples.",
+    "distinctiveFeatures": [
+      "boot prints in dust"
+    ],
+    "paletteDirection": "Pale greys with cool shadow."
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

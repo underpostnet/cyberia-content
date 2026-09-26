@@ -1,0 +1,58 @@
+{
+  "_id": "6aa4648527c1b48119d6273d",
+  "code": "level-up",
+  "fileId": "d0c2e24030b7a3053d8d567d",
+  "manifest": {
+    "id": "level-up",
+    "bus": "sfx",
+    "tags": [
+      "progression",
+      "reward",
+      "ascend"
+    ],
+    "author": "cyberia-audio",
+    "version": "0.1.0",
+    "duration": 1.8,
+    "sampleRate": 22050,
+    "channels": 2,
+    "loop": false,
+    "audio": "level-up.wav",
+    "defaults": {
+      "sampleRate": 44100,
+      "volume": 0.55,
+      "duration": 1.8,
+      "steps": 5,
+      "shimmer": 0.6
+    },
+    "parameters": {
+      "sampleRate": {
+        "min": 22050,
+        "max": 96000,
+        "integer": true
+      },
+      "volume": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "duration": {
+        "min": 0.8,
+        "max": 2.5,
+        "integer": false
+      },
+      "steps": {
+        "min": 3,
+        "max": 8,
+        "integer": true
+      },
+      "shimmer": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      }
+    }
+  },
+  "createdAt": "2026-09-11T20:28:53.846Z",
+  "updatedAt": "2026-09-11T20:28:53.846Z",
+  "__v": 0
+}

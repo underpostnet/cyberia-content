@@ -1,0 +1,31 @@
+{
+  "id": "skin.drift-merchant",
+  "name": "Drift Merchant",
+  "description": "A traveling trader in a green coat with a white scarf and a red trade badge.",
+  "role": "The look of the Drift Merchant, a wandering trader of the frontier routes.",
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Figure in a coat with a pack.",
+    "detail": "Green coat, white scarf and a small red badge on the chest.",
+    "distinctiveFeatures": [
+      "green coat",
+      "red trade badge"
+    ],
+    "paletteDirection": "Greens #339966 and #3db87a, white, red #ff0000 accent."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 7,
+      "agility": 8,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    }
+  }
+}

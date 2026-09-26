@@ -1,0 +1,35 @@
+{
+  "_id": "6a8fcb7e0faca8157bde421c",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "grass",
+      "type": "floor",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreihjgk37bfkesqulwroat4z7a4tvrwgus42ljqrupidvhkys5yrinu",
+      "metadataCid": "bafkreicwlcn75bqs5daztwkpw4krb45xij7werud5ylqh2vppsp3r5qkqi"
+    }
+  },
+  "cid": "bafkreic4nbf62oaldztr7i7nlzn67vw2c56rz2qzflhyp6xogo2jh7droy",
+  "contentHash": "5c684bed380b1e671fa3ed5e5befd6da177d1cea192acf87faee33b493fc7176",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:46.715Z",
+  "updatedAt": "2026-09-24T21:04:46.744Z",
+  "__v": 0
+}

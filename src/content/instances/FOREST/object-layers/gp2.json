@@ -1,0 +1,35 @@
+{
+  "_id": "69ebe480ce99d89029d67be1",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "gp2",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 5,
+      "agility": 5,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreibb53entfuv33phglhfwnr45tr343hy5cliqmzm2wdluxdjfpd7xe",
+      "metadataCid": "bafkreicrjjzw26oa4mu56ya54fgfs2a6cjfvcyahiiu6jea37kqgn3jiy4"
+    }
+  },
+  "cid": "bafkreibz4rpr6tx3mjybmg5aqkgu2qalfkadvaz4sechjj63ytucwsyysa",
+  "contentHash": "39e45f1f4efb6270161ba0828d4d400b2a803a833c910474a7dbc4e82b4b1890",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:24.258Z",
+  "updatedAt": "2026-09-24T21:04:24.289Z",
+  "__v": 0
+}

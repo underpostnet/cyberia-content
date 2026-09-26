@@ -1,0 +1,37 @@
+{
+  "id": "floor.violet-undergrowth-dense",
+  "name": "Dense Violet Undergrowth",
+  "description": "Thicker undergrowth where the violet flora has fully taken the terraforming layer.",
+  "role": "An alternate of the Violet Undergrowth.",
+  "locations": [
+    "biome.violet-strata"
+  ],
+  "materials": [
+    "material.violet-biomass"
+  ],
+  "artBrief": {
+    "spriteScale": "Seamless square tile. Floor entities tile it over a 4×4 cell footprint.",
+    "requiredVariants": [],
+    "silhouette": "Flat tile, a shade darker than the base undergrowth.",
+    "detail": "More shadow pixels between the blades.",
+    "distinctiveFeatures": [
+      "deeper shadows than the base undergrowth"
+    ],
+    "paletteDirection": "Deep forest greens #085417 to #0b601c.",
+    "matches": [
+      "floor.violet-undergrowth"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "floor",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "6aa2d773d8cf1ab551ee57c3",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "anon-blood",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 6,
+      "agility": 2,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreignsk3afvmkprqfrb4fzyjl4xdzcdkiwjufezp7c4ynu2tmwmaeym",
+      "metadataCid": "bafkreigmoy5ros4jgsiwlwnb4ftgtq66ci2tncxuvecnpswinfkg3r3rdu"
+    }
+  },
+  "cid": "bafkreiawz2gw7wnhj733yep3cfqljjrmd3p4ugrjdxaqmdr7rioq5a24dm",
+  "contentHash": "16ce8d6fd9a74ff7bc11fb1160b4a62c1edfca1a291dc1060e3f8a1d0e835c1b",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:39.585Z",
+  "updatedAt": "2026-09-24T21:04:39.616Z",
+  "__v": 0
+}

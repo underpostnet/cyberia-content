@@ -1,0 +1,64 @@
+{
+  "_id": "6a9f3b890a55742d256c27d1",
+  "code": "craft",
+  "fileId": "5356f0207ebf22eb78a9efd2",
+  "manifest": {
+    "id": "craft",
+    "bus": "music",
+    "tags": [
+      "crafting",
+      "synthesis",
+      "energy"
+    ],
+    "author": "cyberia-audio",
+    "version": "0.3.0",
+    "duration": 5,
+    "sampleRate": 22050,
+    "channels": 2,
+    "loop": true,
+    "audio": "craft.wav",
+    "defaults": {
+      "sampleRate": 44100,
+      "volume": 0.55,
+      "bpm": 96,
+      "cycles": 2,
+      "particles": 14,
+      "seed": 8641
+    },
+    "parameters": {
+      "sampleRate": {
+        "min": 22050,
+        "max": 96000,
+        "integer": true
+      },
+      "volume": {
+        "min": 0,
+        "max": 1,
+        "integer": false
+      },
+      "bpm": {
+        "min": 60,
+        "max": 160,
+        "integer": false
+      },
+      "cycles": {
+        "min": 1,
+        "max": 8,
+        "integer": true
+      },
+      "particles": {
+        "min": 0,
+        "max": 48,
+        "integer": true
+      },
+      "seed": {
+        "min": 0,
+        "max": 4294967295,
+        "integer": true
+      }
+    }
+  },
+  "createdAt": "2026-09-07T22:32:41.543Z",
+  "updatedAt": "2026-09-07T22:32:41.543Z",
+  "__v": 0
+}

@@ -1,0 +1,7 @@
+{
+  "id": "effect.credit-transfer",
+  "name": "Credit Transfer",
+  "description": "Credit moves from one holder to another.",
+  "role": "The economic effect of a defeat or a trade.",
+  "category": "economy"
+}

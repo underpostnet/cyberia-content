@@ -1,0 +1,21 @@
+{
+  "id": "material.living-loam",
+  "name": "Living Loam",
+  "description": "Dark, root-bound soil under grass and forest floor.",
+  "role": "The ground every green biome grows from; floors and trees share its texture.",
+  "locations": [
+    "biome.overgrown-ruins",
+    "biome.frontier-grassland"
+  ],
+  "artBrief": {
+    "silhouette": "Not a sprite: a texture read through the floors and tree bases that use it.",
+    "detail": "Crumbly dark soil with root threads and small pale stones.",
+    "distinctiveFeatures": [
+      "root threads",
+      "scattered pale pebbles"
+    ],
+    "paletteDirection": "Dark umber with olive highlights.",
+    "spriteScale": "Texture only.",
+    "requiredVariants": []
+  }
+}

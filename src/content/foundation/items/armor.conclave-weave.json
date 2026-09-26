@@ -1,0 +1,33 @@
+{
+  "id": "armor.conclave-weave",
+  "name": "Conclave Weave",
+  "description": "A close-fitting vest of woven fiber that carries neural link lines.",
+  "role": "Protection for Instance divers that keeps the link stable while the body is still.",
+  "factions": [
+    "faction.transcendent-conclave"
+  ],
+  "artBrief": {
+    "silhouette": "Fitted vest.",
+    "detail": "Fine weave with thin blue link lines.",
+    "distinctiveFeatures": [
+      "blue link lines in the weave"
+    ],
+    "paletteDirection": "Soft white weave with Nova blue lines.",
+    "spriteScale": "Worn over a 2×2 cell character.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "breastplate",
+    "activable": true,
+    "stats": {
+      "effect": 0,
+      "resistance": 6,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 3,
+      "utility": 3
+    }
+  }
+}

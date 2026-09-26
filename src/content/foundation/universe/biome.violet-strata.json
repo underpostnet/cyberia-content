@@ -1,0 +1,33 @@
+{
+  "id": "biome.violet-strata",
+  "name": "Violet Strata",
+  "description": "Terraforming layers overrun by violet mutagenic flora, where abandoned environmental-control arrays still hum under the growth.",
+  "role": "A frontier biome where terraforming slipped out of control. It mixes living biomass with derelict machinery.",
+  "region": "region.frontier-colonies",
+  "ambience": "Dense, damp undergrowth, the slow pulse of violet sap and the hum of failing machines.",
+  "paletteDirection": "Deep forest greens underfoot, violet sap, slate-violet machinery and moss green seep.",
+  "palette": {
+    "base": [
+      "#2f5a34",
+      "#6a3fa0",
+      "#4f4a6b"
+    ],
+    "shadow": [
+      "#1c3620",
+      "#3a2160"
+    ],
+    "highlight": [
+      "#9b6fe0",
+      "#8fbf5a"
+    ],
+    "outline": [
+      "#120d1c"
+    ],
+    "accent": [
+      "#b57bff"
+    ],
+    "special": [
+      "#6fae3a"
+    ]
+  }
+}

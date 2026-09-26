@@ -1,0 +1,18 @@
+{
+  "_id": "6aa5db7e917139c2a798d563",
+  "triggerItemId": "tim-knife",
+  "logicEventIds": [
+    "projectile"
+  ],
+  "skills": [
+    {
+      "logicEventId": "projectile",
+      "name": "",
+      "description": "",
+      "summonedEntityItemId": "tim-knife-skill"
+    }
+  ],
+  "createdAt": "2026-09-12T23:08:46.982Z",
+  "updatedAt": "2026-09-12T23:08:46.982Z",
+  "__v": 0
+}

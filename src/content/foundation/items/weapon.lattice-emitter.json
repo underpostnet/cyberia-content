@@ -1,0 +1,37 @@
+{
+  "id": "weapon.lattice-emitter",
+  "name": "Lattice Emitter",
+  "description": "A Nova hand device that projects a lattice of light shaped like its user.",
+  "role": "A weapon of deception, not force: it fields a decoy while its user moves.",
+  "factions": [
+    "faction.transcendent-conclave"
+  ],
+  "abilities": [
+    "ability.echo-double"
+  ],
+  "artBrief": {
+    "silhouette": "Short rod with a ring at its tip.",
+    "detail": "White body, Nova blue ring and a faint lattice pattern along the rod.",
+    "distinctiveFeatures": [
+      "ring tip",
+      "lattice pattern"
+    ],
+    "paletteDirection": "White and Nova blue.",
+    "spriteScale": "Held by a 2×2 cell character; drawn over its skin.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ]
+  },
+  "objectLayer": {
+    "itemType": "weapon",
+    "activable": true,
+    "stats": {
+      "effect": 5,
+      "resistance": 0,
+      "agility": 2,
+      "range": 4,
+      "intelligence": 5,
+      "utility": 6
+    }
+  }
+}

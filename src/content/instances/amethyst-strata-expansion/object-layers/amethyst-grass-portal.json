@@ -1,0 +1,35 @@
+{
+  "_id": "6a42a08daf8795d1b2205c6e",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "amethyst-grass-portal",
+      "type": "portal",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreiccav62pbkowal7u5uyz2a5poeiulfcpnnn2hxjwqewy7tcrkbgcu",
+      "metadataCid": "bafkreifnize6sc263qnxy4espkyrkh4iot4kwlmlmmp4awcwz4zlyuzzuu"
+    }
+  },
+  "cid": "bafkreicvha6bvvzyype72yv656pgzj5dh7ult57pktxpzdvhcrtog3gnfi",
+  "contentHash": "55383c1ad738c3c9fd62beef9e6ca7a33fe8b9f7ef54eefc8ea71466e36ccd2a",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:03:57.284Z",
+  "updatedAt": "2026-09-24T21:03:57.348Z",
+  "__v": 0
+}

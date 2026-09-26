@@ -1,0 +1,158 @@
+{
+  "_id": "6a4019d98df0fac6c13c2168",
+  "instanceCode": "amethyst-strata-expansion",
+  "tickRate": 60,
+  "snapshotRate": 20,
+  "aoiRadius": 15,
+  "portalHoldTimeMs": 3000,
+  "portalSpawnRadius": 3,
+  "entityBaseSpeed": 5,
+  "entityBaseMaxLife": 100,
+  "entityBaseActionCooldownMs": 500,
+  "entityBaseMinActionCooldownMs": 100,
+  "botAggroRange": 10,
+  "defaultPlayerWidth": 2,
+  "defaultPlayerHeight": 2,
+  "playerBaseSpeed": 8,
+  "playerBaseLifeRegenMin": 0.5,
+  "playerBaseLifeRegenMax": 1.5,
+  "progressionRules": {
+    "maxLevel": 100,
+    "xpPerLevel": 100,
+    "killXp": 25,
+    "questXp": 100,
+    "objectiveXp": 10,
+    "minAwardIntervalMs": 500,
+    "repeatWindowMs": 60000,
+    "maxRepeatAwards": 4,
+    "maxAwardsPerWindow": 30,
+    "defaultBotLevel": 1,
+    "baseStats": {
+      "effect": 5,
+      "resistance": 10,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "perLevelStats": {
+      "effect": 2,
+      "resistance": 5,
+      "agility": 1,
+      "range": 10,
+      "intelligence": 1,
+      "utility": 1
+    }
+  },
+  "maxActiveLayers": 4,
+  "initialLifeFraction": 1,
+  "respawnDurationMs": 3000,
+  "collisionLifeLoss": 10,
+  "economyRules": {
+    "botSpawnCoins": 50,
+    "playerSpawnCoins": 50,
+    "coinKillPercentVsBot": 0.4,
+    "coinKillPercentVsPlayer": 0.15,
+    "coinKillMinAmount": 10,
+    "respawnCostPercent": 0,
+    "portalFee": 0,
+    "craftingFeePercent": 0
+  },
+  "lifeRegenChance": 0.15,
+  "maxChance": 0.95,
+  "entityDefaults": [
+    "6a5979c02e1dbf5a3a3086f3",
+    "6a428562fad4aceeacd9e681",
+    "6a428562fad4aceeacd9e682",
+    "6a9de230553f649a7ccd6386",
+    "6a9de230553f649a7ccd6382",
+    "6a428be8d9e5b253218d053f",
+    "6a44572fb38301b2f28dd1b5",
+    "6a445751b38301b2f28dd1b6",
+    "6a44577eb38301b2f28dd1b7",
+    "6a9de5a4649c6b5aef38524d",
+    "6a9de5cd649c6b5aef385250",
+    "6a9de5e0649c6b5aef385251",
+    "6a9deaa9b174054a94134976",
+    "6a9deaecb174054a94134977",
+    "6a9deb09b174054a9413497a",
+    "6a9deb16b174054a9413497b",
+    "6a9defb4b174054a94134980",
+    "6aa32411ce26181d4b2d22b2"
+  ],
+  "statusIcons": [
+    {
+      "id": 0,
+      "name": "none",
+      "description": "No icon (skill/coin bots, world objects)"
+    },
+    {
+      "id": 1,
+      "name": "passive",
+      "description": "Passive bot — no weapon, non-aggressive"
+    },
+    {
+      "id": 2,
+      "name": "hostile",
+      "description": "Hostile bot — has weapon, will aggro"
+    },
+    {
+      "id": 3,
+      "name": "frozen",
+      "description": "Player in FrozenInteractionState (modal open)"
+    },
+    {
+      "id": 4,
+      "name": "player",
+      "description": "Normal player — alive, not frozen"
+    },
+    {
+      "id": 5,
+      "name": "dead",
+      "description": "Entity is dead / respawning"
+    },
+    {
+      "id": 6,
+      "name": "resource",
+      "description": "Resource entity — static, exploitable (wood, minerals, etc.)"
+    },
+    {
+      "id": 7,
+      "name": "resource-extracted",
+      "description": "Resource entity extracted/depleted (dead state)"
+    },
+    {
+      "id": 8,
+      "name": "action-provider",
+      "description": "Capability: bot has a usable cyberia-action (shop/storage/craft/talk) for players who can interact with it. Sent as a capability bit, not a presence state."
+    },
+    {
+      "id": 9,
+      "name": "quest-provider",
+      "description": "Capability: bot offers or advances a cyberia-quest for the viewing player (acceptable offer or active talk-target). Sent as a capability bit, not a presence state."
+    }
+  ],
+  "skillRules": {
+    "projectileSpawnChance": 0.5,
+    "projectileLifetimeMs": 2000,
+    "projectileWidth": 1,
+    "projectileHeight": 1,
+    "projectileSpeedMultiplier": 3,
+    "doppelgangerSpawnChance": 0.5,
+    "doppelgangerLifetimeMs": 5000,
+    "doppelgangerSpawnRadius": 3,
+    "doppelgangerInitialLifeFraction": 1
+  },
+  "equipmentRules": {
+    "activeItemTypes": [
+      "skin",
+      "breastplate",
+      "weapon"
+    ],
+    "onePerType": true,
+    "requireSkin": true
+  },
+  "createdAt": "2026-06-27T18:43:37.568Z",
+  "updatedAt": "2026-06-27T18:43:37.568Z",
+  "__v": 0
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "6a4013e2192c16dbcde161d5",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "amethyst-grass-alpha",
+      "type": "floor",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreidln6445xk3kssoilbqk6ikva2xeumyihj23q2trmbymx3soxbdpm",
+      "metadataCid": "bafkreighdv7abhp5vqlcmiq42jxjsbouu34amck3zkuq76sa5uvdtiwleq"
+    }
+  },
+  "cid": "bafkreiffm7bhq4erjqglbx7fh5todzdt4adjdq7fjbhhz7lojzgyrf54q4",
+  "contentHash": "a567c27870914c0cb0dfe53f66e1e473e00691c3e5484e7cfd6e4e4d8897bc87",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:03:55.984Z",
+  "updatedAt": "2026-09-24T21:03:56.053Z",
+  "__v": 0
+}

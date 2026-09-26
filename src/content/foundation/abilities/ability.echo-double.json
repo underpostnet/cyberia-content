@@ -1,0 +1,10 @@
+{
+  "id": "ability.echo-double",
+  "name": "Echo Double",
+  "description": "Projects a passive double of the caster that wanders nearby and draws attention. Spawn chance scales with Intelligence.",
+  "role": "The deception ability of Nova lattice emitters.",
+  "logicEventId": "doppelganger",
+  "effects": [
+    "effect.decoy"
+  ]
+}

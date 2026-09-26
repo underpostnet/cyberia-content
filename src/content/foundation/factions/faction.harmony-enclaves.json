@@ -1,0 +1,16 @@
+{
+  "id": "faction.harmony-enclaves",
+  "name": "Harmony Enclaves",
+  "description": "The Atlas settlements that seek diplomacy, coexistence and mutual aid across peoples and layers.",
+  "role": "The settled, welcoming side of Atlas: traders, mediators and protected Mutagen communities.",
+  "color": "yellow",
+  "domain": "physical",
+  "parent": "faction.atlas-confederation",
+  "beliefs": "A coalition that feeds its members outlasts an empire that feeds on them.",
+  "relations": [
+    {
+      "type": "rival-of",
+      "target": "faction.void-nomads"
+    }
+  ]
+}

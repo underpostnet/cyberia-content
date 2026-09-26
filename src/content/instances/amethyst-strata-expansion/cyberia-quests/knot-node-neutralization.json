@@ -1,0 +1,56 @@
+{
+  "_id": "6a44f92c31ac5af0172d5c37",
+  "sourceMapCode": "sap-logic-array",
+  "sourceCellX": 42,
+  "sourceCellY": 40,
+  "code": "knot-node-neutralization",
+  "title": "Knot-Node Neutralization",
+  "description": "The saturation has coalesced into humanoid-shaped entities. These mutagens are tethering themselves to the physical layer via biological nodes. Neutralize the manifestations to prevent further entanglement.",
+  "prerequisiteCodes": [
+    "buffer-drift-survey"
+  ],
+  "unlocksQuestCodes": [
+    "perimeter-hardening"
+  ],
+  "steps": [
+    {
+      "id": "clear-mutagens",
+      "description": "Engage and neutralize the mutated humanoid entities.",
+      "objectives": [
+        {
+          "type": "kill",
+          "itemId": "elara-voss-kalu",
+          "objectLayerCid": "bafkreidvbwe2epnxuijfwf3wcmmy63h3bkcpadku5aepj6winegw3e5paq",
+          "quantity": 5,
+          "_id": "6a44fa84b38301b2f28dd50e"
+        }
+      ],
+      "_id": "6a44fa84b38301b2f28dd50d"
+    },
+    {
+      "id": "harvest-nodes",
+      "description": "Recover the central growth nodes from the neutralized entities.",
+      "objectives": [
+        {
+          "type": "collect",
+          "itemId": "violet-growth-knot",
+          "objectLayerCid": "bafkreibykww33bdaakyfwqgisbzc6r3t4xevekyfgb5bu3vlpczdcxfmwa",
+          "quantity": 1,
+          "_id": "6a44fa84b38301b2f28dd510"
+        }
+      ],
+      "_id": "6a44fa84b38301b2f28dd50f"
+    }
+  ],
+  "rewards": [
+    {
+      "itemId": "spore-suppressor-slugger",
+      "objectLayerCid": "bafkreibybqnbgdg3h2ax3bhmkeohi542arfqf3b5ftvmwateu5hatjibli",
+      "quantity": 1,
+      "_id": "6a44fa84b38301b2f28dd511"
+    }
+  ],
+  "createdAt": "2026-07-01T11:25:32.612Z",
+  "updatedAt": "2026-07-01T11:25:32.612Z",
+  "__v": 0
+}

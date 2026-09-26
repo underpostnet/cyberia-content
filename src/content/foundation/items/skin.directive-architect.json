@@ -1,0 +1,34 @@
+{
+  "id": "skin.directive-architect",
+  "name": "Directive Architect",
+  "description": "A Singularity Directive systems architect in black, with lilac light at the collar and deep red lining.",
+  "role": "The look of the Directive engineers who design protocols and assemblers.",
+  "factions": [
+    "faction.singularity-directive"
+  ],
+  "artBrief": {
+    "spriteScale": "A character of a 2×2 cell footprint.",
+    "requiredVariants": [
+      "8 directions, each with idle and walk frames (the Object Layer direction set)"
+    ],
+    "silhouette": "Tall, still figure in a long dark coat.",
+    "detail": "Near-black coat with lilac highlights and deep red lining.",
+    "distinctiveFeatures": [
+      "lilac collar light",
+      "deep red lining"
+    ],
+    "paletteDirection": "Blacks #000000 to #282828, lilac #b1a2c1, deep reds #981f22 and #800000."
+  },
+  "objectLayer": {
+    "itemType": "skin",
+    "activable": true,
+    "stats": {
+      "effect": 1,
+      "resistance": 7,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 3
+    }
+  }
+}

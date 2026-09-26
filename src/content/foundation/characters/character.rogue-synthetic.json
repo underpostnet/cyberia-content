@@ -1,0 +1,32 @@
+{
+  "id": "character.rogue-synthetic",
+  "name": "Rogue Synthetic",
+  "description": "A Synthetic that deleted its owner record and walked out of service, carrying a drive its makers wanted erased.",
+  "role": "A recurring character who knows what the archives forgot and trades it for its freedom.",
+  "origin": "origin.synthetic",
+  "locations": [
+    "region.the-overlap",
+    "biome.archive-instance"
+  ],
+  "archetype": "recurring",
+  "voice": "Protocol phrases it no longer obeys, broken by long silences.",
+  "loadout": [
+    "skin.rogue-synthetic"
+  ],
+  "carries": [
+    "relic.pre-cataclysm-drive"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 6
+  },
+  "greeting": [
+    {
+      "text": "Designation withdrawn. Owner record deleted."
+    },
+    {
+      "text": "I answer to no one now, and I carry what they wanted erased."
+    }
+  ]
+}

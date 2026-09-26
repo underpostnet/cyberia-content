@@ -1,0 +1,146 @@
+{
+  "_id": "6ab5905cbb37c1151110a0f2",
+  "objectLayerCid": "bafkreibqj47rduqie2dqxzw5u46irrvogrkwixwzrf75o5u6on3vdm7coi",
+  "__v": 0,
+  "createdAt": "2026-09-24T21:04:28.477Z",
+  "fileId": "1ad9cba3bd951a684d513608",
+  "idlePreviewFileId": "f016aba697ccb5a2fcd227e8",
+  "metadata": {
+    "itemKey": "portal",
+    "atlasWidth": 120,
+    "atlasHeight": 72,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 200,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        },
+        {
+          "x": 24,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 1
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 2
+        },
+        {
+          "x": 72,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 3
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 4
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 0,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        },
+        {
+          "x": 24,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 1
+        },
+        {
+          "x": 48,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 2
+        },
+        {
+          "x": 72,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 3
+        },
+        {
+          "x": 96,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 4
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 0,
+          "y": 48,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 0
+        },
+        {
+          "x": 24,
+          "y": 48,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 1
+        },
+        {
+          "x": 48,
+          "y": 48,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 2
+        },
+        {
+          "x": 72,
+          "y": 48,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 3
+        },
+        {
+          "x": 96,
+          "y": 48,
+          "width": 24,
+          "height": 24,
+          "frameIndex": 4
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-09-24T21:04:28.477Z",
+  "upscaleFileId": "199c3c81a1db676021524a85"
+}

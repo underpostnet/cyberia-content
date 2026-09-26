@@ -1,0 +1,35 @@
+{
+  "_id": "6a8fca9dd1e1a48e3f29f81e",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "tim-knife",
+      "type": "weapon",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 5,
+      "resistance": 0,
+      "agility": 5,
+      "range": 6,
+      "intelligence": 1,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreifxfibr7q2jpw566zeuqrj4675y7iwmoczqtryybo225v7jge6rm4",
+      "metadataCid": "bafkreiaevsctatp3jpf6uu5345odiayfk3qryd3yc3v6sim7noheyybbla"
+    }
+  },
+  "cid": "bafkreiabqt3y3onkltm7osgfbyifzu2cau46ihb4z3m2chefwbkfjnid6u",
+  "contentHash": "0184f78db9aa5cd9f748c50e105cd3420539e41c3cced9a11c85b05454b503f5",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:55.296Z",
+  "updatedAt": "2026-09-24T21:04:55.325Z",
+  "__v": 0
+}

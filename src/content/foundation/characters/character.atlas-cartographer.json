@@ -1,0 +1,35 @@
+{
+  "id": "character.atlas-cartographer",
+  "name": "Atlas Cartographer",
+  "description": "An Atlas cartographer who maps the portal network and records nodes that have no physical anchor.",
+  "role": "A recurring guide who explains crossings and sends survivors to places worth seeing.",
+  "origin": "origin.baseline-human",
+  "factions": [
+    "faction.atlas-confederation"
+  ],
+  "locations": [
+    "region.the-overlap",
+    "biome.frontier-grassland"
+  ],
+  "archetype": "recurring",
+  "voice": "Precise and curious; speaks in coordinates and doubts.",
+  "loadout": [
+    "skin.atlas-cartographer"
+  ],
+  "carries": [
+    "tool.survey-scanner"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 3
+  },
+  "greeting": [
+    {
+      "text": "Hold still. This crossing drifted four cells since last cycle, and my charts disagree with the ground."
+    },
+    {
+      "text": "If you find a gate that is not on my map, tell me before you step through it."
+    }
+  ]
+}

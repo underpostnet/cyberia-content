@@ -1,0 +1,21 @@
+{
+  "id": "region.the-overlap",
+  "name": "The Overlap",
+  "description": "The unstable crossings where the physical layer and hyperspace bleed together: breach sites, anchor systems and old megastructures.",
+  "role": "The connective tissue of the universe. Every crossing between layers passes through it, and so does every Fragmentation.",
+  "tags": [
+    "overlap",
+    "breach",
+    "crossing"
+  ],
+  "factions": [
+    "faction.atlas-confederation"
+  ],
+  "layer": "overlap",
+  "connectsTo": [
+    "region.ruined-earth",
+    "region.asteroid-enclaves",
+    "region.frontier-colonies",
+    "region.hyperspace"
+  ]
+}

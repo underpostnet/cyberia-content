@@ -1,0 +1,29 @@
+{
+  "id": "character.aether-agent",
+  "name": "Aether Council Agent",
+  "description": "A Zenith administrator who audits permits, levies taxes and closes areas in the name of order.",
+  "role": "The civil face of Zenith control: bounties, permits and restricted zones.",
+  "origin": "origin.baseline-human",
+  "factions": [
+    "faction.aether-council"
+  ],
+  "locations": [
+    "region.orbital-ring",
+    "region.frontier-colonies"
+  ],
+  "archetype": "representative",
+  "voice": "Formal and cold; calls everyone civilian.",
+  "loadout": [
+    "skin.aether-agent"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 7
+  },
+  "greeting": [
+    {
+      "text": "Civilian, this zone is under Council administration. State your purpose and your permit number."
+    }
+  ]
+}

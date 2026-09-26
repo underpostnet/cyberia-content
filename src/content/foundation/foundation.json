@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 3,
+  "baseline": {
+    "fragmentation": "skin.fragmentation",
+    "entities": {
+      "player": "character.survivor",
+      "other_player": "character.survivor",
+      "bot": "character.drifter",
+      "skill": "projectile.pulse-round",
+      "coin": "currency.coin",
+      "floor": "floor.frontier-grass",
+      "resource": [
+        "tree.rustbark",
+        "tree.goldcrown"
+      ]
+    }
+  }
+}

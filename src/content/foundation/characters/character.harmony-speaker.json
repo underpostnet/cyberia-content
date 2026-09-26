@@ -1,0 +1,32 @@
+{
+  "id": "character.harmony-speaker",
+  "name": "Harmony Speaker",
+  "description": "The elected voice of the Harmony Enclaves, who holds the Atlas coalition together one treaty at a time.",
+  "role": "A principal figure of the macro lore; the voice of Atlas coexistence.",
+  "origin": "origin.baseline-human",
+  "factions": [
+    "faction.harmony-enclaves"
+  ],
+  "locations": [
+    "region.asteroid-enclaves"
+  ],
+  "archetype": "principal",
+  "voice": "Warm, tired and stubborn; always negotiating.",
+  "loadout": [
+    "skin.harmony-speaker"
+  ],
+  "entity": {
+    "type": "bot",
+    "behavior": "passive",
+    "level": 9
+  },
+  "greeting": [
+    {
+      "text": "Sit, if you came to talk. Everyone who comes here wants something, and most leave with half."
+    },
+    {
+      "text": "The coalition holds because nobody gets everything. Remember that when you trade.",
+      "mood": "happy"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "material.ruin-concrete",
+  "name": "Ruin Concrete",
+  "description": "Pre-Cataclysm concrete, cracked and stained, with rebar showing at the breaks.",
+  "role": "The bones of the dead cities; ruins and relic vaults are made of it.",
+  "locations": [
+    "biome.overgrown-ruins",
+    "biome.ash-wastes"
+  ],
+  "artBrief": {
+    "silhouette": "Not a sprite: a texture read through ruins and structures.",
+    "detail": "Grey slabs with dark cracks, rust stains and bent rebar at broken edges.",
+    "distinctiveFeatures": [
+      "exposed rebar",
+      "rust stains below cracks"
+    ],
+    "paletteDirection": "Cool concrete greys with rust orange stains.",
+    "spriteScale": "Texture only.",
+    "requiredVariants": []
+  }
+}

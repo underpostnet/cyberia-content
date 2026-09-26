@@ -1,0 +1,33 @@
+{
+  "id": "resource.scrap-alloy",
+  "name": "Scrap Alloy",
+  "description": "A bundle of salvaged plate and wire, sorted for reuse.",
+  "role": "The basic salvage good of ruins, wrecks and hulls.",
+  "locations": [
+    "biome.chemical-coast",
+    "biome.ash-wastes",
+    "biome.hollow-markets"
+  ],
+  "artBrief": {
+    "spriteScale": "One cell; drawn as an inventory icon and a dropped item.",
+    "requiredVariants": [],
+    "silhouette": "Small stack of bent plates tied with wire.",
+    "detail": "Mixed metals with rust spots and a wire tie.",
+    "distinctiveFeatures": [
+      "wire-tied stack"
+    ],
+    "paletteDirection": "Mixed steel greys, rust orange, copper wire."
+  },
+  "objectLayer": {
+    "itemType": "resource",
+    "activable": false,
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    }
+  }
+}

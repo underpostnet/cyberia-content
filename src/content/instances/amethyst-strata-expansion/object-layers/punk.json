@@ -1,0 +1,35 @@
+{
+  "_id": "6a8fcae2d1e1a48e3f29f836",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "punk",
+      "type": "skin",
+      "description": "",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 8,
+      "agility": 10,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreidc5beu5mwk3mzolazdklrxpj7anbxzprfcfd3h2pz22ab2tjoj5e",
+      "metadataCid": "bafkreiai24qjt6zg7xqne3pejfzmskrgjhbnlrnvgupkmtyy7i5zve567u"
+    }
+  },
+  "cid": "bafkreih5uobga7at6ritj7srwr56r7vnsrdsi6gchmbhnzvi2jcc72imje",
+  "contentHash": "fda382607c13f45134fe51b47be8fead94472478c23b0276e6a8d2442fe90c49",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-24T21:04:10.325Z",
+  "updatedAt": "2026-09-24T21:04:10.355Z",
+  "__v": 0
+}
