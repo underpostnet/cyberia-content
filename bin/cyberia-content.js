@@ -7,6 +7,7 @@ import dotenv from 'dotenv';
 import { CONTENT_ROOT } from '../src/foundation.js';
 import { generateSaga } from '../src/generator/index.js';
 import { PACKAGE_ROOT, artifactContent, artifactManifest, sourceRevision, writeArtifact } from '../src/packaging/build.js';
+import { sagaInstanceBackup, writeInstanceBackup } from '../src/saga-instance.js';
 import { readContent } from '../src/validation/content.js';
 import { formatContent } from '../src/validation/format.js';
 
@@ -83,6 +84,30 @@ saga
       if (!error.findings) throw error;
       fail(error.findings);
     }
+  });
+
+saga
+  .command('instance <saga-code>')
+  .option('--force', 'replace the instance directory when it exists')
+  .option('--dry-run', 'list the files without writing')
+  .description(
+    'Write the instance backup of a saga to src/content/instances/<saga-code>/: its runtime documents, ' +
+      'with no render and no placement',
+  )
+  .action((code, options) => {
+    const { findings, registry, sagas } = readContent();
+    if (findings.length > 0) fail(findings);
+    if (!sagas.has(code)) fail([{ id: `sagas/${code}.json`, message: 'is not a saga of the content' }]);
+    const files = sagaInstanceBackup(sagas.get(code), registry);
+    const directory = path.join(CONTENT_ROOT, 'instances', code);
+    if (options.dryRun) {
+      for (const file of [...files.keys()].sort()) console.log(file);
+      return;
+    }
+    if (fs.existsSync(directory) && !options.force)
+      fail([{ id: `instances/${code}`, message: 'exists; --force replaces it, with its render and placement' }]);
+    writeInstanceBackup(directory, files);
+    console.log(`Wrote ${directory}: ${files.size} file(s)`);
   });
 
 program

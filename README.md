@@ -33,12 +33,13 @@ npm install
 node bin/cyberia-content.js <command>
 ```
 
-| Command            | Does                                                                            |
-| ------------------ | ------------------------------------------------------------------------------- |
-| `validate [--fix]` | Validate canonical form, foundation, sagas and instances; `--fix` rewrites form |
-| `saga generate`    | Compose a saga with Google Gemini and write its package                         |
-| `build`            | Write `dist/` from the committed content                                        |
-| `pack`             | Build and pack `artifacts/cyberia-content-<version>.tgz`                        |
+| Command                                           | Does                                                                            |
+| ------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `validate [--fix]`                                | Validate canonical form, foundation, sagas and instances; `--fix` rewrites form |
+| `saga generate`                                   | Compose a saga with Google Gemini and write its package                         |
+| `saga instance <saga-code> [--force] [--dry-run]` | Write the instance backup of a saga                                             |
+| `build`                                           | Write `dist/` from the committed content                                        |
+| `pack`                                            | Build and pack `artifacts/cyberia-content-<version>.tgz`                        |
 
 `--env-file <path>` reads the environment from a file. `./.env` is read when it exists.
 
@@ -158,6 +159,24 @@ node bin/cyberia-content.js saga generate --prompt "A relay keeper in the ash wa
 
 The build compiles a package with the compiler of the foundation. The saga adds its own documents
 of every family, its `CyberiaSaga` record and the shell of its instance.
+
+### The instance of a saga
+
+`saga instance <saga-code>` writes `src/content/instances/<saga-code>/` from the saga package
+alone, in the layout of an engine instance export. The same package always writes the same bytes.
+The engine imports it with `cyberia instance <saga-code> --import`.
+
+| Holds                       | From                                                                            |
+| --------------------------- | ------------------------------------------------------------------------------- |
+| The instance and its conf   | The saga code. The conf names every entity-type default of the backup           |
+| Maps                        | Every saga map, with no entities                                                |
+| Entity-type defaults        | Every saga entity, and every foundation entity a saga map composes              |
+| Quests, actions             | Every saga quest and action, with no source                                     |
+| Object Layer items          | Every item the defaults, actions and quests name, or a skill summons; no render |
+| Skills, dialogues, the saga | The skills of those items, their lines and the action talk, the `CyberiaSaga`   |
+
+The command refuses an instance directory that exists: it holds the render and placement of
+Studio. `--force` replaces it. An engine export keeps only the quests and actions Studio placed.
 
 ## The runtime contract
 

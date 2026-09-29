@@ -41,6 +41,7 @@ This repository creates content. The engine consumes it.
 - `src/validation/` owns the content rules and the canonical form.
 - `src/generator/` owns semantic generation: prompts, stages, the saga package and the Gemini client.
 - `src/compiler.js` owns the runtime documents the artifact carries. The foundation and each saga compile the same way.
+- `src/saga-instance.js` owns the instance backup of a saga, in the layout of an engine instance export.
 - `src/packaging/` owns the artifact: build, manifest and digests. The artifact is data; its consumer verifies it.
 - `src/` imports only Node built-ins and files of this repository. Never import engine, server or client code.
 - This repository never writes to MongoDB, the Object Layer, a server or a deployment.
