@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 2,
+  "foundationVersion": "3.0.0",
+  "saga": {
+    "code": "sagapatchwork-clinic",
+    "name": "The Patchwork Clinic",
+    "description": "A comedic slice-of-life saga following the chaotic daily operations of a veterinary stall in the Hollow Markets, where the patients are as likely to be wheezing mutants as they are malfunctioning droids."
+  },
+  "references": [
+    "biome.hollow-markets",
+    "character.drift-merchant",
+    "character.drifter",
+    "character.harmony-speaker",
+    "character.vault-keeper",
+    "currency.coin",
+    "effect.credit-transfer",
+    "effect.energy-damage",
+    "floor.market-grating",
+    "prop.lamp-stall",
+    "region.asteroid-enclaves"
+  ],
+  "definitions": [
+    {
+      "id": "ability.emergency-fee",
+      "name": "Emergency Vet Fee",
+      "description": "The inevitable and immediate collection of credits following a particularly chaotic medical emergency.",
+      "role": "A post-crisis financial transaction.",
+      "logicEventId": "coin_drop_or_transaction",
+      "summons": "currency.credit-chit",
+      "effects": [
+        "effect.credit-transfer"
+      ]
+    },
+    {
+      "id": "ability.gyro-wobble",
+      "name": "The Gyro-Wobble",
+      "description": "A sudden, comical spinning of a heavy-duty droid, often caused by a faulty sensor or an extremely confused logic-board.",
+      "role": "A chaotic, non-damaging movement mishap.",
+      "tags": [
+        "mechanical",
+        "absurd",
+        "movement"
+      ]
+    },
+    {
+      "id": "ability.soothing-mist",
+      "name": "Soothing Sedative Mist",
+      "description": "A quick spray of aerosolized calming agents used to pacify both twitchy mutagenic rodents and overheated mechanical servos.",
+      "role": "A veterinary pacification tool.",
+      "logicEventId": "projectile",
+      "summons": "projectile.sedative-mist",
+      "effects": [
+        "effect.energy-damage"
+      ]
+    },
+    {
+      "id": "ability.wrench-thwack",
+      "name": "Heavy Grease-Wrench Thwack",
+      "description": "A blunt, oil-slicked impact used to reset a hauling droid's stabilizer or simply knock a frantic rodent out of a corner.",
+      "role": "A heavy utility strike."
+    },
+    {
+      "id": "action.milo-spin-exchange",
+      "name": "Milo's Spin-Cycle Swap",
+      "description": "A desperate attempt to trade spinning mechanical limbs for biological components that stay still.",
+      "role": "trade-post",
+      "provider": "character.milo-rattle-valve",
+      "shop": [
+        {
+          "item": "skin.skitter-fuzz",
+          "price": "currency.coin",
+          "quantity": 2
+        }
+      ],
+      "storageSlots": 5
+    },
+    {
+      "id": "action.varkas-clinical-chaos",
+      "name": "Varkas's Hybrid Patch-Up",
+      "description": "A frantic stall where the scent of burnt oil and wet fur is overwhelming. Services range from stabilizing wheezing rodents to unjamming spinning droids.",
+      "role": "service-point",
+      "locations": [
+        "biome.hollow-markets"
+      ],
+      "provider": "character.varkas-the-fixer",
+      "shop": [
+        {
+          "item": "consumable.joint-grease",
+          "price": "currency.coin",
+          "quantity": 3
+        },
+        {
+          "item": "weapon.spin-module",
+          "price": "currency.coin",
+          "quantity": 1
+        }
+      ],
+      "recipes": [
+        {
+          "outputs": [
+            {
+              "item": "skin.hauler-casing",
+              "quantity": 1
+            }
+          ],
+          "ingredients": [
+            {
+              "item": "consumable.joint-grease",
+              "quantity": 5
+            }
+          ],
+          "timeMs": 5000
+        }
+      ],
+      "storageSlots": 15
+    },
+    {
+      "id": "character.clumsy-hauler",
+      "name": "Clumsy Hauler",
+      "description": "A heavy-duty hauling droid that has developed a persistent, spinning tic.",
+      "role": "representative",
+      "locations": [
+        "biome.hollow-markets"
+      ],
+      "archetype": "representative",
+      "loadout": [
+        "skin.hauler-casing"
+      ],
+      "carries": [
+        "weapon.spin-module"
+      ],
+      "entity": {
+        "type": "bot",
+        "behavior": "passive",
+        "level": 4,
+        "maxLife": 300
+      }
+    },
+    {
+      "id": "character.varkas-the-fixer",
+      "name": "Varkas the Fixer",
+      "description": "A weary but capable veterinarian specializing in biological-mechanical hybrids.",
+      "role": "recurring",
+      "locations": [
+        "biome.hollow-markets"
+      ],
+      "archetype": "recurring",
+      "voice": "Hold still, either you're leaking coolant or blood, and I'm not sure which is worse.",
+      "loadout": [
+        "skin.vet-grease-stained",
+        "weapon.grease-wrench"
+      ],
+      "entity": {
+        "type": "bot",
+        "behavior": "provider",
+        "level": 12,
+        "maxLife": 150
+      },
+      "greeting": [
+        {
+          "text": "Need a tune-up or a bandage?",
+          "mood": "neutral"
+        }
+      ]
+    },
+    {
+      "id": "character.wheezing-skitter",
+      "name": "Wheezing Skitter",
+      "description": "A small, multi-legged rodent with a glowing, mutagenic belly and a chronic cough.",
+      "role": "representative",
+      "locations": [
+        "biome.hollow-markets"
+      ],
+      "archetype": "representative",
+      "loadout": [
+        "skin.skitter-fuzz"
+      ],
+      "entity": {
+        "type": "bot",
+        "behavior": "passive",
+        "level": 1,
+        "maxLife": 5
+      }
+    },
+    {
+      "id": "consumable.joint-grease",
+      "name": "Heavy-Duty Joint Grease",
+      "description": "A viscous, aromatic lubricant for squeaky joints and stiff organic muscles.",
+      "role": "consumable",
+      "artBrief": {
+        "silhouette": "tube",
+        "detail": "dented metal",
+        "distinctiveFeatures": [
+          "yellow label",
+          "messy nozzle"
+        ],
+        "paletteDirection": "bright yellow and dark grease"
+      },
+      "objectLayer": {
+        "itemType": "resource",
+        "activable": true,
+        "stats": {
+          "effect": 0,
+          "resistance": 0,
+          "agility": 0,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 0
+        }
+      }
+    },
+    {
+      "id": "effect.spin-control",
+      "name": "Spin Control",
+      "description": "A state of uncontrolled, dizzying rotation.",
+      "role": "effect",
+      "category": "control"
+    },
+    {
+      "id": "map.market-junction-alpha",
+      "name": "Junction 4-Beta",
+      "description": "A bustling intersection of sodium lights and heavy foot traffic, smelling faintly of ozone and unwashed mutants.",
+      "role": "A high-traffic transit zone for traders and commuters.",
+      "tags": [
+        "commercial",
+        "crowded"
+      ],
+      "locations": [
+        "region.asteroid-enclaves"
+      ],
+      "biome": "biome.hollow-markets",
+      "composition": [
+        {
+          "entity": "floor.market-grating",
+          "count": 1
+        },
+        {
+          "entity": "prop.lamp-stall",
+          "count": 5
+        },
+        {
+          "entity": "character.drift-merchant",
+          "count": 3
+        },
+        {
+          "entity": "character.drifter",
+          "count": 6
+        },
+        {
+          "entity": "character.harmony-speaker",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "map.varkas-clinic",
+      "name": "Varkas's Patchwork Clinic",
+      "description": "A cramped, grease-slicked stall where organic coughs and mechanical whirs blend into one loud, confusing symphony.",
+      "role": "The primary medical hub for biological-mechanical hybrids.",
+      "tags": [
+        "medical",
+        "chaotic"
+      ],
+      "locations": [
+        "region.asteroid-enclaves"
+      ],
+      "biome": "biome.hollow-markets",
+      "composition": [
+        {
+          "entity": "prop.clinic-kiosk",
+          "count": 1
+        },
+        {
+          "entity": "character.varkas-the-fixer",
+          "count": 1
+        },
+        {
+          "entity": "character.wheezing-skitter",
+          "count": 8
+        },
+        {
+          "entity": "character.clumsy-hauler",
+          "count": 2
+        },
+        {
+          "entity": "floor.market-grating",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "map.waste-conduit-lane",
+      "name": "The Sump Alley",
+      "description": "A darker, narrower passage used for managing mechanical scrap and heavy waste.",
+      "role": "A quiet-ish service area for maintenance and debris.",
+      "tags": [
+        "industrial",
+        "quiet"
+      ],
+      "locations": [
+        "region.asteroid-enclaves"
+      ],
+      "biome": "biome.hollow-markets",
+      "composition": [
+        {
+          "entity": "floor.market-grating",
+          "count": 1
+        },
+        {
+          "entity": "character.drifter",
+          "count": 4
+        },
+        {
+          "entity": "character.clumsy-hauler",
+          "count": 1
+        },
+        {
+          "entity": "character.vault-keeper",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "projectile.spin-loop",
+      "name": "Spin Loop",
+      "description": "A localized kinetic disruption that causes rapid, dizzying rotation.",
+      "role": "projectile",
+      "artBrief": {
+        "silhouette": "cyclone",
+        "detail": "blurred edges",
+        "distinctiveFeatures": [
+          "cyan streaks"
+        ],
+        "paletteDirection": "cyan"
+      },
+      "objectLayer": {
+        "itemType": "skill",
+        "activable": true,
+        "stats": {
+          "effect": 0,
+          "resistance": 0,
+          "agility": 0,
+          "range": 5,
+          "intelligence": 0,
+          "utility": 0
+        }
+      }
+    },
+    {
+      "id": "prop.clinic-kiosk",
+      "name": "Patchwork Clinic Kiosk",
+      "description": "A cramped, cluttered stall filled with half-repaired limbs and medicinal vials.",
+      "role": "prop",
+      "artBrief": {
+        "silhouette": "rectangular",
+        "detail": "crowded shelves",
+        "distinctiveFeatures": [
+          "hanging surgical tools",
+          "glowing diagnostic pads"
+        ],
+        "paletteDirection": "warm sodium and clinical cyan"
+      },
+      "objectLayer": {
+        "itemType": "static",
+        "activable": false,
+        "stats": {
+          "effect": 0,
+          "resistance": 0,
+          "agility": 0,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 0
+        }
+      }
+    },
+    {
+      "id": "quest.grease-emergency",
+      "name": "The Spinning Crisis",
+      "description": "A heavy-duty hauler has developed a dizzying rotation tic. We need grease to soothe its joints before it drills through the clinic floor!",
+      "role": "errand",
+      "provider": "character.varkas-the-fixer",
+      "steps": [
+        {
+          "id": "step.find-grease",
+          "description": "Locate and collect enough joint grease to calm the spinning droid.",
+          "objectives": [
+            {
+              "type": "collect",
+              "target": "consumable.joint-grease",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "item": "consumable.joint-grease",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "quest.skitter-scramble",
+      "name": "Grease-Induced Chaos",
+      "description": "The smell of that grease has summoned every wheezing skitter in the sector. They're chewing on the clinic's wiring!",
+      "role": "errand",
+      "provider": "character.varkas-the-fixer",
+      "prerequisites": [
+        "quest.grease-emergency"
+      ],
+      "steps": [
+        {
+          "id": "step.clear-skitters",
+          "description": "Clear the clinic of the skitters before they eat the upholstery.",
+          "objectives": [
+            {
+              "type": "kill",
+              "target": "character.wheezing-skitter",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "id": "step.report-back",
+          "description": "Let Varkas know the clinic is secure and skitter-free.",
+          "objectives": [
+            {
+              "type": "talk",
+              "target": "character.varkas-the-fixer"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "item": "weapon.grease-wrench",
+          "quantity": 1
+        }
+      ],
+      "talk": [
+        {
+          "text": "Grease-Induced Chaos: report received."
+        }
+      ]
+    },
+    {
+      "id": "skin.hauler-casing",
+      "name": "Hauler Casing",
+      "description": "A heavy, dented chassis of industrial-grade plating used by heavy lifting units.",
+      "role": "skin",
+      "artBrief": {
+        "silhouette": "bulky-rectangular",
+        "detail": "scuffed metal",
+        "distinctiveFeatures": [
+          "hydraulic pistons",
+          "heavy denting"
+        ],
+        "paletteDirection": "dull industrial orange"
+      },
+      "objectLayer": {
+        "itemType": "skin",
+        "activable": false,
+        "stats": {
+          "effect": 1,
+          "resistance": 10,
+          "agility": -5,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 0
+        }
+      }
+    },
+    {
+      "id": "skin.skitter-fuzz",
+      "name": "Skitter Fuzz",
+      "description": "A small, twitchy biological mass with unnaturally long limbs and vibrating fur.",
+      "role": "skin",
+      "artBrief": {
+        "silhouette": "blob-like",
+        "detail": "coarse fur",
+        "distinctiveFeatures": [
+          "glowing belly",
+          "twitching ears"
+        ],
+        "paletteDirection": "muddy brown and violet"
+      },
+      "objectLayer": {
+        "itemType": "skin",
+        "activable": false,
+        "stats": {
+          "effect": 1,
+          "resistance": 1,
+          "agility": 10,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 0
+        }
+      }
+    },
+    {
+      "id": "skin.vet-grease-stained",
+      "name": "Grease-Stained Vet",
+      "description": "A heavy-duty canvas apron over reinforced utility trousers, darkened by years of organic and synthetic fluids.",
+      "role": "skin",
+      "artBrief": {
+        "silhouette": "trapezoidal",
+        "detail": "heavy stitching",
+        "distinctiveFeatures": [
+          "multiple tool pockets",
+          "heavy oil stains"
+        ],
+        "paletteDirection": "earthy ochre and charcoal"
+      },
+      "objectLayer": {
+        "itemType": "skin",
+        "activable": false,
+        "stats": {
+          "effect": 1,
+          "resistance": 0,
+          "agility": 0,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 0
+        }
+      }
+    },
+    {
+      "id": "weapon.grease-wrench",
+      "name": "Heavy Grease Wrench",
+      "description": "A massive, oil-slicked tool used for both tightening bolts and impromptu medical procedures.",
+      "role": "weapon",
+      "artBrief": {
+        "silhouette": "L-shaped",
+        "detail": "notched metal",
+        "distinctiveFeatures": [
+          "grease buildup",
+          "clunky head"
+        ],
+        "paletteDirection": "metallic grey and black"
+      },
+      "objectLayer": {
+        "itemType": "weapon",
+        "activable": true,
+        "stats": {
+          "effect": 5,
+          "resistance": 0,
+          "agility": 0,
+          "range": 0,
+          "intelligence": 0,
+          "utility": 10
+        }
+      },
+      "materials": [
+        "material.scrap-alloy"
+      ],
+      "abilities": [
+        "ability.wrench-thwack"
+      ]
+    },
+    {
+      "id": "weapon.spin-module",
+      "name": "Spin Module",
+      "description": "A malfunctioning component that, when activated, forces everything nearby to rotate.",
+      "role": "weapon",
+      "artBrief": {
+        "silhouette": "sphere",
+        "detail": "spinning rings",
+        "distinctiveFeatures": [
+          "unstable cyan glow"
+        ],
+        "paletteDirection": "cyan"
+      },
+      "objectLayer": {
+        "itemType": "weapon",
+        "activable": true,
+        "stats": {
+          "effect": 5,
+          "resistance": 0,
+          "agility": 0,
+          "range": 5,
+          "intelligence": 0,
+          "utility": 10
+        }
+      },
+      "abilities": [
+        "projectile.spin-loop"
+      ]
+    }
+  ]
+}
