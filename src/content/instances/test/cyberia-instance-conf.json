@@ -1,6 +1,6 @@
 {
   "_id": "69ebf8d6c4913d7b6bdd6e43",
-  "instanceCode": "FOREST",
+  "instanceCode": "test",
   "tickRate": 60,
   "snapshotRate": 20,
   "aoiRadius": 20,
@@ -126,11 +126,7 @@
     "doppelgangerInitialLifeFraction": 1
   },
   "equipmentRules": {
-    "activeItemTypes": [
-      "skin",
-      "breastplate",
-      "weapon"
-    ],
+    "activeItemTypes": ["skin", "breastplate", "weapon"],
     "onePerType": true,
     "requireSkin": true
   },

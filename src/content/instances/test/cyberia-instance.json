@@ -1,69 +1,64 @@
 {
   "_id": "69e3bb06b2f10e9ee42975aa",
-  "code": "FOREST",
-  "name": "FOREST",
-  "description": "FOREST",
-  "tags": [
-    "FOREST"
-  ],
+  "code": "test",
+  "name": "test",
+  "description": "test",
+  "tags": ["test"],
   "creator": "66bcdbc25c813ef40a58073f",
   "status": "published",
   "thumbnail": "6aa32d4ae419e76dc1b6cd91",
-  "cyberiaMapCodes": [
-    "FOREST-A",
-    "FOREST-B"
-  ],
+  "cyberiaMapCodes": ["test-a", "test-b"],
   "portals": [
     {
-      "sourceMapCode": "FOREST-A",
+      "sourceMapCode": "test-a",
       "sourceCellX": 57,
       "sourceCellY": 3,
-      "targetMapCode": "FOREST-B",
+      "targetMapCode": "test-b",
       "targetCellX": 56,
       "targetCellY": 44,
       "portalMode": "inter-portal"
     },
     {
-      "sourceMapCode": "FOREST-B",
+      "sourceMapCode": "test-b",
       "sourceCellX": 21,
       "sourceCellY": 42,
-      "targetMapCode": "FOREST-A",
+      "targetMapCode": "test-a",
       "targetCellX": 25,
       "targetCellY": 30,
       "portalMode": "inter-portal"
     },
     {
-      "sourceMapCode": "FOREST-A",
+      "sourceMapCode": "test-a",
       "sourceCellX": 5,
       "sourceCellY": 57,
-      "targetMapCode": "FOREST-A",
+      "targetMapCode": "test-a",
       "targetCellX": 25,
       "targetCellY": 30,
       "portalMode": "intra-portal"
     },
     {
-      "sourceMapCode": "FOREST-A",
+      "sourceMapCode": "test-a",
       "sourceCellX": 25,
       "sourceCellY": 30,
-      "targetMapCode": "FOREST-B",
+      "targetMapCode": "test-b",
       "targetCellX": 11,
       "targetCellY": 8,
       "portalMode": "inter-portal"
     },
     {
-      "sourceMapCode": "FOREST-B",
+      "sourceMapCode": "test-b",
       "sourceCellX": 11,
       "sourceCellY": 8,
-      "targetMapCode": "FOREST-A",
+      "targetMapCode": "test-a",
       "targetCellX": -1,
       "targetCellY": -1,
       "portalMode": "inter-random"
     },
     {
-      "sourceMapCode": "FOREST-B",
+      "sourceMapCode": "test-b",
       "sourceCellX": 56,
       "sourceCellY": 44,
-      "targetMapCode": "FOREST-B",
+      "targetMapCode": "test-b",
       "targetCellX": 11,
       "targetCellY": 8,
       "portalMode": "intra-portal"

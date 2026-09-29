@@ -1,8 +1,8 @@
 {
   "_id": "69e8b3e95a356529293287a2",
-  "code": "FOREST-B",
-  "name": "FOREST-B",
-  "description": "FOREST-B",
+  "code": "test-b",
+  "name": "test-b",
+  "description": "test-b",
   "entities": [
     {
       "entityType": "floor",
@@ -11,9 +11,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -28,9 +26,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -45,9 +41,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -62,9 +56,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -79,9 +71,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -96,9 +86,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -113,9 +101,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -130,9 +116,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -147,9 +131,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -164,9 +146,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -181,9 +161,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -198,9 +176,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -215,9 +191,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -232,9 +206,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -249,9 +221,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -266,9 +236,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -283,9 +251,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -300,9 +266,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -317,9 +281,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -334,9 +296,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -351,9 +311,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -368,9 +326,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -385,9 +341,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -402,9 +356,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -419,9 +371,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -436,9 +386,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -453,9 +401,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -470,9 +416,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -487,9 +431,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -504,9 +446,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -521,9 +461,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -538,9 +476,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -555,9 +491,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -572,9 +506,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -589,9 +521,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -606,9 +536,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -623,9 +551,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -640,9 +566,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -657,9 +581,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -674,9 +596,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -691,9 +611,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -708,9 +626,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -725,9 +641,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -742,9 +656,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -759,9 +671,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -776,9 +686,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -793,9 +701,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -810,9 +716,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -827,9 +731,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -844,9 +746,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -861,9 +761,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -878,9 +776,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -895,9 +791,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -912,9 +806,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -929,9 +821,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -946,9 +836,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -963,9 +851,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -980,9 +866,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -997,9 +881,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1014,9 +896,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1031,9 +911,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1048,9 +926,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1065,9 +941,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1082,9 +956,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1099,9 +971,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1116,9 +986,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1133,9 +1001,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1150,9 +1016,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1167,9 +1031,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1184,9 +1046,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1201,9 +1061,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1218,9 +1076,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1235,9 +1091,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1252,9 +1106,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1269,9 +1121,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1286,9 +1136,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1303,9 +1151,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1320,9 +1166,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1337,9 +1181,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1354,9 +1196,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1371,9 +1211,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1388,9 +1226,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1405,9 +1241,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1422,9 +1256,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1439,9 +1271,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1456,9 +1286,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1473,9 +1301,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1490,9 +1316,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1507,9 +1331,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1524,9 +1346,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1541,9 +1361,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1558,9 +1376,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1575,9 +1391,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1592,9 +1406,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1609,9 +1421,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1626,9 +1436,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1643,9 +1451,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1660,9 +1466,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1677,9 +1481,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-0"
-      ],
+      "objectLayerItemIds": ["grass-0"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1694,9 +1496,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1711,9 +1511,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1728,9 +1526,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1745,9 +1541,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1762,9 +1556,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1779,9 +1571,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1796,9 +1586,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1813,9 +1601,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1830,9 +1616,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1847,9 +1631,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1864,9 +1646,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1881,9 +1661,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1898,9 +1676,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1915,9 +1691,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1932,9 +1706,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1949,9 +1721,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1966,9 +1736,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -1983,9 +1751,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2000,9 +1766,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2017,9 +1781,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2034,9 +1796,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2051,9 +1811,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2068,9 +1826,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2085,9 +1841,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2102,9 +1856,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2119,9 +1871,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2136,9 +1886,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2153,9 +1901,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2170,9 +1916,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2187,9 +1931,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2204,9 +1946,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2221,9 +1961,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2238,9 +1976,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2255,9 +1991,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2272,9 +2006,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2289,9 +2021,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2306,9 +2036,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2323,9 +2051,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2340,9 +2066,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2357,9 +2081,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2374,9 +2096,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-1"
-      ],
+      "objectLayerItemIds": ["grass-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2391,9 +2111,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-3"
-      ],
+      "objectLayerItemIds": ["grass-3"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2408,9 +2126,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-3"
-      ],
+      "objectLayerItemIds": ["grass-3"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2425,9 +2141,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-3"
-      ],
+      "objectLayerItemIds": ["grass-3"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2442,9 +2156,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-3"
-      ],
+      "objectLayerItemIds": ["grass-3"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2459,9 +2171,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-3"
-      ],
+      "objectLayerItemIds": ["grass-3"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2476,9 +2186,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-3"
-      ],
+      "objectLayerItemIds": ["grass-3"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2493,9 +2201,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-3"
-      ],
+      "objectLayerItemIds": ["grass-3"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2510,9 +2216,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-3"
-      ],
+      "objectLayerItemIds": ["grass-3"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2527,9 +2231,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-3"
-      ],
+      "objectLayerItemIds": ["grass-3"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2544,9 +2246,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-3"
-      ],
+      "objectLayerItemIds": ["grass-3"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2561,9 +2261,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-3"
-      ],
+      "objectLayerItemIds": ["grass-3"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2578,9 +2276,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2595,9 +2291,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2612,9 +2306,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2629,9 +2321,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2646,9 +2336,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2663,9 +2351,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2680,9 +2366,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2697,9 +2381,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2714,9 +2396,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2731,9 +2411,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2748,9 +2426,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2765,9 +2441,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2782,9 +2456,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2799,9 +2471,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2816,9 +2486,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2833,9 +2501,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2850,9 +2516,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2867,9 +2531,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(38, 162, 105, 1)",
-      "objectLayerItemIds": [
-        "grass-4"
-      ],
+      "objectLayerItemIds": ["grass-4"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2884,9 +2546,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2901,9 +2561,7 @@
       "dimX": 6,
       "dimY": 6,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2918,9 +2576,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2935,9 +2591,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2952,9 +2606,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2969,9 +2621,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -2986,9 +2636,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3003,9 +2651,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3020,9 +2666,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3037,9 +2681,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3054,9 +2696,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3071,9 +2711,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3088,9 +2726,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3105,9 +2741,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3122,9 +2756,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3139,9 +2771,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3156,9 +2786,7 @@
       "dimX": 6,
       "dimY": 6,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3173,9 +2801,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-1"
-      ],
+      "objectLayerItemIds": ["wood-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3190,9 +2816,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple"
-      ],
+      "objectLayerItemIds": ["purple"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3207,10 +2831,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple",
-        "atlas_pistol_mk2"
-      ],
+      "objectLayerItemIds": ["purple", "atlas_pistol_mk2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3225,9 +2846,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple"
-      ],
+      "objectLayerItemIds": ["purple"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3242,10 +2861,7 @@
       "dimX": 1,
       "dimY": 1,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple",
-        "atlas_pistol_mk2"
-      ],
+      "objectLayerItemIds": ["purple", "atlas_pistol_mk2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3260,10 +2876,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple",
-        "atlas_pistol_mk2"
-      ],
+      "objectLayerItemIds": ["purple", "atlas_pistol_mk2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3278,9 +2891,7 @@
       "dimX": 1,
       "dimY": 1,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple"
-      ],
+      "objectLayerItemIds": ["purple"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3295,9 +2906,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple"
-      ],
+      "objectLayerItemIds": ["purple"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3312,9 +2921,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple"
-      ],
+      "objectLayerItemIds": ["purple"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3329,10 +2936,7 @@
       "dimX": 1,
       "dimY": 1,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple",
-        "atlas_pistol_mk2"
-      ],
+      "objectLayerItemIds": ["purple", "atlas_pistol_mk2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3347,9 +2951,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple"
-      ],
+      "objectLayerItemIds": ["purple"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3364,10 +2966,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple",
-        "atlas_pistol_mk2"
-      ],
+      "objectLayerItemIds": ["purple", "atlas_pistol_mk2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3382,9 +2981,7 @@
       "dimX": 1,
       "dimY": 1,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple"
-      ],
+      "objectLayerItemIds": ["purple"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3399,10 +2996,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple",
-        "atlas_pistol_mk2"
-      ],
+      "objectLayerItemIds": ["purple", "atlas_pistol_mk2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3417,10 +3011,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple",
-        "atlas_pistol_mk2"
-      ],
+      "objectLayerItemIds": ["purple", "atlas_pistol_mk2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3435,9 +3026,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple"
-      ],
+      "objectLayerItemIds": ["purple"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3452,9 +3041,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple"
-      ],
+      "objectLayerItemIds": ["purple"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3469,9 +3056,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(158, 0, 137, 1)",
-      "objectLayerItemIds": [
-        "purple"
-      ],
+      "objectLayerItemIds": ["purple"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3486,9 +3071,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3503,9 +3086,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3520,9 +3101,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3537,9 +3116,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3554,9 +3131,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3571,9 +3146,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3588,9 +3161,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3605,9 +3176,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3622,9 +3191,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3639,9 +3206,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3656,9 +3221,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3673,9 +3236,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3690,9 +3251,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3707,9 +3266,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3724,9 +3281,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3741,9 +3296,7 @@
       "dimX": 6,
       "dimY": 6,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3758,9 +3311,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3775,9 +3326,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3792,9 +3341,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3809,9 +3356,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3826,9 +3371,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3843,9 +3386,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3860,9 +3401,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3877,9 +3416,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3894,9 +3431,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3911,9 +3446,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3928,9 +3461,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3945,9 +3476,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3962,9 +3491,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3979,9 +3506,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -3996,9 +3521,7 @@
       "dimX": 6,
       "dimY": 6,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4013,9 +3536,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4030,9 +3551,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4047,9 +3566,7 @@
       "dimX": 6,
       "dimY": 6,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-1"
-      ],
+      "objectLayerItemIds": ["stone-1"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4064,9 +3581,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4081,9 +3596,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4098,9 +3611,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(0, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "stone-2"
-      ],
+      "objectLayerItemIds": ["stone-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4115,9 +3626,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(255, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "ssatellite"
-      ],
+      "objectLayerItemIds": ["ssatellite"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4132,9 +3641,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(255, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "ssatellite"
-      ],
+      "objectLayerItemIds": ["ssatellite"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4149,9 +3656,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(255, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "ssatellite"
-      ],
+      "objectLayerItemIds": ["ssatellite"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4166,9 +3671,7 @@
       "dimX": 8,
       "dimY": 8,
       "color": "rgba(255, 0, 0, 1)",
-      "objectLayerItemIds": [
-        "ssatellite"
-      ],
+      "objectLayerItemIds": ["ssatellite"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4183,9 +3686,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(186, 0, 199, 1)",
-      "objectLayerItemIds": [
-        "portal"
-      ],
+      "objectLayerItemIds": ["portal"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4200,9 +3701,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(186, 0, 199, 1)",
-      "objectLayerItemIds": [
-        "portal"
-      ],
+      "objectLayerItemIds": ["portal"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4217,9 +3716,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(186, 0, 199, 1)",
-      "objectLayerItemIds": [
-        "portal"
-      ],
+      "objectLayerItemIds": ["portal"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4234,9 +3731,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4251,9 +3746,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4268,9 +3761,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4285,9 +3776,7 @@
       "dimX": 6,
       "dimY": 6,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4302,9 +3791,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4319,9 +3806,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4336,9 +3821,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4353,9 +3836,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4370,9 +3851,7 @@
       "dimX": 6,
       "dimY": 6,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4387,9 +3866,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4404,9 +3881,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4421,9 +3896,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4438,9 +3911,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4455,9 +3926,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4472,9 +3941,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4489,9 +3956,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4506,9 +3971,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4523,9 +3986,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4540,9 +4001,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4557,9 +4016,7 @@
       "dimX": 3,
       "dimY": 3,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4574,9 +4031,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4591,9 +4046,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4608,9 +4061,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4625,9 +4076,7 @@
       "dimX": 5,
       "dimY": 5,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4642,9 +4091,7 @@
       "dimX": 2,
       "dimY": 2,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4659,9 +4106,7 @@
       "dimX": 4,
       "dimY": 4,
       "color": "rgba(154, 4, 4, 1)",
-      "objectLayerItemIds": [
-        "wood-2"
-      ],
+      "objectLayerItemIds": ["wood-2"],
       "portalSubtype": "",
       "spawnRadius": 0,
       "aggroRange": 0,
@@ -4670,9 +4115,7 @@
       "_id": "6a9ebf18dbd096a8f6f7cc21"
     }
   ],
-  "tags": [
-    "FOREST-B"
-  ],
+  "tags": ["test-b"],
   "creator": "66bcdbc25c813ef40a58073f",
   "status": "published",
   "thumbnail": "6a9ebf17dbd096a8f6f7c9fc",
