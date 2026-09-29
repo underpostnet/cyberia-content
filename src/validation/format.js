@@ -6,6 +6,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { IGNORED_SAGAS } from '../config.js';
 
 export const canonicalJson = (value) => JSON.stringify(value, null, 2) + '\n';
 
@@ -21,6 +22,12 @@ export const filesUnder = (root) =>
     .map((entry) => path.relative(root, path.join(entry.parentPath, entry.name)).split(path.sep).join('/'))
     .sort();
 
+/** The content JSON files under a content directory, without the package of an ignored saga. */
+const contentFiles = (root) =>
+  filesUnder(root).filter(
+    (file) => file.endsWith('.json') && !IGNORED_SAGAS.has(/^sagas\/([^/]+)\.json$/.exec(file)?.[1]),
+  );
+
 /**
  * One finding per content JSON file that does not parse or is not in canonical form.
  * @param {string} root - Content directory.
@@ -28,7 +35,7 @@ export const filesUnder = (root) =>
  */
 export function formatFindings(root) {
   const findings = [];
-  for (const file of filesUnder(root).filter((name) => name.endsWith('.json'))) {
+  for (const file of contentFiles(root)) {
     const text = fs.readFileSync(path.join(root, file), 'utf8');
     try {
       if (canonicalJson(JSON.parse(text)) !== text)
@@ -48,7 +55,7 @@ export function formatFindings(root) {
  */
 export function formatContent(root) {
   const rewritten = [];
-  for (const file of filesUnder(root).filter((name) => name.endsWith('.json'))) {
+  for (const file of contentFiles(root)) {
     const target = path.join(root, file);
     const text = fs.readFileSync(target, 'utf8');
     const canonical = canonicalJson(JSON.parse(text));

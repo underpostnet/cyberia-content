@@ -5,6 +5,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { IGNORED_SAGAS } from '../config.js';
 import { CONTENT_ROOT, createRegistry, foundationFindings, readFoundation } from '../foundation.js';
 import { validatePackage } from '../generator/package.js';
 import { formatFindings } from './format.js';
@@ -37,7 +38,7 @@ export function readContent(root = CONTENT_ROOT) {
   const registry = createRegistry(source);
 
   const sagas = new Map();
-  for (const code of entriesOf(root, 'sagas', false)) {
+  for (const code of entriesOf(root, 'sagas', false).filter((code) => !IGNORED_SAGAS.has(code))) {
     const pkg = readJson(path.join(root, 'sagas', `${code}.json`));
     if (pkg.saga?.code !== code) findings.push({ id: `sagas/${code}.json`, message: `saga.code must be ${code}` });
     for (const { id, message } of validatePackage(pkg, registry))

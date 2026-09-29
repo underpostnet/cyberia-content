@@ -42,6 +42,16 @@ node bin/cyberia-content.js <command>
 
 `--env-file <path>` reads the environment from a file. `./.env` is read when it exists.
 
+## Configuration
+
+`cyberia-content.config.js` configures this checkout. Every command and test reads it.
+
+| Field         | Holds                                                                                  |
+| ------------- | -------------------------------------------------------------------------------------- |
+| `ignoreSagas` | Saga codes every process skips, as if their package does not exist. `dist/` omits them |
+
+Remove a saga code from `ignoreSagas` when its package is valid.
+
 ## The foundation
 
 The foundation defines what exists and how it functions. Studio adds only how it looks (render)
