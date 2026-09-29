@@ -1,0 +1,107 @@
+{
+  "_id": "6a8fd0a22ccebd1c7e97d2c7",
+  "sourceMapCode": "fallback-map-0",
+  "sourceCellX": 15,
+  "sourceCellY": 16,
+  "code": "fallback-loc-fallback-map-0-15-16",
+  "label": "Eiri",
+  "dialogCode": "default-eiri",
+  "questDialogueCodes": [],
+  "shopItems": [],
+  "craftRecipes": [
+    {
+      "outputItems": [
+        {
+          "itemId": "hatchet",
+          "objectLayerCid": "bafkreihx43arogbdype2wqjbfqkcl4odjbzrkvuebkmm2rdmlao32rsbfu",
+          "qty": 1,
+          "_id": "6a8fd26901edebf032f93c42"
+        }
+      ],
+      "ingredients": [
+        {
+          "itemId": "wood-drop-1",
+          "objectLayerCid": "bafkreichd64rpvuube75uciu3rg6co7yoisuvkg5ynavhb2abyb2dewcqu",
+          "qty": 2,
+          "_id": "6a8fd26901edebf032f93c43"
+        },
+        {
+          "itemId": "coin",
+          "objectLayerCid": "bafkreidaf7725lujzvbrvdiryqkkcikqwy2ribtuooijouupsz3akwbj2a",
+          "qty": 5,
+          "_id": "6a8fd26901edebf032f93c44"
+        }
+      ],
+      "craftTimeMs": 3000,
+      "_id": "6a8fd26901edebf032f93c41"
+    },
+    {
+      "outputItems": [
+        {
+          "itemId": "tim-knife",
+          "objectLayerCid": "bafkreiabqt3y3onkltm7osgfbyifzu2cau46ihb4z3m2chefwbkfjnid6u",
+          "qty": 1,
+          "_id": "6a8fd26901edebf032f93c46"
+        }
+      ],
+      "ingredients": [
+        {
+          "itemId": "wood-drop-2",
+          "objectLayerCid": "bafkreihpvjhxr7opvmxsge7fxbkhnpwdpx5tbzg3qcz4hdhioufwitluve",
+          "qty": 1,
+          "_id": "6a8fd26901edebf032f93c47"
+        },
+        {
+          "itemId": "wood-drop-1",
+          "objectLayerCid": "bafkreichd64rpvuube75uciu3rg6co7yoisuvkg5ynavhb2abyb2dewcqu",
+          "qty": 1,
+          "_id": "6a8fd26901edebf032f93c48"
+        },
+        {
+          "itemId": "coin",
+          "objectLayerCid": "bafkreidaf7725lujzvbrvdiryqkkcikqwy2ribtuooijouupsz3akwbj2a",
+          "qty": 10,
+          "_id": "6a8fd26901edebf032f93c49"
+        }
+      ],
+      "craftTimeMs": 5000,
+      "_id": "6a8fd26901edebf032f93c45"
+    },
+    {
+      "outputItems": [
+        {
+          "itemId": "wood-drop-1",
+          "objectLayerCid": "bafkreichd64rpvuube75uciu3rg6co7yoisuvkg5ynavhb2abyb2dewcqu",
+          "qty": 2,
+          "_id": "6a8fd26901edebf032f93c4b"
+        },
+        {
+          "itemId": "wood-drop-2",
+          "objectLayerCid": "bafkreihpvjhxr7opvmxsge7fxbkhnpwdpx5tbzg3qcz4hdhioufwitluve",
+          "qty": 1,
+          "_id": "6a8fd26901edebf032f93c4c"
+        },
+        {
+          "itemId": "coin",
+          "objectLayerCid": "bafkreidaf7725lujzvbrvdiryqkkcikqwy2ribtuooijouupsz3akwbj2a",
+          "qty": 5,
+          "_id": "6a8fd26901edebf032f93c4d"
+        }
+      ],
+      "ingredients": [
+        {
+          "itemId": "tim-knife",
+          "objectLayerCid": "bafkreiabqt3y3onkltm7osgfbyifzu2cau46ihb4z3m2chefwbkfjnid6u",
+          "qty": 1,
+          "_id": "6a8fd26901edebf032f93c4e"
+        }
+      ],
+      "craftTimeMs": 2000,
+      "_id": "6a8fd26901edebf032f93c4a"
+    }
+  ],
+  "storageSlots": 0,
+  "createdAt": "2026-08-27T05:52:34.345Z",
+  "updatedAt": "2026-08-27T05:52:34.345Z",
+  "__v": 0
+}

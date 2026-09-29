@@ -1,0 +1,22 @@
+{
+  "_id": "6a8fd0a22ccebd1c7e97d2c4",
+  "sourceMapCode": "fallback-map-0",
+  "sourceCellX": 18,
+  "sourceCellY": 10,
+  "code": "fallback-loc-fallback-map-0-18-10",
+  "label": "Alex",
+  "dialogCode": "default-alex",
+  "questDialogueCodes": [
+    {
+      "questCode": "fallback-fallback-intro-quest",
+      "dialogCode": "quest-talk-alex",
+      "_id": "6a8fd26801edebf032f93c3b"
+    }
+  ],
+  "shopItems": [],
+  "craftRecipes": [],
+  "storageSlots": 0,
+  "createdAt": "2026-08-27T05:52:34.336Z",
+  "updatedAt": "2026-08-27T05:52:34.336Z",
+  "__v": 0
+}

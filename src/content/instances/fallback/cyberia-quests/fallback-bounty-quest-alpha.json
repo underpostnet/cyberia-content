@@ -1,0 +1,66 @@
+{
+  "_id": "6a8fd0a22ccebd1c7e97d2cc",
+  "sourceMapCode": "fallback-map-0",
+  "sourceCellX": 12,
+  "sourceCellY": 16,
+  "code": "fallback-bounty-quest-alpha",
+  "title": "Alpha Bounty",
+  "description": "A field test: eliminate a threat, claim your reward, then report back.",
+  "prerequisiteCodes": ["fallback-fallback-intro-quest"],
+  "unlocksQuestCodes": [],
+  "steps": [
+    {
+      "id": "step-kill-first",
+      "description": "Eliminate the Kishins threat.",
+      "objectives": [
+        {
+          "type": "kill",
+          "itemId": "kishins",
+          "objectLayerCid": "bafkreidq6p3vtgid7qvto5fnqm2udn5typquf5aeoltqdbqonmz2cq3q5e",
+          "quantity": 1,
+          "_id": "6a8fd26901edebf032f93c7d"
+        }
+      ],
+      "_id": "6a8fd26901edebf032f93c7c"
+    },
+    {
+      "id": "step-collect-reward",
+      "description": "Collect the bounty coin drop.",
+      "objectives": [
+        {
+          "type": "collect",
+          "itemId": "coin",
+          "objectLayerCid": "bafkreidaf7725lujzvbrvdiryqkkcikqwy2ribtuooijouupsz3akwbj2a",
+          "quantity": 10,
+          "_id": "6a8fd26901edebf032f93c7f"
+        }
+      ],
+      "_id": "6a8fd26901edebf032f93c7e"
+    },
+    {
+      "id": "step-report-wason",
+      "description": "Report back to Wason.",
+      "objectives": [
+        {
+          "type": "talk",
+          "itemId": "wason",
+          "objectLayerCid": "bafkreictf7rwsdtzr3ytdpyjmsxndjkei7dyyfq2iedhr47xuykfxsxcca",
+          "quantity": 1,
+          "_id": "6a8fd26901edebf032f93c81"
+        }
+      ],
+      "_id": "6a8fd26901edebf032f93c80"
+    }
+  ],
+  "rewards": [
+    {
+      "itemId": "hatchet",
+      "objectLayerCid": "bafkreihx43arogbdype2wqjbfqkcl4odjbzrkvuebkmm2rdmlao32rsbfu",
+      "quantity": 1,
+      "_id": "6a8fd26901edebf032f93c7b"
+    }
+  ],
+  "createdAt": "2026-08-27T05:52:34.362Z",
+  "updatedAt": "2026-08-27T05:52:34.362Z",
+  "__v": 0
+}

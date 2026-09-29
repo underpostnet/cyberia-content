@@ -1,0 +1,38 @@
+{
+  "_id": "6a8fd0a22ccebd1c7e97d2cf",
+  "sourceMapCode": "fallback-map-0",
+  "sourceCellX": 15,
+  "sourceCellY": 22,
+  "code": "fallback-lain-demo-pest-control",
+  "title": "Pest Control",
+  "description": "Kishins keep raiding the perimeter. Thin them out.",
+  "prerequisiteCodes": [],
+  "unlocksQuestCodes": [],
+  "steps": [
+    {
+      "id": "step-kill-kishins",
+      "description": "Defeat 3 Kishins.",
+      "objectives": [
+        {
+          "type": "kill",
+          "itemId": "kishins",
+          "objectLayerCid": "bafkreidq6p3vtgid7qvto5fnqm2udn5typquf5aeoltqdbqonmz2cq3q5e",
+          "quantity": 3,
+          "_id": "6a8fd26901edebf032f93c9b"
+        }
+      ],
+      "_id": "6a8fd26901edebf032f93c9a"
+    }
+  ],
+  "rewards": [
+    {
+      "itemId": "coin",
+      "objectLayerCid": "bafkreidaf7725lujzvbrvdiryqkkcikqwy2ribtuooijouupsz3akwbj2a",
+      "quantity": 20,
+      "_id": "6a8fd26901edebf032f93c99"
+    }
+  ],
+  "createdAt": "2026-08-27T05:52:34.369Z",
+  "updatedAt": "2026-08-27T05:52:34.369Z",
+  "__v": 0
+}
