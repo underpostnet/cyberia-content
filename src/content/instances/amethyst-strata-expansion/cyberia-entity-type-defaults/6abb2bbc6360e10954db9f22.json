@@ -1,0 +1,15 @@
+{
+  "_id": "6abb2bbc6360e10954db9f22",
+  "entityType": "floor",
+  "liveItemIds": [
+    "frontier-grass"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-29T03:08:44.982Z",
+  "updatedAt": "2026-09-29T03:08:44.982Z",
+  "__v": 0
+}

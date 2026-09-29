@@ -1,0 +1,15 @@
+{
+  "_id": "6abb2bbc6360e10954db9f21",
+  "entityType": "portal",
+  "liveItemIds": [
+    "violet-gate"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-29T03:08:44.980Z",
+  "updatedAt": "2026-09-29T03:08:44.980Z",
+  "__v": 0
+}

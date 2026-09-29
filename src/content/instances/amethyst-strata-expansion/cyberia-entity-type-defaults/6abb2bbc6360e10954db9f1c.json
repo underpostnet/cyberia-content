@@ -1,0 +1,17 @@
+{
+  "_id": "6abb2bbc6360e10954db9f1c",
+  "entityType": "bot",
+  "liveItemIds": [
+    "thon-zheng"
+  ],
+  "deadItemIds": [
+    "fragmentation"
+  ],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "provider-static",
+  "createdAt": "2026-09-29T03:08:44.968Z",
+  "updatedAt": "2026-09-29T03:08:44.968Z",
+  "__v": 0
+}

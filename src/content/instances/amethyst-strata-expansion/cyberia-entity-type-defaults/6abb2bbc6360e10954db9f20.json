@@ -1,0 +1,15 @@
+{
+  "_id": "6abb2bbc6360e10954db9f20",
+  "entityType": "static",
+  "liveItemIds": [
+    "veinwood"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-29T03:08:44.978Z",
+  "updatedAt": "2026-09-29T03:08:44.978Z",
+  "__v": 0
+}

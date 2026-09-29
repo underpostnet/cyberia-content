@@ -1,0 +1,35 @@
+{
+  "_id": "6abbc5382fcc28a84c0ec1c3",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "breach-gate",
+      "type": "portal",
+      "description": "A standing swirl of violet light where the layers overlap enough to cross.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreiejwchwoeaxzblwqvnm6urqccc7mxpqnb5art374xw7ctn4o2yfxe",
+      "metadataCid": "bafkreidocjpojuvcnmc7znqzjmyuv7ggtqqs5fma3e2yggorodkkgcy7pi"
+    }
+  },
+  "cid": "bafkreifv5gfxfwu2mi7m2nqfkgecpp6zusktoakqpe3tamqkkx44gy5ttq",
+  "contentHash": "b5e98b72da9a623ecd3605518827bfd9a495370150793730320a55f9c363b39c",
+  "createdBy": "6abb06a3b40fbce41a64242d",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T14:03:36.427Z",
+  "updatedAt": "2026-09-29T14:03:36.469Z",
+  "__v": 0
+}

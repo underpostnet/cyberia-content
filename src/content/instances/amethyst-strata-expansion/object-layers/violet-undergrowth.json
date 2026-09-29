@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb9671f93f052a3a2fd54",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "violet-undergrowth",
+      "type": "floor",
+      "description": "Dark, damp undergrowth of the Violet Strata, green on top and violet at the roots.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreibbv57r7p4dgg25hnke67jlgcuucfoisuovjb5t4phiqt6ntv3ai4",
+  "contentHash": "21af7f1fbf8331b5d3b544f7d2b30a94115c8951d5487b3e3ce884fcd9d76047",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:11.772Z",
+  "updatedAt": "2026-09-29T13:13:11.850Z",
+  "__v": 0
+}

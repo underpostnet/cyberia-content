@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb96b1f93f052a3a2fd68",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "goldcrown",
+      "type": "resource",
+      "description": "A colony timber tree whose crown turns gold in the cold season.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreic6kjrtinuy7mtaoblgyup3nbdcl4hyczkbl7hkj44a6onwm7ueqm",
+  "contentHash": "5e5263343698fb26070566c51fb684625f0f8165415fcea4f380f39b667e8483",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:15.570Z",
+  "updatedAt": "2026-09-29T13:13:15.686Z",
+  "__v": 0
+}

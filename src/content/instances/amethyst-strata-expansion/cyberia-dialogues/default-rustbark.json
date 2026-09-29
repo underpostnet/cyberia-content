@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abbb9731f93f052a3a2fe05",
+    "code": "default-rustbark",
+    "order": 0,
+    "speaker": "Rustbark Tree",
+    "text": "A colony timber tree with a lime-green crown and rust-brown bark.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T13:13:23.542Z",
+    "updatedAt": "2026-09-29T13:13:23.542Z"
+  }
+]

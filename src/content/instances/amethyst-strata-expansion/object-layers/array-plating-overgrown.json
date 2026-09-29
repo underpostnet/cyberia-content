@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb9661f93f052a3a2fd46",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "array-plating-overgrown",
+      "type": "floor",
+      "description": "Array plating half covered by growth.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreienjez6rhsl47dyhzfvzxjrl3ffjeidsv6kgtm6bv6axbiixemjyu",
+  "contentHash": "8d4933e89e4be7c783e4b5cdd315eca549103957ca34d9e0d7c0b8508b9189c5",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:10.808Z",
+  "updatedAt": "2026-09-29T13:13:10.847Z",
+  "__v": 0
+}

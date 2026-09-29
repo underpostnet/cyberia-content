@@ -1,0 +1,62 @@
+{
+  "_id": "6abbba860b4a987e2f20db7f",
+  "objectLayerCid": "bafkreigohkyac7hhv2sdfyxit3wmijvahqcttxsqgecvokyqw4gi554f5m",
+  "__v": 0,
+  "createdAt": "2026-09-29T13:17:58.456Z",
+  "fileId": "78e9c04766fe084304407ffa",
+  "idlePreviewFileId": "2634688863b6b774dc6d5e6e",
+  "metadata": {
+    "itemKey": "frontier-grass",
+    "atlasWidth": 32,
+    "atlasHeight": 32,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 500,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 0,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-09-29T13:17:58.456Z",
+  "upscaleFileId": "187d4942a408e658c013481a"
+}

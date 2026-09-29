@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb96e1f93f052a3a2fd7c",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "goldcrown-log",
+      "type": "resource",
+      "description": "A cut log of goldcrown timber, darker and denser than rustbark.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreidu7a4lcbrkanhljknlxrbkvcis6ujufakfinpfjugtxzmqwzdahi",
+  "contentHash": "74f838b1062a034eb4a9abbc42aa8912f513428145435e54d0d3be590b64603a",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:18.873Z",
+  "updatedAt": "2026-09-29T13:13:18.968Z",
+  "__v": 0
+}

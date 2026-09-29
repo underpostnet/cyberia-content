@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abbb9731f93f052a3a2fe25",
+    "code": "default-drifter",
+    "order": 0,
+    "speaker": "Drifter",
+    "text": "A wanderer in a magenta coat, one of the countless drifters of the frontier.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T13:13:23.624Z",
+    "updatedAt": "2026-09-29T13:13:23.624Z"
+  }
+]

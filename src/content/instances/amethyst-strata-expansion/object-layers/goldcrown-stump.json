@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb96b1f93f052a3a2fd67",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "goldcrown-stump",
+      "type": "resource",
+      "description": "What is left of a goldcrown tree after it is cut.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreidmq3l5jrjmd2obwdczhgiowe6poztvm6jm64p5kf3n5ssqqgtrai",
+  "contentHash": "6c86d7d4c52c1e9c1b0c593990eb13cf766756792cf71fd5176deca5081a7102",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:15.476Z",
+  "updatedAt": "2026-09-29T13:13:15.561Z",
+  "__v": 0
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb96e1f93f052a3a2fd7d",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "rustbark-log",
+      "type": "resource",
+      "description": "A cut log of rustbark timber.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreicbvqaloxqwgibg33a4ysnflwaaijxpb5ctnojtmdnvccdfmfr274",
+  "contentHash": "41ac00b75e1632026dec1cc49a55d800426ef0f4536b93360db5108656163aff",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:18.980Z",
+  "updatedAt": "2026-09-29T13:13:19.059Z",
+  "__v": 0
+}

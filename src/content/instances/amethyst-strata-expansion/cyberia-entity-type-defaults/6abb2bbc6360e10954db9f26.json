@@ -1,0 +1,27 @@
+{
+  "_id": "6abb2bbc6360e10954db9f26",
+  "entityType": "bot",
+  "liveItemIds": [
+    "drifter"
+  ],
+  "deadItemIds": [
+    "fragmentation"
+  ],
+  "dropItemIds": [
+    "coin"
+  ],
+  "inventoryItemsIds": [
+    "coin"
+  ],
+  "overrideItemsIdsState": [
+    {
+      "itemId": "coin",
+      "quantity": 2,
+      "dropChance": 0.5
+    }
+  ],
+  "behavior": "passive",
+  "createdAt": "2026-09-29T03:08:44.993Z",
+  "updatedAt": "2026-09-29T03:08:44.993Z",
+  "__v": 0
+}

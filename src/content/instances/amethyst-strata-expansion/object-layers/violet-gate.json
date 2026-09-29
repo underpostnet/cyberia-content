@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb9671f93f052a3a2fd56",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "violet-gate",
+      "type": "portal",
+      "description": "A crossing hidden in the undergrowth of the Violet Strata, marked by a ring of darker growth.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreia2h2ag3jlffdkrgvd7y2sttda65dyhlcg2ogin7en65ovfdn4vre",
+  "contentHash": "1a3e806da56528d513547fc6a5398c1ee8f07588da7190df91beebaa51b79589",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:11.968Z",
+  "updatedAt": "2026-09-29T13:13:12.255Z",
+  "__v": 0
+}

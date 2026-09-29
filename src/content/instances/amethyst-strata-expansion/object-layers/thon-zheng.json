@@ -1,0 +1,35 @@
+{
+  "_id": "6abb2bbc6360e10954db9f1a",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "thon-zheng",
+      "type": "skin",
+      "description": "Kaelen Thon-Zheng, a border-watch fabricator who barters reclaimed bark-composite gear for salvage.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 5,
+      "agility": 4,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreifpa7kde5hk3csntn56v4og5bikmvv2bupbz5mhvhrw6x4rnrmcty",
+  "contentHash": "af07d43274ead8a4d9b7beaf1c6e850a656ba0d1e1cf587a9e36f5f916c5829e",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T03:08:44.872Z",
+  "updatedAt": "2026-09-29T03:08:44.914Z",
+  "__v": 0
+}

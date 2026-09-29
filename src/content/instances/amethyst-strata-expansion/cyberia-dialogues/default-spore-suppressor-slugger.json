@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abb2bbd6360e10954db9f41",
+    "code": "default-spore-suppressor-slugger",
+    "order": 0,
+    "speaker": "Spore Suppressor Slugger",
+    "text": "A pneumatic tool designed to drive off aggressive, mutagen-heavy vegetation with high-pressure bursts.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T03:08:45.058Z",
+    "updatedAt": "2026-09-29T03:08:45.058Z"
+  }
+]

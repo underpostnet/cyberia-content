@@ -1,0 +1,35 @@
+{
+  "_id": "6abbba861a6d106ef2f8465e",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "frontier-grass",
+      "type": "floor",
+      "description": "Bright colony grass that covers the open ground around frontier outposts.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreifornkch3tzw37ikckg5aranzcprtbfrgg5nou2ypjlmfijy3tlmy",
+      "metadataCid": "bafkreic7gjvsclllsjdlge7y6s425ukai3jmcqzlc4mtwk24s7t33orp4e"
+    }
+  },
+  "cid": "bafkreigohkyac7hhv2sdfyxit3wmijvahqcttxsqgecvokyqw4gi554f5m",
+  "contentHash": "ce3ab0017ce7aea432e2e89eecc426a03c0539de503105572b10b70c8ef785eb",
+  "createdBy": "6abb06a3b40fbce41a64242d",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:17:58.394Z",
+  "updatedAt": "2026-09-29T13:17:58.438Z",
+  "__v": 0
+}

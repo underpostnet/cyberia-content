@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abb2bbd6360e10954db9f3a",
+    "code": "default-biometric-masking-array",
+    "order": 0,
+    "speaker": "Biometric Masking Array",
+    "text": "A tactical adjustment that mimics the biological signature of the local violet-flora.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T03:08:45.035Z",
+    "updatedAt": "2026-09-29T03:08:45.035Z"
+  }
+]

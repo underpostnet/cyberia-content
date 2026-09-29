@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb96c1f93f052a3a2fd6b",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "veinwood",
+      "type": "static",
+      "description": "A green-crowned tree of the Violet Strata whose bark and fruit carry violet sap.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreiboncwliaowfrus6nvk7p6xk3r5qhpk4hgjfgd23ad5ov3epbhly4",
+  "contentHash": "2e68acb401d62c692f36aafbfd756e3d81deae1cc92987ad807d75764784ebc7",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:16.157Z",
+  "updatedAt": "2026-09-29T13:13:16.355Z",
+  "__v": 0
+}

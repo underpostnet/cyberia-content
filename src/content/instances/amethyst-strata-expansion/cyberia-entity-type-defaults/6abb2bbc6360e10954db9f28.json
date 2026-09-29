@@ -1,0 +1,15 @@
+{
+  "_id": "6abb2bbc6360e10954db9f28",
+  "entityType": "floor",
+  "liveItemIds": [
+    "array-plating-mossed"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-29T03:08:44.998Z",
+  "updatedAt": "2026-09-29T03:08:44.998Z",
+  "__v": 0
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "6abb2bbd6360e10954db9f29",
+  "entityType": "floor",
+  "liveItemIds": [
+    "array-plating-overgrown"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-29T03:08:45.000Z",
+  "updatedAt": "2026-09-29T03:08:45.000Z",
+  "__v": 0
+}

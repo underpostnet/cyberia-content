@@ -11,6 +11,7 @@
   "thumbnail": "6aa324dfce26181d4b2d22b7",
   "cyberiaMapCodes": [
     "amethyst-foliage-expanse",
+    "athel-ferrum-outpost",
     "sap-logic-array"
   ],
   "portals": [
@@ -18,9 +19,18 @@
       "sourceMapCode": "amethyst-foliage-expanse",
       "sourceCellX": 27,
       "sourceCellY": 56,
+      "targetMapCode": "athel-ferrum-outpost",
+      "targetCellX": 35,
+      "targetCellY": 38,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "athel-ferrum-outpost",
+      "sourceCellX": 51,
+      "sourceCellY": 6,
       "targetMapCode": "sap-logic-array",
-      "targetCellX": 58,
-      "targetCellY": 58,
+      "targetCellX": 7,
+      "targetCellY": 18,
       "portalMode": "inter-portal"
     },
     {
@@ -42,6 +52,24 @@
       "portalMode": "intra-random"
     },
     {
+      "sourceMapCode": "athel-ferrum-outpost",
+      "sourceCellX": 16,
+      "sourceCellY": 10,
+      "targetMapCode": "athel-ferrum-outpost",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "intra-random"
+    },
+    {
+      "sourceMapCode": "athel-ferrum-outpost",
+      "sourceCellX": 35,
+      "sourceCellY": 38,
+      "targetMapCode": "amethyst-foliage-expanse",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "inter-random"
+    },
+    {
       "sourceMapCode": "sap-logic-array",
       "sourceCellX": 58,
       "sourceCellY": 58,
@@ -61,6 +89,6 @@
   "topologyMode": "procedural",
   "conf": "6a4019d98df0fac6c13c2168",
   "createdAt": "2026-06-27T18:13:51.301Z",
-  "updatedAt": "2026-06-27T18:13:51.301Z",
+  "updatedAt": "2026-09-29T14:13:54.520Z",
   "__v": 0
 }

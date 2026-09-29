@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abbb9731f93f052a3a2fe06",
+    "code": "default-veinwood",
+    "order": 0,
+    "speaker": "Veinwood Tree",
+    "text": "A green-crowned tree of the Violet Strata whose bark and fruit carry violet sap.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T13:13:23.544Z",
+    "updatedAt": "2026-09-29T13:13:23.544Z"
+  }
+]

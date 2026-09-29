@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abbb9731f93f052a3a2fdfd",
+    "code": "default-array-wall-worn",
+    "order": 0,
+    "speaker": "Worn Array Wall",
+    "text": "An array wall section whose lights have gone dark.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T13:13:23.510Z",
+    "updatedAt": "2026-09-29T13:13:23.510Z"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abbb9731f93f052a3a2fe18",
+    "code": "default-rustbark-log",
+    "order": 0,
+    "speaker": "Rustbark Log",
+    "text": "A cut log of rustbark timber.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T13:13:23.599Z",
+    "updatedAt": "2026-09-29T13:13:23.599Z"
+  }
+]

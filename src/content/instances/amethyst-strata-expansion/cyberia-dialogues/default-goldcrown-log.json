@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abbb9731f93f052a3a2fe17",
+    "code": "default-goldcrown-log",
+    "order": 0,
+    "speaker": "Goldcrown Log",
+    "text": "A cut log of goldcrown timber, darker and denser than rustbark.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T13:13:23.595Z",
+    "updatedAt": "2026-09-29T13:13:23.595Z"
+  }
+]

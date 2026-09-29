@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb9701f93f052a3a2fd86",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "drifter",
+      "type": "skin",
+      "description": "A wanderer in a magenta coat, one of the countless drifters of the frontier.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 9,
+      "agility": 3,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreihh4bmcv3r7p3h7ojknoei3obfjpefbhrc6nwj7i27czvgozw5sky",
+  "contentHash": "e7e0582aee3f7ecff7254d7111b704a9790a13c45e6d93f46be2cd4cecdbb256",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:20.166Z",
+  "updatedAt": "2026-09-29T13:13:20.262Z",
+  "__v": 0
+}

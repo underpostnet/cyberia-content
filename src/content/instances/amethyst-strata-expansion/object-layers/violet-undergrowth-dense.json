@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb9671f93f052a3a2fd53",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "violet-undergrowth-dense",
+      "type": "floor",
+      "description": "Thicker undergrowth where the violet flora has fully taken the terraforming layer.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreifc3l5tbd2qhzsxubftrdoykk5zdh5ysq3jwoi2aifhnavigi343a",
+  "contentHash": "a2dafb308f503e657a04b388dd852bb919fb894369b391a020a7682a83237cd8",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:11.676Z",
+  "updatedAt": "2026-09-29T13:13:11.763Z",
+  "__v": 0
+}

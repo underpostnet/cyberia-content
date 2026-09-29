@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abb2bbd6360e10954db9f3d",
+    "code": "default-elara-voss-kalu",
+    "order": 0,
+    "speaker": "Elara Voss-Kalu",
+    "text": "A high-level ecological-registrar with skin stained by violet-spore exposure; she manages the biological records of the buffer-zone.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T03:08:45.045Z",
+    "updatedAt": "2026-09-29T03:08:45.045Z"
+  }
+]

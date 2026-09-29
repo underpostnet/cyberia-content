@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb96b1f93f052a3a2fd6a",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "rustbark",
+      "type": "resource",
+      "description": "A colony timber tree with a lime-green crown and rust-brown bark.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreic3aed6cbdkemclxwmo3m7fttffylcmml66rtb2bdkzjzssemynoy",
+  "contentHash": "5b0107e1046a2304bbd98edb3e59cca5c2c4c62fde8cc3a08d594e6522330d76",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:15.779Z",
+  "updatedAt": "2026-09-29T13:13:16.147Z",
+  "__v": 0
+}

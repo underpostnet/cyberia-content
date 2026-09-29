@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb96a1f93f052a3a2fd63",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "array-wall",
+      "type": "obstacle",
+      "description": "A slate-violet wall section of an environmental-control array, with a column of status lights.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreicrnplm2euzaf6xm76db55jiszetifmjyxifayt2ntqtp2376vpgi",
+  "contentHash": "516bd6cd1299017d767fc30f7a944b249a0ac4e2e828313d36709bf5bffaaf32",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:14.758Z",
+  "updatedAt": "2026-09-29T13:13:14.862Z",
+  "__v": 0
+}

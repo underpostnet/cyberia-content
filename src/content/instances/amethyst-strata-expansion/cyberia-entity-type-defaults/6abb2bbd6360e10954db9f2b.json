@@ -1,0 +1,15 @@
+{
+  "_id": "6abb2bbd6360e10954db9f2b",
+  "entityType": "obstacle",
+  "liveItemIds": [
+    "array-wall-worn"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-29T03:08:45.005Z",
+  "updatedAt": "2026-09-29T03:08:45.005Z",
+  "__v": 0
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb96b1f93f052a3a2fd69",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "rustbark-stump",
+      "type": "resource",
+      "description": "What is left of a rustbark tree after it is cut.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreigabcnqm4gatb4j6jqqupc4tjceyrdgn7opbh3vjkwf6vzigzswiu",
+  "contentHash": "c0089b0670c098789f2610a3c5c9a444c44666fdcf09f754aac5f57283665645",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:15.694Z",
+  "updatedAt": "2026-09-29T13:13:15.770Z",
+  "__v": 0
+}

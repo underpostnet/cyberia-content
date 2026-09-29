@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abbb9731f93f052a3a2fe02",
+    "code": "default-goldcrown-stump",
+    "order": 0,
+    "speaker": "Goldcrown Stump",
+    "text": "What is left of a goldcrown tree after it is cut.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T13:13:23.525Z",
+    "updatedAt": "2026-09-29T13:13:23.525Z"
+  }
+]

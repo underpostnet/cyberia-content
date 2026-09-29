@@ -1,0 +1,15 @@
+{
+  "_id": "6abb2bbc6360e10954db9f1f",
+  "entityType": "floor",
+  "liveItemIds": [
+    "violet-undergrowth-dense"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-29T03:08:44.976Z",
+  "updatedAt": "2026-09-29T03:08:44.976Z",
+  "__v": 0
+}

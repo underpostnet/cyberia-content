@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abbb9731f93f052a3a2fde7",
+    "code": "default-frontier-grass",
+    "order": 0,
+    "speaker": "Frontier Grass",
+    "text": "Bright colony grass that covers the open ground around frontier outposts.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T13:13:23.437Z",
+    "updatedAt": "2026-09-29T13:13:23.437Z"
+  }
+]

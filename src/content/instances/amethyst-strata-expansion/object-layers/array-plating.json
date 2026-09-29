@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb9661f93f052a3a2fd47",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "array-plating",
+      "type": "floor",
+      "description": "Slate-violet floor plates of an environmental-control array.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreidi4ugr7jiyl2v7vgxekyo546hoz727bk7vvxb4jjjvnrhezh43rm",
+  "contentHash": "68e50d1fa5185eabfa9ae4561dde78eecff5f0abf5adc3c4a5356c4e4c9f9b8b",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:10.858Z",
+  "updatedAt": "2026-09-29T13:13:10.896Z",
+  "__v": 0
+}

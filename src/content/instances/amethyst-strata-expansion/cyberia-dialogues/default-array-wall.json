@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abbb9731f93f052a3a2fdfe",
+    "code": "default-array-wall",
+    "order": 0,
+    "speaker": "Array Wall",
+    "text": "A slate-violet wall section of an environmental-control array, with a column of status lights.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T13:13:23.513Z",
+    "updatedAt": "2026-09-29T13:13:23.513Z"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "_id": "6abbb96a1f93f052a3a2fd62",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "array-wall-worn",
+      "type": "obstacle",
+      "description": "An array wall section whose lights have gone dark.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreiby5qbzoy4p72xhtn4cfwvm4njj6kxojn5zea4ajykwyog3v7h2my",
+  "contentHash": "38ec0397638ffeae79b7822daace3529f2aee4b7b9203804e156c38dbafcfa66",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T13:13:14.664Z",
+  "updatedAt": "2026-09-29T13:13:14.749Z",
+  "__v": 0
+}

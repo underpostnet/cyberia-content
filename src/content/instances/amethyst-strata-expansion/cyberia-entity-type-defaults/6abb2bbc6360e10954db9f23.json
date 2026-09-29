@@ -1,0 +1,19 @@
+{
+  "_id": "6abb2bbc6360e10954db9f23",
+  "entityType": "resource",
+  "liveItemIds": [
+    "rustbark"
+  ],
+  "deadItemIds": [
+    "rustbark-stump"
+  ],
+  "dropItemIds": [
+    "rustbark-log"
+  ],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "",
+  "createdAt": "2026-09-29T03:08:44.985Z",
+  "updatedAt": "2026-09-29T03:08:44.985Z",
+  "__v": 0
+}

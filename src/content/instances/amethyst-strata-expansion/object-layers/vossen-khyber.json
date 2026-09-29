@@ -1,0 +1,35 @@
+{
+  "_id": "6abb2bbc6360e10954db9f1b",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "vossen-khyber",
+      "type": "skin",
+      "description": "Elara Vossen-Khyber, the Atlas perimeter officer overseeing the reinforcement of the buffer's boundary lines.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 6,
+      "agility": 4,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 4
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreicqv2ofrk5svs6ynl3bczwlpdmfusnk46fkrhdjfce4fzrc3wkv4y",
+  "contentHash": "50ae9c58abb2acbd86af61166cb78d85a49aae78aa89c692889c2e622dd955e6",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-09-29T03:08:44.924Z",
+  "updatedAt": "2026-09-29T03:08:44.960Z",
+  "__v": 0
+}

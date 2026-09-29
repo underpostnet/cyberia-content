@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6abbb9731f93f052a3a2fe04",
+    "code": "default-rustbark-stump",
+    "order": 0,
+    "speaker": "Rustbark Stump",
+    "text": "What is left of a rustbark tree after it is cut.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-09-29T13:13:23.538Z",
+    "updatedAt": "2026-09-29T13:13:23.538Z"
+  }
+]
