@@ -126,7 +126,11 @@
     "doppelgangerInitialLifeFraction": 1
   },
   "equipmentRules": {
-    "activeItemTypes": ["skin", "breastplate", "weapon"],
+    "activeItemTypes": [
+      "skin",
+      "breastplate",
+      "weapon"
+    ],
     "onePerType": true,
     "requireSkin": true
   },

@@ -7,7 +7,9 @@
   "title": "The Wanderer's Task",
   "description": "Help Wason restore order to the fractured nodes.",
   "prerequisiteCodes": [],
-  "unlocksQuestCodes": ["fallback-bounty-quest-alpha"],
+  "unlocksQuestCodes": [
+    "fallback-bounty-quest-alpha"
+  ],
   "steps": [
     {
       "id": "step-talk-alex",

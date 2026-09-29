@@ -3,11 +3,16 @@
   "code": "test",
   "name": "test",
   "description": "test",
-  "tags": ["test"],
+  "tags": [
+    "test"
+  ],
   "creator": "66bcdbc25c813ef40a58073f",
   "status": "published",
   "thumbnail": "6aa32d4ae419e76dc1b6cd91",
-  "cyberiaMapCodes": ["test-a", "test-b"],
+  "cyberiaMapCodes": [
+    "test-a",
+    "test-b"
+  ],
   "portals": [
     {
       "sourceMapCode": "test-a",

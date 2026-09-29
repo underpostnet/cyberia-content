@@ -6,7 +6,9 @@
   "code": "fallback-bounty-quest-alpha",
   "title": "Alpha Bounty",
   "description": "A field test: eliminate a threat, claim your reward, then report back.",
-  "prerequisiteCodes": ["fallback-fallback-intro-quest"],
+  "prerequisiteCodes": [
+    "fallback-fallback-intro-quest"
+  ],
   "unlocksQuestCodes": [],
   "steps": [
     {

@@ -3,10 +3,19 @@
   "code": "fallback",
   "name": "fallback",
   "description": "Captured procedural fallback world",
-  "tags": ["fallback", "procedural", "captured"],
+  "tags": [
+    "fallback",
+    "procedural",
+    "captured"
+  ],
   "status": "unlisted",
   "thumbnail": "6aa2d8d9d8cf1ab551ee57c8",
-  "cyberiaMapCodes": ["fallback-map-0", "fallback-map-1", "fallback-map-2", "fallback-map-3"],
+  "cyberiaMapCodes": [
+    "fallback-map-0",
+    "fallback-map-1",
+    "fallback-map-2",
+    "fallback-map-3"
+  ],
   "portals": [
     {
       "sourceMapCode": "fallback-map-0",
