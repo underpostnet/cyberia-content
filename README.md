@@ -213,8 +213,8 @@ later without a change to the artifact.
 1. Change content, run `validate`, and commit. The build refuses uncommitted content.
 2. Increment `version` in `package.json` and commit. A released version never changes.
 3. Run `build`. The engine reads the new artifact from this checkout.
-4. In the engine, `cyberia content lock` records the artifact in the deployment
-   `content-lock.json`: repository, version, source revision and digest.
+4. In the engine, `cyberia release lock` pins this revision and the artifact in
+   `underpost.lock.json` of the deployment: repository, revision, version and digest.
 5. A deploy fetches that exact revision, builds it again with `npm ci`, `npm test` and `npm pack`,
    and fails unless the result matches the lock.
 

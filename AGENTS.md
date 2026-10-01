@@ -52,7 +52,7 @@ This repository creates content. The engine consumes it.
 - The package version is the content version. A released version never changes.
 - `build` and `pack` build from committed content only.
 - The engine reads the artifact of this checkout, or of the path `CYBERIA_CONTENT_ROOT` names.
-- The deployment records the released artifact in `content-lock.json`.
+- The deployment pins the released revision and artifact in its `underpost.lock.json`.
 
 ## Documentation hot paths
 
