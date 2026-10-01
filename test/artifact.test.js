@@ -33,7 +33,7 @@ describe('artifact metadata', () => {
       schemaVersion: ARTIFACT_SCHEMA_VERSION,
       contentDigest: contentDigest(manifest.files),
       build: { definitionSchemaVersion: 3, runtimeContract: expect.stringMatching(/^sha256:[0-9a-f]{64}$/) },
-      instances: ['FOREST', 'TEST', 'amethyst-strata-expansion'],
+      instances: ['amethyst-strata-expansion', 'fallback', 'test'],
       sagas: ['amethyst-strata-expansion'],
     });
   });
@@ -47,7 +47,7 @@ describe('artifact metadata', () => {
     expect(files.filter((file) => file.startsWith('sagas/')).sort()).toEqual(
       ['saga.json', 'instance.json', ...families].map((file) => `sagas/amethyst-strata-expansion/${file}`).sort(),
     );
-    expect(files).toContain('instances/FOREST/cyberia-instance.json');
+    expect(files).toContain('instances/test/cyberia-instance.json');
     expect(files).toContain('context.json');
     expect(files.every((file) => file === 'context.json' || /^(foundation|sagas|instances)\//.test(file))).toBe(true);
   });

@@ -23,6 +23,35 @@ export const entriesOf = (root, directory, isDirectory) => {
     .sort();
 };
 
+/** Every pin a document holds, as `{itemId, cid}`: an `objectLayerCid` or `<x>ObjectLayerCid` key beside its item id. */
+const pinsOf = (value) => {
+  if (Array.isArray(value)) return value.flatMap(pinsOf);
+  if (!value || typeof value !== 'object') return [];
+  return Object.entries(value).flatMap(([key, child]) =>
+    /^(objectLayerCid|[a-z]+ObjectLayerCid)$/.test(key)
+      ? [{ itemId: value[key.replace(/ObjectLayerCid$/, 'ItemId').replace(/^objectLayerCid$/, 'itemId')], cid: child }]
+      : pinsOf(child),
+  );
+};
+
+/** Findings of an instance whose quests or actions pin a definition none of its object layers holds. */
+const pinFindings = (root, code) => {
+  const dir = path.join(root, 'instances', code);
+  const held = new Set(
+    entriesOf(dir, 'object-layers', false).map((name) => readJson(path.join(dir, 'object-layers', `${name}.json`)).cid),
+  );
+  return ['cyberia-quests', 'cyberia-actions'].flatMap((family) =>
+    entriesOf(dir, family, false).flatMap((name) =>
+      pinsOf(readJson(path.join(dir, family, `${name}.json`)))
+        .filter(({ cid }) => !held.has(cid))
+        .map(({ itemId, cid }) => ({
+          id: `instances/${code}/${family}/${name}.json`,
+          message: `${itemId} pins ${cid}, which no object layer of the instance holds`,
+        })),
+    ),
+  );
+};
+
 /**
  * The content of a content directory: its registry, saga packages and instance codes.
  * @param {string} [root] - Content directory.
@@ -51,6 +80,7 @@ export function readContent(root = CONTENT_ROOT) {
     const file = path.join(root, 'instances', code, 'cyberia-instance.json');
     if (!fs.existsSync(file) || readJson(file).code !== code)
       findings.push({ id: `instances/${code}`, message: `cyberia-instance.json must hold instance ${code}` });
+    findings.push(...pinFindings(root, code));
   }
   return findings.length > 0 ? { findings } : { findings, registry, sagas, instances };
 }
