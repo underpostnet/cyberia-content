@@ -1,0 +1,83 @@
+{
+  "_id": "6abd748a723819b508aaa621",
+  "objectLayerCid": "bafkreid3c7zrx6fgkdgbkee7hu7lufstzjvnuqcdkl6inrhywfvagx6exq",
+  "__v": 0,
+  "createdAt": "2026-09-30T20:43:54.126Z",
+  "fileId": "b0539688f64ef071f11bfcc1",
+  "idlePreviewFileId": "daba92fb4dfcc677e4fa0e79",
+  "metadata": {
+    "itemKey": "athel-ferrum-outpost-building",
+    "atlasWidth": 64,
+    "atlasHeight": 32,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 350,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 32,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 0,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 16,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-09-30T20:43:54.126Z",
+  "upscaleFileId": "d4c2153b126aeae1f9de080d"
+}

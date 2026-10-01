@@ -4,7 +4,7 @@
   "__v": 0,
   "createdAt": "2026-09-29T03:04:30.958Z",
   "fileId": "226cbcd65a47e5f5f7fab202",
-  "idlePreviewFileId": "41dd9593ff10c556ff9fa8a8",
+  "idlePreviewFileId": "5b9b3441d107c4fd5917b96f",
   "metadata": {
     "itemKey": "amethyst-grass-alpha",
     "atlasWidth": 120,
@@ -78,6 +78,6 @@
       ]
     }
   },
-  "updatedAt": "2026-09-29T03:04:30.958Z",
+  "updatedAt": "2026-09-30T09:01:33.148Z",
   "upscaleFileId": "31a53000cdd60f0fe6f3f2ef"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "6ab5904637f96ecaa15c5758",
+  "_id": "6abe334d02ced47ceebc15bd",
   "schemaVersion": 1,
   "profile": {
     "id": "cyberia",
@@ -21,15 +21,15 @@
       "utility": 1
     },
     "render": {
-      "cid": "bafkreib23tj3badowyhm2kpnnc4nwvthgqk6bff75tgmnqgnkudvtgkksq",
+      "cid": "bafkreiepr2jxp4srcln4kv2w3ftut7dgaf3sgwr4f73xio32kzkzupa7cq",
       "metadataCid": "bafkreif23vdaofxnvummb7ar3qjgwjpxsnx6t5zl7dey5jisxonk37itbu"
     }
   },
-  "cid": "bafkreidvppsp4v5cmbszru6gijnplk35uy3fsfu4vsucx3ktmgrnnoe6sq",
-  "contentHash": "757be4fe57a2606598d3c6425af5ab7da63659169caca82bed5361a2d6b89e94",
-  "createdBy": "",
+  "cid": "bafkreigy6wyf37cormrxlamvdnlqb3hjyygifiryvx76dorw5q4cujohfu",
+  "contentHash": "d8f5b05dfc4e8b237581951b5700ece9c60c82a238adffe1ba36ec382a25c72d",
+  "createdBy": "6abb06a3b40fbce41a64242d",
   "archivedAt": null,
-  "createdAt": "2026-09-29T03:04:36.377Z",
-  "updatedAt": "2026-09-29T03:04:36.958Z",
+  "createdAt": "2026-10-01T10:17:49.279Z",
+  "updatedAt": "2026-10-01T10:17:49.323Z",
   "__v": 0
 }

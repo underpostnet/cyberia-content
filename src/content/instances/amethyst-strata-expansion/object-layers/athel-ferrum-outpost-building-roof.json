@@ -1,0 +1,35 @@
+{
+  "_id": "6abd7435cf017f921173e1fe",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "athel-ferrum-outpost-building-roof",
+      "type": "foreground",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreidijuzcvos57reysm5d5sbpcajiqmpoo2gk7woeabz5bl6g7f4rze",
+      "metadataCid": "bafkreiesiq225eu2gp4ftevwsyzramkuw6be6o57xkxxuli4yy4ytgstgy"
+    }
+  },
+  "cid": "bafkreidwqvekovrtu3luixjxsuyfyol7jjb2zsyqedyiolbs2ipdarfsfq",
+  "contentHash": "768548a75633a6d7445d3795305c397f4a43accb1020f0872c32d21e3044b22c",
+  "createdBy": "6abb06a3b40fbce41a64242d",
+  "archivedAt": null,
+  "createdAt": "2026-09-30T20:42:29.180Z",
+  "updatedAt": "2026-09-30T20:42:29.223Z",
+  "__v": 0
+}

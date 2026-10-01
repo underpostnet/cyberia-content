@@ -1,0 +1,35 @@
+{
+  "_id": "6abc5b7a566ec38bbb660125",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "sap-logic-array-roof",
+      "type": "foreground",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreib5eefptzrvqvezeb7cykrhyd7hnqncm6drenyxairnimsszf2jx4",
+      "metadataCid": "bafkreiaeao6agiqgqktuy2dcb7leouexm5qe5k4e734sirp733ksoqbmee"
+    }
+  },
+  "cid": "bafkreiazti2lgsqcvpdjg772jr7uddaup62ip3lppgyrl2zqxejzba432y",
+  "contentHash": "199a34b34a02abc6937ffa4c7f418c147fb487ed6f79b115eb30b91390839bd6",
+  "createdBy": "6abb06a3b40fbce41a64242d",
+  "archivedAt": null,
+  "createdAt": "2026-09-30T00:44:42.080Z",
+  "updatedAt": "2026-09-30T00:44:42.126Z",
+  "__v": 0
+}

@@ -4,7 +4,7 @@
   "__v": 0,
   "createdAt": "2026-09-29T03:04:38.672Z",
   "fileId": "e25b40b88881d7c77b3967f7",
-  "idlePreviewFileId": "ea073fc640291657647d3753",
+  "idlePreviewFileId": "b0b7f45af651f5872f41b923",
   "metadata": {
     "itemKey": "knot-node-terminal",
     "atlasWidth": 120,
@@ -78,6 +78,6 @@
       ]
     }
   },
-  "updatedAt": "2026-09-29T03:04:38.672Z",
+  "updatedAt": "2026-09-30T09:01:34.871Z",
   "upscaleFileId": "bc5f9d6ebff3f4b54a94f9fe"
 }

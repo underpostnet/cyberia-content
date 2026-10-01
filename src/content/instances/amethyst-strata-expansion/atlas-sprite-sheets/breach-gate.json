@@ -4,7 +4,7 @@
   "__v": 0,
   "createdAt": "2026-09-29T14:03:36.485Z",
   "fileId": "9926c5ddc5f1a32f4a7964d7",
-  "idlePreviewFileId": "bc315110693a6b870f970c90",
+  "idlePreviewFileId": "151ef3b0f77e9c374fd21519",
   "metadata": {
     "itemKey": "breach-gate",
     "atlasWidth": 64,
@@ -99,6 +99,6 @@
       ]
     }
   },
-  "updatedAt": "2026-09-29T14:03:36.485Z",
+  "updatedAt": "2026-09-30T09:01:33.585Z",
   "upscaleFileId": "c4287bdba3a840bcf5576660"
 }

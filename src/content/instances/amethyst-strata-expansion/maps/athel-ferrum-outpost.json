@@ -12,7 +12,7 @@
   "gridY": 64,
   "cellWidth": 15,
   "cellHeight": 15,
-  "revision": 4,
+  "revision": 7,
   "entities": [
     {
       "entityType": "floor",
@@ -29,7 +29,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec47f"
+      "_id": "6abe34ea02ced47ceebc1778"
     },
     {
       "entityType": "floor",
@@ -46,7 +46,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec480"
+      "_id": "6abe34ea02ced47ceebc1779"
     },
     {
       "entityType": "floor",
@@ -63,7 +63,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec481"
+      "_id": "6abe34ea02ced47ceebc177a"
     },
     {
       "entityType": "floor",
@@ -80,7 +80,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec482"
+      "_id": "6abe34ea02ced47ceebc177b"
     },
     {
       "entityType": "floor",
@@ -97,7 +97,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec483"
+      "_id": "6abe34ea02ced47ceebc177c"
     },
     {
       "entityType": "floor",
@@ -114,7 +114,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec484"
+      "_id": "6abe34ea02ced47ceebc177d"
     },
     {
       "entityType": "floor",
@@ -131,7 +131,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec485"
+      "_id": "6abe34ea02ced47ceebc177e"
     },
     {
       "entityType": "floor",
@@ -148,7 +148,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec486"
+      "_id": "6abe34ea02ced47ceebc177f"
     },
     {
       "entityType": "floor",
@@ -165,7 +165,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec487"
+      "_id": "6abe34ea02ced47ceebc1780"
     },
     {
       "entityType": "floor",
@@ -182,7 +182,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec488"
+      "_id": "6abe34ea02ced47ceebc1781"
     },
     {
       "entityType": "floor",
@@ -199,7 +199,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec489"
+      "_id": "6abe34ea02ced47ceebc1782"
     },
     {
       "entityType": "floor",
@@ -216,7 +216,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec48a"
+      "_id": "6abe34ea02ced47ceebc1783"
     },
     {
       "entityType": "floor",
@@ -233,7 +233,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec48b"
+      "_id": "6abe34ea02ced47ceebc1784"
     },
     {
       "entityType": "floor",
@@ -250,7 +250,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec48c"
+      "_id": "6abe34ea02ced47ceebc1785"
     },
     {
       "entityType": "floor",
@@ -267,7 +267,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec48d"
+      "_id": "6abe34ea02ced47ceebc1786"
     },
     {
       "entityType": "floor",
@@ -284,7 +284,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec48e"
+      "_id": "6abe34ea02ced47ceebc1787"
     },
     {
       "entityType": "floor",
@@ -301,7 +301,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec48f"
+      "_id": "6abe34ea02ced47ceebc1788"
     },
     {
       "entityType": "floor",
@@ -318,7 +318,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec490"
+      "_id": "6abe34ea02ced47ceebc1789"
     },
     {
       "entityType": "floor",
@@ -335,7 +335,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec491"
+      "_id": "6abe34ea02ced47ceebc178a"
     },
     {
       "entityType": "floor",
@@ -352,7 +352,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec492"
+      "_id": "6abe34ea02ced47ceebc178b"
     },
     {
       "entityType": "floor",
@@ -369,7 +369,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec493"
+      "_id": "6abe34ea02ced47ceebc178c"
     },
     {
       "entityType": "floor",
@@ -386,7 +386,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec494"
+      "_id": "6abe34ea02ced47ceebc178d"
     },
     {
       "entityType": "floor",
@@ -403,7 +403,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec495"
+      "_id": "6abe34ea02ced47ceebc178e"
     },
     {
       "entityType": "floor",
@@ -420,7 +420,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec496"
+      "_id": "6abe34ea02ced47ceebc178f"
     },
     {
       "entityType": "floor",
@@ -437,7 +437,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec497"
+      "_id": "6abe34ea02ced47ceebc1790"
     },
     {
       "entityType": "floor",
@@ -454,7 +454,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec498"
+      "_id": "6abe34ea02ced47ceebc1791"
     },
     {
       "entityType": "floor",
@@ -471,7 +471,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec499"
+      "_id": "6abe34ea02ced47ceebc1792"
     },
     {
       "entityType": "floor",
@@ -488,7 +488,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec49a"
+      "_id": "6abe34ea02ced47ceebc1793"
     },
     {
       "entityType": "floor",
@@ -505,7 +505,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec49b"
+      "_id": "6abe34ea02ced47ceebc1794"
     },
     {
       "entityType": "floor",
@@ -522,7 +522,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec49c"
+      "_id": "6abe34ea02ced47ceebc1795"
     },
     {
       "entityType": "floor",
@@ -539,7 +539,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec49d"
+      "_id": "6abe34ea02ced47ceebc1796"
     },
     {
       "entityType": "floor",
@@ -556,7 +556,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec49e"
+      "_id": "6abe34ea02ced47ceebc1797"
     },
     {
       "entityType": "floor",
@@ -573,7 +573,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec49f"
+      "_id": "6abe34ea02ced47ceebc1798"
     },
     {
       "entityType": "floor",
@@ -590,7 +590,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4a0"
+      "_id": "6abe34ea02ced47ceebc1799"
     },
     {
       "entityType": "floor",
@@ -607,7 +607,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4a1"
+      "_id": "6abe34ea02ced47ceebc179a"
     },
     {
       "entityType": "floor",
@@ -624,7 +624,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4a2"
+      "_id": "6abe34ea02ced47ceebc179b"
     },
     {
       "entityType": "floor",
@@ -641,7 +641,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4a3"
+      "_id": "6abe34ea02ced47ceebc179c"
     },
     {
       "entityType": "floor",
@@ -658,7 +658,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4a4"
+      "_id": "6abe34ea02ced47ceebc179d"
     },
     {
       "entityType": "floor",
@@ -675,7 +675,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4a5"
+      "_id": "6abe34ea02ced47ceebc179e"
     },
     {
       "entityType": "floor",
@@ -692,7 +692,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4a6"
+      "_id": "6abe34ea02ced47ceebc179f"
     },
     {
       "entityType": "floor",
@@ -709,7 +709,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4a7"
+      "_id": "6abe34ea02ced47ceebc17a0"
     },
     {
       "entityType": "floor",
@@ -726,7 +726,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4a8"
+      "_id": "6abe34ea02ced47ceebc17a1"
     },
     {
       "entityType": "floor",
@@ -743,7 +743,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4a9"
+      "_id": "6abe34ea02ced47ceebc17a2"
     },
     {
       "entityType": "floor",
@@ -760,7 +760,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4aa"
+      "_id": "6abe34ea02ced47ceebc17a3"
     },
     {
       "entityType": "floor",
@@ -777,7 +777,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ab"
+      "_id": "6abe34ea02ced47ceebc17a4"
     },
     {
       "entityType": "floor",
@@ -794,7 +794,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ac"
+      "_id": "6abe34ea02ced47ceebc17a5"
     },
     {
       "entityType": "floor",
@@ -811,7 +811,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ad"
+      "_id": "6abe34ea02ced47ceebc17a6"
     },
     {
       "entityType": "floor",
@@ -828,7 +828,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ae"
+      "_id": "6abe34ea02ced47ceebc17a7"
     },
     {
       "entityType": "floor",
@@ -845,7 +845,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4af"
+      "_id": "6abe34ea02ced47ceebc17a8"
     },
     {
       "entityType": "floor",
@@ -862,7 +862,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4b0"
+      "_id": "6abe34ea02ced47ceebc17a9"
     },
     {
       "entityType": "floor",
@@ -879,7 +879,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4b1"
+      "_id": "6abe34ea02ced47ceebc17aa"
     },
     {
       "entityType": "floor",
@@ -896,7 +896,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4b2"
+      "_id": "6abe34ea02ced47ceebc17ab"
     },
     {
       "entityType": "floor",
@@ -913,7 +913,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4b3"
+      "_id": "6abe34ea02ced47ceebc17ac"
     },
     {
       "entityType": "floor",
@@ -930,7 +930,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4b4"
+      "_id": "6abe34ea02ced47ceebc17ad"
     },
     {
       "entityType": "floor",
@@ -947,7 +947,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4b5"
+      "_id": "6abe34ea02ced47ceebc17ae"
     },
     {
       "entityType": "floor",
@@ -964,7 +964,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4b6"
+      "_id": "6abe34ea02ced47ceebc17af"
     },
     {
       "entityType": "floor",
@@ -981,7 +981,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4b7"
+      "_id": "6abe34ea02ced47ceebc17b0"
     },
     {
       "entityType": "floor",
@@ -998,7 +998,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4b8"
+      "_id": "6abe34ea02ced47ceebc17b1"
     },
     {
       "entityType": "floor",
@@ -1015,7 +1015,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4b9"
+      "_id": "6abe34ea02ced47ceebc17b2"
     },
     {
       "entityType": "floor",
@@ -1032,7 +1032,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ba"
+      "_id": "6abe34ea02ced47ceebc17b3"
     },
     {
       "entityType": "floor",
@@ -1049,7 +1049,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4bb"
+      "_id": "6abe34ea02ced47ceebc17b4"
     },
     {
       "entityType": "floor",
@@ -1066,7 +1066,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4bc"
+      "_id": "6abe34ea02ced47ceebc17b5"
     },
     {
       "entityType": "floor",
@@ -1083,7 +1083,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4bd"
+      "_id": "6abe34ea02ced47ceebc17b6"
     },
     {
       "entityType": "floor",
@@ -1100,7 +1100,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4be"
+      "_id": "6abe34ea02ced47ceebc17b7"
     },
     {
       "entityType": "floor",
@@ -1117,7 +1117,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4bf"
+      "_id": "6abe34ea02ced47ceebc17b8"
     },
     {
       "entityType": "floor",
@@ -1134,7 +1134,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4c0"
+      "_id": "6abe34ea02ced47ceebc17b9"
     },
     {
       "entityType": "floor",
@@ -1151,7 +1151,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4c1"
+      "_id": "6abe34ea02ced47ceebc17ba"
     },
     {
       "entityType": "floor",
@@ -1168,7 +1168,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4c2"
+      "_id": "6abe34ea02ced47ceebc17bb"
     },
     {
       "entityType": "floor",
@@ -1185,7 +1185,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4c3"
+      "_id": "6abe34ea02ced47ceebc17bc"
     },
     {
       "entityType": "floor",
@@ -1202,7 +1202,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4c4"
+      "_id": "6abe34ea02ced47ceebc17bd"
     },
     {
       "entityType": "floor",
@@ -1219,7 +1219,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4c5"
+      "_id": "6abe34ea02ced47ceebc17be"
     },
     {
       "entityType": "floor",
@@ -1236,7 +1236,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4c6"
+      "_id": "6abe34ea02ced47ceebc17bf"
     },
     {
       "entityType": "floor",
@@ -1253,7 +1253,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4c7"
+      "_id": "6abe34ea02ced47ceebc17c0"
     },
     {
       "entityType": "floor",
@@ -1270,7 +1270,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4c8"
+      "_id": "6abe34ea02ced47ceebc17c1"
     },
     {
       "entityType": "floor",
@@ -1287,7 +1287,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4c9"
+      "_id": "6abe34ea02ced47ceebc17c2"
     },
     {
       "entityType": "floor",
@@ -1304,7 +1304,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ca"
+      "_id": "6abe34ea02ced47ceebc17c3"
     },
     {
       "entityType": "floor",
@@ -1321,7 +1321,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4cb"
+      "_id": "6abe34ea02ced47ceebc17c4"
     },
     {
       "entityType": "floor",
@@ -1338,7 +1338,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4cc"
+      "_id": "6abe34ea02ced47ceebc17c5"
     },
     {
       "entityType": "floor",
@@ -1355,7 +1355,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4cd"
+      "_id": "6abe34ea02ced47ceebc17c6"
     },
     {
       "entityType": "floor",
@@ -1372,7 +1372,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ce"
+      "_id": "6abe34ea02ced47ceebc17c7"
     },
     {
       "entityType": "floor",
@@ -1389,7 +1389,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4cf"
+      "_id": "6abe34ea02ced47ceebc17c8"
     },
     {
       "entityType": "floor",
@@ -1406,7 +1406,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4d0"
+      "_id": "6abe34ea02ced47ceebc17c9"
     },
     {
       "entityType": "floor",
@@ -1423,7 +1423,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4d1"
+      "_id": "6abe34ea02ced47ceebc17ca"
     },
     {
       "entityType": "floor",
@@ -1440,7 +1440,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4d2"
+      "_id": "6abe34ea02ced47ceebc17cb"
     },
     {
       "entityType": "floor",
@@ -1457,7 +1457,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4d3"
+      "_id": "6abe34ea02ced47ceebc17cc"
     },
     {
       "entityType": "floor",
@@ -1474,7 +1474,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4d4"
+      "_id": "6abe34ea02ced47ceebc17cd"
     },
     {
       "entityType": "floor",
@@ -1491,7 +1491,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4d5"
+      "_id": "6abe34ea02ced47ceebc17ce"
     },
     {
       "entityType": "floor",
@@ -1508,7 +1508,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4d6"
+      "_id": "6abe34ea02ced47ceebc17cf"
     },
     {
       "entityType": "floor",
@@ -1525,7 +1525,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4d7"
+      "_id": "6abe34ea02ced47ceebc17d0"
     },
     {
       "entityType": "floor",
@@ -1542,7 +1542,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4d8"
+      "_id": "6abe34ea02ced47ceebc17d1"
     },
     {
       "entityType": "floor",
@@ -1559,7 +1559,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4d9"
+      "_id": "6abe34ea02ced47ceebc17d2"
     },
     {
       "entityType": "floor",
@@ -1576,7 +1576,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4da"
+      "_id": "6abe34ea02ced47ceebc17d3"
     },
     {
       "entityType": "floor",
@@ -1593,7 +1593,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4db"
+      "_id": "6abe34ea02ced47ceebc17d4"
     },
     {
       "entityType": "floor",
@@ -1610,7 +1610,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4dc"
+      "_id": "6abe34ea02ced47ceebc17d5"
     },
     {
       "entityType": "floor",
@@ -1627,7 +1627,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4dd"
+      "_id": "6abe34ea02ced47ceebc17d6"
     },
     {
       "entityType": "floor",
@@ -1644,7 +1644,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4de"
+      "_id": "6abe34ea02ced47ceebc17d7"
     },
     {
       "entityType": "floor",
@@ -1661,7 +1661,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4df"
+      "_id": "6abe34ea02ced47ceebc17d8"
     },
     {
       "entityType": "floor",
@@ -1678,7 +1678,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4e0"
+      "_id": "6abe34ea02ced47ceebc17d9"
     },
     {
       "entityType": "floor",
@@ -1695,7 +1695,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4e1"
+      "_id": "6abe34ea02ced47ceebc17da"
     },
     {
       "entityType": "floor",
@@ -1712,7 +1712,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4e2"
+      "_id": "6abe34ea02ced47ceebc17db"
     },
     {
       "entityType": "floor",
@@ -1729,7 +1729,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4e3"
+      "_id": "6abe34ea02ced47ceebc17dc"
     },
     {
       "entityType": "floor",
@@ -1746,7 +1746,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4e4"
+      "_id": "6abe34ea02ced47ceebc17dd"
     },
     {
       "entityType": "floor",
@@ -1763,7 +1763,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4e5"
+      "_id": "6abe34ea02ced47ceebc17de"
     },
     {
       "entityType": "floor",
@@ -1780,7 +1780,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4e6"
+      "_id": "6abe34ea02ced47ceebc17df"
     },
     {
       "entityType": "floor",
@@ -1797,7 +1797,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4e7"
+      "_id": "6abe34ea02ced47ceebc17e0"
     },
     {
       "entityType": "floor",
@@ -1814,7 +1814,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4e8"
+      "_id": "6abe34ea02ced47ceebc17e1"
     },
     {
       "entityType": "floor",
@@ -1831,7 +1831,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4e9"
+      "_id": "6abe34ea02ced47ceebc17e2"
     },
     {
       "entityType": "floor",
@@ -1848,7 +1848,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ea"
+      "_id": "6abe34ea02ced47ceebc17e3"
     },
     {
       "entityType": "floor",
@@ -1865,7 +1865,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4eb"
+      "_id": "6abe34ea02ced47ceebc17e4"
     },
     {
       "entityType": "floor",
@@ -1882,7 +1882,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ec"
+      "_id": "6abe34ea02ced47ceebc17e5"
     },
     {
       "entityType": "floor",
@@ -1899,7 +1899,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ed"
+      "_id": "6abe34ea02ced47ceebc17e6"
     },
     {
       "entityType": "floor",
@@ -1916,7 +1916,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ee"
+      "_id": "6abe34ea02ced47ceebc17e7"
     },
     {
       "entityType": "floor",
@@ -1933,7 +1933,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ef"
+      "_id": "6abe34ea02ced47ceebc17e8"
     },
     {
       "entityType": "floor",
@@ -1950,7 +1950,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4f0"
+      "_id": "6abe34ea02ced47ceebc17e9"
     },
     {
       "entityType": "floor",
@@ -1967,7 +1967,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4f1"
+      "_id": "6abe34ea02ced47ceebc17ea"
     },
     {
       "entityType": "floor",
@@ -1984,7 +1984,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4f2"
+      "_id": "6abe34ea02ced47ceebc17eb"
     },
     {
       "entityType": "floor",
@@ -2001,7 +2001,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4f3"
+      "_id": "6abe34ea02ced47ceebc17ec"
     },
     {
       "entityType": "floor",
@@ -2018,7 +2018,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4f4"
+      "_id": "6abe34ea02ced47ceebc17ed"
     },
     {
       "entityType": "floor",
@@ -2035,7 +2035,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4f5"
+      "_id": "6abe34ea02ced47ceebc17ee"
     },
     {
       "entityType": "floor",
@@ -2052,7 +2052,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4f6"
+      "_id": "6abe34ea02ced47ceebc17ef"
     },
     {
       "entityType": "floor",
@@ -2069,7 +2069,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4f7"
+      "_id": "6abe34ea02ced47ceebc17f0"
     },
     {
       "entityType": "floor",
@@ -2086,7 +2086,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4f8"
+      "_id": "6abe34ea02ced47ceebc17f1"
     },
     {
       "entityType": "floor",
@@ -2103,7 +2103,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4f9"
+      "_id": "6abe34ea02ced47ceebc17f2"
     },
     {
       "entityType": "floor",
@@ -2120,7 +2120,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4fa"
+      "_id": "6abe34ea02ced47ceebc17f3"
     },
     {
       "entityType": "floor",
@@ -2137,7 +2137,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4fb"
+      "_id": "6abe34ea02ced47ceebc17f4"
     },
     {
       "entityType": "floor",
@@ -2154,7 +2154,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4fc"
+      "_id": "6abe34ea02ced47ceebc17f5"
     },
     {
       "entityType": "floor",
@@ -2171,7 +2171,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4fd"
+      "_id": "6abe34ea02ced47ceebc17f6"
     },
     {
       "entityType": "floor",
@@ -2188,7 +2188,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4fe"
+      "_id": "6abe34ea02ced47ceebc17f7"
     },
     {
       "entityType": "floor",
@@ -2205,7 +2205,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec4ff"
+      "_id": "6abe34ea02ced47ceebc17f8"
     },
     {
       "entityType": "floor",
@@ -2222,7 +2222,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec500"
+      "_id": "6abe34ea02ced47ceebc17f9"
     },
     {
       "entityType": "floor",
@@ -2239,7 +2239,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec501"
+      "_id": "6abe34ea02ced47ceebc17fa"
     },
     {
       "entityType": "floor",
@@ -2256,7 +2256,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec502"
+      "_id": "6abe34ea02ced47ceebc17fb"
     },
     {
       "entityType": "floor",
@@ -2273,7 +2273,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec503"
+      "_id": "6abe34ea02ced47ceebc17fc"
     },
     {
       "entityType": "floor",
@@ -2290,7 +2290,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec504"
+      "_id": "6abe34ea02ced47ceebc17fd"
     },
     {
       "entityType": "floor",
@@ -2307,7 +2307,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec505"
+      "_id": "6abe34ea02ced47ceebc17fe"
     },
     {
       "entityType": "floor",
@@ -2324,7 +2324,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec506"
+      "_id": "6abe34ea02ced47ceebc17ff"
     },
     {
       "entityType": "floor",
@@ -2341,7 +2341,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec507"
+      "_id": "6abe34ea02ced47ceebc1800"
     },
     {
       "entityType": "floor",
@@ -2358,7 +2358,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec508"
+      "_id": "6abe34ea02ced47ceebc1801"
     },
     {
       "entityType": "floor",
@@ -2375,7 +2375,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec509"
+      "_id": "6abe34ea02ced47ceebc1802"
     },
     {
       "entityType": "floor",
@@ -2392,7 +2392,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec50a"
+      "_id": "6abe34ea02ced47ceebc1803"
     },
     {
       "entityType": "floor",
@@ -2409,7 +2409,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec50b"
+      "_id": "6abe34ea02ced47ceebc1804"
     },
     {
       "entityType": "floor",
@@ -2426,7 +2426,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec50c"
+      "_id": "6abe34ea02ced47ceebc1805"
     },
     {
       "entityType": "floor",
@@ -2443,7 +2443,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec50d"
+      "_id": "6abe34ea02ced47ceebc1806"
     },
     {
       "entityType": "floor",
@@ -2460,7 +2460,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec50e"
+      "_id": "6abe34ea02ced47ceebc1807"
     },
     {
       "entityType": "floor",
@@ -2477,7 +2477,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec50f"
+      "_id": "6abe34ea02ced47ceebc1808"
     },
     {
       "entityType": "floor",
@@ -2494,7 +2494,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec510"
+      "_id": "6abe34ea02ced47ceebc1809"
     },
     {
       "entityType": "floor",
@@ -2511,7 +2511,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec511"
+      "_id": "6abe34ea02ced47ceebc180a"
     },
     {
       "entityType": "floor",
@@ -2528,7 +2528,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec512"
+      "_id": "6abe34ea02ced47ceebc180b"
     },
     {
       "entityType": "floor",
@@ -2545,7 +2545,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec513"
+      "_id": "6abe34ea02ced47ceebc180c"
     },
     {
       "entityType": "floor",
@@ -2562,7 +2562,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec514"
+      "_id": "6abe34ea02ced47ceebc180d"
     },
     {
       "entityType": "floor",
@@ -2579,7 +2579,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec515"
+      "_id": "6abe34ea02ced47ceebc180e"
     },
     {
       "entityType": "floor",
@@ -2596,7 +2596,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec516"
+      "_id": "6abe34ea02ced47ceebc180f"
     },
     {
       "entityType": "floor",
@@ -2613,7 +2613,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec517"
+      "_id": "6abe34ea02ced47ceebc1810"
     },
     {
       "entityType": "floor",
@@ -2630,7 +2630,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec518"
+      "_id": "6abe34ea02ced47ceebc1811"
     },
     {
       "entityType": "floor",
@@ -2647,7 +2647,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec519"
+      "_id": "6abe34ea02ced47ceebc1812"
     },
     {
       "entityType": "floor",
@@ -2664,7 +2664,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec51a"
+      "_id": "6abe34ea02ced47ceebc1813"
     },
     {
       "entityType": "floor",
@@ -2681,7 +2681,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec51b"
+      "_id": "6abe34ea02ced47ceebc1814"
     },
     {
       "entityType": "floor",
@@ -2698,7 +2698,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec51c"
+      "_id": "6abe34ea02ced47ceebc1815"
     },
     {
       "entityType": "floor",
@@ -2715,7 +2715,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec51d"
+      "_id": "6abe34ea02ced47ceebc1816"
     },
     {
       "entityType": "floor",
@@ -2732,7 +2732,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec51e"
+      "_id": "6abe34ea02ced47ceebc1817"
     },
     {
       "entityType": "floor",
@@ -2749,7 +2749,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec51f"
+      "_id": "6abe34ea02ced47ceebc1818"
     },
     {
       "entityType": "floor",
@@ -2766,7 +2766,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec520"
+      "_id": "6abe34ea02ced47ceebc1819"
     },
     {
       "entityType": "floor",
@@ -2783,7 +2783,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec521"
+      "_id": "6abe34ea02ced47ceebc181a"
     },
     {
       "entityType": "floor",
@@ -2800,7 +2800,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec522"
+      "_id": "6abe34ea02ced47ceebc181b"
     },
     {
       "entityType": "floor",
@@ -2817,7 +2817,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec523"
+      "_id": "6abe34ea02ced47ceebc181c"
     },
     {
       "entityType": "floor",
@@ -2834,7 +2834,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec524"
+      "_id": "6abe34ea02ced47ceebc181d"
     },
     {
       "entityType": "floor",
@@ -2851,7 +2851,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec525"
+      "_id": "6abe34ea02ced47ceebc181e"
     },
     {
       "entityType": "floor",
@@ -2868,7 +2868,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec526"
+      "_id": "6abe34ea02ced47ceebc181f"
     },
     {
       "entityType": "floor",
@@ -2885,7 +2885,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec527"
+      "_id": "6abe34ea02ced47ceebc1820"
     },
     {
       "entityType": "portal",
@@ -2902,7 +2902,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec528"
+      "_id": "6abe34ea02ced47ceebc1821"
     },
     {
       "entityType": "portal",
@@ -2919,7 +2919,7 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec529"
+      "_id": "6abe34ea02ced47ceebc1822"
     },
     {
       "entityType": "portal",
@@ -2936,12 +2936,675 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abbc64c2fcc28a84c0ec52a"
+      "_id": "6abe34ea02ced47ceebc1823"
+    },
+    {
+      "entityType": "obstacle",
+      "initCellX": 22,
+      "initCellY": 4,
+      "dimX": 7,
+      "dimY": 7,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1824"
+    },
+    {
+      "entityType": "obstacle",
+      "initCellX": 27,
+      "initCellY": 8,
+      "dimX": 7,
+      "dimY": 7,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1825"
+    },
+    {
+      "entityType": "obstacle",
+      "initCellX": 48,
+      "initCellY": 17,
+      "dimX": 9,
+      "dimY": 9,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1826"
+    },
+    {
+      "entityType": "obstacle",
+      "initCellX": 43,
+      "initCellY": 22,
+      "dimX": 7,
+      "dimY": 7,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1827"
+    },
+    {
+      "entityType": "obstacle",
+      "initCellX": 10,
+      "initCellY": 25,
+      "dimX": 8,
+      "dimY": 8,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1828"
+    },
+    {
+      "entityType": "obstacle",
+      "initCellX": 23,
+      "initCellY": 25,
+      "dimX": 5,
+      "dimY": 5,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1829"
+    },
+    {
+      "entityType": "obstacle",
+      "initCellX": 17,
+      "initCellY": 28,
+      "dimX": 8,
+      "dimY": 8,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc182a"
+    },
+    {
+      "entityType": "obstacle",
+      "initCellX": 50,
+      "initCellY": 37,
+      "dimX": 5,
+      "dimY": 5,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc182b"
+    },
+    {
+      "entityType": "foreground",
+      "initCellX": 22,
+      "initCellY": 0,
+      "dimX": 4,
+      "dimY": 4,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building-roof"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc182c"
+    },
+    {
+      "entityType": "foreground",
+      "initCellX": 27,
+      "initCellY": 3,
+      "dimX": 5,
+      "dimY": 5,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building-roof"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc182d"
+    },
+    {
+      "entityType": "foreground",
+      "initCellX": 48,
+      "initCellY": 11,
+      "dimX": 7,
+      "dimY": 7,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building-roof"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc182e"
+    },
+    {
+      "entityType": "foreground",
+      "initCellX": 42,
+      "initCellY": 15,
+      "dimX": 7,
+      "dimY": 7,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building-roof"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc182f"
+    },
+    {
+      "entityType": "foreground",
+      "initCellX": 23,
+      "initCellY": 19,
+      "dimX": 7,
+      "dimY": 7,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building-roof"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1830"
+    },
+    {
+      "entityType": "foreground",
+      "initCellX": 10,
+      "initCellY": 19,
+      "dimX": 6,
+      "dimY": 6,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building-roof"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1831"
+    },
+    {
+      "entityType": "foreground",
+      "initCellX": 16,
+      "initCellY": 21,
+      "dimX": 8,
+      "dimY": 8,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building-roof"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1832"
+    },
+    {
+      "entityType": "foreground",
+      "initCellX": 50,
+      "initCellY": 31,
+      "dimX": 7,
+      "dimY": 7,
+      "color": "rgba(111, 58, 11, 1)",
+      "objectLayerItemIds": [
+        "athel-ferrum-outpost-building-roof"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1833"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 32,
+      "initCellY": 18,
+      "dimX": 2,
+      "dimY": 2,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1834"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 33,
+      "initCellY": 19,
+      "dimX": 2,
+      "dimY": 2,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1835"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 37,
+      "initCellY": 17,
+      "dimX": 3,
+      "dimY": 3,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1836"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 12,
+      "initCellY": 34,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1837"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 19,
+      "initCellY": 41,
+      "dimX": 3,
+      "dimY": 3,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1838"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 43,
+      "initCellY": 37,
+      "dimX": 2,
+      "dimY": 2,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1839"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 42,
+      "initCellY": 5,
+      "dimX": 3,
+      "dimY": 3,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc183a"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 8,
+      "initCellY": 15,
+      "dimX": 2,
+      "dimY": 2,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc183b"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 12,
+      "initCellY": 16,
+      "dimX": 2,
+      "dimY": 2,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc183c"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 6,
+      "initCellY": 4,
+      "dimX": 2,
+      "dimY": 2,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc183d"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 33,
+      "initCellY": 30,
+      "dimX": 3,
+      "dimY": 3,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc183e"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 2,
+      "initCellY": 36,
+      "dimX": 3,
+      "dimY": 3,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc183f"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 3,
+      "initCellY": 37,
+      "dimX": 3,
+      "dimY": 3,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1840"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 59,
+      "initCellY": 44,
+      "dimX": 3,
+      "dimY": 3,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1841"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 36,
+      "initCellY": 41,
+      "dimX": 3,
+      "dimY": 3,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1842"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 15,
+      "initCellY": 54,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1843"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 13,
+      "initCellY": 51,
+      "dimX": 2,
+      "dimY": 2,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1844"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 12,
+      "initCellY": 53,
+      "dimX": 3,
+      "dimY": 3,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1845"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 21,
+      "initCellY": 56,
+      "dimX": 3,
+      "dimY": 3,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1846"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 23,
+      "initCellY": 50,
+      "dimX": 2,
+      "dimY": 2,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1847"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 49,
+      "initCellY": 53,
+      "dimX": 2,
+      "dimY": 2,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1848"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 41,
+      "initCellY": 52,
+      "dimX": 3,
+      "dimY": 3,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc1849"
+    },
+    {
+      "entityType": "bot",
+      "initCellX": 48,
+      "initCellY": 58,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(0, 0, 0, 1)",
+      "objectLayerItemIds": [
+        "drifter"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6abe34ea02ced47ceebc184a"
     }
   ],
   "createdAt": "2026-09-29T03:08:45.013Z",
-  "updatedAt": "2026-09-29T14:08:12.825Z",
+  "updatedAt": "2026-10-01T10:24:42.699Z",
   "__v": 0,
-  "preview": "6abbc64c2fcc28a84c0ec328",
-  "thumbnail": "6abbc64c2fcc28a84c0ec327"
+  "preview": "6abe34ea02ced47ceebc15e7",
+  "thumbnail": "6abe34ea02ced47ceebc15e6"
 }

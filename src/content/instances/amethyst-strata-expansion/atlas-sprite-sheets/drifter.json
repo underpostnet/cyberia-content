@@ -1,0 +1,238 @@
+{
+  "_id": "6abe31e9723819b508aaa625",
+  "objectLayerCid": "bafkreidmszr75myi2maxoxfytdtuxfazpmt4tatxjb5ytmsp3fjfa7pzj4",
+  "__v": 0,
+  "createdAt": "2026-10-01T10:11:53.220Z",
+  "fileId": "c7c870c27a48f7c7afe4c519",
+  "idlePreviewFileId": "10152d5d3595672089c927c2",
+  "metadata": {
+    "itemKey": "drifter",
+    "atlasWidth": 234,
+    "atlasHeight": 78,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 300,
+    "frames": {
+      "up_idle": [
+        {
+          "x": 26,
+          "y": 0,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        }
+      ],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        }
+      ],
+      "right_idle": [
+        {
+          "x": 78,
+          "y": 0,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        }
+      ],
+      "left_idle": [
+        {
+          "x": 52,
+          "y": 0,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        }
+      ],
+      "up_right_idle": [
+        {
+          "x": 182,
+          "y": 0,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        }
+      ],
+      "down_right_idle": [
+        {
+          "x": 130,
+          "y": 0,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        }
+      ],
+      "up_left_idle": [
+        {
+          "x": 156,
+          "y": 0,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        }
+      ],
+      "down_left_idle": [
+        {
+          "x": 104,
+          "y": 0,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        }
+      ],
+      "default_idle": [
+        {
+          "x": 156,
+          "y": 52,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        }
+      ],
+      "up_walking": [
+        {
+          "x": 26,
+          "y": 26,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        },
+        {
+          "x": 52,
+          "y": 26,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 1
+        }
+      ],
+      "down_walking": [
+        {
+          "x": 208,
+          "y": 0,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        },
+        {
+          "x": 0,
+          "y": 26,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 1
+        }
+      ],
+      "right_walking": [
+        {
+          "x": 130,
+          "y": 26,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        },
+        {
+          "x": 156,
+          "y": 26,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 1
+        }
+      ],
+      "left_walking": [
+        {
+          "x": 78,
+          "y": 26,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        },
+        {
+          "x": 104,
+          "y": 26,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 1
+        }
+      ],
+      "up_right_walking": [
+        {
+          "x": 104,
+          "y": 52,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        },
+        {
+          "x": 130,
+          "y": 52,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 1
+        }
+      ],
+      "down_right_walking": [
+        {
+          "x": 0,
+          "y": 52,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        },
+        {
+          "x": 26,
+          "y": 52,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 1
+        }
+      ],
+      "up_left_walking": [
+        {
+          "x": 52,
+          "y": 52,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        },
+        {
+          "x": 78,
+          "y": 52,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 1
+        }
+      ],
+      "down_left_walking": [
+        {
+          "x": 182,
+          "y": 26,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        },
+        {
+          "x": 208,
+          "y": 26,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 1
+        }
+      ],
+      "none_idle": [
+        {
+          "x": 182,
+          "y": 52,
+          "width": 26,
+          "height": 26,
+          "frameIndex": 0
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-01T10:11:53.220Z",
+  "upscaleFileId": "ae2745833a9c6164993d4cd5"
+}

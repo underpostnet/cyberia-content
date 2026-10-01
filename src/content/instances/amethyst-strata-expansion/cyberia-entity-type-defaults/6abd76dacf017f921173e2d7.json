@@ -1,0 +1,15 @@
+{
+  "_id": "6abd76dacf017f921173e2d7",
+  "entityType": "foreground",
+  "liveItemIds": [
+    "athel-ferrum-outpost-building-roof"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [],
+  "behavior": "overhead-occlusion",
+  "createdAt": "2026-09-30T20:53:46.630Z",
+  "updatedAt": "2026-09-30T20:53:46.630Z",
+  "__v": 0
+}

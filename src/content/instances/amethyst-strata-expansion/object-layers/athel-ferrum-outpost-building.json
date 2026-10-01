@@ -1,0 +1,35 @@
+{
+  "_id": "6abd748acf017f921173e210",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "athel-ferrum-outpost-building",
+      "type": "obstacle",
+      "description": "",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreih7vyc27qtansbgdbtjmvnwzmvsnmxvqwhquxelt2qbynplysi2hm",
+      "metadataCid": "bafkreiaawfajirvquk7pkbjnoe7d4taoci6rvmeiie336aho6vn7n5fopi"
+    }
+  },
+  "cid": "bafkreid3c7zrx6fgkdgbkee7hu7lufstzjvnuqcdkl6inrhywfvagx6exq",
+  "contentHash": "7b17f31bf8a650cc15109f3d3eba1653ca6ada404352fc86c4f8b16a035fc4bc",
+  "createdBy": "6abb06a3b40fbce41a64242d",
+  "archivedAt": null,
+  "createdAt": "2026-09-30T20:43:54.060Z",
+  "updatedAt": "2026-09-30T20:43:54.110Z",
+  "__v": 0
+}
