@@ -213,5 +213,11 @@ later without a change to the artifact.
 1. Change content, run `validate`, and commit. The build refuses uncommitted content.
 2. Increment `version` in `package.json` and commit. A released version never changes.
 3. Run `build`. The engine reads the new artifact from this checkout.
-4. In the engine, `cyberia instance --publish-build` records the artifact in the deployment
-   `content-lock.json`. The image build checks out that source revision and builds it again.
+4. In the engine, `cyberia content lock` records the artifact in the deployment
+   `content-lock.json`: repository, version, source revision and digest.
+5. A deploy fetches that exact revision, builds it again with `npm ci`, `npm test` and `npm pack`,
+   and fails unless the result matches the lock.
+
+A source channel selects only the repository a deploy fetches the revision from: this repository,
+or `cyberia-content-private`. A release from either channel is a production release. After a
+release from the private channel serves, the deploy publishes its revision here, fast-forward only.
