@@ -1,0 +1,22 @@
+{
+  "sourceMapCode": "sap-logic-array",
+  "sourceCellX": 42,
+  "sourceCellY": 40,
+  "code": "interact-knot-node-terminal",
+  "label": "Array Terminal",
+  "dialogCode": "default-knot-node-terminal",
+  "questDialogueCodes": [
+    {
+      "questCode": "knot-node-neutralization",
+      "dialogCode": "quest-talk-knot-node-neutralization",
+      "_id": "6ac54933c06bbae4af1bad32"
+    }
+  ],
+  "shopItems": [],
+  "craftRecipes": [],
+  "storageSlots": 0,
+  "_id": "6ac54933c06bbae4af1bad31",
+  "createdAt": "2026-10-06T19:17:07.151Z",
+  "updatedAt": "2026-10-07T21:24:58.084Z",
+  "__v": 0
+}

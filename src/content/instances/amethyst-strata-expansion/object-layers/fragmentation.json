@@ -1,5 +1,5 @@
 {
-  "_id": "6a56b91a9fab49c408b339e2",
+  "_id": "6ac549388365bda83eae7dc2",
   "schemaVersion": 1,
   "profile": {
     "id": "cyberia",
@@ -9,7 +9,7 @@
     "item": {
       "id": "fragmentation",
       "type": "skin",
-      "description": "",
+      "description": "A body in the Fragmented State: a cluster of cyan fragments held at the point of collapse.",
       "activable": true
     },
     "stats": {
@@ -25,11 +25,11 @@
       "metadataCid": "bafkreiandfxcawcdcehkgxmttcfsa3np75pur4vezriyspyzce4vt235di"
     }
   },
-  "cid": "bafkreiba2vggzo36m77ukdh2h46kmydgr3wpaobxy6pvgt4wcexrqitrry",
-  "contentHash": "20d54c6cbb7e67ff450cfa3f3ca660668eecf03837c79f534f96112f1822718e",
+  "cid": "bafkreicmjoqau37dut3ygjokgjtb3rjc2l3763f3dhgkzdtmfrcytldpay",
+  "contentHash": "4c4ba00a6fe3a4f78325ca32661dc522d2f7ff6cbb19ccac8e6c2c4589ac6f06",
   "createdBy": "",
   "archivedAt": null,
-  "createdAt": "2026-09-29T03:04:35.068Z",
-  "updatedAt": "2026-09-29T03:04:35.557Z",
+  "createdAt": "2026-10-06T19:17:12.061Z",
+  "updatedAt": "2026-10-06T19:17:12.100Z",
   "__v": 0
 }

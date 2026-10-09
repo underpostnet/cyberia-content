@@ -1,5 +1,4 @@
 {
-  "_id": "6a5c162a2e1dbf5a3a3087ba",
   "sourceMapCode": "amethyst-foliage-expanse",
   "sourceCellX": 20,
   "sourceCellY": 48,
@@ -16,15 +15,14 @@
   "shopItems": [
     {
       "itemId": "elara-voss-kalu",
-      "objectLayerCid": "bafkreidvbwe2epnxuijfwf3wcmmy63h3bkcpadku5aepj6winegw3e5paq",
       "priceItemId": "coin",
-      "priceObjectLayerCid": "bafkreidaf7725lujzvbrvdiryqkkcikqwy2ribtuooijouupsz3akwbj2a",
       "priceQty": 85,
       "_id": "6a5c162a35d4e57a36f1d57d"
     }
   ],
   "craftRecipes": [],
   "storageSlots": 4,
+  "_id": "6a5c162a2e1dbf5a3a3087ba",
   "createdAt": "2026-07-19T00:11:22.875Z",
   "updatedAt": "2026-07-19T00:11:22.875Z",
   "__v": 0

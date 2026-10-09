@@ -1,5 +1,4 @@
 {
-  "_id": "6a44f92c31ac5af0172d5c37",
   "sourceMapCode": "sap-logic-array",
   "sourceCellX": 42,
   "sourceCellY": 40,
@@ -20,7 +19,6 @@
         {
           "type": "kill",
           "itemId": "elara-voss-kalu",
-          "objectLayerCid": "bafkreidvbwe2epnxuijfwf3wcmmy63h3bkcpadku5aepj6winegw3e5paq",
           "quantity": 5,
           "_id": "6a44fa84b38301b2f28dd50e"
         }
@@ -34,7 +32,6 @@
         {
           "type": "collect",
           "itemId": "violet-growth-knot",
-          "objectLayerCid": "bafkreibykww33bdaakyfwqgisbzc6r3t4xevekyfgb5bu3vlpczdcxfmwa",
           "quantity": 1,
           "_id": "6a44fa84b38301b2f28dd510"
         }
@@ -45,11 +42,11 @@
   "rewards": [
     {
       "itemId": "spore-suppressor-slugger",
-      "objectLayerCid": "bafkreiczo75edc6s5xgbqfkta3rokqw3pyl2eeu46ldalq2zgvsc5sinqu",
       "quantity": 1,
       "_id": "6a44fa84b38301b2f28dd511"
     }
   ],
+  "_id": "6a44f92c31ac5af0172d5c37",
   "createdAt": "2026-07-01T11:25:32.612Z",
   "updatedAt": "2026-07-01T11:25:32.612Z",
   "__v": 0

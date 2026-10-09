@@ -1,5 +1,4 @@
 {
-  "_id": "6a4023c0821b919c65caccf6",
   "sourceMapCode": "amethyst-foliage-expanse",
   "sourceCellX": 20,
   "sourceCellY": 48,
@@ -18,7 +17,6 @@
         {
           "type": "talk",
           "itemId": "jiro-samsara-lin",
-          "objectLayerCid": "bafkreigy6wyf37cormrxlamvdnlqb3hjyygifiryvx76dorw5q4cujohfu",
           "quantity": 1,
           "_id": "6a4068bec5b68b16f4307921"
         }
@@ -32,7 +30,6 @@
         {
           "type": "collect",
           "itemId": "purplish-sap-vial",
-          "objectLayerCid": "bafkreiaqnmy3btr5y6xmpugmkgahimnoaq7uoutqnjva5vsofc5gfii2ci",
           "quantity": 3,
           "_id": "6a4068bec5b68b16f4307923"
         }
@@ -43,11 +40,11 @@
   "rewards": [
     {
       "itemId": "coin",
-      "objectLayerCid": "bafkreidaf7725lujzvbrvdiryqkkcikqwy2ribtuooijouupsz3akwbj2a",
       "quantity": 50,
       "_id": "6a4068bec5b68b16f4307924"
     }
   ],
+  "_id": "6a4023c0821b919c65caccf6",
   "createdAt": "2026-06-27T19:25:52.258Z",
   "updatedAt": "2026-06-27T19:25:52.258Z",
   "__v": 0

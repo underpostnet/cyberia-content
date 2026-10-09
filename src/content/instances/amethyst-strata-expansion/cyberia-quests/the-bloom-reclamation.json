@@ -1,0 +1,38 @@
+{
+  "sourceMapCode": "athel-ferrum-outpost",
+  "sourceCellX": 26,
+  "sourceCellY": 31,
+  "code": "the-bloom-reclamation",
+  "title": "The Bloom Reclamation",
+  "description": "The source of the encroachment is a central anomaly at the Bloom Apex. We must reclaim the core to restore the ecological parameters of the zone.",
+  "prerequisiteCodes": [
+    "perimeter-hardening"
+  ],
+  "unlocksQuestCodes": [],
+  "steps": [
+    {
+      "id": "eliminate-apex-entity",
+      "description": "Eliminate the primary mutagenic manifestation at the center of the anomaly.",
+      "objectives": [
+        {
+          "type": "kill",
+          "itemId": "elara-voss-kalu",
+          "quantity": 1,
+          "_id": "6ac54933c06bbae4af1bad1c"
+        }
+      ],
+      "_id": "6ac54933c06bbae4af1bad1b"
+    }
+  ],
+  "rewards": [
+    {
+      "itemId": "coin",
+      "quantity": 200,
+      "_id": "6ac54933c06bbae4af1bad1d"
+    }
+  ],
+  "_id": "6ac54933c06bbae4af1bad1a",
+  "createdAt": "2026-10-06T19:17:07.104Z",
+  "updatedAt": "2026-10-07T21:24:58.080Z",
+  "__v": 1
+}

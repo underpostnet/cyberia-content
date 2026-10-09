@@ -1,0 +1,46 @@
+{
+  "sourceMapCode": "athel-ferrum-outpost",
+  "sourceCellX": 26,
+  "sourceCellY": 31,
+  "code": "interact-thon-zheng",
+  "label": "Border-Watch Workshop",
+  "dialogCode": "default-thon-zheng",
+  "questDialogueCodes": [
+    {
+      "questCode": "the-bloom-reclamation",
+      "dialogCode": "quest-talk-the-bloom-reclamation",
+      "_id": "6ac54933c06bbae4af1bad34"
+    }
+  ],
+  "shopItems": [],
+  "craftRecipes": [
+    {
+      "outputItems": [
+        {
+          "itemId": "composite-bark-plating",
+          "qty": 1,
+          "_id": "6ac54933c06bbae4af1bad36"
+        }
+      ],
+      "ingredients": [
+        {
+          "itemId": "violet-growth-knot",
+          "qty": 3,
+          "_id": "6ac54933c06bbae4af1bad37"
+        },
+        {
+          "itemId": "purplish-sap-vial",
+          "qty": 1,
+          "_id": "6ac54933c06bbae4af1bad38"
+        }
+      ],
+      "craftTimeMs": 3000,
+      "_id": "6ac54933c06bbae4af1bad35"
+    }
+  ],
+  "storageSlots": 6,
+  "_id": "6ac54933c06bbae4af1bad33",
+  "createdAt": "2026-10-06T19:17:07.153Z",
+  "updatedAt": "2026-10-07T21:24:58.087Z",
+  "__v": 1
+}

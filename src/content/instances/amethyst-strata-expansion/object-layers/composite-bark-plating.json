@@ -1,0 +1,35 @@
+{
+  "_id": "6ac54932c06bbae4af1bacf3",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "composite-bark-plating",
+      "type": "breastplate",
+      "description": "Protective gear fashioned from the hardened, indigo-hued stems of the local flora.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 9,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 3
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreiby7adt3aj6udejdk42nkaq3ak7muiexvwbrpgtcre5gnjpsczkwm",
+  "contentHash": "38f8073d813ea0c891ab9a6a810d815f65104bd6c18bcd31449d3352f90b2ab3",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-10-06T19:17:06.543Z",
+  "updatedAt": "2026-10-06T19:17:06.593Z",
+  "__v": 0
+}

@@ -1,14 +1,14 @@
 {
   "_id": "3f0399432326d1d1f15ceab3",
-  "__v": 0,
+  "name": "frontier-grass-beta-primary.png",
   "data": {
     "$base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAElUlEQVR4AbXBwWpduRnA8X8UUUHsCpkKe/lhtGzDLA0t+AXmLfokWc479G2yyzYt3YRD+ZhVgpirc+iYK1B0mw9y4GJcymD393v1t3/8+bRoo0hi0cZvVSSxaKNIYtHGb+UXbVTtQOOxqp0sAbd5zIyDxxZtVO1A47GqnSwBt3nMjIPHnNs8WQKmSMJU7RRJZAkUScw4mHFgiiR2bvO4zZMlYIokTNVOkUSWQJHEjIMZB6ZIYuc2z+u//PUP74okDuuRw3rEPKxf6QyqdjoDt3lOYWIO65HdKUxOYVIkcViPHNYj5mH9SmdQtdMZuM1zChNzWI/sTmHiiiRMkYRxm+fu/gaTJWBmHJiqnceKJEyRhHGb5+7+BpMlYGYcmKqdx17f/Ol37zqDw3rEnMJk/XlwChO3eV51xylMzNsfMof1SNXOw/qVN8nz6eNKZ3BYj5hTmKw/D05h4jbPq+44hYl5+0PmsB6p2nlYv/ImeVyWwK5Iwty+vcTMODBu81TtLNowWQLXVxeYLIFdkYS5fXuJmXFg3Oap2lm0YbIErq8uMI5viiTMog2zaMMUScw4+HL4lbv7G87NONgVSZhFG2bRhimSmHHw5fArd/c3nJtxYFyRxKINU7VTtbNbtGGury748P4zu6qdXZHEog1TtVO1s1u0Ya6vLvjw/jO7qp2dW7RRtWOyBLIEiiR2VTszDrIETNVOloBxm2fRRtWOyRLIEiiS2FXtzDjIEjBVO1kCxm0exzdZAucWbTylaufcjAOTJXBu0cZTqnbOzThwRRKmSMIUSVTtmCKJLIFdloCp2qnaMUUSpkjCFElU7ZgiiSyBXZaAqdqp2jGe7xZt7K6vLriVSxZtGLd5ZhyYLIGnLNrYXV9dcCuXLNowbvPMODBZAude//HH37/jO7d5fjk+cAqTTx9XHtavvEmeU5i4zXMKk8cO65Gd2zy/HB84hcmnjysP61feJM8pTNzmOYXJY44zMw5M1U6WgKnaMTMOjNs8/82MA1O1kyVgqnbMjAPjNs85xxOyBKp2TJaAqdoxMw7+lyyBqh2TJWCqdsyMg3O+SGLRRpHEoo1dlsC5LIGn/PTjP1/xDH7RRtUONB6r2skScJvHzDh4ac5tniwBUyRhqnaKJLIEiiRmHMw4MEUSO7d5nsvNOCiSMIs2dos2qnYWbbjNs1u0sZtx8FyuSMIUSRi3ee7ubzBZAmbGganaeWn+w/vPZAnsZhz86+//hghu85gZB+bu/oZFG1U7JkvguVyWwK5Iwty+vcTMODBu81TtLNowWQLXVxe8BMc3RRJm0YZZtGGKJGYcfDn8yt39DedmHLwEVySxaMNU7VTt7BZtmOurCz68/8yuaueluEUbVTsmSyBLoEhiV7Uz4yBLwFTtZAkYt3mey/FNlsC5RRtPqdo5N+PguVyRhCmSMEUSVTumSCJLYJclYKp2qnZegue7RRu766sLbuWSRRvGbZ4ZByZL4CW5RRs7t3kWbcw4+PD+M1U7ZsaB2zz/D44zMw5M1U6WgKnaMTMOjNs8L8nxhCyBqh2TJWCqdsyMg5f0H2eOXwuP0om+AAAAAElFTkSuQmCC"
   },
-  "encoding": "utf-8",
-  "md5": "a370900bdcf6958835b340647a86718c",
-  "mimetype": "image/png",
-  "name": "frontier-grass-beta-primary.png",
   "size": 1230,
+  "encoding": "utf-8",
   "tempFilePath": "",
-  "truncated": false
+  "truncated": false,
+  "mimetype": "image/png",
+  "md5": "a370900bdcf6958835b340647a86718c",
+  "__v": 0
 }
