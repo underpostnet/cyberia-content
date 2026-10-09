@@ -13,6 +13,9 @@
         "tree.rustbark",
         "tree.goldcrown"
       ]
+    },
+    "items": {
+      "skin": "skin.drifter"
     }
   }
 }

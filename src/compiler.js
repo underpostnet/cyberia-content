@@ -246,10 +246,11 @@ function compileBaseline(registry) {
 const defaultKey = ({ entityType, liveItemIds }) => `${entityType}|${liveItemIds.join(',')}`;
 
 /**
- * The foundation as runtime documents, and its baseline. Its entity-type defaults hold every entity
- * definition and every baseline row that carries an item, once each.
+ * The foundation as runtime documents, its baseline, and the item label each item type gives a new
+ * item its function from. Its entity-type defaults hold every entity definition and every baseline
+ * row that carries an item, once each.
  * @param {Object} registry - Foundation registry.
- * @returns {{families:Object<string,Object[]>, baseline:Object[]}}
+ * @returns {{families:Object<string,Object[]>, baseline:Object[], itemBaseline:Object<string,string>}}
  */
 export function compileFoundation(registry) {
   const families = compileDefinitions(registry, [...registry.definitions.values()]);
@@ -260,7 +261,10 @@ export function compileFoundation(registry) {
       keys.add(defaultKey(row));
       families.entityTypeDefaults.push(row);
     }
-  return { families, baseline };
+  const itemBaseline = Object.fromEntries(
+    Object.entries(registry.baseline.items ?? {}).map(([itemType, id]) => [itemType, slugOf(id)]),
+  );
+  return { families, baseline, itemBaseline };
 }
 
 /**

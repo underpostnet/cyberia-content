@@ -333,8 +333,9 @@ export function validateDefinitions(definitions, { base = null } = {}) {
 }
 
 /**
- * Validates the foundation manifest: its schema version, and the baseline each runtime entity
- * type resolves against when a world authors none of its own.
+ * Validates the foundation manifest: its schema version, the baseline each runtime entity type
+ * resolves against when a world authors none of its own, and the item each item type gives a new
+ * item its function from.
  *
  * @param {Object} manifest - `foundation.json`.
  * @param {(id:string)=>Object|undefined} lookup - Definition by id.
@@ -368,6 +369,10 @@ export function validateManifest(manifest, lookup) {
       if (!types.every((type) => allowed.includes(type)))
         report(`baseline.entities.${entityType}: ${id} carries an item type a ${entityType} cannot hold`);
     }
+  }
+  for (const [itemType, id] of Object.entries(baseline.items ?? {})) {
+    if (!CONTRACT.itemTypes.includes(itemType)) report(`baseline.items.${itemType} is not an item type`);
+    else if (itemTypeOf(lookup(id)) !== itemType) report(`baseline.items.${itemType} must name a ${itemType}`);
   }
   return findings;
 }

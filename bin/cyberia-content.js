@@ -42,14 +42,15 @@ const fail = (findings) => {
 program
   .command('validate')
   .option('--fix', 'rewrite each content JSON file in canonical form first')
-  .description('Validate the content: canonical form, foundation, sagas and instances')
+  .description('Validate the content: canonical form, foundation, procedural templates, sagas and instances')
   .action((options) => {
     if (options.fix) for (const file of formatContent(CONTENT_ROOT)) console.log(`Rewrote ${file}`);
-    const { findings, registry, sagas, instances } = readContent();
+    const { findings, registry, sagas, instances, procedural } = readContent();
     if (findings.length > 0) fail(findings);
     console.log(
       `Content ${version} is valid: ${registry.definitions.size} definitions, ${sagas.size} saga(s), ` +
-        `${instances.length} instance(s)`,
+        `${instances.length} instance(s), ${procedural.templates.length} genesis template(s), ` +
+        `${procedural.palettes.length} palette(s)`,
     );
   });
 

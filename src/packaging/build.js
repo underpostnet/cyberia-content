@@ -15,22 +15,24 @@ import { CONTRACT_FILE } from '../schema/contract.js';
 import { SCHEMA_VERSION } from '../schema/definitions.js';
 import { readContent } from '../validation/content.js';
 import { canonicalJson, filesUnder } from '../validation/format.js';
+import { PALETTE_FAMILIES } from '../validation/procedural.js';
 import { contentDigest, sha256 } from './digest.js';
 
-/** Version of the artifact layout and its document shapes: manifest, context, foundation, sagas, instances. */
-export const ARTIFACT_SCHEMA_VERSION = 4;
+/** Version of the artifact layout and its document shapes: manifest, context, foundation, procedural, sagas, instances. */
+export const ARTIFACT_SCHEMA_VERSION = 5;
 
 export const PACKAGE_ROOT = fileURLToPath(new URL('../../', import.meta.url));
 
 /**
  * The files of the artifact by artifact path: one file per document family of the foundation and
- * of each saga, the foundation baseline, the context index, and the instance backups.
+ * of each saga, the foundation baselines, the procedural templates, the context index, and the
+ * instance backups.
  * @param {string} [root] - Content directory.
  * @returns {{files:Map<string,Buffer>, instances:string[], sagas:string[]}}
  * @throws {ContentError} When the content has findings.
  */
 export function artifactContent(root = CONTENT_ROOT) {
-  const { findings, registry, sagas, instances } = readContent(root);
+  const { findings, registry, sagas, instances, procedural } = readContent(root);
   if (findings.length > 0) throw new ContentError(findings);
   const files = new Map();
   const json = (file, value) => files.set(file, Buffer.from(canonicalJson(value)));
@@ -40,6 +42,9 @@ export function artifactContent(root = CONTENT_ROOT) {
   const foundation = compileFoundation(registry);
   families('foundation', foundation.families);
   json('foundation/baseline.json', foundation.baseline);
+  json('foundation/item-baseline.json', foundation.itemBaseline);
+  json('procedural/genesis-templates.json', procedural.templates);
+  json('procedural/palettes.json', { families: PALETTE_FAMILIES, palettes: procedural.palettes });
   for (const [code, pkg] of sagas) {
     const { saga, instance, families: documents } = compileSaga(pkg, registry);
     json(`sagas/${code}/saga.json`, saga);

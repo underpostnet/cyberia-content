@@ -46,6 +46,7 @@ This repository creates content. The engine consumes it.
 - `src/` imports only Node built-ins and files of this repository. Never import engine, server or client code.
 - This repository never writes to MongoDB, the Object Layer, a server or a deployment.
 - Content defines what exists and how it functions. Studio authors render and placement; never write them here.
+- `src/content/procedural/` owns where a procedural generation starts: Genesis Templates (region maps and role tones) and Palette Templates. They are never a render and define no item.
 
 ## Release
 

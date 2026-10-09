@@ -38,18 +38,24 @@ describe('artifact metadata', () => {
     });
   });
 
-  it('holds the context index, one file per document family of the foundation and of each saga, and the backups', () => {
+  it('holds the context index, one file per document family of the foundation and of each saga, the procedural templates and the backups', () => {
     const files = Object.keys(manifest.files);
     const families = Object.values(FAMILIES).map((family) => `${family}.json`);
     expect(files.filter((file) => file.startsWith('foundation/')).sort()).toEqual(
-      ['baseline.json', ...families].map((file) => `foundation/${file}`).sort(),
+      ['baseline.json', 'item-baseline.json', ...families].map((file) => `foundation/${file}`).sort(),
     );
+    expect(files.filter((file) => file.startsWith('procedural/')).sort()).toEqual([
+      'procedural/genesis-templates.json',
+      'procedural/palettes.json',
+    ]);
     expect(files.filter((file) => file.startsWith('sagas/')).sort()).toEqual(
       ['saga.json', 'instance.json', ...families].map((file) => `sagas/amethyst-strata-expansion/${file}`).sort(),
     );
     expect(files).toContain('instances/test/cyberia-instance.json');
     expect(files).toContain('context.json');
-    expect(files.every((file) => file === 'context.json' || /^(foundation|sagas|instances)\//.test(file))).toBe(true);
+    expect(
+      files.every((file) => file === 'context.json' || /^(foundation|procedural|sagas|instances)\//.test(file)),
+    ).toBe(true);
   });
 
   it('is deterministic: the same revision builds the same manifest and bytes', () => {

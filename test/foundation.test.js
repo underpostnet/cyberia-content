@@ -326,6 +326,13 @@ describe('definition validation', () => {
     ]);
   });
 
+  it('refuses a baseline item that is not of its item type', () => {
+    const manifest = minimalManifest();
+    manifest.baseline.items = { skin: 'floor.grass', relic: 'skin.walker' };
+    const findings = foundationFindings({ manifest, definitions: minimalDefinitions() }).map(({ message }) => message);
+    expect(findings).toEqual(['baseline.items.skin must name a skin', 'baseline.items.relic is not an item type']);
+  });
+
   it('reports file names and directories that do not match the definition', () => {
     const root = fs.mkdtempSync(path.join(os.tmpdir(), 'cyberia-foundation-'));
     fs.writeFileSync(path.join(root, 'foundation.json'), JSON.stringify(minimalManifest()));

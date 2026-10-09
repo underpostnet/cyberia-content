@@ -124,9 +124,15 @@ describe('the compiled minimal foundation', () => {
 
 describe('the compiled foundation', () => {
   const registry = createRegistry();
-  const { families, baseline } = compileFoundation(registry);
+  const { families, baseline, itemBaseline } = compileFoundation(registry);
   const labels = new Set(families.objectLayers.map(({ itemId }) => itemId));
   const dialogueCodes = new Set(families.dialogues.map(({ code }) => code));
+
+  it('names, for each baseline item type, the Object Layer item a new item takes its function from', () => {
+    expect(itemBaseline).toEqual({ skin: 'drifter' });
+    for (const [itemType, itemId] of Object.entries(itemBaseline))
+      expect(families.objectLayers.find((item) => item.itemId === itemId).payload.data.item.type).toBe(itemType);
+  });
 
   it('produces every document family, beyond Object Layer items', () => {
     for (const family of Object.keys(FAMILIES)) expect(families[family].length, family).toBeGreaterThan(0);

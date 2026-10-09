@@ -8,6 +8,7 @@ import path from 'node:path';
 import { IGNORED_SAGAS } from '../config.js';
 import { CONTENT_ROOT, createRegistry, foundationFindings, readFoundation } from '../foundation.js';
 import { validatePackage } from '../generator/package.js';
+import { readProcedural } from '../procedural.js';
 import { formatFindings } from './format.js';
 
 const readJson = (file) => JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -53,10 +54,12 @@ const pinFindings = (root, code) => {
 };
 
 /**
- * The content of a content directory: its registry, saga packages and instance codes.
+ * The content of a content directory: its registry, saga packages, instance codes and procedural
+ * templates.
  * @param {string} [root] - Content directory.
  * @returns {{findings:Array<{id:string,message:string}>, registry?:Object,
- *   sagas?:Map<string,Object>, instances?:string[]}} Findings, and the content when there are none.
+ *   sagas?:Map<string,Object>, instances?:string[], procedural?:{templates:Object[], palettes:Object[]}}}
+ *   Findings, and the content when there are none.
  */
 export function readContent(root = CONTENT_ROOT) {
   const findings = formatFindings(root);
@@ -65,6 +68,8 @@ export function readContent(root = CONTENT_ROOT) {
   if (findings.length > 0) return { findings };
 
   const registry = createRegistry(source);
+  const { templates, palettes, findings: proceduralFindings } = readProcedural(root, registry);
+  findings.push(...proceduralFindings);
 
   const sagas = new Map();
   for (const code of entriesOf(root, 'sagas', false).filter((code) => !IGNORED_SAGAS.has(code))) {
@@ -82,5 +87,7 @@ export function readContent(root = CONTENT_ROOT) {
       findings.push({ id: `instances/${code}`, message: `cyberia-instance.json must hold instance ${code}` });
     findings.push(...pinFindings(root, code));
   }
-  return findings.length > 0 ? { findings } : { findings, registry, sagas, instances };
+  return findings.length > 0
+    ? { findings }
+    : { findings, registry, sagas, instances, procedural: { templates, palettes } };
 }
