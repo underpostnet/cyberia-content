@@ -1,4 +1,12 @@
-# cyberia-content
+<p align="center">
+  <img src="https://www.cyberiaonline.com/assets/splash/apple-touch-icon-precomposed.png" alt="CYBERIA online"/>
+</p>
+
+<div align="center">
+
+<h1>cyberia content</h1>
+
+</div>
 
 The Cyberia content: the foundation, the instances, the sagas, the semantic generator and the
 versioned content artifact the engine consumes.
@@ -259,5 +267,5 @@ later without a change to the artifact.
    and fails unless the result matches the lock.
 
 A source channel selects only the repository a deploy fetches the revision from: this repository,
-or `cyberia-content-private`. A release from either channel is a production release. After a
-release from the private channel serves, the deploy publishes its revision here, fast-forward only.
+or `cyberia-content-private`. A release from either channel is a production release. A deploy
+never pushes to either repository.
