@@ -1,0 +1,23 @@
+{
+  "id": "skin.exotic-green",
+  "name": "Green",
+  "itemType": "skin",
+  "family": "exotic",
+  "biomeTags": [],
+  "roles": {
+    "hair": "#12331a",
+    "skin": "#8fe37a",
+    "torso": "#2f9e44",
+    "legs": "#1b5e2a",
+    "outline": "#14110f",
+    "accent": "#ffe066"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "skin",
+      "torso",
+      "legs"
+    ]
+  }
+}

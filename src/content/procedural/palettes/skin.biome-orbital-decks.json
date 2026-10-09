@@ -1,0 +1,25 @@
+{
+  "id": "skin.biome-orbital-decks",
+  "name": "Orbital Decks",
+  "itemType": "skin",
+  "family": "biome",
+  "biomeTags": [
+    "orbital-decks"
+  ],
+  "roles": {
+    "hair": "#1a1c1f",
+    "skin": "#aeb4bb",
+    "torso": "#5c6168",
+    "legs": "#3f4349",
+    "outline": "#0e0f11",
+    "accent": "#d6282b"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "skin",
+      "torso",
+      "legs"
+    ]
+  }
+}

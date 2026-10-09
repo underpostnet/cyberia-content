@@ -1,0 +1,25 @@
+{
+  "id": "skin.biome-regolith-citadel",
+  "name": "Regolith Citadel",
+  "itemType": "skin",
+  "family": "biome",
+  "biomeTags": [
+    "regolith-citadel"
+  ],
+  "roles": {
+    "hair": "#3c3b38",
+    "skin": "#d6d4ce",
+    "torso": "#9a9892",
+    "legs": "#5e5c58",
+    "outline": "#0a0a0c",
+    "accent": "#5fd0e0"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "skin",
+      "torso",
+      "legs"
+    ]
+  }
+}

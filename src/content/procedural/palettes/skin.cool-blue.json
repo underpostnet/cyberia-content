@@ -1,0 +1,23 @@
+{
+  "id": "skin.cool-blue",
+  "name": "Blue",
+  "itemType": "skin",
+  "family": "cool",
+  "biomeTags": [],
+  "roles": {
+    "hair": "#14264a",
+    "skin": "#c0d0e8",
+    "torso": "#2f5fa8",
+    "legs": "#1f3a6e",
+    "outline": "#14110f",
+    "accent": "#6fb8ff"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "skin",
+      "torso",
+      "legs"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "skin.natural-light",
+  "name": "Light",
+  "itemType": "skin",
+  "family": "natural",
+  "biomeTags": [],
+  "roles": {
+    "hair": "#8a6a3c",
+    "skin": "#f0c4a8",
+    "torso": "#5a6f9a",
+    "legs": "#46465a",
+    "outline": "#14110f",
+    "accent": "#f0d070"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "skin",
+      "torso",
+      "legs"
+    ]
+  }
+}

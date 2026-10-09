@@ -1,0 +1,25 @@
+{
+  "id": "skin.biome-overgrown-ruins",
+  "name": "Overgrown Ruins",
+  "itemType": "skin",
+  "family": "biome",
+  "biomeTags": [
+    "overgrown-ruins"
+  ],
+  "roles": {
+    "hair": "#23652f",
+    "skin": "#8aa05a",
+    "torso": "#3fa34d",
+    "legs": "#7a3f22",
+    "outline": "#172414",
+    "accent": "#e0a06a"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "skin",
+      "torso",
+      "legs"
+    ]
+  }
+}

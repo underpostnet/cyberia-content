@@ -1,0 +1,23 @@
+{
+  "id": "skin.cool-slate",
+  "name": "Slate",
+  "itemType": "skin",
+  "family": "cool",
+  "biomeTags": [],
+  "roles": {
+    "hair": "#20262e",
+    "skin": "#b8c0c8",
+    "torso": "#4a5766",
+    "legs": "#2e3640",
+    "outline": "#14110f",
+    "accent": "#8ab4d8"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "skin",
+      "torso",
+      "legs"
+    ]
+  }
+}

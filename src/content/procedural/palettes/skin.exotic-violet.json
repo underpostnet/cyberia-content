@@ -1,0 +1,23 @@
+{
+  "id": "skin.exotic-violet",
+  "name": "Violet",
+  "itemType": "skin",
+  "family": "exotic",
+  "biomeTags": [],
+  "roles": {
+    "hair": "#1f1a5c",
+    "skin": "#8f8cf0",
+    "torso": "#3f3fbf",
+    "legs": "#25256b",
+    "outline": "#14110f",
+    "accent": "#c0c0ff"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "skin",
+      "torso",
+      "legs"
+    ]
+  }
+}

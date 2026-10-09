@@ -1,0 +1,23 @@
+{
+  "id": "skin.natural-tan",
+  "name": "Tan",
+  "itemType": "skin",
+  "family": "natural",
+  "biomeTags": [],
+  "roles": {
+    "hair": "#3a2616",
+    "skin": "#b07a55",
+    "torso": "#4a4f78",
+    "legs": "#33333f",
+    "outline": "#14110f",
+    "accent": "#e0bf5a"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "skin",
+      "torso",
+      "legs"
+    ]
+  }
+}

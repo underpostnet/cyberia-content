@@ -1,0 +1,25 @@
+{
+  "id": "skin.biome-archive-instance",
+  "name": "Archive Instance",
+  "itemType": "skin",
+  "family": "biome",
+  "biomeTags": [
+    "archive-instance"
+  ],
+  "roles": {
+    "hair": "#16305e",
+    "skin": "#e8eef7",
+    "torso": "#2f6fd6",
+    "legs": "#1d4fa3",
+    "outline": "#081226",
+    "accent": "#ff3fb4"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "skin",
+      "torso",
+      "legs"
+    ]
+  }
+}
