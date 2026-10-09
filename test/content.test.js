@@ -19,34 +19,54 @@ describe('the content tree', () => {
 });
 
 describe('an instance backup', () => {
-  it('pins only definitions its own object layers hold', () => {
-    const root = path.join(scratch, 'pins');
-    const write = (file, value) => {
-      fs.mkdirSync(path.dirname(path.join(root, file)), { recursive: true });
-      fs.writeFileSync(path.join(root, file), canonicalJson(value));
-    };
+  const write = (root, file, value) => {
+    fs.mkdirSync(path.dirname(path.join(root, file)), { recursive: true });
+    fs.writeFileSync(path.join(root, file), canonicalJson(value));
+  };
+  const instanceRoot = (name) => {
+    const root = path.join(scratch, name);
     fs.cpSync(path.join(CONTENT_ROOT, 'foundation'), path.join(root, 'foundation'), { recursive: true });
-    write('instances/pins/cyberia-instance.json', { code: 'pins' });
-    write('instances/pins/object-layers/gate.json', { cid: 'bafk-gate' });
-    write('instances/pins/cyberia-quests/q.json', {
+    write(root, 'instances/pins/cyberia-instance.json', { code: 'pins' });
+    return root;
+  };
+
+  it('as a complete snapshot pins an item only to the definition the snapshot binds it to', () => {
+    const root = instanceRoot('snapshot');
+    write(root, 'instances/pins/object-layers/gate.json', { cid: 'bafk-gate' });
+    write(root, 'instances/pins/object-layers/blade.json', { cid: 'bafk-blade' });
+    write(root, 'instances/pins/cyberia-quests/q.json', {
       rewards: [
         { itemId: 'gate', objectLayerCid: 'bafk-gate' },
         { itemId: 'blade', objectLayerCid: 'bafk-old-blade' },
       ],
     });
-    write('instances/pins/cyberia-actions/shop.json', {
+    write(root, 'instances/pins/cyberia-actions/shop.json', {
       shopItems: [
         { itemId: 'gate', objectLayerCid: 'bafk-gate', priceItemId: 'coin', priceObjectLayerCid: 'bafk-coin' },
+        { itemId: 'blade' },
       ],
     });
     expect(readContent(root).findings).toEqual([
       {
         id: 'instances/pins/cyberia-quests/q.json',
-        message: 'blade pins bafk-old-blade, which no object layer of the instance holds',
+        message: 'blade pins bafk-old-blade, but the snapshot binds it to bafk-blade',
       },
       {
         id: 'instances/pins/cyberia-actions/shop.json',
-        message: 'coin pins bafk-coin, which no object layer of the instance holds',
+        message: 'coin pins bafk-coin, but the snapshot holds no object layer coin',
+      },
+    ]);
+  });
+
+  it('without object layers names items by item id only', () => {
+    const root = instanceRoot('ordinary');
+    write(root, 'instances/pins/cyberia-quests/q.json', {
+      rewards: [{ itemId: 'gate', objectLayerCid: 'bafk-gate' }, { itemId: 'blade' }],
+    });
+    expect(readContent(root).findings).toEqual([
+      {
+        id: 'instances/pins/cyberia-quests/q.json',
+        message: 'gate pins bafk-gate; an instance without object layers names items by item id only',
       },
     ]);
   });

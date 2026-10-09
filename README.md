@@ -209,6 +209,12 @@ The engine imports it with `cyberia instance <saga-code> --import`.
 The command refuses an instance directory that exists: it holds the render and placement of
 Studio. `--force` replaces it. An engine export keeps only the quests and actions Studio placed.
 
+An instance with `object-layers/` is a complete snapshot: `object-layers/<itemId>.json` is the
+definition the item ran when the engine exported it, and an import binds the item to it again.
+Quests and actions name items by item id. In a snapshot, a quest or an action may also pin an item
+(`objectLayerCid`), but only to the definition the snapshot binds it to. `validate` reports any
+other pin.
+
 ## The runtime contract
 
 `src/schema/runtime-contract.json` holds the runtime vocabulary content uses: item types, entity

@@ -35,20 +35,33 @@ const pinsOf = (value) => {
   );
 };
 
-/** Findings of an instance whose quests or actions pin a definition none of its object layers holds. */
+/**
+ * Findings of the pins of an instance. A complete snapshot (an instance with `object-layers/`) binds
+ * each item id to `object-layers/<itemId>.json`; a quest or an action of it may pin only that
+ * binding. An instance without object layers names items by item id only.
+ */
 const pinFindings = (root, code) => {
   const dir = path.join(root, 'instances', code);
-  const held = new Set(
-    entriesOf(dir, 'object-layers', false).map((name) => readJson(path.join(dir, 'object-layers', `${name}.json`)).cid),
+  const snapshot = fs.existsSync(path.join(dir, 'object-layers'));
+  const bindings = new Map(
+    entriesOf(dir, 'object-layers', false).map((name) => [
+      name,
+      readJson(path.join(dir, 'object-layers', `${name}.json`)).cid,
+    ]),
   );
+  const problemOf = ({ itemId, cid }) => {
+    if (!snapshot) return `${itemId} pins ${cid}; an instance without object layers names items by item id only`;
+    if (!bindings.has(itemId)) return `${itemId} pins ${cid}, but the snapshot holds no object layer ${itemId}`;
+    if (bindings.get(itemId) !== cid)
+      return `${itemId} pins ${cid}, but the snapshot binds it to ${bindings.get(itemId)}`;
+    return '';
+  };
   return ['cyberia-quests', 'cyberia-actions'].flatMap((family) =>
     entriesOf(dir, family, false).flatMap((name) =>
       pinsOf(readJson(path.join(dir, family, `${name}.json`)))
-        .filter(({ cid }) => !held.has(cid))
-        .map(({ itemId, cid }) => ({
-          id: `instances/${code}/${family}/${name}.json`,
-          message: `${itemId} pins ${cid}, which no object layer of the instance holds`,
-        })),
+        .map(problemOf)
+        .filter(Boolean)
+        .map((message) => ({ id: `instances/${code}/${family}/${name}.json`, message })),
     ),
   );
 };
