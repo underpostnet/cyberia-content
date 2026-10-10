@@ -1,5 +1,5 @@
 {
-  "_id": "6ac5492d262bed3ca91ed73e",
+  "_id": "6aca91066011853c462de0ce",
   "schemaVersion": 1,
   "profile": {
     "id": "cyberia",
@@ -21,15 +21,15 @@
       "utility": 0
     },
     "render": {
-      "cid": "",
-      "metadataCid": ""
+      "cid": "bafkreiaock73p6kwpakvfcjjklv454jfgchgscnzfmrxifr352fyrysgiy",
+      "metadataCid": "bafkreiehjkoypgc3x5cnqej4tw5g2bhmaom7y3n2kr4aoaoxnpu4aezkrq"
     }
   },
-  "cid": "bafkreia2h2ag3jlffdkrgvd7y2sttda65dyhlcg2ogin7en65ovfdn4vre",
-  "contentHash": "1a3e806da56528d513547fc6a5398c1ee8f07588da7190df91beebaa51b79589",
-  "createdBy": "",
+  "cid": "bafkreicfrax62lzzhkznm75twjdfjq2ii5ygushqk3veivdwbvjoyooe6e",
+  "contentHash": "45882fed2f393ab2d67fb3b24654c34847706a48f056ea4454760d52ec39c4f1",
+  "createdBy": "6ac5491baa38993d97470ce4",
   "archivedAt": null,
-  "createdAt": "2026-10-06T19:17:01.901Z",
-  "updatedAt": "2026-10-06T19:17:01.934Z",
+  "createdAt": "2026-10-10T19:24:54.494Z",
+  "updatedAt": "2026-10-10T19:24:54.557Z",
   "__v": 0
 }

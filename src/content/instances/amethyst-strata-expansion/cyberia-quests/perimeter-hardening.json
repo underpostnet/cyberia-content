@@ -1,0 +1,40 @@
+{
+  "sourceMapCode": "verdant-buffer-zone",
+  "sourceCellX": 17,
+  "sourceCellY": 15,
+  "code": "perimeter-hardening",
+  "title": "Perimeter Hardening",
+  "description": "Atlas security is deploying reinforced bark-composite plating to stabilize the boundary. Scavenge the necessary materials from recent combat zones to assist in the deployment.",
+  "prerequisiteCodes": [
+    "knot-node-neutralization"
+  ],
+  "unlocksQuestCodes": [
+    "the-bloom-reclamation"
+  ],
+  "steps": [
+    {
+      "id": "scavenge-plating",
+      "description": "Collect discarded plating from the skirmish sites.",
+      "objectives": [
+        {
+          "type": "collect",
+          "itemId": "composite-bark-plating",
+          "quantity": 10,
+          "_id": "6ac91f26b16aad2b651a77f2"
+        }
+      ],
+      "_id": "6ac91f26b16aad2b651a77f1"
+    }
+  ],
+  "rewards": [
+    {
+      "itemId": "biometric-masking-array",
+      "quantity": 1,
+      "_id": "6ac91f26b16aad2b651a77f3"
+    }
+  ],
+  "_id": "6ac91f26b16aad2b651a77f0",
+  "createdAt": "2026-10-09T17:06:46.985Z",
+  "updatedAt": "2026-10-10T22:17:19.622Z",
+  "__v": 0
+}

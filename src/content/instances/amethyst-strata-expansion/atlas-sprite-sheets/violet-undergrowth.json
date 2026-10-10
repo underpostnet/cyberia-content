@@ -1,0 +1,83 @@
+{
+  "_id": "6aca6021795ac11f881d8f12",
+  "objectLayerCid": "bafkreiaj6dzlvytdfaurvzzfmuggqc4qrqhr7gk5cz3sad73zhgzizkyam",
+  "__v": 0,
+  "createdAt": "2026-10-10T15:56:17.099Z",
+  "fileId": "f4915886471ad26e1f967332",
+  "idlePreviewFileId": "83e58f2b4860d6027680db3a",
+  "metadata": {
+    "itemKey": "violet-undergrowth",
+    "atlasWidth": 64,
+    "atlasHeight": 32,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 900,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 32,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 0,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 16,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-10T15:56:17.099Z",
+  "upscaleFileId": "2c93d9172d6b4a166911d3ee"
+}

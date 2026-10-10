@@ -1,0 +1,29 @@
+{
+  "sourceMapCode": "verdant-buffer-zone",
+  "sourceCellX": 17,
+  "sourceCellY": 15,
+  "code": "interact-vossen-khyber",
+  "label": "Perimeter Checkpoint",
+  "dialogCode": "default-vossen-khyber",
+  "questDialogueCodes": [
+    {
+      "questCode": "perimeter-hardening",
+      "dialogCode": "quest-talk-perimeter-hardening",
+      "_id": "6ac91f27b16aad2b651a7814"
+    }
+  ],
+  "shopItems": [
+    {
+      "itemId": "spore-suppressor-slugger",
+      "priceItemId": "coin",
+      "priceQty": 420,
+      "_id": "6ac91f27b16aad2b651a7815"
+    }
+  ],
+  "craftRecipes": [],
+  "storageSlots": 2,
+  "_id": "6ac91f27b16aad2b651a7813",
+  "createdAt": "2026-10-09T17:06:47.068Z",
+  "updatedAt": "2026-10-10T22:17:19.627Z",
+  "__v": 0
+}

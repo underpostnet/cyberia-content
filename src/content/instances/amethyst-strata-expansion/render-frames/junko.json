@@ -1,8 +1,8 @@
 {
-  "_id": "6ac54939ffd8153e52c80b98",
+  "_id": "6ac91f306c41c53460a458f9",
   "objectLayerCid": "bafkreibnjjs4lye5whh3hnte6qucepx7izspynxtw7p2ybzqubbyiugojm",
   "__v": 0,
-  "createdAt": "2026-10-06T19:17:13.249Z",
+  "createdAt": "2026-10-09T17:06:56.489Z",
   "format": "indexed8",
   "frameDurationMs": 250,
   "frames": {
@@ -90,6 +90,6 @@
     "#fd0000ff"
   ],
   "revision": 1,
-  "updatedAt": "2026-10-06T19:17:13.249Z",
+  "updatedAt": "2026-10-09T17:06:56.489Z",
   "width": 25
 }

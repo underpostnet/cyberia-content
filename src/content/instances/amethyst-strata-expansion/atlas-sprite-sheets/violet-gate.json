@@ -1,0 +1,83 @@
+{
+  "_id": "6aca9106795ac11f881d8f1c",
+  "objectLayerCid": "bafkreicfrax62lzzhkznm75twjdfjq2ii5ygushqk3veivdwbvjoyooe6e",
+  "__v": 0,
+  "createdAt": "2026-10-10T19:24:54.568Z",
+  "fileId": "9f116fe1b7deadc1ce411f52",
+  "idlePreviewFileId": "707d6c81f1b711134b86cc7d",
+  "metadata": {
+    "itemKey": "violet-gate",
+    "atlasWidth": 64,
+    "atlasHeight": 32,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 500,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 32,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 0,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 16,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-10T19:24:54.568Z",
+  "upscaleFileId": "9537169d9a484465a924ddb9"
+}

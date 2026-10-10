@@ -12,7 +12,8 @@
   "cyberiaMapCodes": [
     "amethyst-foliage-expanse",
     "athel-ferrum-outpost",
-    "sap-logic-array"
+    "sap-logic-array",
+    "verdant-buffer-zone"
   ],
   "portals": [
     {
@@ -37,6 +38,15 @@
       "sourceMapCode": "sap-logic-array",
       "sourceCellX": 7,
       "sourceCellY": 18,
+      "targetMapCode": "verdant-buffer-zone",
+      "targetCellX": 18,
+      "targetCellY": 24,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "verdant-buffer-zone",
+      "sourceCellX": 14,
+      "sourceCellY": 12,
       "targetMapCode": "amethyst-foliage-expanse",
       "targetCellX": 27,
       "targetCellY": 56,
@@ -46,25 +56,25 @@
       "sourceMapCode": "amethyst-foliage-expanse",
       "sourceCellX": 53,
       "sourceCellY": 5,
-      "targetMapCode": "amethyst-foliage-expanse",
+      "targetMapCode": "athel-ferrum-outpost",
       "targetCellX": -1,
       "targetCellY": -1,
-      "portalMode": "intra-random"
+      "portalMode": "inter-random"
     },
     {
       "sourceMapCode": "athel-ferrum-outpost",
       "sourceCellX": 16,
       "sourceCellY": 10,
-      "targetMapCode": "athel-ferrum-outpost",
+      "targetMapCode": "verdant-buffer-zone",
       "targetCellX": -1,
       "targetCellY": -1,
-      "portalMode": "intra-random"
+      "portalMode": "inter-random"
     },
     {
       "sourceMapCode": "athel-ferrum-outpost",
       "sourceCellX": 35,
       "sourceCellY": 38,
-      "targetMapCode": "amethyst-foliage-expanse",
+      "targetMapCode": "verdant-buffer-zone",
       "targetCellX": -1,
       "targetCellY": -1,
       "portalMode": "inter-random"
@@ -77,6 +87,42 @@
       "targetCellX": -1,
       "targetCellY": -1,
       "portalMode": "inter-random"
+    },
+    {
+      "sourceMapCode": "verdant-buffer-zone",
+      "sourceCellX": 24,
+      "sourceCellY": 13,
+      "targetMapCode": "verdant-buffer-zone",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "intra-random"
+    },
+    {
+      "sourceMapCode": "verdant-buffer-zone",
+      "sourceCellX": 18,
+      "sourceCellY": 24,
+      "targetMapCode": "verdant-buffer-zone",
+      "targetCellX": 5,
+      "targetCellY": 55,
+      "portalMode": "intra-portal"
+    },
+    {
+      "sourceMapCode": "verdant-buffer-zone",
+      "sourceCellX": 43,
+      "sourceCellY": 45,
+      "targetMapCode": "sap-logic-array",
+      "targetCellX": 7,
+      "targetCellY": 18,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "verdant-buffer-zone",
+      "sourceCellX": 5,
+      "sourceCellY": 55,
+      "targetMapCode": "verdant-buffer-zone",
+      "targetCellX": 43,
+      "targetCellY": 45,
+      "portalMode": "intra-portal"
     }
   ],
   "playerSpawn": {
@@ -89,6 +135,6 @@
   "topologyMode": "procedural",
   "conf": "6a4019d98df0fac6c13c2168",
   "createdAt": "2026-06-27T18:13:51.301Z",
-  "updatedAt": "2026-06-27T18:13:51.301Z",
+  "updatedAt": "2026-10-10T16:25:14.390Z",
   "__v": 0
 }
