@@ -14,7 +14,7 @@
     "paletteDirection": "Silver foil, warm brown."
   },
   "objectLayer": {
-    "itemType": "resource",
+    "itemType": "consumable",
     "activable": false,
     "stats": {
       "effect": 0,

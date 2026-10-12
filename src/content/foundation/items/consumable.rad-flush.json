@@ -17,11 +17,11 @@
     "paletteDirection": "Hazard yellow and black, clear vial with green liquid."
   },
   "objectLayer": {
-    "itemType": "resource",
+    "itemType": "consumable",
     "activable": false,
     "stats": {
       "effect": 0,
-      "resistance": 6,
+      "resistance": 0,
       "agility": 0,
       "range": 0,
       "intelligence": 0,

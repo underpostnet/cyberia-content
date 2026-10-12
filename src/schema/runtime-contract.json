@@ -11,7 +11,8 @@
     "portal",
     "foreground",
     "resource",
-    "static"
+    "static",
+    "consumable"
   ],
   "entityItemTypes": {
     "player": [
@@ -51,6 +52,9 @@
     ],
     "static": [
       "static"
+    ],
+    "loot": [
+      "consumable"
     ]
   },
   "entityBehaviors": [
@@ -58,6 +62,9 @@
     "hostile",
     "provider",
     "provider-static"
+  ],
+  "lootBehaviors": [
+    "consume-on-pickup-heal"
   ],
   "stats": {
     "types": [
@@ -333,6 +340,32 @@
         ]
       },
       "static": {
+        "effect": [
+          0,
+          0
+        ],
+        "resistance": [
+          0,
+          0
+        ],
+        "agility": [
+          0,
+          0
+        ],
+        "range": [
+          0,
+          0
+        ],
+        "intelligence": [
+          0,
+          0
+        ],
+        "utility": [
+          0,
+          0
+        ]
+      },
+      "consumable": {
         "effect": [
           0,
           0

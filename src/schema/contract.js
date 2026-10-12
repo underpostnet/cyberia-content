@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 
 export const CONTRACT_FILE = fileURLToPath(new URL('./runtime-contract.json', import.meta.url));
 
-/** @type {{itemTypes:string[], entityItemTypes:Object<string,string[]>, entityBehaviors:string[],
+/** @type {{itemTypes:string[], entityItemTypes:Object<string,string[]>, entityBehaviors:string[], lootBehaviors:string[],
  *   stats:{types:string[],default:number,min:number,max:number,bounds:Object<string,Object<string,[number,number]>>},
  *   skillLogic:Array<{id:string,summons:string|null}>, questStepTypes:string[], casterSkinPlaceholder:string,
  *   itemDialoguePrefix:string}} */

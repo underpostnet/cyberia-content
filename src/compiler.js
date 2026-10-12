@@ -57,7 +57,7 @@ const entityRow = (entityType, lists = {}) => ({
 /**
  * The entity-type default of an entity definition. A character wears its loadout, carries its
  * items, drops what its entity block names and falls into the baseline Fragmentation; a
- * harvestable rotates to its depleted state and drops its yield.
+ * harvestable rotates to its depleted state and drops its yield; loot binds its pickup behavior.
  */
 function entityTypeDefault(registry, definition, entityType) {
   if (kindOf(definition.id) === 'character') {
@@ -79,10 +79,12 @@ function entityTypeDefault(registry, definition, entityType) {
     });
   }
   const { harvest } = definition;
-  return entityRow(entityType ?? definition.objectLayer.itemType, {
+  const rowType = entityType ?? definition.objectLayer.itemType;
+  return entityRow(rowType, {
     liveItemIds: [slugOf(definition.id)],
     deadItemIds: harvest ? [slugOf(harvest.depleted)] : [],
     dropItemIds: harvest ? [slugOf(harvest.yields)] : [],
+    behavior: rowType === 'loot' ? (definition.loot ?? '') : '',
   });
 }
 
@@ -173,9 +175,12 @@ function compileDefinitions(registry, definitions) {
           data: { item: { id: slugOf(id), type: itemType, description, activable }, stats: validateStats(stats) },
         },
       })),
-    entityTypeDefaults: definitions
-      .filter(({ id }) => ENTITY_KINDS.includes(kindOf(id)))
-      .map((definition) => entityTypeDefault(registry, definition)),
+    entityTypeDefaults: [
+      ...definitions
+        .filter(({ id }) => ENTITY_KINDS.includes(kindOf(id)))
+        .map((definition) => entityTypeDefault(registry, definition)),
+      ...definitions.filter(({ loot }) => loot).map((definition) => entityTypeDefault(registry, definition, 'loot')),
+    ],
     skills: skills(registry, definitions),
     maps: ofKind(definitions, 'map').map((map) => {
       const biome = registry.definitions.get(map.biome);

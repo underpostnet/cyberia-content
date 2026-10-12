@@ -13,12 +13,13 @@
     ],
     "paletteDirection": "White, medical green, pale blue gel."
   },
+  "loot": "consume-on-pickup-heal",
   "objectLayer": {
-    "itemType": "resource",
+    "itemType": "consumable",
     "activable": false,
     "stats": {
       "effect": 0,
-      "resistance": 4,
+      "resistance": 0,
       "agility": 0,
       "range": 0,
       "intelligence": 0,

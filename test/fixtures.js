@@ -67,6 +67,11 @@ export const minimalDefinitions = () => [
   }),
   common('tree.oak-stump', { locations: ['biome.meadow'], artBrief: brief, objectLayer: layer('resource') }),
   common('resource.log', { artBrief: brief, objectLayer: layer('resource') }),
+  common('consumable.salve', {
+    artBrief: brief,
+    loot: 'consume-on-pickup-heal',
+    objectLayer: layer('consumable'),
+  }),
   common('map.glade', {
     biome: 'biome.meadow',
     composition: [
@@ -109,6 +114,12 @@ export const minimalManifest = () => ({
   schemaVersion: SCHEMA_VERSION,
   baseline: {
     fragmentation: 'skin.shards',
-    entities: { player: 'character.walker', floor: 'floor.grass', resource: 'tree.oak', skill: 'projectile.bolt' },
+    entities: {
+      player: 'character.walker',
+      floor: 'floor.grass',
+      resource: 'tree.oak',
+      skill: 'projectile.bolt',
+      loot: 'consumable.salve',
+    },
   },
 });

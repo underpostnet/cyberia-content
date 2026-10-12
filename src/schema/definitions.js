@@ -224,7 +224,7 @@ export const KINDS = Object.freeze({
   projectile: item(['skill']),
   currency: item(['coin'], abilities),
   resource: item(['resource']),
-  consumable: item(['resource']),
+  consumable: item(['consumable'], { loot: oneOf(CONTRACT.lootBehaviors, false) }),
   relic: item(['resource'], abilities),
   technology: item(['resource'], abilities),
   implant: item(['resource'], abilities),

@@ -86,6 +86,11 @@ An item or environment definition carries an `objectLayer` block: the item type,
 flag and the stats. Its item label is its slug. Its `artBrief` tells an artist what to draw. It holds
 no pixels, frames, atlases or CIDs.
 
+A consumable carries no stats: the part of max life it restores is the `buffFactor` of its `loot`
+entity-type default. Its optional `loot` names the pickup behavior of the item as world loot
+(`consume-on-pickup-heal`); the compiler writes it as a `loot` entity-type default. Without it, a world
+pickup of the item grants it.
+
 A biome carries a `palette`: `#rrggbb` colors by role (`base`, `shadow`, `highlight`, `outline`,
 and optionally `accent` and `special`). The Studio paints with it; it is guidance, never render.
 

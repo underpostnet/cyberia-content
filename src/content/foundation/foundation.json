@@ -12,7 +12,8 @@
       "resource": [
         "tree.rustbark",
         "tree.goldcrown"
-      ]
+      ],
+      "loot": "consumable.med-gel"
     },
     "items": {
       "skin": "skin.drifter"

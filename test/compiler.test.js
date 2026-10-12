@@ -62,6 +62,17 @@ describe('the compiled minimal foundation', () => {
       behavior: 'provider',
     });
     expect(row('resource', 'oak')).toMatchObject({ deadItemIds: ['oak-stump'], dropItemIds: ['log'] });
+    expect(row('loot', 'salve')).toEqual({
+      entityType: 'loot',
+      liveItemIds: ['salve'],
+      deadItemIds: [],
+      dropItemIds: [],
+      inventoryItemsIds: [],
+      overrideItemsIdsState: [],
+      behavior: 'consume-on-pickup-heal',
+    });
+    expect(families.entityTypeDefaults.filter(({ entityType }) => entityType === 'loot')).toHaveLength(1);
+    expect(baseline.find(({ entityType }) => entityType === 'loot')).toEqual(row('loot', 'salve'));
     expect(row('player', 'walker,gun')).toMatchObject({ deadItemIds: ['shards'], behavior: '' });
     expect(new Set(baseline.map(({ entityType }) => entityType))).toEqual(new Set(ENTITY_TYPES));
   });

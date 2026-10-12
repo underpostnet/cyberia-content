@@ -141,7 +141,7 @@ describe('the foundation', () => {
 describe('definition validation', () => {
   it('accepts the minimal foundation', () => {
     expect(findingsOf(minimalDefinitions())).toEqual([]);
-    expect(createRegistry({ manifest: minimalManifest(), definitions: minimalDefinitions() }).byItemId.size).toBe(9);
+    expect(createRegistry({ manifest: minimalManifest(), definitions: minimalDefinitions() }).byItemId.size).toBe(10);
   });
 
   it('detects duplicate ids, item labels and names', () => {
@@ -324,6 +324,21 @@ describe('definition validation', () => {
       'baseline.entities.bot: character.guard carries an item type a bot cannot hold',
       'baseline.entities.coin: floor.grass carries an item type a coin cannot hold',
     ]);
+  });
+
+  it('keeps a consumable statless, of its own type, with one known pickup behavior', () => {
+    const consumable = (id, objectLayer, extra = {}) => common(id, { artBrief: brief, objectLayer, ...extra });
+    const findings = findingsOf([
+      ...minimalDefinitions(),
+      consumable('consumable.armored', layer('consumable', { resistance: 2 })),
+      consumable('consumable.crate', layer('resource')),
+      consumable('consumable.trap', layer('consumable'), { loot: 'explode-on-pickup' }),
+    ]);
+    expect(findings).toContain(
+      'consumable.armored: objectLayer.stats.resistance 2 is outside consumable bounds [0, 0]',
+    );
+    expect(findings).toContain('consumable.crate: objectLayer.itemType must be one of: consumable');
+    expect(findings).toContain('consumable.trap: loot must be one of: consume-on-pickup-heal');
   });
 
   it('refuses a baseline item that is not of its item type', () => {
