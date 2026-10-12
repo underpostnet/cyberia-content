@@ -46,7 +46,6 @@
   },
   "maxActiveLayers": 4,
   "initialLifeFraction": 1,
-  "respawnDurationMs": 3000,
   "collisionLifeLoss": 10,
   "economyRules": {
     "botSpawnCoins": 50,
