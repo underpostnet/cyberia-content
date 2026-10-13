@@ -16,6 +16,7 @@ import {
   KINDS,
   SCHEMA_VERSION,
   SLUG_PATTERN,
+  SUMMON_KINDS,
   isLabeled,
   kindOf,
   slugOf,
@@ -147,14 +148,27 @@ function checkCharacter(definition, context) {
 
 function checkAbility(definition, context) {
   const logic = CONTRACT.skillLogic.find(({ id }) => id === definition.logicEventId);
-  if (!logic || logic.summons === null) {
-    if (definition.summons !== undefined)
-      context.report(logic ? `${logic.id} summons the caster's skin; remove summons` : 'summons needs a logicEventId');
+  if (!logic || logic.summons === null || logic.summonsTrigger) {
+    if (definition.summons === undefined) return;
+    if (!logic) context.report('summons needs a logicEventId');
+    else
+      context.report(
+        `${logic.id} summons ${logic.summonsTrigger ? 'the item that carries it' : "the caster's skin"}; remove summons`,
+      );
     return;
   }
-  const summoned = context.resolve(definition.summons, ['projectile', 'currency'], 'summons', true);
+  const summoned = context.resolve(definition.summons, SUMMON_KINDS, 'summons', true);
   if (summoned && itemTypeOf(summoned) !== logic.summons)
     context.report(`${logic.id} summons a ${logic.summons}; ${definition.summons} is a ${itemTypeOf(summoned)}`);
+}
+
+/** An ability that summons the item carrying it needs an item of the type its logic summons. */
+function checkCarriedAbilities(definition, context) {
+  for (const ability of definition.abilities.map((id) => context.lookup(id)).filter(Boolean)) {
+    const logic = CONTRACT.skillLogic.find(({ id }) => id === ability.logicEventId);
+    if (logic?.summonsTrigger && definition.objectLayer?.itemType !== logic.summons)
+      context.report(`${ability.id} summons the item that carries it, which must be a ${logic.summons}`);
+  }
 }
 
 /** A map places what belongs to its biome: each entity is located in the biome or its region. */
@@ -202,6 +216,7 @@ function checkDefinition(definition, context) {
   if (definition.harvest) checkHarvest(definition, context);
   if (kind === 'character') checkCharacter(definition, context);
   if (kind === 'ability') checkAbility(definition, context);
+  if (Array.isArray(definition.abilities) && schema.itemTypes) checkCarriedAbilities(definition, context);
   if (kind === 'map') checkComposition(definition, context);
   if (kind === 'quest') checkQuest(definition, context);
   if (kind === 'faction' && definition.parent === definition.id) report('a faction cannot be its own parent');

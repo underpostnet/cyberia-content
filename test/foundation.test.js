@@ -215,10 +215,24 @@ describe('definition validation', () => {
       common('ability.coin-shot', { logicEventId: 'coin_drop_or_transaction', summons: 'projectile.bolt' }),
       common('ability.echo', { logicEventId: 'doppelganger', summons: 'projectile.bolt' }),
       common('ability.hack', { logicEventId: 'rewrite_reality' }),
+      common('ability.bolt-dose', { logicEventId: 'zero-waste-auto-consume-heal', summons: 'projectile.bolt' }),
+      common('ability.weapon-dose', { logicEventId: 'zero-waste-auto-consume-heal' }),
+      common('weapon.dosed', {
+        artBrief: brief,
+        abilities: ['ability.weapon-dose'],
+        objectLayer: layer('weapon', { effect: 5 }, true),
+      }),
     ]);
     expect(findings).toContain(
       'ability.coin-shot: coin_drop_or_transaction summons a coin; projectile.bolt is a skill',
     );
+    expect(findings).toContain(
+      'ability.bolt-dose: zero-waste-auto-consume-heal summons the item that carries it; remove summons',
+    );
+    expect(findings).toContain(
+      'weapon.dosed: ability.weapon-dose summons the item that carries it, which must be a consumable',
+    );
+    expect(findings.some((finding) => finding.startsWith('ability.weapon-dose:'))).toBe(false);
     expect(findings).toContain("ability.echo: doppelganger summons the caster's skin; remove summons");
     expect(findings.some((finding) => finding.startsWith('ability.hack: logicEventId must be one of'))).toBe(true);
   });
@@ -326,17 +340,17 @@ describe('definition validation', () => {
     ]);
   });
 
-  it('keeps a consumable statless, of its own type, with one known pickup behavior', () => {
+  it('keeps a consumable to a heal of its resistance, of its own type, with one known pickup behavior', () => {
     const consumable = (id, objectLayer, extra = {}) => common(id, { artBrief: brief, objectLayer, ...extra });
     const findings = findingsOf([
       ...minimalDefinitions(),
-      consumable('consumable.armored', layer('consumable', { resistance: 2 })),
+      consumable('consumable.gel', layer('consumable', { resistance: 20 })),
+      consumable('consumable.armed', layer('consumable', { effect: 2 })),
       consumable('consumable.crate', layer('resource')),
       consumable('consumable.trap', layer('consumable'), { loot: 'explode-on-pickup' }),
     ]);
-    expect(findings).toContain(
-      'consumable.armored: objectLayer.stats.resistance 2 is outside consumable bounds [0, 0]',
-    );
+    expect(findings.some((finding) => finding.startsWith('consumable.gel'))).toBe(false);
+    expect(findings).toContain('consumable.armed: objectLayer.stats.effect 2 is outside consumable bounds [0, 0]');
     expect(findings).toContain('consumable.crate: objectLayer.itemType must be one of: consumable');
     expect(findings).toContain('consumable.trap: loot must be one of: consume-on-pickup-heal');
   });

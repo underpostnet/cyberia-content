@@ -94,6 +94,12 @@ const entitySignature = (definition) =>
     ? { entityType: definition.entity.type, objectLayerItemIds: definition.loadout.map(slugOf) }
     : { entityType: definition.objectLayer.itemType, objectLayerItemIds: [slugOf(definition.id)] };
 
+/** The entity a skill of `ability` stores: none when its logic summons the trigger item, which the runtime resolves. */
+function summonedEntityOf(ability) {
+  if (CONTRACT.skillLogic.find(({ id }) => id === ability.logicEventId).summonsTrigger) return '';
+  return ability.summons ? slugOf(ability.summons) : CONTRACT.casterSkinPlaceholder;
+}
+
 /**
  * The CyberiaSkill documents of definitions: one per item whose abilities name an executable
  * logic event.
@@ -109,7 +115,7 @@ function skills(registry, definitions) {
         logicEventId: ability.logicEventId,
         name: ability.name,
         description: ability.description,
-        summonedEntityItemId: ability.summons ? slugOf(ability.summons) : CONTRACT.casterSkinPlaceholder,
+        summonedEntityItemId: summonedEntityOf(ability),
       }));
     if (entries.length === 0) continue;
     documents.push({

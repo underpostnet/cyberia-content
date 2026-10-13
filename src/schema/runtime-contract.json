@@ -372,7 +372,7 @@
         ],
         "resistance": [
           0,
-          0
+          50
         ],
         "agility": [
           0,
@@ -396,15 +396,23 @@
   "skillLogic": [
     {
       "id": "projectile",
-      "summons": "skill"
+      "summons": "skill",
+      "summonsTrigger": false
     },
     {
       "id": "coin_drop_or_transaction",
-      "summons": "coin"
+      "summons": "coin",
+      "summonsTrigger": false
     },
     {
       "id": "doppelganger",
-      "summons": null
+      "summons": null,
+      "summonsTrigger": false
+    },
+    {
+      "id": "zero-waste-auto-consume-heal",
+      "summons": "consumable",
+      "summonsTrigger": true
     }
   ],
   "questStepTypes": [

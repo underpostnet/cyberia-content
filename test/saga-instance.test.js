@@ -60,7 +60,7 @@ describe('the instance backup of a saga', () => {
       ]),
       ...documentsIn('cyberia-skills').flatMap(({ triggerItemId, skills }) => [
         triggerItemId,
-        ...skills.map(({ summonedEntityItemId }) => summonedEntityItemId).filter((id) => !id.startsWith('$')),
+        ...skills.map(({ summonedEntityItemId }) => summonedEntityItemId).filter((id) => id && !id.startsWith('$')),
       ]),
     ];
     for (const itemId of named) expect(itemIds.has(itemId), itemId).toBe(true);

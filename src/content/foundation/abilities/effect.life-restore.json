@@ -1,0 +1,7 @@
+{
+  "id": "effect.life-restore",
+  "name": "Life Restore",
+  "description": "Missing life comes back to its holder.",
+  "role": "The effect of field medicine.",
+  "category": "healing"
+}

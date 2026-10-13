@@ -67,10 +67,12 @@ export const minimalDefinitions = () => [
   }),
   common('tree.oak-stump', { locations: ['biome.meadow'], artBrief: brief, objectLayer: layer('resource') }),
   common('resource.log', { artBrief: brief, objectLayer: layer('resource') }),
+  common('ability.dose', { logicEventId: 'zero-waste-auto-consume-heal' }),
   common('consumable.salve', {
     artBrief: brief,
+    abilities: ['ability.dose'],
     loot: 'consume-on-pickup-heal',
-    objectLayer: layer('consumable'),
+    objectLayer: layer('consumable', { resistance: 10 }),
   }),
   common('map.glade', {
     biome: 'biome.meadow',

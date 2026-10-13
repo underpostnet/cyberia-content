@@ -15,8 +15,8 @@ import { canonicalJson } from './validation/format.js';
 /** A MongoDB ObjectId: the same key always gives the same id. */
 const objectId = (...key) => createHash('sha256').update(key.join('\n')).digest('hex').slice(0, 24);
 
-/** A `$` item id is a runtime placeholder, never an Object Layer item. */
-const isItemId = (id) => !id.startsWith('$');
+/** An empty id is a summon the runtime resolves and a `$` id a runtime placeholder: neither is an Object Layer item. */
+const isItemId = (id) => Boolean(id) && !id.startsWith('$');
 
 /**
  * The item ids an instance names: what its entity-type defaults wire, what its actions trade, and

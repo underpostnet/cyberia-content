@@ -1,0 +1,10 @@
+{
+  "id": "ability.med-gel-dose",
+  "name": "Med Gel Dose",
+  "description": "The holder takes one dose by itself once the missing life takes the whole dose, so no gel is wasted. A dose heals its Resistance as life.",
+  "role": "How field medicine restores its holder without waste.",
+  "logicEventId": "zero-waste-auto-consume-heal",
+  "effects": [
+    "effect.life-restore"
+  ]
+}

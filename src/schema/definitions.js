@@ -24,7 +24,18 @@ export const CHARACTER_ARCHETYPES = Object.freeze([
   'supporting',
 ]);
 
-export const EFFECT_CATEGORIES = Object.freeze(['damage', 'defense', 'control', 'economy', 'summon', 'utility']);
+export const EFFECT_CATEGORIES = Object.freeze([
+  'damage',
+  'defense',
+  'healing',
+  'control',
+  'economy',
+  'summon',
+  'utility',
+]);
+
+/** The kinds an ability may summon. */
+export const SUMMON_KINDS = Object.freeze(['projectile', 'currency']);
 
 /** Free semantic relationships. Structural links use the typed fields of each kind. */
 export const RELATION_TYPES = Object.freeze([
@@ -224,7 +235,7 @@ export const KINDS = Object.freeze({
   projectile: item(['skill']),
   currency: item(['coin'], abilities),
   resource: item(['resource']),
-  consumable: item(['consumable'], { loot: oneOf(CONTRACT.lootBehaviors, false) }),
+  consumable: item(['consumable'], { ...abilities, loot: oneOf(CONTRACT.lootBehaviors, false) }),
   relic: item(['resource'], abilities),
   technology: item(['resource'], abilities),
   implant: item(['resource'], abilities),
@@ -259,7 +270,7 @@ export const KINDS = Object.freeze({
         CONTRACT.skillLogic.map(({ id }) => id),
         false,
       ),
-      summons: ref(['projectile', 'currency']),
+      summons: ref(SUMMON_KINDS),
       effects: refs(['effect']),
     },
   },

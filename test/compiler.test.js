@@ -86,6 +86,18 @@ describe('the compiled minimal foundation', () => {
           { logicEventId: 'projectile', name: 'shot', description: 'The ability.shot.', summonedEntityItemId: 'bolt' },
         ],
       },
+      {
+        triggerItemId: 'salve',
+        logicEventIds: ['zero-waste-auto-consume-heal'],
+        skills: [
+          {
+            logicEventId: 'zero-waste-auto-consume-heal',
+            name: 'dose',
+            description: 'The ability.dose.',
+            summonedEntityItemId: '',
+          },
+        ],
+      },
     ]);
     expect(families.quests).toEqual([
       {
@@ -176,7 +188,7 @@ describe('the compiled foundation', () => {
       ]),
       ...families.skills.flatMap(({ triggerItemId, skills }) => [
         triggerItemId,
-        ...skills.map(({ summonedEntityItemId }) => summonedEntityItemId),
+        ...skills.map(({ summonedEntityItemId }) => summonedEntityItemId).filter(Boolean),
       ]),
       ...families.quests.flatMap(({ steps, rewards }) => [
         ...steps.flatMap(({ objectives }) => objectives.map(({ itemId }) => itemId)),
