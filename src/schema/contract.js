@@ -13,6 +13,7 @@ export const CONTRACT_FILE = fileURLToPath(new URL('./runtime-contract.json', im
 
 /** @type {{itemTypes:string[], entityItemTypes:Object<string,string[]>, entityBehaviors:string[], lootBehaviors:string[],
  *   stats:{types:string[],default:number,min:number,max:number,bounds:Object<string,Object<string,[number,number]>>},
+ *   inventoryCapacity:{base:number,step:number,every:number,max:number},
  *   skillLogic:Array<{id:string,summons:string|null,summonsTrigger:boolean}>, questStepTypes:string[],
  *   casterSkinPlaceholder:string,
  *   itemDialoguePrefix:string}} */

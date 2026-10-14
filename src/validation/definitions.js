@@ -144,6 +144,16 @@ function checkCharacter(definition, context) {
     context.report(`entity.type ${entity.type} cannot hold every item of the loadout`);
   if (entity.type === 'bot' && !entity.behavior) context.report('entity.behavior is required for a bot');
   if (entity.type !== 'bot' && entity.behavior) context.report('entity.behavior applies to a bot only');
+  if (entity.type === 'player') {
+    // A player spawns with every item it wears and carries; each stack but the wallet takes a bag slot.
+    const stacks = new Set(
+      [...(definition.loadout ?? []), ...(definition.carries ?? [])].filter(
+        (id) => itemTypeOf(context.lookup(id)) !== 'coin',
+      ),
+    );
+    const { base } = CONTRACT.inventoryCapacity;
+    if (stacks.size > base) context.report(`a player spawns with ${stacks.size} stacks; its level-1 bag opens ${base}`);
+  }
 }
 
 function checkAbility(definition, context) {

@@ -393,6 +393,12 @@
       }
     }
   },
+  "inventoryCapacity": {
+    "base": 8,
+    "step": 1,
+    "every": 3,
+    "max": 24
+  },
   "skillLogic": [
     {
       "id": "projectile",

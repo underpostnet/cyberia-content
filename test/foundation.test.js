@@ -209,6 +209,34 @@ describe('definition validation', () => {
     expect(findings).toContain('character.idle: entity is required');
   });
 
+  it('spawns a player with no more stacks than its level-1 bag opens; the wallet takes none', () => {
+    const { base } = CONTRACT.inventoryCapacity;
+    const ores = Array.from({ length: base }, (_, i) =>
+      common(`resource.ore-${i}`, { artBrief: brief, objectLayer: layer('resource') }),
+    );
+    const player = (id, carries) =>
+      common(id, {
+        archetype: 'archetype',
+        voice: 'Plain.',
+        loadout: ['skin.walker'],
+        carries,
+        entity: { type: 'player' },
+      });
+    const findings = findingsOf([
+      ...minimalDefinitions(),
+      ...ores,
+      player(
+        'character.packed',
+        ores.map(({ id }) => id),
+      ),
+      player('character.light', [...ores.slice(1).map(({ id }) => id), 'currency.chit']),
+    ]);
+    expect(findings).toContain(
+      `character.packed: a player spawns with ${base + 1} stacks; its level-1 bag opens ${base}`,
+    );
+    expect(findings.some((finding) => finding.startsWith('character.light:'))).toBe(false);
+  });
+
   it('allows only executable handlers and the summon each one spawns', () => {
     const findings = findingsOf([
       ...minimalDefinitions(),
