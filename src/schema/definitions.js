@@ -69,6 +69,8 @@ export const FORBIDDEN_KEYS = Object.freeze([
   'targetMapCode',
   'gridX',
   'gridY',
+  'worldX',
+  'worldY',
   'dimX',
   'dimY',
   'cellWidth',
