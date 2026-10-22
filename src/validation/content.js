@@ -9,6 +9,7 @@ import { IGNORED_SAGAS } from '../config.js';
 import { CONTENT_ROOT, createRegistry, foundationFindings, readFoundation } from '../foundation.js';
 import { validatePackage } from '../generator/package.js';
 import { readProcedural } from '../procedural.js';
+import { CONTRACT } from '../schema/contract.js';
 import { formatFindings } from './format.js';
 
 const readJson = (file) => JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -67,6 +68,28 @@ const pinFindings = (root, code) => {
 };
 
 /**
+ * Findings of the economy of an instance: its conf names an economy, and the economy is the one
+ * its backup carries or one the foundation defines.
+ */
+const economyFindings = (root, code, registry) => {
+  const dir = path.join(root, 'instances', code);
+  const confFile = path.join(dir, 'cyberia-instance-conf.json');
+  if (!fs.existsSync(confFile)) return [];
+  const conf = readJson(confFile);
+  const id = `instances/${code}/cyberia-instance-conf.json`;
+  if (conf.economyRules) return [{ id, message: 'economyRules is retired: name the economy with economyCode' }];
+  const economyCode = conf.economyCode ?? CONTRACT.economy.defaultCode;
+  const backupFile = path.join(dir, 'cyberia-economy.json');
+  if (fs.existsSync(backupFile))
+    return readJson(backupFile).code === economyCode
+      ? []
+      : [{ id: `instances/${code}/cyberia-economy.json`, message: `the backup economy must be ${economyCode}` }];
+  return registry.definitions.has(`economy.${economyCode}`)
+    ? []
+    : [{ id, message: `economy ${economyCode} is neither in the backup nor in the foundation` }];
+};
+
+/**
  * The content of a content directory: its registry, saga packages, instance codes and procedural
  * templates.
  * @param {string} [root] - Content directory.
@@ -98,7 +121,7 @@ export function readContent(root = CONTENT_ROOT) {
     const file = path.join(root, 'instances', code, 'cyberia-instance.json');
     if (!fs.existsSync(file) || readJson(file).code !== code)
       findings.push({ id: `instances/${code}`, message: `cyberia-instance.json must hold instance ${code}` });
-    findings.push(...pinFindings(root, code));
+    findings.push(...pinFindings(root, code), ...economyFindings(root, code, registry));
   }
   return findings.length > 0
     ? { findings }

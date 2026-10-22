@@ -294,11 +294,15 @@ describe('the committed saga', () => {
   const file = `${CONTENT_ROOT}sagas/amethyst-strata-expansion.json`;
   const pkg = JSON.parse(fs.readFileSync(file, 'utf8'));
 
-  it('is valid, normalized and compiles into every family', () => {
+  it('is valid, normalized and compiles into every family a saga defines', () => {
     expect(validatePackage(pkg, registry)).toEqual([]);
     expect(canonicalJson(normalizePackage(pkg, { registry }))).toBe(fs.readFileSync(file, 'utf8'));
     const { families } = compileSaga(pkg, registry);
-    for (const family of Object.keys(FAMILIES)) expect(families[family].length, family).toBeGreaterThan(0);
+    // Economies and markets are foundation definitions: a saga defines none.
+    expect(families.economies).toEqual([]);
+    expect(families.markets).toEqual([]);
+    for (const family of Object.keys(FAMILIES).filter((family) => !['economies', 'markets'].includes(family)))
+      expect(families[family].length, family).toBeGreaterThan(0);
     for (const id of pkg.references) expect(registry.definitions.has(id), id).toBe(true);
   });
 });

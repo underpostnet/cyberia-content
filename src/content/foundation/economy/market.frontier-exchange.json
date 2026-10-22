@@ -1,0 +1,29 @@
+{
+  "id": "market.frontier-exchange",
+  "name": "Frontier Exchange",
+  "description": "The common exchange of the frontier worlds: fixed-price sales and timed auctions between players of one universe.",
+  "role": "The market a terminal of the frontier opens when its world joins the exchange.",
+  "scope": "universe",
+  "modes": [
+    "fixed",
+    "auction"
+  ],
+  "hours": [
+    1,
+    12,
+    48
+  ],
+  "auction": {
+    "raisePercent": 5,
+    "minRaise": 1
+  },
+  "fees": {
+    "listing": 0,
+    "sale": 0
+  },
+  "limits": {
+    "priceMin": 1,
+    "priceMax": 1000000000,
+    "listingsPerPlayer": 20
+  }
+}

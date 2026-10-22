@@ -130,6 +130,55 @@ describe('the compiled minimal foundation', () => {
           { outputItems: [{ itemId: 'gun', qty: 1 }], ingredients: [{ itemId: 'log', qty: 2 }], craftTimeMs: 1000 },
         ],
         storageSlots: 0,
+        buybackItems: ['log'],
+        burnItems: ['gun'],
+        market: { marketCode: 'bazaar', selection: 'items', itemIds: ['log'], listingModes: ['fixed', 'auction'] },
+      },
+    ]);
+    expect(families.markets).toEqual([
+      {
+        code: 'bazaar',
+        name: 'bazaar',
+        description: 'The market.bazaar.',
+        status: 'active',
+        scope: 'universe',
+        currencyCode: 'coin',
+        modes: ['fixed', 'auction'],
+        hours: [1, 12, 48],
+        auction: { raisePercent: 5, minRaise: 1 },
+        fees: { listing: 2, sale: 1 },
+        limits: { priceMin: 5, priceMax: 1000000000, listingsPerPlayer: 20 },
+      },
+    ]);
+    expect(families.economies).toEqual([
+      {
+        code: 'standard',
+        name: 'standard',
+        description: 'The economy.standard.',
+        currency: { code: 'coin', maxBalance: 4294967295 },
+        rules: {
+          botSpawnCoins: 50,
+          playerSpawnCoins: 50,
+          coinKillPercentVsBot: 0.4,
+          coinKillPercentVsPlayer: 0.15,
+          coinKillMinAmount: 10,
+          respawnCostPercent: 0,
+        },
+        fees: { portal: 0, craft: 1 },
+        itemDefaults: {
+          trade: true,
+          worldDrop: true,
+          buyback: false,
+          buybackPayout: 0,
+          burn: false,
+          burnCoinFee: 0,
+          craftSurcharge: 0,
+          market: false,
+        },
+        items: [
+          { itemId: 'gun', burn: true, burnCoinFee: 2, portalFee: 0, salvage: [{ itemId: 'log', qty: 1 }] },
+          { itemId: 'log', buyback: true, buybackPayout: 1, market: true },
+        ],
       },
     ]);
     const lines = (code) => families.dialogues.filter((dialogue) => dialogue.code === code);

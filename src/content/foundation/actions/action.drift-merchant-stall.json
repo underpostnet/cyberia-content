@@ -51,5 +51,13 @@
       ],
       "timeMs": 3000
     }
+  ],
+  "buyback": [
+    "resource.rustbark-log",
+    "resource.scrap-alloy",
+    "weapon.hatchet"
+  ],
+  "burn": [
+    "weapon.hatchet"
   ]
 }

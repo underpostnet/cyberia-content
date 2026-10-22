@@ -19,7 +19,9 @@ export const FAMILIES = Object.freeze({
   maps: 'maps',
   quests: 'quests',
   dialogues: 'dialogues',
+  markets: 'markets',
   actions: 'actions',
+  economies: 'economies',
 });
 
 const UNPLACED_SOURCE = Object.freeze({ sourceMapCode: null, sourceCellX: null, sourceCellY: null });
@@ -216,6 +218,7 @@ function compileDefinitions(registry, definitions) {
       rewards: (quest.rewards ?? []).map(({ item, quantity }) => ({ itemId: slugOf(item), quantity })),
     })),
     dialogues: dialogues(registry, definitions),
+    markets: ofKind(definitions, 'market').map(marketDocument),
     actions: ofKind(definitions, 'action').map((action) => ({
       code: slugOf(action.id),
       label: action.name,
@@ -229,13 +232,69 @@ function compileDefinitions(registry, definitions) {
         priceItemId: slugOf(price),
         priceQty: quantity,
       })),
-      craftRecipes: (action.recipes ?? []).map(({ outputs, ingredients, timeMs = 0 }) => ({
+      craftRecipes: (action.recipes ?? []).map(({ outputs, ingredients, timeMs = 0, fee }) => ({
         outputItems: outputs.map(itemStack),
         ingredients: ingredients.map(itemStack),
         craftTimeMs: timeMs,
+        ...(fee === undefined ? {} : { fee }),
       })),
       storageSlots: action.storageSlots ?? 0,
+      buybackItems: (action.buyback ?? []).map(slugOf),
+      burnItems: (action.burn ?? []).map(slugOf),
+      ...(action.market && {
+        market: {
+          marketCode: slugOf(action.market.market),
+          selection: action.market.selection,
+          itemIds: (action.market.items ?? []).map(slugOf),
+          listingModes: action.market.listingModes,
+        },
+      }),
     })),
+    economies: ofKind(definitions, 'economy').map(economyDocument),
+  };
+}
+
+/** The runtime document of a market profile: every rule complete. */
+function marketDocument({ id, name, description, scope, currency, modes, hours, auction = {}, fees = {}, limits = {} }) {
+  const { defaults } = CONTRACT.market;
+  return {
+    code: slugOf(id),
+    name,
+    description,
+    status: 'active',
+    scope,
+    currencyCode: currency ?? defaults.currencyCode,
+    modes: CONTRACT.market.modes.filter((mode) => modes.includes(mode)),
+    hours: CONTRACT.market.hours.filter((value) => (hours ?? defaults.hours).includes(value)),
+    auction: { ...defaults.auction, ...auction },
+    fees: { ...defaults.fees, ...fees },
+    limits: { ...defaults.limits, ...limits },
+  };
+}
+
+/**
+ * The runtime document of an economy: its profile, every block complete, and one item row per
+ * item, holding only the fields the item sets. Rows are in item order.
+ */
+function economyDocument({ id, name, description, currency = {}, rules = {}, fees = {}, defaults = {}, items = [] }) {
+  const { economy } = CONTRACT;
+  return {
+    code: slugOf(id),
+    name,
+    description,
+    currency: { code: economy.currencyCodes[0], maxBalance: currency.maxBalance ?? economy.maxBalance },
+    rules: { ...economy.rules.defaults, ...rules },
+    fees: { ...economy.fees.defaults, ...fees },
+    itemDefaults: { ...economy.itemPolicy.defaults, ...defaults },
+    items: items
+      .map(({ item, salvage, ...fields }) => ({
+        itemId: slugOf(item),
+        ...fields,
+        ...(salvage
+          ? { salvage: salvage.map(({ item: output, quantity }) => ({ itemId: slugOf(output), qty: quantity })) }
+          : {}),
+      }))
+      .sort((a, b) => a.itemId.localeCompare(b.itemId)),
   };
 }
 

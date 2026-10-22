@@ -433,5 +433,193 @@
     "intra-portal"
   ],
   "casterSkinPlaceholder": "$active_skin",
-  "itemDialoguePrefix": "default-"
+  "itemDialoguePrefix": "default-",
+  "economy": {
+    "defaultCode": "standard",
+    "currencyCodes": [
+      "coin"
+    ],
+    "maxBalance": 4294967295,
+    "rules": {
+      "defaults": {
+        "botSpawnCoins": 50,
+        "playerSpawnCoins": 50,
+        "coinKillPercentVsBot": 0.4,
+        "coinKillPercentVsPlayer": 0.15,
+        "coinKillMinAmount": 10,
+        "respawnCostPercent": 0
+      },
+      "limits": {
+        "botSpawnCoins": [
+          0,
+          1000000
+        ],
+        "playerSpawnCoins": [
+          0,
+          1000000
+        ],
+        "coinKillMinAmount": [
+          0,
+          1000000
+        ],
+        "coinKillPercentVsBot": [
+          0,
+          1
+        ],
+        "coinKillPercentVsPlayer": [
+          0,
+          1
+        ],
+        "respawnCostPercent": [
+          0,
+          1
+        ]
+      }
+    },
+    "fees": {
+      "defaults": {
+        "portal": 0,
+        "craft": 0
+      },
+      "limits": {
+        "portal": [
+          0,
+          1000000
+        ],
+        "craft": [
+          0,
+          1000000
+        ]
+      }
+    },
+    "itemPolicy": {
+      "defaults": {
+        "trade": true,
+        "worldDrop": true,
+        "buyback": false,
+        "buybackPayout": 0,
+        "burn": false,
+        "burnCoinFee": 0,
+        "craftSurcharge": 0,
+        "market": false
+      },
+      "limits": {
+        "buybackPayout": [
+          0,
+          1000000
+        ],
+        "burnCoinFee": [
+          0,
+          1000000
+        ],
+        "craftSurcharge": [
+          0,
+          1000000
+        ]
+      },
+      "optional": {
+        "portalFee": [
+          0,
+          1000000
+        ]
+      }
+    },
+    "salvage": {
+      "lines": 8,
+      "quantity": 1000
+    }
+  },
+  "market": {
+    "statuses": [
+      "active",
+      "retired"
+    ],
+    "scopes": [
+      "instance",
+      "universe"
+    ],
+    "selections": [
+      "policy",
+      "items"
+    ],
+    "modes": [
+      "fixed",
+      "auction"
+    ],
+    "hours": [
+      1,
+      6,
+      12,
+      24,
+      48,
+      72,
+      168
+    ],
+    "currencyCodes": [
+      "coin"
+    ],
+    "page": 20,
+    "defaults": {
+      "scope": "universe",
+      "currencyCode": "coin",
+      "modes": [
+        "fixed",
+        "auction"
+      ],
+      "hours": [
+        1,
+        12,
+        48
+      ],
+      "auction": {
+        "raisePercent": 5,
+        "minRaise": 1
+      },
+      "fees": {
+        "listing": 0,
+        "sale": 0
+      },
+      "limits": {
+        "priceMin": 1,
+        "priceMax": 1000000000,
+        "listingsPerPlayer": 20
+      }
+    },
+    "limits": {
+      "auction": {
+        "raisePercent": [
+          1,
+          100
+        ],
+        "minRaise": [
+          1,
+          1000000
+        ]
+      },
+      "fees": {
+        "listing": [
+          0,
+          1000000
+        ],
+        "sale": [
+          0,
+          1000000
+        ]
+      },
+      "limits": {
+        "priceMin": [
+          1,
+          1000000000
+        ],
+        "priceMax": [
+          1,
+          1000000000
+        ],
+        "listingsPerPlayer": [
+          1,
+          100
+        ]
+      }
+    }
+  }
 }

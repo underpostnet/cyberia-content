@@ -123,8 +123,8 @@ export const ENTITY_KINDS = Object.freeze(['character', ...ENVIRONMENT_KINDS]);
 /** Kinds whose `harvest` names a depleted state and a yield. */
 export const HARVESTABLE_KINDS = Object.freeze(['tree', 'vegetation', 'rock']);
 
-/** Kinds only the foundation defines: the world a saga is set in. */
-export const FOUNDATION_KINDS = Object.freeze(['region', 'biome', 'faction', 'origin', 'material']);
+/** Kinds only the foundation defines: the world a saga is set in, and the economies and markets worlds share. */
+export const FOUNDATION_KINDS = Object.freeze(['region', 'biome', 'faction', 'origin', 'material', 'economy', 'market']);
 
 const string = (required = true) => ({ type: 'string', required });
 const strings = (required = false) => ({ type: 'strings', required });
@@ -132,9 +132,11 @@ const oneOf = (values, required = true) => ({ type: 'enum', values, required });
 /** A reference to a definition of the given kinds; `null` kinds accept any kind. */
 const ref = (kinds, required = false) => ({ type: 'ref', kinds, required });
 const refs = (kinds, required = false) => ({ type: 'refs', kinds, required });
-const integer = (min, required = false) => ({ type: 'integer', min, max: Infinity, required });
+const integer = (min, required = false, max = Infinity) => ({ type: 'integer', min, max, required });
 const number = (min, max = Infinity) => ({ type: 'number', min, max, required: false });
-const boolean = () => ({ type: 'boolean', required: true });
+const boolean = (required = true) => ({ type: 'boolean', required });
+/** An optional integer inside the bounds of the runtime contract. */
+const bounded = ([min, max]) => integer(min, false, max);
 const color = () => ({ type: 'color', required: true });
 const object = (fields, required = false) => ({ type: 'object', fields, required });
 /** A list of values of one spec; a required list must not be empty. */
@@ -196,6 +198,25 @@ const item = (itemTypes, extra = {}) => ({
 
 const harvest = { harvest: object({ depleted: ref(HARVESTABLE_KINDS, true), yields: ref(ITEM_KINDS, true) }) };
 const abilities = { abilities: refs(['ability']) };
+
+/** Items an economy rules: every carried kind but the currency, which only shows the wallet. */
+export const TRADED_KINDS = Object.freeze(ITEM_KINDS.filter((kind) => kind !== 'currency'));
+
+const { economy: ECONOMY, market: MARKET } = CONTRACT;
+const RATE_RULES = Object.freeze(['coinKillPercentVsBot', 'coinKillPercentVsPlayer', 'respawnCostPercent']);
+/** The policy fields an economy sets for its items, and each item may override. */
+const ITEM_POLICY = Object.freeze(
+  Object.fromEntries(
+    Object.keys(ECONOMY.itemPolicy.defaults).map((key) => [
+      key,
+      ECONOMY.itemPolicy.limits[key] ? bounded(ECONOMY.itemPolicy.limits[key]) : boolean(false),
+    ]),
+  ),
+);
+/** The policy fields only an item sets, such as the portal fee: unset is no value. */
+const ITEM_POLICY_OPTIONAL = Object.freeze(
+  Object.fromEntries(Object.entries(ECONOMY.itemPolicy.optional).map(([key, limits]) => [key, bounded(limits)])),
+);
 
 /**
  * Every kind: its category directory, the Object Layer item types a labeled kind may take, and
@@ -316,8 +337,63 @@ export const KINDS = Object.freeze({
       shop: list(
         object({ item: ref(LABELED_KINDS, true), price: ref(['currency'], true), quantity: integer(0, true) }),
       ),
-      recipes: list(object({ outputs: stack(true), ingredients: stack(true), timeMs: integer(0) })),
+      recipes: list(
+        object({
+          outputs: stack(true),
+          ingredients: stack(true),
+          timeMs: integer(0),
+          fee: bounded(ECONOMY.fees.limits.craft),
+        }),
+      ),
       storageSlots: integer(0),
+      buyback: refs(TRADED_KINDS),
+      burn: refs(TRADED_KINDS),
+      market: object({
+        market: ref(['market'], true),
+        selection: oneOf(MARKET.selections),
+        items: refs(TRADED_KINDS),
+        listingModes: list(oneOf(MARKET.modes), true),
+      }),
+    },
+  },
+  market: {
+    category: 'economy',
+    fields: {
+      scope: oneOf(MARKET.scopes),
+      currency: oneOf(MARKET.currencyCodes, false),
+      modes: list(oneOf(MARKET.modes), true),
+      hours: list(oneOf(MARKET.hours)),
+      auction: object(Object.fromEntries(Object.entries(MARKET.limits.auction).map(([key, limits]) => [key, bounded(limits)]))),
+      fees: object(Object.fromEntries(Object.entries(MARKET.limits.fees).map(([key, limits]) => [key, bounded(limits)]))),
+      limits: object(Object.fromEntries(Object.entries(MARKET.limits.limits).map(([key, limits]) => [key, bounded(limits)]))),
+    },
+  },
+  economy: {
+    category: 'economy',
+    fields: {
+      currency: object({ maxBalance: integer(1, false, ECONOMY.maxBalance) }),
+      rules: object(
+        Object.fromEntries(
+          Object.entries(ECONOMY.rules.limits).map(([key, [min, max]]) => [
+            key,
+            RATE_RULES.includes(key) ? number(min, max) : integer(min, false, max),
+          ]),
+        ),
+      ),
+      fees: object(
+        Object.fromEntries(Object.entries(ECONOMY.fees.limits).map(([key, limits]) => [key, bounded(limits)])),
+      ),
+      defaults: object(ITEM_POLICY),
+      items: list(
+        object({
+          item: ref(TRADED_KINDS, true),
+          ...ITEM_POLICY,
+          ...ITEM_POLICY_OPTIONAL,
+          salvage: list(
+            object({ item: ref(TRADED_KINDS, true), quantity: integer(1, true, ECONOMY.salvage.quantity) }),
+          ),
+        }),
+      ),
     },
   },
 });

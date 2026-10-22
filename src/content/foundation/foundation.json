@@ -17,6 +17,7 @@
     },
     "items": {
       "skin": "skin.drifter"
-    }
+    },
+    "economy": "economy.standard"
   }
 }

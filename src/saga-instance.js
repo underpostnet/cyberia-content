@@ -10,6 +10,7 @@ import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { compileFoundation, compileSaga } from './compiler.js';
+import { slugOf } from './schema/definitions.js';
 import { canonicalJson } from './validation/format.js';
 
 /** A MongoDB ObjectId: the same key always gives the same id. */
@@ -19,19 +20,23 @@ const objectId = (...key) => createHash('sha256').update(key.join('\n')).digest(
 const isItemId = (id) => Boolean(id) && !id.startsWith('$');
 
 /**
- * The item ids an instance names: what its entity-type defaults wire, what its actions trade, and
- * what its quests ask for or pay out. The engine export selects by the same rule.
+ * The item ids an instance names: what its entity-type defaults wire, what its actions trade, buy
+ * back and burn, what a burn of its items salvages, and what its quests ask for or pay out. The
+ * engine export and the world load select by the same rule.
  */
-function namedItemIds({ entityTypeDefaults, actions, quests }) {
+function namedItemIds({ entityTypeDefaults, actions, quests }, economy) {
   const ids = new Set();
   for (const row of entityTypeDefaults)
     for (const list of ['liveItemIds', 'deadItemIds', 'dropItemIds', 'inventoryItemsIds'])
       for (const id of row[list]) ids.add(id);
-  for (const { shopItems, craftRecipes } of actions) {
+  for (const { shopItems, craftRecipes, buybackItems, burnItems } of actions) {
     for (const { itemId, priceItemId } of shopItems) ids.add(itemId).add(priceItemId);
     for (const { ingredients, outputItems } of craftRecipes)
       for (const { itemId } of [...ingredients, ...outputItems]) ids.add(itemId);
+    for (const itemId of [...buybackItems, ...burnItems]) ids.add(itemId);
   }
+  for (const { itemId, burn = economy.itemDefaults.burn, salvage = [] } of economy.items)
+    if (burn && ids.has(itemId)) for (const line of salvage) ids.add(line.itemId);
   for (const { steps, rewards } of quests) {
     for (const { objectives } of steps) for (const { itemId } of objectives) ids.add(itemId);
     for (const { itemId } of rewards) ids.add(itemId);
@@ -62,9 +67,13 @@ export function sagaInstanceBackup(pkg, registry) {
     const _id = idOf('entity-type-default', row.entityType, row.liveItemIds.join(','));
     if (!entityTypeDefaults.has(_id)) entityTypeDefaults.set(_id, { _id, ...row });
   }
+  const economy = foundation.economies.find(
+    ({ code: economyCode }) => economyCode === slugOf(registry.baseline.economy),
+  );
   const conf = {
     _id: idOf('cyberia-instance-conf'),
     instanceCode: code,
+    economyCode: economy.code,
     entityDefaults: [...entityTypeDefaults.keys()],
   };
   files.set('cyberia-instance.json', { _id: idOf('cyberia-instance'), ...instance, conf: conf._id });
@@ -78,7 +87,7 @@ export function sagaInstanceBackup(pkg, registry) {
   for (const action of families.actions)
     files.set(`cyberia-actions/${action.code}.json`, { _id: idOf('action', action.code), ...action });
 
-  const itemIds = namedItemIds(families);
+  const itemIds = namedItemIds(families, economy);
   const skills = [...families.skills, ...foundation.skills].filter(({ triggerItemId }) => itemIds.has(triggerItemId));
   for (const skill of skills) {
     files.set(`cyberia-skills/${skill.triggerItemId}.json`, { _id: idOf('skill', skill.triggerItemId), ...skill });

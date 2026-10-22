@@ -109,6 +109,28 @@ export const minimalDefinitions = () => [
         timeMs: 1000,
       },
     ],
+    buyback: ['resource.log'],
+    burn: ['weapon.gun'],
+    market: { market: 'market.bazaar', selection: 'items', items: ['resource.log'], listingModes: ['fixed', 'auction'] },
+  }),
+  common('market.bazaar', {
+    scope: 'universe',
+    modes: ['fixed', 'auction'],
+    fees: { listing: 2, sale: 1 },
+    limits: { priceMin: 5 },
+  }),
+  common('economy.standard', {
+    fees: { craft: 1 },
+    items: [
+      { item: 'resource.log', buyback: true, buybackPayout: 1, market: true },
+      {
+        item: 'weapon.gun',
+        burn: true,
+        burnCoinFee: 2,
+        portalFee: 0,
+        salvage: [{ item: 'resource.log', quantity: 1 }],
+      },
+    ],
   }),
 ];
 
@@ -116,6 +138,7 @@ export const minimalManifest = () => ({
   schemaVersion: SCHEMA_VERSION,
   baseline: {
     fragmentation: 'skin.shards',
+    economy: 'economy.standard',
     entities: {
       player: 'character.walker',
       floor: 'floor.grass',

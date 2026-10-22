@@ -63,7 +63,8 @@ function checkValue(spec, value, field, context) {
       if (typeof value !== 'string' || !COLOR_PATTERN.test(value)) report(`${field} must be a #rrggbb color`);
       return;
     case 'integer':
-      if (!Number.isInteger(value) || value < spec.min) report(`${field} must be an integer of at least ${spec.min}`);
+      if (!Number.isInteger(value) || value < spec.min || value > spec.max)
+        report(`${field} must be an integer from ${spec.min}${spec.max === Infinity ? '' : ` to ${spec.max}`}`);
       return;
     case 'number':
       if (typeof value !== 'number' || !Number.isFinite(value) || value < spec.min || value > spec.max)
@@ -210,6 +211,58 @@ function checkQuest(definition, context) {
     context.report('a quest cannot require or unlock itself');
 }
 
+/**
+ * An economy names each item once, salvages only what a burn allows into other items, and never
+ * caps the wallet below a spawn wallet.
+ */
+function checkEconomy(definition, context) {
+  const items = (definition.items ?? []).map((entry) => entry?.item);
+  if (new Set(items).size !== items.length) context.report('items repeat an item');
+  const burns = definition.defaults?.burn ?? CONTRACT.economy.itemPolicy.defaults.burn;
+  for (const entry of definition.items ?? []) {
+    const outputs = (entry?.salvage ?? []).map((line) => line?.item);
+    if (outputs.length > CONTRACT.economy.salvage.lines)
+      context.report(`${entry.item} salvages more than ${CONTRACT.economy.salvage.lines} items`);
+    if (new Set(outputs).size !== outputs.length || outputs.includes(entry.item))
+      context.report(`${entry.item} salvages an item twice or itself`);
+    if (outputs.length > 0 && !(entry.burn ?? burns)) context.report(`${entry.item} salvages without a burn`);
+  }
+  const rules = { ...CONTRACT.economy.rules.defaults, ...definition.rules };
+  const maxBalance = definition.currency?.maxBalance ?? CONTRACT.economy.maxBalance;
+  if (maxBalance < Math.max(rules.playerSpawnCoins, rules.botSpawnCoins))
+    context.report('currency.maxBalance is below a spawn wallet');
+}
+
+/**
+ * A market terminal lists in modes its market supports, each once, and names items only for the
+ * selection items.
+ */
+function checkMarket(market, context) {
+  const listingModes = market.listingModes ?? [];
+  if (new Set(listingModes).size !== listingModes.length) context.report('market.listingModes must name each mode once');
+  const profile = context.lookup(market.market);
+  const unsupported = listingModes.filter((mode) => profile && !(profile.modes ?? []).includes(mode));
+  if (unsupported.length > 0) context.report(`market.listingModes: ${market.market} supports no ${unsupported.join(', ')}`);
+  if (market.selection === 'policy' && (market.items ?? []).length > 0)
+    context.report('market.items apply only to the selection items');
+}
+
+/**
+ * A market profile offers each mode and duration once, a price range that is not empty, and a sale
+ * fee no higher than its lowest price, so no sale leaves a seller with negative proceeds.
+ */
+function checkMarketProfile(definition, context) {
+  const { defaults } = CONTRACT.market;
+  for (const field of ['modes', 'hours']) {
+    const values = definition[field] ?? defaults[field];
+    if (values.length === 0 || new Set(values).size !== values.length) context.report(`${field} must name each value once`);
+  }
+  const limits = { ...defaults.limits, ...definition.limits };
+  const fees = { ...defaults.fees, ...definition.fees };
+  if (limits.priceMin > limits.priceMax) context.report('limits.priceMin is above limits.priceMax');
+  if (fees.sale > limits.priceMin) context.report('fees.sale is above limits.priceMin');
+}
+
 function checkDefinition(definition, context) {
   const { report } = context;
   if (!isPlainObject(definition)) return report('a definition must be an object');
@@ -229,6 +282,9 @@ function checkDefinition(definition, context) {
   if (Array.isArray(definition.abilities) && schema.itemTypes) checkCarriedAbilities(definition, context);
   if (kind === 'map') checkComposition(definition, context);
   if (kind === 'quest') checkQuest(definition, context);
+  if (kind === 'economy') checkEconomy(definition, context);
+  if (kind === 'action' && definition.market) checkMarket(definition.market, context);
+  if (kind === 'market') checkMarketProfile(definition, context);
   if (kind === 'faction' && definition.parent === definition.id) report('a faction cannot be its own parent');
   if (kind === 'region' && (definition.connectsTo ?? []).includes(definition.id))
     report('a region cannot connect to itself');
@@ -359,8 +415,8 @@ export function validateDefinitions(definitions, { base = null } = {}) {
 
 /**
  * Validates the foundation manifest: its schema version, the baseline each runtime entity type
- * resolves against when a world authors none of its own, and the item each item type gives a new
- * item its function from.
+ * resolves against when a world authors none of its own, the item each item type gives a new
+ * item its function from, and the economy of a world that names none.
  *
  * @param {Object} manifest - `foundation.json`.
  * @param {(id:string)=>Object|undefined} lookup - Definition by id.
@@ -399,5 +455,10 @@ export function validateManifest(manifest, lookup) {
     if (!CONTRACT.itemTypes.includes(itemType)) report(`baseline.items.${itemType} is not an item type`);
     else if (itemTypeOf(lookup(id)) !== itemType) report(`baseline.items.${itemType} must name a ${itemType}`);
   }
+  // A world whose conf names no economy runs the default economy, so the foundation defines it.
+  if (kindOf(baseline.economy) !== 'economy' || !lookup(baseline.economy))
+    report('baseline.economy must name an economy');
+  else if (slugOf(baseline.economy) !== CONTRACT.economy.defaultCode)
+    report(`baseline.economy must be economy.${CONTRACT.economy.defaultCode}, the economy of a world that names none`);
   return findings;
 }

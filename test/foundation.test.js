@@ -49,6 +49,7 @@ describe('the foundation', () => {
       'maps',
       'quests',
       'actions',
+      'economy',
     ]);
   });
 
@@ -142,6 +143,74 @@ describe('definition validation', () => {
   it('accepts the minimal foundation', () => {
     expect(findingsOf(minimalDefinitions())).toEqual([]);
     expect(createRegistry({ manifest: minimalManifest(), definitions: minimalDefinitions() }).byItemId.size).toBe(10);
+  });
+
+  it('checks an economy: its bounds, its items once each, salvage only with a burn, never the currency', () => {
+    const economy = (fields) => common('economy.frontier', fields);
+    const findings = findingsOf([
+      ...minimalDefinitions(),
+      economy({
+        currency: { maxBalance: 10 },
+        fees: { portal: -1 },
+        items: [
+          { item: 'resource.log', buyback: true, buybackPayout: 2 },
+          { item: 'resource.log', trade: false },
+          { item: 'weapon.gun', burn: false, salvage: [{ item: 'resource.log', quantity: 1 }] },
+          { item: 'currency.chit', trade: false },
+        ],
+      }),
+    ]);
+    expect(findings).toContain('economy.frontier: fees.portal must be an integer from 0 to 1000000');
+    expect(findings).toContain('economy.frontier: items repeat an item');
+    expect(findings).toContain('economy.frontier: weapon.gun salvages without a burn');
+    expect(findings).toContain('economy.frontier: currency.maxBalance is below a spawn wallet');
+    expect(findings).toContain(
+      `economy.frontier: items[3].item must name a ${KINDS.economy.fields.items.of.fields.item.kinds.join(' | ')}, not currency.chit`,
+    );
+  });
+
+  it('checks a market terminal: a market profile, modes it supports, each once, items only for the selection items', () => {
+    const definitions = minimalDefinitions();
+    const post = definitions.find(({ id }) => id === 'action.walker-post');
+    const others = definitions.filter((definition) => definition !== post && definition.id !== 'market.bazaar');
+    const fixedOnly = common('market.bazaar', { scope: 'instance', modes: ['fixed'] });
+    const findings = findingsOf([
+      ...others,
+      fixedOnly,
+      {
+        ...post,
+        market: { market: 'market.bazaar', selection: 'policy', items: ['resource.log'], listingModes: ['auction', 'auction'] },
+      },
+    ]);
+    expect(findings).toContain('action.walker-post: market.listingModes must name each mode once');
+    expect(findings).toContain('action.walker-post: market.listingModes: market.bazaar supports no auction, auction');
+    expect(findings).toContain('action.walker-post: market.items apply only to the selection items');
+    const unknown = findingsOf([
+      ...others,
+      fixedOnly,
+      { ...post, market: { market: 'market.nowhere', selection: 'items', listingModes: ['barter'] } },
+    ]);
+    expect(unknown.some((finding) => finding.startsWith('action.walker-post: market.market'))).toBe(true);
+    expect(unknown.some((finding) => finding.startsWith('action.walker-post: market.listingModes[0]'))).toBe(true);
+  });
+
+  it('checks a market profile: each mode and duration once, a price range, a sale fee within the lowest price', () => {
+    const definitions = minimalDefinitions().filter(({ id }) => id !== 'market.bazaar');
+    const findings = findingsOf([
+      ...definitions,
+      common('market.bazaar', {
+        scope: 'universe',
+        modes: ['fixed', 'fixed'],
+        hours: [1, 2],
+        fees: { sale: 10 },
+        limits: { priceMin: 50, priceMax: 20 },
+      }),
+    ]);
+    expect(findings).toContain('market.bazaar: modes must name each value once');
+    expect(findings.some((finding) => finding.startsWith('market.bazaar: hours[1]'))).toBe(true);
+    expect(findings).toContain('market.bazaar: limits.priceMin is above limits.priceMax');
+    const fee = findingsOf([...definitions, common('market.bazaar', { scope: 'universe', modes: ['fixed'], fees: { sale: 10 } })]);
+    expect(fee).toContain('market.bazaar: fees.sale is above limits.priceMin');
   });
 
   it('detects duplicate ids, item labels and names', () => {
