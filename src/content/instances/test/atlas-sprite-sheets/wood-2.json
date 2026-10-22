@@ -1,10 +1,10 @@
 {
-  "_id": "6ab59060bb37c1151110a116",
+  "_id": "6acafd1ba75a1efa0282da99",
   "objectLayerCid": "bafkreifurm542tkhle4vxrf5rhrvi2646kc3her6jtw6wiy5fuia24hgwi",
   "__v": 0,
-  "createdAt": "2026-09-24T21:04:32.410Z",
+  "createdAt": "2026-10-11T03:06:03.893Z",
   "fileId": "5e8577a2c62bcf220f348c51",
-  "idlePreviewFileId": "318c38f823eac9fa5b016a35",
+  "idlePreviewFileId": "c058a2c13925e14d63253ca8",
   "metadata": {
     "itemKey": "wood-2",
     "atlasWidth": 120,
@@ -78,6 +78,6 @@
       ]
     }
   },
-  "updatedAt": "2026-09-24T21:04:58.968Z",
+  "updatedAt": "2026-10-11T03:06:04.269Z",
   "upscaleFileId": "6aa4f31e469fc15619e2c7f7"
 }

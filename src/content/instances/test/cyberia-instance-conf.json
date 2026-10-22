@@ -1,8 +1,6 @@
 {
-  "_id": "69ebf8d6c4913d7b6bdd6e43",
   "instanceCode": "test",
   "tickRate": 60,
-  "snapshotRate": 20,
   "aoiRadius": 20,
   "portalHoldTimeMs": 3000,
   "portalSpawnRadius": 3,
@@ -124,7 +122,8 @@
     "onePerType": true,
     "requireSkin": true
   },
+  "_id": "69ebf8d6c4913d7b6bdd6e43",
   "createdAt": "2026-04-24T23:12:22.520Z",
-  "updatedAt": "2026-04-24T23:12:22.520Z",
+  "updatedAt": "2026-10-19T23:50:57.695Z",
   "__v": 0
 }

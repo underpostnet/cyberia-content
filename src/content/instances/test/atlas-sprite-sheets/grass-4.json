@@ -1,10 +1,10 @@
 {
-  "_id": "6ab5905bbb37c1151110a0ec",
+  "_id": "6acafd15a75a1efa0282da7e",
   "objectLayerCid": "bafkreibbvx5prxac466yissz5tu3ig6olqi7y432ia2auejpaghm6wx4iu",
   "__v": 0,
-  "createdAt": "2026-09-24T21:04:27.419Z",
+  "createdAt": "2026-10-11T03:05:57.155Z",
   "fileId": "e4923e3f18258b3d41238817",
-  "idlePreviewFileId": "1895e04f41a4a35e9e6c8727",
+  "idlePreviewFileId": "8913cfc3e6b2c19e9abd940e",
   "metadata": {
     "itemKey": "grass-4",
     "atlasWidth": 120,
@@ -78,6 +78,6 @@
       ]
     }
   },
-  "updatedAt": "2026-09-24T21:04:27.419Z",
+  "updatedAt": "2026-10-11T03:05:57.476Z",
   "upscaleFileId": "142921ddab0c73a6d513d821"
 }

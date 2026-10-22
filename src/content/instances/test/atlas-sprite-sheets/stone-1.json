@@ -1,10 +1,10 @@
 {
-  "_id": "6ab5905ebb37c1151110a104",
+  "_id": "6acafd18a75a1efa0282da8d",
   "objectLayerCid": "bafkreibk7fhp34pcnf2lg4sfv27h7a37ueclg7bzlzocfeg2s25v22m6xe",
   "__v": 0,
-  "createdAt": "2026-09-24T21:04:30.872Z",
+  "createdAt": "2026-10-11T03:06:00.764Z",
   "fileId": "2b4e970b4e211c09cd669931",
-  "idlePreviewFileId": "7fb6a6d44861c26590e3d8e1",
+  "idlePreviewFileId": "5840ec6c27b5c96430aad832",
   "metadata": {
     "itemKey": "stone-1",
     "atlasWidth": 120,
@@ -78,6 +78,6 @@
       ]
     }
   },
-  "updatedAt": "2026-09-24T21:04:30.872Z",
+  "updatedAt": "2026-10-11T03:06:01.102Z",
   "upscaleFileId": "43f7894895258914c92fb93b"
 }

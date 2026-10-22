@@ -1,10 +1,10 @@
 {
-  "_id": "6ab59061bb37c1151110a122",
+  "_id": "6acafd1da75a1efa0282daa1",
   "objectLayerCid": "bafkreihpvjhxr7opvmxsge7fxbkhnpwdpx5tbzg3qcz4hdhioufwitluve",
   "__v": 0,
-  "createdAt": "2026-09-24T21:04:33.127Z",
+  "createdAt": "2026-10-11T03:06:05.793Z",
   "fileId": "6985f1e9836ffdc356c4bad7",
-  "idlePreviewFileId": "f96d0acd514ff6683f448026",
+  "idlePreviewFileId": "02a747fc50b45dd73b6ee200",
   "metadata": {
     "itemKey": "wood-drop-2",
     "atlasWidth": 48,
@@ -57,6 +57,6 @@
       ]
     }
   },
-  "updatedAt": "2026-09-24T21:04:59.482Z",
+  "updatedAt": "2026-10-11T03:06:06.046Z",
   "upscaleFileId": "7f26542ed0b6ffe75bdeeac9"
 }

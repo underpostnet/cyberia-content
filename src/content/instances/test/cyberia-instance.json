@@ -79,6 +79,10 @@
   "topologyMode": "hybrid",
   "conf": "69ebf8d6c4913d7b6bdd6e43",
   "createdAt": "2026-04-18T17:10:30.346Z",
-  "updatedAt": "2026-04-18T17:10:30.346Z",
-  "__v": 0
+  "updatedAt": "2026-10-19T23:50:57.620Z",
+  "__v": 0,
+  "preview": "6ad6a974071244c9e9717b95",
+  "previewKey": "476a8d199f51522060e7ac89b9c14b68",
+  "mapLayout": [],
+  "revision": 5
 }
