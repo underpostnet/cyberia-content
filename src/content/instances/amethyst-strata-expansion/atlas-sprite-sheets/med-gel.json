@@ -1,0 +1,83 @@
+{
+  "_id": "6acd7468a75a1efa0282dab3",
+  "objectLayerCid": "bafkreihhctdulnuzc2x6f2nqtysdlpchl54bembotlabeqc54sqmp4ibrq",
+  "__v": 0,
+  "createdAt": "2026-10-12T23:59:36.880Z",
+  "fileId": "7310fb8a5291d0b0d9507fe2",
+  "idlePreviewFileId": "388f74ddec15d5c591ea4e72",
+  "metadata": {
+    "itemKey": "med-gel",
+    "atlasWidth": 64,
+    "atlasHeight": 32,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 800,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 32,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 48,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 0,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        },
+        {
+          "x": 16,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 1
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-12T23:59:36.880Z",
+  "upscaleFileId": "0d98c2eef91bc9f38daa4583"
+}

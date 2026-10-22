@@ -12,11 +12,18 @@
   "inventoryItemsIds": [
     "punk",
     "junko",
-    "kaneki"
+    "kaneki",
+    "med-gel"
   ],
-  "overrideItemsIdsState": [],
+  "overrideItemsIdsState": [
+    {
+      "itemId": "med-gel",
+      "active": false,
+      "quantity": 5
+    }
+  ],
   "behavior": "",
   "createdAt": "2026-09-06T22:56:52.290Z",
-  "updatedAt": "2026-09-06T22:56:52.290Z",
+  "updatedAt": "2026-10-19T16:20:43.811Z",
   "__v": 0
 }

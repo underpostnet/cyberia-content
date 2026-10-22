@@ -22,6 +22,18 @@
   ],
   "craftRecipes": [],
   "storageSlots": 4,
+  "buybackItems": [],
+  "burnItems": [],
+  "market": {
+    "marketCode": "",
+    "selection": "policy",
+    "itemIds": [],
+    "listingModes": [
+      "fixed",
+      "auction"
+    ]
+  },
+  "revision": 1,
   "_id": "6a5c162a2e1dbf5a3a3087ba",
   "createdAt": "2026-07-19T00:11:22.875Z",
   "updatedAt": "2026-07-19T00:11:22.875Z",

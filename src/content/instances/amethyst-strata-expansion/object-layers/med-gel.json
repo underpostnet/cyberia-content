@@ -1,0 +1,35 @@
+{
+  "_id": "6acd7468b2afa72411f65f5d",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "med-gel",
+      "type": "consumable",
+      "description": "A squeeze tube of wound-sealing gel",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 8,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 4
+    },
+    "render": {
+      "cid": "bafkreidrrhfxxmcpf7tki4sfkosd2brmgkmvpfou4w6ayfspzk2km7chvu",
+      "metadataCid": "bafkreigiy23a674sn4u3gn2lib7fcb64q75cq4jcaixacgciznqyqncyxq"
+    }
+  },
+  "cid": "bafkreihhctdulnuzc2x6f2nqtysdlpchl54bembotlabeqc54sqmp4ibrq",
+  "contentHash": "e714c745b69916afe2e9b09e2435bc475f7812302e9ac012405de4a0c7f1018c",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-12T23:59:36.535Z",
+  "updatedAt": "2026-10-12T23:59:36.811Z",
+  "__v": 0
+}

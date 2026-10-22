@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6acafcd8a3fb1290e4489af1",
+    "code": "default-med-gel",
+    "order": 0,
+    "speaker": "Med Gel",
+    "text": "A squeeze tube of wound-sealing gel.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-10-11T03:04:56.018Z",
+    "updatedAt": "2026-10-11T03:04:56.018Z"
+  }
+]

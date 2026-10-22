@@ -1,8 +1,8 @@
 {
-  "_id": "6ac91f326c41c53460a45906",
+  "_id": "6acafcf5a75a1efa0282da2a",
   "objectLayerCid": "bafkreih5uobga7at6ritj7srwr56r7vnsrdsi6gchmbhnzvi2jcc72imje",
   "__v": 0,
-  "createdAt": "2026-10-09T17:06:58.292Z",
+  "createdAt": "2026-10-11T03:05:25.832Z",
   "fileId": "d83dc23b48a006129adc37ad",
   "idlePreviewFileId": "8b53e5b9936581846624a4de",
   "metadata": {
@@ -233,6 +233,6 @@
       ]
     }
   },
-  "updatedAt": "2026-10-09T17:06:58.292Z",
+  "updatedAt": "2026-10-11T03:05:25.832Z",
   "upscaleFileId": "65a99d0890ba3f068f4ec0ea"
 }

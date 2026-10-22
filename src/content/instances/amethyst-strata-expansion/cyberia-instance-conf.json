@@ -1,8 +1,6 @@
 {
-  "_id": "6a4019d98df0fac6c13c2168",
   "instanceCode": "amethyst-strata-expansion",
   "tickRate": 60,
-  "snapshotRate": 20,
   "aoiRadius": 15,
   "portalHoldTimeMs": 3000,
   "portalSpawnRadius": 3,
@@ -88,7 +86,8 @@
     "6abb2bbd6360e10954db9f2c",
     "6abb2bbd6360e10954db9f2d",
     "6abc56e79f04c2d04be69864",
-    "6abd76dacf017f921173e2d7"
+    "6abd76dacf017f921173e2d7",
+    "6acd7512b2afa72411f66031"
   ],
   "statusIcons": [
     {
@@ -162,7 +161,8 @@
     "onePerType": true,
     "requireSkin": true
   },
+  "_id": "6a4019d98df0fac6c13c2168",
   "createdAt": "2026-06-27T18:43:37.568Z",
-  "updatedAt": "2026-10-10T16:25:14.440Z",
+  "updatedAt": "2026-10-20T09:17:53.364Z",
   "__v": 0
 }

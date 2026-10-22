@@ -1,7 +1,7 @@
 {
   "sourceMapCode": "verdant-buffer-zone",
-  "sourceCellX": 17,
-  "sourceCellY": 15,
+  "sourceCellX": 32,
+  "sourceCellY": 14,
   "code": "perimeter-hardening",
   "title": "Perimeter Hardening",
   "description": "Atlas security is deploying reinforced bark-composite plating to stabilize the boundary. Scavenge the necessary materials from recent combat zones to assist in the deployment.",
@@ -35,6 +35,6 @@
   ],
   "_id": "6ac91f26b16aad2b651a77f0",
   "createdAt": "2026-10-09T17:06:46.985Z",
-  "updatedAt": "2026-10-10T22:17:19.622Z",
+  "updatedAt": "2026-10-20T09:16:21.305Z",
   "__v": 0
 }

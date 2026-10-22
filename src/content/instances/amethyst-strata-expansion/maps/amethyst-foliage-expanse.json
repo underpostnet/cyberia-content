@@ -6,6 +6,7 @@
   "entities": [
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 0,
       "dimX": 5,
@@ -19,10 +20,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189312"
+      "_id": "6acd75f7b2afa72411f6658f"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 0,
       "dimX": 5,
@@ -36,10 +38,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189313"
+      "_id": "6acd75f7b2afa72411f66590"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 0,
       "dimX": 5,
@@ -53,10 +56,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189314"
+      "_id": "6acd75f7b2afa72411f66591"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 0,
       "dimX": 5,
@@ -70,10 +74,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189315"
+      "_id": "6acd75f7b2afa72411f66592"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 0,
       "dimX": 5,
@@ -87,10 +92,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189316"
+      "_id": "6acd75f7b2afa72411f66593"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 0,
       "dimX": 5,
@@ -104,10 +110,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189317"
+      "_id": "6acd75f7b2afa72411f66594"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 0,
       "dimX": 5,
@@ -121,10 +128,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189318"
+      "_id": "6acd75f7b2afa72411f66595"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 0,
       "dimX": 5,
@@ -138,10 +146,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189319"
+      "_id": "6acd75f7b2afa72411f66596"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 0,
       "dimX": 5,
@@ -155,10 +164,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18931a"
+      "_id": "6acd75f7b2afa72411f66597"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 0,
       "dimX": 5,
@@ -172,10 +182,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18931b"
+      "_id": "6acd75f7b2afa72411f66598"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 0,
       "dimX": 5,
@@ -189,10 +200,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18931c"
+      "_id": "6acd75f7b2afa72411f66599"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 0,
       "dimX": 5,
@@ -206,10 +218,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18931d"
+      "_id": "6acd75f7b2afa72411f6659a"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 0,
       "dimX": 5,
@@ -223,10 +236,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18931e"
+      "_id": "6acd75f7b2afa72411f6659b"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 5,
       "dimX": 5,
@@ -240,10 +254,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18931f"
+      "_id": "6acd75f7b2afa72411f6659c"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 5,
       "dimX": 5,
@@ -257,10 +272,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189320"
+      "_id": "6acd75f7b2afa72411f6659d"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 5,
       "dimX": 5,
@@ -274,10 +290,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189321"
+      "_id": "6acd75f7b2afa72411f6659e"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 5,
       "dimX": 5,
@@ -291,10 +308,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189322"
+      "_id": "6acd75f7b2afa72411f6659f"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 5,
       "dimX": 5,
@@ -308,10 +326,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189323"
+      "_id": "6acd75f7b2afa72411f665a0"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 5,
       "dimX": 5,
@@ -325,10 +344,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189324"
+      "_id": "6acd75f7b2afa72411f665a1"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 5,
       "dimX": 5,
@@ -342,10 +362,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189325"
+      "_id": "6acd75f7b2afa72411f665a2"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 5,
       "dimX": 5,
@@ -359,10 +380,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189326"
+      "_id": "6acd75f7b2afa72411f665a3"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 5,
       "dimX": 5,
@@ -376,10 +398,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189327"
+      "_id": "6acd75f7b2afa72411f665a4"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 5,
       "dimX": 5,
@@ -393,10 +416,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189328"
+      "_id": "6acd75f7b2afa72411f665a5"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 5,
       "dimX": 5,
@@ -410,10 +434,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189329"
+      "_id": "6acd75f7b2afa72411f665a6"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 5,
       "dimX": 5,
@@ -427,10 +452,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18932a"
+      "_id": "6acd75f7b2afa72411f665a7"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 5,
       "dimX": 5,
@@ -444,10 +470,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18932b"
+      "_id": "6acd75f7b2afa72411f665a8"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 10,
       "dimX": 5,
@@ -461,10 +488,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18932c"
+      "_id": "6acd75f7b2afa72411f665a9"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 10,
       "dimX": 5,
@@ -478,10 +506,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18932d"
+      "_id": "6acd75f7b2afa72411f665aa"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 10,
       "dimX": 5,
@@ -495,10 +524,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18932e"
+      "_id": "6acd75f7b2afa72411f665ab"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 10,
       "dimX": 5,
@@ -512,10 +542,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18932f"
+      "_id": "6acd75f7b2afa72411f665ac"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 10,
       "dimX": 5,
@@ -529,10 +560,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189330"
+      "_id": "6acd75f7b2afa72411f665ad"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 10,
       "dimX": 5,
@@ -546,10 +578,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189331"
+      "_id": "6acd75f7b2afa72411f665ae"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 10,
       "dimX": 5,
@@ -563,10 +596,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189332"
+      "_id": "6acd75f7b2afa72411f665af"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 10,
       "dimX": 5,
@@ -580,10 +614,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189333"
+      "_id": "6acd75f7b2afa72411f665b0"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 10,
       "dimX": 5,
@@ -597,10 +632,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189334"
+      "_id": "6acd75f7b2afa72411f665b1"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 10,
       "dimX": 5,
@@ -614,10 +650,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189335"
+      "_id": "6acd75f7b2afa72411f665b2"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 10,
       "dimX": 5,
@@ -631,10 +668,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189336"
+      "_id": "6acd75f7b2afa72411f665b3"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 10,
       "dimX": 5,
@@ -648,10 +686,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189337"
+      "_id": "6acd75f7b2afa72411f665b4"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 10,
       "dimX": 5,
@@ -665,10 +704,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189338"
+      "_id": "6acd75f7b2afa72411f665b5"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 15,
       "dimX": 5,
@@ -682,10 +722,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189339"
+      "_id": "6acd75f7b2afa72411f665b6"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 15,
       "dimX": 5,
@@ -699,10 +740,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18933a"
+      "_id": "6acd75f7b2afa72411f665b7"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 15,
       "dimX": 5,
@@ -716,10 +758,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18933b"
+      "_id": "6acd75f7b2afa72411f665b8"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 15,
       "dimX": 5,
@@ -733,10 +776,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18933c"
+      "_id": "6acd75f7b2afa72411f665b9"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 15,
       "dimX": 5,
@@ -750,10 +794,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18933d"
+      "_id": "6acd75f7b2afa72411f665ba"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 15,
       "dimX": 5,
@@ -767,10 +812,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18933e"
+      "_id": "6acd75f7b2afa72411f665bb"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 15,
       "dimX": 5,
@@ -784,10 +830,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18933f"
+      "_id": "6acd75f7b2afa72411f665bc"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 15,
       "dimX": 5,
@@ -801,10 +848,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189340"
+      "_id": "6acd75f7b2afa72411f665bd"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 15,
       "dimX": 5,
@@ -818,10 +866,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189341"
+      "_id": "6acd75f7b2afa72411f665be"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 15,
       "dimX": 5,
@@ -835,10 +884,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189342"
+      "_id": "6acd75f7b2afa72411f665bf"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 15,
       "dimX": 5,
@@ -852,10 +902,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189343"
+      "_id": "6acd75f7b2afa72411f665c0"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 15,
       "dimX": 5,
@@ -869,10 +920,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189344"
+      "_id": "6acd75f7b2afa72411f665c1"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 15,
       "dimX": 5,
@@ -886,10 +938,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189345"
+      "_id": "6acd75f7b2afa72411f665c2"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 20,
       "dimX": 5,
@@ -903,10 +956,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189346"
+      "_id": "6acd75f7b2afa72411f665c3"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 20,
       "dimX": 5,
@@ -920,10 +974,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189347"
+      "_id": "6acd75f7b2afa72411f665c4"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 20,
       "dimX": 5,
@@ -937,10 +992,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189348"
+      "_id": "6acd75f7b2afa72411f665c5"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 20,
       "dimX": 5,
@@ -954,10 +1010,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189349"
+      "_id": "6acd75f7b2afa72411f665c6"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 20,
       "dimX": 5,
@@ -971,10 +1028,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18934a"
+      "_id": "6acd75f7b2afa72411f665c7"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 20,
       "dimX": 5,
@@ -988,10 +1046,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18934b"
+      "_id": "6acd75f7b2afa72411f665c8"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 20,
       "dimX": 5,
@@ -1005,10 +1064,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18934c"
+      "_id": "6acd75f7b2afa72411f665c9"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 20,
       "dimX": 5,
@@ -1022,10 +1082,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18934d"
+      "_id": "6acd75f7b2afa72411f665ca"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 20,
       "dimX": 5,
@@ -1039,10 +1100,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18934e"
+      "_id": "6acd75f7b2afa72411f665cb"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 20,
       "dimX": 5,
@@ -1056,10 +1118,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18934f"
+      "_id": "6acd75f7b2afa72411f665cc"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 20,
       "dimX": 5,
@@ -1073,10 +1136,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189350"
+      "_id": "6acd75f7b2afa72411f665cd"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 20,
       "dimX": 5,
@@ -1090,10 +1154,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189351"
+      "_id": "6acd75f7b2afa72411f665ce"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 20,
       "dimX": 5,
@@ -1107,10 +1172,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189352"
+      "_id": "6acd75f7b2afa72411f665cf"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 25,
       "dimX": 5,
@@ -1124,10 +1190,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189353"
+      "_id": "6acd75f7b2afa72411f665d0"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 25,
       "dimX": 5,
@@ -1141,10 +1208,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189354"
+      "_id": "6acd75f7b2afa72411f665d1"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 25,
       "dimX": 5,
@@ -1158,10 +1226,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189355"
+      "_id": "6acd75f7b2afa72411f665d2"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 25,
       "dimX": 5,
@@ -1175,10 +1244,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189356"
+      "_id": "6acd75f7b2afa72411f665d3"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 25,
       "dimX": 5,
@@ -1192,10 +1262,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189357"
+      "_id": "6acd75f7b2afa72411f665d4"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 25,
       "dimX": 5,
@@ -1209,10 +1280,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189358"
+      "_id": "6acd75f7b2afa72411f665d5"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 25,
       "dimX": 5,
@@ -1226,10 +1298,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189359"
+      "_id": "6acd75f7b2afa72411f665d6"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 25,
       "dimX": 5,
@@ -1243,10 +1316,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18935a"
+      "_id": "6acd75f7b2afa72411f665d7"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 25,
       "dimX": 5,
@@ -1260,10 +1334,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18935b"
+      "_id": "6acd75f7b2afa72411f665d8"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 25,
       "dimX": 5,
@@ -1277,10 +1352,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18935c"
+      "_id": "6acd75f7b2afa72411f665d9"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 25,
       "dimX": 5,
@@ -1294,10 +1370,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18935d"
+      "_id": "6acd75f7b2afa72411f665da"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 25,
       "dimX": 5,
@@ -1311,10 +1388,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18935e"
+      "_id": "6acd75f7b2afa72411f665db"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 25,
       "dimX": 5,
@@ -1328,10 +1406,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18935f"
+      "_id": "6acd75f7b2afa72411f665dc"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 30,
       "dimX": 5,
@@ -1345,10 +1424,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189360"
+      "_id": "6acd75f7b2afa72411f665dd"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 30,
       "dimX": 5,
@@ -1362,10 +1442,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189361"
+      "_id": "6acd75f7b2afa72411f665de"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 30,
       "dimX": 5,
@@ -1379,10 +1460,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189362"
+      "_id": "6acd75f7b2afa72411f665df"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 30,
       "dimX": 5,
@@ -1396,10 +1478,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189363"
+      "_id": "6acd75f7b2afa72411f665e0"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 30,
       "dimX": 5,
@@ -1413,10 +1496,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189364"
+      "_id": "6acd75f7b2afa72411f665e1"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 30,
       "dimX": 5,
@@ -1430,10 +1514,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189365"
+      "_id": "6acd75f7b2afa72411f665e2"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 30,
       "dimX": 5,
@@ -1447,10 +1532,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189366"
+      "_id": "6acd75f7b2afa72411f665e3"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 30,
       "dimX": 5,
@@ -1464,10 +1550,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189367"
+      "_id": "6acd75f7b2afa72411f665e4"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 30,
       "dimX": 5,
@@ -1481,10 +1568,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189368"
+      "_id": "6acd75f7b2afa72411f665e5"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 30,
       "dimX": 5,
@@ -1498,10 +1586,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189369"
+      "_id": "6acd75f7b2afa72411f665e6"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 30,
       "dimX": 5,
@@ -1515,10 +1604,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18936a"
+      "_id": "6acd75f7b2afa72411f665e7"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 30,
       "dimX": 5,
@@ -1532,10 +1622,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18936b"
+      "_id": "6acd75f7b2afa72411f665e8"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 30,
       "dimX": 5,
@@ -1549,10 +1640,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18936c"
+      "_id": "6acd75f7b2afa72411f665e9"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 35,
       "dimX": 5,
@@ -1566,10 +1658,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18936d"
+      "_id": "6acd75f7b2afa72411f665ea"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 35,
       "dimX": 5,
@@ -1583,10 +1676,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18936e"
+      "_id": "6acd75f7b2afa72411f665eb"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 35,
       "dimX": 5,
@@ -1600,10 +1694,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18936f"
+      "_id": "6acd75f7b2afa72411f665ec"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 35,
       "dimX": 5,
@@ -1617,10 +1712,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189370"
+      "_id": "6acd75f7b2afa72411f665ed"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 35,
       "dimX": 5,
@@ -1634,10 +1730,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189371"
+      "_id": "6acd75f7b2afa72411f665ee"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 35,
       "dimX": 5,
@@ -1651,10 +1748,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189372"
+      "_id": "6acd75f7b2afa72411f665ef"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 35,
       "dimX": 5,
@@ -1668,10 +1766,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189373"
+      "_id": "6acd75f7b2afa72411f665f0"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 35,
       "dimX": 5,
@@ -1685,10 +1784,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189374"
+      "_id": "6acd75f7b2afa72411f665f1"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 35,
       "dimX": 5,
@@ -1702,10 +1802,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189375"
+      "_id": "6acd75f7b2afa72411f665f2"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 35,
       "dimX": 5,
@@ -1719,10 +1820,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189376"
+      "_id": "6acd75f7b2afa72411f665f3"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 35,
       "dimX": 5,
@@ -1736,10 +1838,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189377"
+      "_id": "6acd75f7b2afa72411f665f4"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 35,
       "dimX": 5,
@@ -1753,10 +1856,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189378"
+      "_id": "6acd75f7b2afa72411f665f5"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 35,
       "dimX": 5,
@@ -1770,10 +1874,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189379"
+      "_id": "6acd75f7b2afa72411f665f6"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 40,
       "dimX": 5,
@@ -1787,10 +1892,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18937a"
+      "_id": "6acd75f7b2afa72411f665f7"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 40,
       "dimX": 5,
@@ -1804,10 +1910,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18937b"
+      "_id": "6acd75f7b2afa72411f665f8"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 40,
       "dimX": 5,
@@ -1821,10 +1928,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18937c"
+      "_id": "6acd75f7b2afa72411f665f9"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 40,
       "dimX": 5,
@@ -1838,10 +1946,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18937d"
+      "_id": "6acd75f7b2afa72411f665fa"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 40,
       "dimX": 5,
@@ -1855,10 +1964,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18937e"
+      "_id": "6acd75f7b2afa72411f665fb"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 40,
       "dimX": 5,
@@ -1872,10 +1982,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18937f"
+      "_id": "6acd75f7b2afa72411f665fc"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 40,
       "dimX": 5,
@@ -1889,10 +2000,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189380"
+      "_id": "6acd75f7b2afa72411f665fd"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 40,
       "dimX": 5,
@@ -1906,10 +2018,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189381"
+      "_id": "6acd75f7b2afa72411f665fe"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 40,
       "dimX": 5,
@@ -1923,10 +2036,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189382"
+      "_id": "6acd75f7b2afa72411f665ff"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 40,
       "dimX": 5,
@@ -1940,10 +2054,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189383"
+      "_id": "6acd75f7b2afa72411f66600"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 40,
       "dimX": 5,
@@ -1957,10 +2072,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189384"
+      "_id": "6acd75f7b2afa72411f66601"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 40,
       "dimX": 5,
@@ -1974,10 +2090,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189385"
+      "_id": "6acd75f7b2afa72411f66602"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 40,
       "dimX": 5,
@@ -1991,10 +2108,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189386"
+      "_id": "6acd75f7b2afa72411f66603"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 45,
       "dimX": 5,
@@ -2008,10 +2126,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189387"
+      "_id": "6acd75f7b2afa72411f66604"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 45,
       "dimX": 5,
@@ -2025,10 +2144,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189388"
+      "_id": "6acd75f7b2afa72411f66605"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 45,
       "dimX": 5,
@@ -2042,10 +2162,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189389"
+      "_id": "6acd75f7b2afa72411f66606"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 45,
       "dimX": 5,
@@ -2059,10 +2180,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18938a"
+      "_id": "6acd75f7b2afa72411f66607"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 45,
       "dimX": 5,
@@ -2076,10 +2198,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18938b"
+      "_id": "6acd75f7b2afa72411f66608"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 45,
       "dimX": 5,
@@ -2093,10 +2216,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18938c"
+      "_id": "6acd75f7b2afa72411f66609"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 45,
       "dimX": 5,
@@ -2110,10 +2234,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18938d"
+      "_id": "6acd75f7b2afa72411f6660a"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 45,
       "dimX": 5,
@@ -2127,10 +2252,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18938e"
+      "_id": "6acd75f7b2afa72411f6660b"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 45,
       "dimX": 5,
@@ -2144,10 +2270,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18938f"
+      "_id": "6acd75f7b2afa72411f6660c"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 45,
       "dimX": 5,
@@ -2161,10 +2288,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189390"
+      "_id": "6acd75f7b2afa72411f6660d"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 45,
       "dimX": 5,
@@ -2178,10 +2306,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189391"
+      "_id": "6acd75f7b2afa72411f6660e"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 45,
       "dimX": 5,
@@ -2195,10 +2324,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189392"
+      "_id": "6acd75f7b2afa72411f6660f"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 45,
       "dimX": 5,
@@ -2212,10 +2342,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189393"
+      "_id": "6acd75f7b2afa72411f66610"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 50,
       "dimX": 5,
@@ -2229,10 +2360,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189394"
+      "_id": "6acd75f7b2afa72411f66611"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 50,
       "dimX": 5,
@@ -2246,10 +2378,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189395"
+      "_id": "6acd75f7b2afa72411f66612"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 50,
       "dimX": 5,
@@ -2263,10 +2396,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189396"
+      "_id": "6acd75f7b2afa72411f66613"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 50,
       "dimX": 5,
@@ -2280,10 +2414,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189397"
+      "_id": "6acd75f7b2afa72411f66614"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 50,
       "dimX": 5,
@@ -2297,10 +2432,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189398"
+      "_id": "6acd75f7b2afa72411f66615"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 50,
       "dimX": 5,
@@ -2314,10 +2450,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189399"
+      "_id": "6acd75f7b2afa72411f66616"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 50,
       "dimX": 5,
@@ -2331,10 +2468,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18939a"
+      "_id": "6acd75f7b2afa72411f66617"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 50,
       "dimX": 5,
@@ -2348,10 +2486,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18939b"
+      "_id": "6acd75f7b2afa72411f66618"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 50,
       "dimX": 5,
@@ -2365,10 +2504,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18939c"
+      "_id": "6acd75f7b2afa72411f66619"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 50,
       "dimX": 5,
@@ -2382,10 +2522,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18939d"
+      "_id": "6acd75f7b2afa72411f6661a"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 50,
       "dimX": 5,
@@ -2399,10 +2540,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18939e"
+      "_id": "6acd75f7b2afa72411f6661b"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 50,
       "dimX": 5,
@@ -2416,10 +2558,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e18939f"
+      "_id": "6acd75f7b2afa72411f6661c"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 50,
       "dimX": 5,
@@ -2433,10 +2576,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893a0"
+      "_id": "6acd75f7b2afa72411f6661d"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 55,
       "dimX": 5,
@@ -2450,10 +2594,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893a1"
+      "_id": "6acd75f7b2afa72411f6661e"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 55,
       "dimX": 5,
@@ -2467,10 +2612,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893a2"
+      "_id": "6acd75f7b2afa72411f6661f"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 55,
       "dimX": 5,
@@ -2484,10 +2630,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893a3"
+      "_id": "6acd75f7b2afa72411f66620"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 55,
       "dimX": 5,
@@ -2501,10 +2648,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893a4"
+      "_id": "6acd75f7b2afa72411f66621"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 55,
       "dimX": 5,
@@ -2518,10 +2666,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893a5"
+      "_id": "6acd75f7b2afa72411f66622"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 55,
       "dimX": 5,
@@ -2535,10 +2684,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893a6"
+      "_id": "6acd75f7b2afa72411f66623"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 55,
       "dimX": 5,
@@ -2552,10 +2702,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893a7"
+      "_id": "6acd75f7b2afa72411f66624"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 55,
       "dimX": 5,
@@ -2569,10 +2720,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893a8"
+      "_id": "6acd75f7b2afa72411f66625"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 55,
       "dimX": 5,
@@ -2586,10 +2738,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893a9"
+      "_id": "6acd75f7b2afa72411f66626"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 55,
       "dimX": 5,
@@ -2603,10 +2756,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893aa"
+      "_id": "6acd75f7b2afa72411f66627"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 55,
       "dimX": 5,
@@ -2620,10 +2774,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ab"
+      "_id": "6acd75f7b2afa72411f66628"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 55,
       "dimX": 5,
@@ -2637,10 +2792,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ac"
+      "_id": "6acd75f7b2afa72411f66629"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 55,
       "dimX": 5,
@@ -2654,10 +2810,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ad"
+      "_id": "6acd75f7b2afa72411f6662a"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 60,
       "dimX": 5,
@@ -2671,10 +2828,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ae"
+      "_id": "6acd75f7b2afa72411f6662b"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 60,
       "dimX": 5,
@@ -2688,10 +2846,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893af"
+      "_id": "6acd75f7b2afa72411f6662c"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 60,
       "dimX": 5,
@@ -2705,10 +2864,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893b0"
+      "_id": "6acd75f7b2afa72411f6662d"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 60,
       "dimX": 5,
@@ -2722,10 +2882,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893b1"
+      "_id": "6acd75f7b2afa72411f6662e"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 60,
       "dimX": 5,
@@ -2739,10 +2900,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893b2"
+      "_id": "6acd75f7b2afa72411f6662f"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 60,
       "dimX": 5,
@@ -2756,10 +2918,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893b3"
+      "_id": "6acd75f7b2afa72411f66630"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 60,
       "dimX": 5,
@@ -2773,10 +2936,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893b4"
+      "_id": "6acd75f7b2afa72411f66631"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 60,
       "dimX": 5,
@@ -2790,10 +2954,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893b5"
+      "_id": "6acd75f7b2afa72411f66632"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 60,
       "dimX": 5,
@@ -2807,10 +2972,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893b6"
+      "_id": "6acd75f7b2afa72411f66633"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 60,
       "dimX": 5,
@@ -2824,10 +2990,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893b7"
+      "_id": "6acd75f7b2afa72411f66634"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 60,
       "dimX": 5,
@@ -2841,10 +3008,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893b8"
+      "_id": "6acd75f7b2afa72411f66635"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 60,
       "dimX": 5,
@@ -2858,10 +3026,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893b9"
+      "_id": "6acd75f7b2afa72411f66636"
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 60,
       "dimX": 5,
@@ -2875,10 +3044,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ba"
+      "_id": "6acd75f7b2afa72411f66637"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 9,
       "initCellY": 3,
       "dimX": 3,
@@ -2892,10 +3062,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893bb"
+      "_id": "6acd75f7b2afa72411f66638"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 16,
       "initCellY": 7,
       "dimX": 7,
@@ -2909,10 +3080,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893bc"
+      "_id": "6acd75f7b2afa72411f66639"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 34,
       "initCellY": 4,
       "dimX": 5,
@@ -2926,10 +3098,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893bd"
+      "_id": "6acd75f7b2afa72411f6663a"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 28,
       "initCellY": 3,
       "dimX": 7,
@@ -2943,10 +3116,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893be"
+      "_id": "6acd75f7b2afa72411f6663b"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 46,
       "initCellY": 15,
       "dimX": 5,
@@ -2960,10 +3134,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893bf"
+      "_id": "6acd75f7b2afa72411f6663c"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 44,
       "initCellY": 20,
       "dimX": 7,
@@ -2977,10 +3152,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893c0"
+      "_id": "6acd75f7b2afa72411f6663d"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 39,
       "initCellY": 20,
       "dimX": 7,
@@ -2994,10 +3170,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893c1"
+      "_id": "6acd75f7b2afa72411f6663e"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 34,
       "initCellY": 19,
       "dimX": 6,
@@ -3011,10 +3188,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893c2"
+      "_id": "6acd75f7b2afa72411f6663f"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 23,
       "dimX": 3,
@@ -3028,10 +3206,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893c3"
+      "_id": "6acd75f7b2afa72411f66640"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 19,
       "initCellY": 22,
       "dimX": 5,
@@ -3045,10 +3224,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893c4"
+      "_id": "6acd75f7b2afa72411f66641"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 12,
       "initCellY": 25,
       "dimX": 3,
@@ -3062,10 +3242,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893c5"
+      "_id": "6acd75f7b2afa72411f66642"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 31,
       "dimX": 4,
@@ -3079,10 +3260,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893c6"
+      "_id": "6acd75f7b2afa72411f66643"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 19,
       "initCellY": 31,
       "dimX": 3,
@@ -3096,10 +3278,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893c7"
+      "_id": "6acd75f7b2afa72411f66644"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 28,
       "initCellY": 31,
       "dimX": 6,
@@ -3113,10 +3296,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893c8"
+      "_id": "6acd75f7b2afa72411f66645"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 36,
       "initCellY": 33,
       "dimX": 3,
@@ -3130,10 +3314,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893c9"
+      "_id": "6acd75f7b2afa72411f66646"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 46,
       "initCellY": 34,
       "dimX": 6,
@@ -3147,10 +3332,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ca"
+      "_id": "6acd75f7b2afa72411f66647"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 9,
       "initCellY": 44,
       "dimX": 7,
@@ -3164,10 +3350,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893cb"
+      "_id": "6acd75f7b2afa72411f66648"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 19,
       "initCellY": 38,
       "dimX": 3,
@@ -3181,10 +3368,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893cc"
+      "_id": "6acd75f7b2afa72411f66649"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 31,
       "initCellY": 43,
       "dimX": 5,
@@ -3198,10 +3386,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893cd"
+      "_id": "6acd75f7b2afa72411f6664a"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 45,
       "dimX": 4,
@@ -3215,10 +3404,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ce"
+      "_id": "6acd75f7b2afa72411f6664b"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 53,
       "initCellY": 42,
       "dimX": 6,
@@ -3232,10 +3422,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893cf"
+      "_id": "6acd75f7b2afa72411f6664c"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 14,
       "initCellY": 26,
       "dimX": 3,
@@ -3249,10 +3440,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893d0"
+      "_id": "6acd75f7b2afa72411f6664d"
     },
     {
       "entityType": "static",
+      "respawnDurationMs": 3000,
       "initCellX": 8,
       "initCellY": 24,
       "dimX": 3,
@@ -3266,10 +3458,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893d1"
+      "_id": "6acd75f7b2afa72411f6664e"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 48,
       "dimX": 2,
@@ -3283,10 +3476,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893d2"
+      "_id": "6acd75f7b2afa72411f6664f"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 47,
       "initCellY": 54,
       "dimX": 2,
@@ -3301,10 +3495,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893d3"
+      "_id": "6acd75f7b2afa72411f66650"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 43,
       "initCellY": 50,
       "dimX": 3,
@@ -3319,10 +3514,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893d4"
+      "_id": "6acd75f7b2afa72411f66651"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 47,
       "initCellY": 49,
       "dimX": 2,
@@ -3336,10 +3532,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893d5"
+      "_id": "6acd75f7b2afa72411f66652"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 51,
       "dimX": 2,
@@ -3353,10 +3550,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893d6"
+      "_id": "6acd75f7b2afa72411f66653"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 46,
       "dimX": 1,
@@ -3370,10 +3568,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893d7"
+      "_id": "6acd75f7b2afa72411f66654"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 46,
       "initCellY": 45,
       "dimX": 2,
@@ -3387,10 +3586,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893d8"
+      "_id": "6acd75f7b2afa72411f66655"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 43,
       "initCellY": 46,
       "dimX": 2,
@@ -3404,10 +3604,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893d9"
+      "_id": "6acd75f7b2afa72411f66656"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 51,
       "initCellY": 55,
       "dimX": 2,
@@ -3421,10 +3622,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893da"
+      "_id": "6acd75f7b2afa72411f66657"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 42,
       "initCellY": 58,
       "dimX": 1,
@@ -3438,10 +3640,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893db"
+      "_id": "6acd75f7b2afa72411f66658"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 39,
       "initCellY": 53,
       "dimX": 1,
@@ -3455,10 +3658,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893dc"
+      "_id": "6acd75f7b2afa72411f66659"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 42,
       "initCellY": 53,
       "dimX": 3,
@@ -3472,10 +3676,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893dd"
+      "_id": "6acd75f7b2afa72411f6665a"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 42,
       "initCellY": 29,
       "dimX": 2,
@@ -3489,10 +3694,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893de"
+      "_id": "6acd75f7b2afa72411f6665b"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 37,
       "initCellY": 28,
       "dimX": 2,
@@ -3506,10 +3712,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893df"
+      "_id": "6acd75f7b2afa72411f6665c"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 39,
       "initCellY": 31,
       "dimX": 2,
@@ -3523,10 +3730,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893e0"
+      "_id": "6acd75f7b2afa72411f6665d"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 19,
       "initCellY": 3,
       "dimX": 2,
@@ -3540,10 +3748,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893e1"
+      "_id": "6acd75f7b2afa72411f6665e"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 16,
       "initCellY": 4,
       "dimX": 2,
@@ -3557,10 +3766,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893e2"
+      "_id": "6acd75f7b2afa72411f6665f"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 14,
       "initCellY": 1,
       "dimX": 1,
@@ -3574,10 +3784,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893e3"
+      "_id": "6acd75f7b2afa72411f66660"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 11,
       "initCellY": 19,
       "dimX": 2,
@@ -3591,10 +3802,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893e4"
+      "_id": "6acd75f7b2afa72411f66661"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 6,
       "initCellY": 18,
       "dimX": 1,
@@ -3608,10 +3820,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893e5"
+      "_id": "6acd75f7b2afa72411f66662"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 6,
       "initCellY": 14,
       "dimX": 2,
@@ -3625,10 +3838,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893e6"
+      "_id": "6acd75f7b2afa72411f66663"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 41,
       "initCellY": 13,
       "dimX": 1,
@@ -3642,10 +3856,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893e7"
+      "_id": "6acd75f7b2afa72411f66664"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 42,
       "initCellY": 9,
       "dimX": 1,
@@ -3659,10 +3874,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893e8"
+      "_id": "6acd75f7b2afa72411f66665"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 44,
       "initCellY": 11,
       "dimX": 2,
@@ -3676,10 +3892,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893e9"
+      "_id": "6acd75f7b2afa72411f66666"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 8,
       "initCellY": 56,
       "dimX": 2,
@@ -3693,10 +3910,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ea"
+      "_id": "6acd75f7b2afa72411f66667"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 53,
       "dimX": 1,
@@ -3710,10 +3928,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893eb"
+      "_id": "6acd75f7b2afa72411f66668"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 54,
       "dimX": 2,
@@ -3727,10 +3946,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ec"
+      "_id": "6acd75f7b2afa72411f66669"
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 8,
       "initCellY": 52,
       "dimX": 1,
@@ -3744,10 +3964,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ed"
+      "_id": "6acd75f7b2afa72411f6666a"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 48,
       "initCellY": 26,
       "dimX": 3,
@@ -3761,10 +3982,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ee"
+      "_id": "6acd75f7b2afa72411f6666b"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 29,
       "dimX": 2,
@@ -3778,10 +4000,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ef"
+      "_id": "6acd75f7b2afa72411f6666c"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 22,
       "initCellY": 13,
       "dimX": 3,
@@ -3795,10 +4018,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893f0"
+      "_id": "6acd75f7b2afa72411f6666d"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 19,
       "initCellY": 13,
       "dimX": 3,
@@ -3812,10 +4036,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893f1"
+      "_id": "6acd75f7b2afa72411f6666e"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 21,
       "initCellY": 15,
       "dimX": 2,
@@ -3829,10 +4054,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893f2"
+      "_id": "6acd75f7b2afa72411f6666f"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 7,
       "initCellY": 27,
       "dimX": 2,
@@ -3846,10 +4072,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893f3"
+      "_id": "6acd75f7b2afa72411f66670"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 8,
       "initCellY": 28,
       "dimX": 2,
@@ -3863,10 +4090,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893f4"
+      "_id": "6acd75f7b2afa72411f66671"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 7,
       "initCellY": 29,
       "dimX": 2,
@@ -3880,10 +4108,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893f5"
+      "_id": "6acd75f7b2afa72411f66672"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 2,
       "initCellY": 59,
       "dimX": 3,
@@ -3897,10 +4126,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893f6"
+      "_id": "6acd75f7b2afa72411f66673"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 2,
       "initCellY": 56,
       "dimX": 3,
@@ -3914,10 +4144,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893f7"
+      "_id": "6acd75f7b2afa72411f66674"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 58,
       "dimX": 3,
@@ -3931,10 +4162,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893f8"
+      "_id": "6acd75f7b2afa72411f66675"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 6,
       "initCellY": 61,
       "dimX": 2,
@@ -3948,10 +4180,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893f9"
+      "_id": "6acd75f7b2afa72411f66676"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 1,
       "initCellY": 2,
       "dimX": 3,
@@ -3965,10 +4198,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893fa"
+      "_id": "6acd75f7b2afa72411f66677"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 4,
       "initCellY": 4,
       "dimX": 2,
@@ -3982,10 +4216,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893fb"
+      "_id": "6acd75f7b2afa72411f66678"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 24,
       "initCellY": 39,
       "dimX": 3,
@@ -3999,10 +4234,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893fc"
+      "_id": "6acd75f7b2afa72411f66679"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 26,
       "initCellY": 42,
       "dimX": 3,
@@ -4016,10 +4252,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893fd"
+      "_id": "6acd75f7b2afa72411f6667a"
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 23,
       "initCellY": 42,
       "dimX": 2,
@@ -4033,10 +4270,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893fe"
+      "_id": "6acd75f7b2afa72411f6667b"
     },
     {
       "entityType": "portal",
+      "respawnDurationMs": 3000,
       "initCellX": 27,
       "initCellY": 56,
       "dimX": 3,
@@ -4050,10 +4288,11 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e1893ff"
+      "_id": "6acd75f7b2afa72411f6667c"
     },
     {
       "entityType": "portal",
+      "respawnDurationMs": 3000,
       "initCellX": 53,
       "initCellY": 5,
       "dimX": 5,
@@ -4067,7 +4306,421 @@
       "aggroRange": 0,
       "maxLife": 0,
       "lifeRegen": 0,
-      "_id": "6abce60e9a9111c19e189400"
+      "_id": "6acd75f7b2afa72411f6667d"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 41,
+      "initCellY": 49,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f6667e"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 48,
+      "initCellY": 53,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f6667f"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 54,
+      "initCellY": 50,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66680"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 39,
+      "initCellY": 57,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66681"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 48,
+      "initCellY": 57,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66682"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 55,
+      "initCellY": 55,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66683"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 54,
+      "initCellY": 60,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66684"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 47,
+      "initCellY": 61,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66685"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 44,
+      "initCellY": 42,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66686"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 9,
+      "initCellY": 17,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66687"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 4,
+      "initCellY": 12,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66688"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 14,
+      "initCellY": 3,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66689"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 17,
+      "initCellY": 2,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f6668a"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 42,
+      "initCellY": 11,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f6668b"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 44,
+      "initCellY": 14,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f6668c"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 11,
+      "initCellY": 13,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f6668d"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 40,
+      "initCellY": 28,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f6668e"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 37,
+      "initCellY": 31,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f6668f"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 9,
+      "initCellY": 54,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66690"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 3,
+      "initCellY": 49,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66691"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 2,
+      "initCellY": 53,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66692"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 17,
+      "initCellY": 46,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66693"
+    },
+    {
+      "entityType": "loot",
+      "respawnDurationMs": 3000,
+      "initCellX": 18,
+      "initCellY": 45,
+      "dimX": 1,
+      "dimY": 1,
+      "color": "rgba(22, 223, 62, 1)",
+      "objectLayerItemIds": [
+        "med-gel"
+      ],
+      "portalSubtype": "",
+      "spawnRadius": 0,
+      "aggroRange": 0,
+      "maxLife": 0,
+      "lifeRegen": 0,
+      "_id": "6acd75f7b2afa72411f66694"
     }
   ],
   "tags": [
@@ -4076,14 +4729,14 @@
     "expanse"
   ],
   "status": "published",
-  "thumbnail": "6abce60e9a9111c19e189131",
-  "preview": "6acab92bcbc2cfd9c60ba06b",
+  "thumbnail": "6acd75f7b2afa72411f66397",
+  "preview": "6acd75f7b2afa72411f66398",
   "gridX": 64,
   "gridY": 64,
   "cellWidth": 15,
   "cellHeight": 15,
-  "revision": 2,
+  "revision": 3,
   "createdAt": "2026-06-27T18:13:51.314Z",
-  "updatedAt": "2026-06-27T18:13:51.314Z",
+  "updatedAt": "2026-10-13T00:06:15.328Z",
   "__v": 0
 }

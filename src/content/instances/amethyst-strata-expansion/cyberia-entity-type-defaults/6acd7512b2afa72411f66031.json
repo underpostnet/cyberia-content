@@ -1,0 +1,22 @@
+{
+  "_id": "6acd7512b2afa72411f66031",
+  "entityType": "loot",
+  "liveItemIds": [
+    "med-gel"
+  ],
+  "deadItemIds": [],
+  "dropItemIds": [],
+  "inventoryItemsIds": [],
+  "overrideItemsIdsState": [
+    {
+      "itemId": "med-gel",
+      "active": false,
+      "quantity": 1,
+      "buffFactor": 0.35
+    }
+  ],
+  "behavior": "consume-on-pickup-heal",
+  "createdAt": "2026-10-13T00:02:26.548Z",
+  "updatedAt": "2026-10-13T00:06:59.663Z",
+  "__v": 0
+}

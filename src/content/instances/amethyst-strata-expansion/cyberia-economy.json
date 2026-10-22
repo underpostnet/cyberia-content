@@ -1,0 +1,57 @@
+{
+  "code": "standard",
+  "currency": {
+    "code": "coin",
+    "maxBalance": 4294967295
+  },
+  "description": "The coin economy the frontier worlds share: spawn wallets, kill drops, fees, and what merchants buy back and burn.",
+  "fees": {
+    "portal": 0,
+    "craft": 0
+  },
+  "itemDefaults": {
+    "trade": true,
+    "worldDrop": true,
+    "buyback": false,
+    "buybackPayout": 0,
+    "burn": false,
+    "burnCoinFee": 0,
+    "craftSurcharge": 0,
+    "market": false
+  },
+  "name": "Standard Economy",
+  "rules": {
+    "botSpawnCoins": 50,
+    "playerSpawnCoins": 50,
+    "coinKillMinAmount": 10,
+    "coinKillPercentVsBot": 0.4,
+    "coinKillPercentVsPlayer": 0.15,
+    "respawnCostPercent": 0
+  },
+  "status": "active",
+  "items": [
+    {
+      "itemId": "hatchet",
+      "buyback": true,
+      "buybackPayout": 8,
+      "burn": true,
+      "burnCoinFee": 1,
+      "salvage": [
+        {
+          "itemId": "scrap-alloy",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "itemId": "rustbark-log",
+      "buyback": true,
+      "buybackPayout": 1
+    },
+    {
+      "itemId": "scrap-alloy",
+      "buyback": true,
+      "buybackPayout": 2
+    }
+  ]
+}
