@@ -1,0 +1,45 @@
+name: CI | Test cyberia-content
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Content suite
+    # A branch of this repository runs on push; a pull request runs here only from a fork.
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.x'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate the content
+        run: node bin/cyberia-content.js validate
+
+      - name: Run the test suite
+        run: npm test
+
+      # The artifact of the committed content, as a release builds it.
+      - name: Build the content artifact
+        run: node bin/cyberia-content.js build
