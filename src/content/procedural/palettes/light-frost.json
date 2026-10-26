@@ -1,0 +1,22 @@
+{
+  "id": "light-frost",
+  "name": "Frost",
+  "family": "light",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#c4d4e8",
+    "secondary": "#9fb4cf",
+    "detail": "#dfe8f2",
+    "feature": "#e8eef6",
+    "outline": "#1c2430",
+    "accent": "#5a8ad0"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

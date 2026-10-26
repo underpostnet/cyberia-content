@@ -1,0 +1,24 @@
+{
+  "id": "ember-rift",
+  "name": "Ember Rift",
+  "family": "warm",
+  "biomeTags": [
+    "ash-wastes",
+    "regolith-citadel"
+  ],
+  "roles": {
+    "primary": "#e0702e",
+    "secondary": "#6a2f1c",
+    "detail": "#2b120a",
+    "feature": "#ffe2a8",
+    "outline": "#1a0b06",
+    "accent": "#ffd166"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "detail"
+    ]
+  }
+}

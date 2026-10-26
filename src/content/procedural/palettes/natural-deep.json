@@ -1,0 +1,22 @@
+{
+  "id": "natural-deep",
+  "name": "Deep",
+  "family": "natural",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#2f4a5e",
+    "secondary": "#26262e",
+    "detail": "#120d0a",
+    "feature": "#4a2e22",
+    "outline": "#14110f",
+    "accent": "#c9a24a"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

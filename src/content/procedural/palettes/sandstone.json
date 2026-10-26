@@ -1,0 +1,24 @@
+{
+  "id": "sandstone",
+  "name": "Sandstone",
+  "family": "warm",
+  "biomeTags": [
+    "ash-wastes",
+    "regolith-citadel"
+  ],
+  "roles": {
+    "primary": "#a8794a",
+    "secondary": "#c99a66",
+    "detail": "#4a3020",
+    "feature": "#5c4632",
+    "outline": "#24170c",
+    "accent": "#e6c48f"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "detail"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "verdant-rift",
+  "name": "Verdant Rift",
+  "family": "natural",
+  "biomeTags": [
+    "frontier-grassland",
+    "overgrown-ruins"
+  ],
+  "roles": {
+    "primary": "#4fbf5a",
+    "secondary": "#24502a",
+    "detail": "#0e2412",
+    "feature": "#e3ffd0",
+    "outline": "#08160a",
+    "accent": "#f7f58a"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "detail"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "biome-hollow-markets",
+  "name": "Hollow Markets",
+  "family": "biome",
+  "biomeTags": [
+    "hollow-markets"
+  ],
+  "roles": {
+    "primary": "#8e3b2c",
+    "secondary": "#3a302d",
+    "detail": "#2a1f1c",
+    "feature": "#b8705a",
+    "outline": "#150f0d",
+    "accent": "#f2c31b"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "violet-rift",
+  "name": "Violet Rift",
+  "family": "cool",
+  "biomeTags": [
+    "violet-strata",
+    "breach-field"
+  ],
+  "roles": {
+    "primary": "#8a63e0",
+    "secondary": "#4a3a7a",
+    "detail": "#241a45",
+    "feature": "#e6dcff",
+    "outline": "#140d1f",
+    "accent": "#f2c6ff"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "detail"
+    ]
+  }
+}

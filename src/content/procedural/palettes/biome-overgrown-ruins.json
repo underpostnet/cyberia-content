@@ -1,0 +1,24 @@
+{
+  "id": "biome-overgrown-ruins",
+  "name": "Overgrown Ruins",
+  "family": "biome",
+  "biomeTags": [
+    "overgrown-ruins"
+  ],
+  "roles": {
+    "primary": "#3fa34d",
+    "secondary": "#7a3f22",
+    "detail": "#23652f",
+    "feature": "#8aa05a",
+    "outline": "#172414",
+    "accent": "#e0a06a"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

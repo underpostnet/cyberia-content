@@ -1,0 +1,24 @@
+{
+  "id": "biome-archive-instance",
+  "name": "Archive Instance",
+  "family": "biome",
+  "biomeTags": [
+    "archive-instance"
+  ],
+  "roles": {
+    "primary": "#2f6fd6",
+    "secondary": "#1d4fa3",
+    "detail": "#16305e",
+    "feature": "#e8eef7",
+    "outline": "#081226",
+    "accent": "#ff3fb4"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

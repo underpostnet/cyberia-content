@@ -1,0 +1,22 @@
+{
+  "id": "exotic-red",
+  "name": "Red",
+  "family": "exotic",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#c92a2a",
+    "secondary": "#5c1212",
+    "detail": "#3a0606",
+    "feature": "#ff6b6b",
+    "outline": "#14110f",
+    "accent": "#ffe3a0"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

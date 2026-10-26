@@ -1,0 +1,22 @@
+{
+  "id": "warm-sand",
+  "name": "Sand",
+  "family": "warm",
+  "biomeTags": [
+    "chemical-coast",
+    "regolith-citadel"
+  ],
+  "roles": {
+    "primary": "#c2a06a",
+    "secondary": "#a9844f",
+    "outline": "#3a2a17",
+    "accent": "#e8d6a0"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "secondary"
+    ]
+  }
+}

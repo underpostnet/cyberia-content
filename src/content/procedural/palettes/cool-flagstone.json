@@ -1,0 +1,22 @@
+{
+  "id": "cool-flagstone",
+  "name": "Flagstone",
+  "family": "cool",
+  "biomeTags": [
+    "archive-instance",
+    "orbital-decks"
+  ],
+  "roles": {
+    "primary": "#5d636b",
+    "secondary": "#7a838c",
+    "outline": "#1a1d21",
+    "accent": "#9fc3d6"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "secondary"
+    ]
+  }
+}

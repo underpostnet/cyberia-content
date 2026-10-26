@@ -1,0 +1,22 @@
+{
+  "id": "warm-amber",
+  "name": "Amber",
+  "family": "warm",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#b8691c",
+    "secondary": "#7a4a1a",
+    "detail": "#6a3a10",
+    "feature": "#e0a060",
+    "outline": "#14110f",
+    "accent": "#ffcc55"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

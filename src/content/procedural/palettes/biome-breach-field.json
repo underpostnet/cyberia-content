@@ -1,0 +1,24 @@
+{
+  "id": "biome-breach-field",
+  "name": "Breach Field",
+  "family": "biome",
+  "biomeTags": [
+    "breach-field"
+  ],
+  "roles": {
+    "primary": "#3b1f66",
+    "secondary": "#1d0d36",
+    "detail": "#2a1450",
+    "feature": "#6b4f8f",
+    "outline": "#0a0418",
+    "accent": "#8a4dff"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

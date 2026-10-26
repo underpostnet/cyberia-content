@@ -1,0 +1,22 @@
+{
+  "id": "natural-tan",
+  "name": "Tan",
+  "family": "natural",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#4a4f78",
+    "secondary": "#33333f",
+    "detail": "#3a2616",
+    "feature": "#b07a55",
+    "outline": "#14110f",
+    "accent": "#e0bf5a"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

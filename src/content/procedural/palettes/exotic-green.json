@@ -1,0 +1,22 @@
+{
+  "id": "exotic-green",
+  "name": "Green",
+  "family": "exotic",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#2f9e44",
+    "secondary": "#1b5e2a",
+    "detail": "#12331a",
+    "feature": "#8fe37a",
+    "outline": "#14110f",
+    "accent": "#ffe066"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

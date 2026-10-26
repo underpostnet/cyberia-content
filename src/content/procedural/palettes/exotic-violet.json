@@ -1,0 +1,22 @@
+{
+  "id": "exotic-violet",
+  "name": "Violet",
+  "family": "exotic",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#3f3fbf",
+    "secondary": "#25256b",
+    "detail": "#1f1a5c",
+    "feature": "#8f8cf0",
+    "outline": "#14110f",
+    "accent": "#c0c0ff"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

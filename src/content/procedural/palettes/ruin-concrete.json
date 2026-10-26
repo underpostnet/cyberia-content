@@ -1,0 +1,24 @@
+{
+  "id": "ruin-concrete",
+  "name": "Ruin concrete",
+  "family": "cool",
+  "biomeTags": [
+    "hollow-markets",
+    "orbital-decks"
+  ],
+  "roles": {
+    "primary": "#8a8e94",
+    "secondary": "#a6aab0",
+    "detail": "#5a3d30",
+    "feature": "#4a4d52",
+    "outline": "#17181b",
+    "accent": "#d0b48a"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "detail"
+    ]
+  }
+}

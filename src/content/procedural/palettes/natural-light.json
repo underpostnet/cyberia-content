@@ -1,0 +1,22 @@
+{
+  "id": "natural-light",
+  "name": "Light",
+  "family": "natural",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#5a6f9a",
+    "secondary": "#46465a",
+    "detail": "#8a6a3c",
+    "feature": "#f0c4a8",
+    "outline": "#14110f",
+    "accent": "#f0d070"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

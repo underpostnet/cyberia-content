@@ -1,0 +1,22 @@
+{
+  "id": "cool-blue",
+  "name": "Blue",
+  "family": "cool",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#2f5fa8",
+    "secondary": "#1f3a6e",
+    "detail": "#14264a",
+    "feature": "#c0d0e8",
+    "outline": "#14110f",
+    "accent": "#6fb8ff"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

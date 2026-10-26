@@ -1,0 +1,24 @@
+{
+  "id": "biome-orbital-decks",
+  "name": "Orbital Decks",
+  "family": "biome",
+  "biomeTags": [
+    "orbital-decks"
+  ],
+  "roles": {
+    "primary": "#5c6168",
+    "secondary": "#3f4349",
+    "detail": "#1a1c1f",
+    "feature": "#aeb4bb",
+    "outline": "#0e0f11",
+    "accent": "#d6282b"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

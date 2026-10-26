@@ -1,0 +1,22 @@
+{
+  "id": "exotic-orange",
+  "name": "Orange",
+  "family": "exotic",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#d9480f",
+    "secondary": "#7a2c0a",
+    "detail": "#5a1f00",
+    "feature": "#ff9a3c",
+    "outline": "#14110f",
+    "accent": "#ffd43b"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

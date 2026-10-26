@@ -1,0 +1,24 @@
+{
+  "id": "biome-frontier-grassland",
+  "name": "Frontier Grassland",
+  "family": "biome",
+  "biomeTags": [
+    "frontier-grassland"
+  ],
+  "roles": {
+    "primary": "#78b52a",
+    "secondary": "#8a5a2b",
+    "detail": "#5c3a1b",
+    "feature": "#d8b26a",
+    "outline": "#26210f",
+    "accent": "#f2c14e"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

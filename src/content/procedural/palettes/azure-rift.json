@@ -1,0 +1,24 @@
+{
+  "id": "azure-rift",
+  "name": "Azure Rift",
+  "family": "cool",
+  "biomeTags": [
+    "orbital-decks",
+    "chemical-coast"
+  ],
+  "roles": {
+    "primary": "#3f9be0",
+    "secondary": "#1f3f6e",
+    "detail": "#0c1a33",
+    "feature": "#d6f1ff",
+    "outline": "#081120",
+    "accent": "#9ff4ff"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "detail"
+    ]
+  }
+}

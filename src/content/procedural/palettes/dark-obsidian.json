@@ -1,0 +1,22 @@
+{
+  "id": "dark-obsidian",
+  "name": "Obsidian",
+  "family": "dark",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#1a1c26",
+    "secondary": "#121218",
+    "detail": "#1c1c26",
+    "feature": "#3a3340",
+    "outline": "#050507",
+    "accent": "#6a5acd"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "cool-slate",
+  "name": "Slate",
+  "family": "cool",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#4a5766",
+    "secondary": "#2e3640",
+    "detail": "#20262e",
+    "feature": "#b8c0c8",
+    "outline": "#14110f",
+    "accent": "#8ab4d8"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

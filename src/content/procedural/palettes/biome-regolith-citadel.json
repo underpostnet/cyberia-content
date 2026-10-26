@@ -1,0 +1,24 @@
+{
+  "id": "biome-regolith-citadel",
+  "name": "Regolith Citadel",
+  "family": "biome",
+  "biomeTags": [
+    "regolith-citadel"
+  ],
+  "roles": {
+    "primary": "#9a9892",
+    "secondary": "#5e5c58",
+    "detail": "#3c3b38",
+    "feature": "#d6d4ce",
+    "outline": "#0a0a0c",
+    "accent": "#5fd0e0"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

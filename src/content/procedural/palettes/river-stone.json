@@ -1,0 +1,24 @@
+{
+  "id": "river-stone",
+  "name": "River stone",
+  "family": "natural",
+  "biomeTags": [
+    "frontier-grassland",
+    "overgrown-ruins"
+  ],
+  "roles": {
+    "primary": "#7d6650",
+    "secondary": "#9a8268",
+    "detail": "#3a2e24",
+    "feature": "#4a4033",
+    "outline": "#1d1610",
+    "accent": "#b9d08a"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "detail"
+    ]
+  }
+}

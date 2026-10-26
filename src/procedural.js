@@ -1,6 +1,6 @@
 /**
- * The procedural content: the Genesis Templates and the Palette Templates a procedural generation
- * starts from. One JSON file holds one template, at `procedural/<kind>/<id>.json`. They are visual
+ * The procedural content: the Genesis Templates and the global palettes a procedural generation
+ * starts from. One JSON file holds one of them, at `procedural/<kind>/<id>.json`. They are visual
  * starting points: region maps, role tones and palettes. They define no item.
  *
  * @module src/procedural.js
@@ -41,7 +41,13 @@ export function readProcedural(root, registry) {
     for (const message of genesisTemplateFindings(template, itemBaseline))
       findings.push({ id: `procedural/genesis-templates/${template.id}`, message });
   for (const palette of palettes)
-    for (const message of paletteFindings(palette, { templates, biomes }))
+    for (const message of paletteFindings(palette, { biomes }))
       findings.push({ id: `procedural/palettes/${palette.id}`, message });
+  const names = new Map();
+  for (const { id, name } of palettes) {
+    if (names.has(name))
+      findings.push({ id: `procedural/palettes/${id}`, message: `name ${name} is the name of ${names.get(name)}` });
+    names.set(name, id);
+  }
   return { templates, palettes, findings };
 }

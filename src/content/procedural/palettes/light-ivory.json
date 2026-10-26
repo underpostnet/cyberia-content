@@ -1,0 +1,22 @@
+{
+  "id": "light-ivory",
+  "name": "Ivory",
+  "family": "light",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#e6e0d0",
+    "secondary": "#c8c0aa",
+    "detail": "#d8d0b8",
+    "feature": "#f4e4d0",
+    "outline": "#2a2620",
+    "accent": "#b89850"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "natural-brown",
+  "name": "Brown",
+  "family": "natural",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#3d5a47",
+    "secondary": "#2c2c36",
+    "detail": "#1e140e",
+    "feature": "#7a4e38",
+    "outline": "#14110f",
+    "accent": "#d9b04e"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

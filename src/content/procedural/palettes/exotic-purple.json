@@ -1,0 +1,22 @@
+{
+  "id": "exotic-purple",
+  "name": "Purple",
+  "family": "exotic",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#6f2dbd",
+    "secondary": "#3c1a63",
+    "detail": "#2a0f45",
+    "feature": "#b57bff",
+    "outline": "#14110f",
+    "accent": "#e0b0ff"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

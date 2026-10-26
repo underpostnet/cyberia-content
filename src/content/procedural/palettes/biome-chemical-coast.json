@@ -1,0 +1,24 @@
+{
+  "id": "biome-chemical-coast",
+  "name": "Chemical Coast",
+  "family": "biome",
+  "biomeTags": [
+    "chemical-coast"
+  ],
+  "roles": {
+    "primary": "#3e8f84",
+    "secondary": "#2f6f67",
+    "detail": "#14302d",
+    "feature": "#8fc4b8",
+    "outline": "#0b0f0f",
+    "accent": "#b8733d"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

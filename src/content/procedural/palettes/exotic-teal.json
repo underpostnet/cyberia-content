@@ -1,0 +1,22 @@
+{
+  "id": "exotic-teal",
+  "name": "Teal",
+  "family": "exotic",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#0f766e",
+    "secondary": "#134e4a",
+    "detail": "#06302f",
+    "feature": "#4fd1c5",
+    "outline": "#14110f",
+    "accent": "#f2f58a"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

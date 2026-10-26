@@ -1,0 +1,22 @@
+{
+  "id": "dark-basalt",
+  "name": "Dark Basalt",
+  "family": "dark",
+  "biomeTags": [
+    "ash-wastes",
+    "breach-field"
+  ],
+  "roles": {
+    "primary": "#2e2b2f",
+    "secondary": "#433d44",
+    "outline": "#0e0c0f",
+    "accent": "#d0602e"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "secondary"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "warm-copper",
+  "name": "Copper",
+  "family": "warm",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#a8512c",
+    "secondary": "#5e3322",
+    "detail": "#4a2010",
+    "feature": "#c98560",
+    "outline": "#14110f",
+    "accent": "#e8a070"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dark-midnight",
+  "name": "Midnight",
+  "family": "dark",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#162040",
+    "secondary": "#0f1530",
+    "detail": "#1a2244",
+    "feature": "#3d4560",
+    "outline": "#04060f",
+    "accent": "#4aa8ff"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

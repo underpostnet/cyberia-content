@@ -1,0 +1,22 @@
+{
+  "id": "natural-loam",
+  "name": "Loam",
+  "family": "natural",
+  "biomeTags": [
+    "frontier-grassland",
+    "overgrown-ruins"
+  ],
+  "roles": {
+    "primary": "#5b4532",
+    "secondary": "#5f7a3a",
+    "outline": "#1c150f",
+    "accent": "#c9b06a"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "secondary"
+    ]
+  }
+}

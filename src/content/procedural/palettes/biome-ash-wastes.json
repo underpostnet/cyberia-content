@@ -1,0 +1,24 @@
+{
+  "id": "biome-ash-wastes",
+  "name": "Ash Wastes",
+  "family": "biome",
+  "biomeTags": [
+    "ash-wastes"
+  ],
+  "roles": {
+    "primary": "#8a8a86",
+    "secondary": "#6e6d69",
+    "detail": "#2b2a27",
+    "feature": "#b9b5aa",
+    "outline": "#141311",
+    "accent": "#c9b93a"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

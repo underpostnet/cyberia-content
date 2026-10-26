@@ -1,0 +1,25 @@
+{
+  "id": "basalt",
+  "name": "Basalt",
+  "family": "dark",
+  "biomeTags": [
+    "violet-strata",
+    "breach-field",
+    "chemical-coast"
+  ],
+  "roles": {
+    "primary": "#3e3c44",
+    "secondary": "#57545e",
+    "detail": "#1c1b20",
+    "feature": "#2b2a30",
+    "outline": "#0b0a0d",
+    "accent": "#9b86d6"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "primary",
+      "detail"
+    ]
+  }
+}

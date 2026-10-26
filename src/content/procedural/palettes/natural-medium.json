@@ -1,0 +1,22 @@
+{
+  "id": "natural-medium",
+  "name": "Medium",
+  "family": "natural",
+  "biomeTags": [],
+  "roles": {
+    "primary": "#3b5b8f",
+    "secondary": "#3a3a46",
+    "detail": "#5a3a22",
+    "feature": "#d9a78b",
+    "outline": "#14110f",
+    "accent": "#e8c45e"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}

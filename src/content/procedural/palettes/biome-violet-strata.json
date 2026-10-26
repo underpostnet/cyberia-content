@@ -1,0 +1,24 @@
+{
+  "id": "biome-violet-strata",
+  "name": "Violet Strata",
+  "family": "biome",
+  "biomeTags": [
+    "violet-strata"
+  ],
+  "roles": {
+    "primary": "#6a3fa0",
+    "secondary": "#4f4a6b",
+    "detail": "#3a2160",
+    "feature": "#9b84c0",
+    "outline": "#120d1c",
+    "accent": "#b57bff"
+  },
+  "constraints": {
+    "minContrast": 0.04,
+    "contrastRoles": [
+      "feature",
+      "primary",
+      "secondary"
+    ]
+  }
+}
