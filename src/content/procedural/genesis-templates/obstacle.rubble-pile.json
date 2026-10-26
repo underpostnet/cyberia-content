@@ -1,0 +1,148 @@
+{
+  "id": "obstacle.rubble-pile",
+  "name": "Rubble pile",
+  "description": "A pile of broken concrete slabs with bent rebar and grit over a dust shadow. Three idle frames sway the rebar and scatter the grit.",
+  "itemType": "obstacle",
+  "canvas": {
+    "width": 24,
+    "height": 24
+  },
+  "frameDurationMs": 320,
+  "outline": "#141517",
+  "legend": {
+    "s": "chunk",
+    "b": "seam",
+    "g": "loose",
+    "d": "dust"
+  },
+  "roles": {
+    "chunk": {
+      "regions": [
+        "chunk"
+      ],
+      "palette": "primary",
+      "tones": {
+        "shadow": "#4f5257",
+        "base": "#7a7e84",
+        "highlight": "#a3a7ad"
+      },
+      "artDirection": true
+    },
+    "seam": {
+      "regions": [
+        "seam"
+      ],
+      "palette": "detail",
+      "tones": {
+        "shadow": "#3b2a22",
+        "base": "#5e4033",
+        "highlight": "#7f5a48"
+      }
+    },
+    "loose": {
+      "regions": [
+        "loose"
+      ],
+      "palette": "secondary",
+      "tones": {
+        "shadow": "#5d6064",
+        "base": "#8b8f94",
+        "highlight": "#b2b6bb"
+      },
+      "artDirection": true
+    },
+    "dust": {
+      "regions": [
+        "dust"
+      ],
+      "palette": "feature",
+      "tones": {
+        "shadow": "#35373a",
+        "base": "#46494d",
+        "highlight": "#5a5d61"
+      }
+    }
+  },
+  "directions": {
+    "08": [
+      [
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "...................b....",
+        "..................b.....",
+        ".................b......",
+        ".........sss....b.......",
+        "........ssssssss........",
+        "....b...ssssssss........",
+        "....b...ssssbss.........",
+        ".....b.ssssssss.........",
+        ".....b.sssssssss........",
+        "....sssssssssssssss.....",
+        "....sssssssssssssssss...",
+        "...ssssssbsssssssssss...",
+        "...sssssssbsssbssssss...",
+        "...ssssssssssssbsssss...",
+        "..sssssssssssssssssss...",
+        "..sssssssssssssssssssd..",
+        ".dddddddddddddddddddddg.",
+        ".ggdddddgddddgdddddddg..",
+        "........dddddddd........",
+        "........................"
+      ],
+      [
+        "........................",
+        "........................",
+        "........................",
+        "...................b....",
+        "........................",
+        "..................b.....",
+        ".................b......",
+        ".........sss....b.......",
+        "........ssssssss........",
+        ".....b..ssssssss........",
+        ".....b..ssssbss.........",
+        ".....b.ssssssss.........",
+        ".....b.sssssssss........",
+        "....sssssssssssssss.....",
+        "....sssssssssssssssss...",
+        "...ssssssbsssssssssss...",
+        "...sssssssbsssbssssss...",
+        "...ssssssssssssbsssss...",
+        "..sssssssssssssssssss...",
+        "..sssssssssssssssssssd..",
+        ".ddddddddddddgdddddddgd.",
+        "..ggdddddgddddddddddgd..",
+        "........dddddddd........",
+        "........................"
+      ],
+      [
+        "........................",
+        "........................",
+        "........................",
+        "...................b....",
+        "..................b.....",
+        "........................",
+        ".................b......",
+        ".........sss....b.......",
+        "........ssssssss........",
+        "....b...ssssssss........",
+        "....b...ssssbss.........",
+        ".....b.ssssssss.........",
+        ".....b.sssssssss........",
+        "....sssssssssssssss.....",
+        "....sssssssssssssssss...",
+        "...ssssssbsssssssssss...",
+        "...sssssssbsssbssssss...",
+        "...ssssssssssssbsssss...",
+        "..sssssssssssssssssss...",
+        "..sssssssssssssssssssd..",
+        ".dddddddddddddddddddgdd.",
+        "..dggdddddgddgdddddgdd..",
+        "........dddddddd........",
+        "........................"
+      ]
+    ]
+  }
+}

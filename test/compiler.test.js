@@ -201,7 +201,12 @@ describe('the compiled foundation', () => {
   const dialogueCodes = new Set(families.dialogues.map(({ code }) => code));
 
   it('names, for each baseline item type, the Object Layer item a new item takes its function from', () => {
-    expect(itemBaseline).toEqual({ skin: 'drifter' });
+    expect(itemBaseline).toEqual({
+      skin: 'drifter',
+      floor: 'frontier-grass',
+      portal: 'violet-gate',
+      obstacle: 'rust-boulder',
+    });
     for (const [itemType, itemId] of Object.entries(itemBaseline))
       expect(families.objectLayers.find((item) => item.itemId === itemId).payload.data.item.type).toBe(itemType);
   });

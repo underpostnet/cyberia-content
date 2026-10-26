@@ -1,0 +1,148 @@
+{
+  "id": "obstacle.rock-pile",
+  "name": "Rock pile",
+  "description": "A pile of three rounded rocks with cracks and loose pebbles over a dust shadow. Three idle frames roll the pebbles.",
+  "itemType": "obstacle",
+  "canvas": {
+    "width": 24,
+    "height": 24
+  },
+  "frameDurationMs": 320,
+  "outline": "#1c120a",
+  "legend": {
+    "r": "chunk",
+    "c": "seam",
+    "p": "loose",
+    "d": "dust"
+  },
+  "roles": {
+    "chunk": {
+      "regions": [
+        "chunk"
+      ],
+      "palette": "primary",
+      "tones": {
+        "shadow": "#5a3b22",
+        "base": "#8a5d36",
+        "highlight": "#b48553"
+      },
+      "artDirection": true
+    },
+    "seam": {
+      "regions": [
+        "seam"
+      ],
+      "palette": "detail",
+      "tones": {
+        "shadow": "#2e1d10",
+        "base": "#43301e",
+        "highlight": "#5a4330"
+      }
+    },
+    "loose": {
+      "regions": [
+        "loose"
+      ],
+      "palette": "secondary",
+      "tones": {
+        "shadow": "#6e4a2c",
+        "base": "#9c7046",
+        "highlight": "#c39563"
+      },
+      "artDirection": true
+    },
+    "dust": {
+      "regions": [
+        "dust"
+      ],
+      "palette": "feature",
+      "tones": {
+        "shadow": "#3a2c20",
+        "base": "#4d3c2c",
+        "highlight": "#614e3b"
+      }
+    }
+  },
+  "directions": {
+    "08": [
+      [
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "..........rrrr..........",
+        "........rrrrrrrr........",
+        ".......rrrrrrrrrr.......",
+        ".......rrrrrrcrrr.......",
+        ".......rrrrrcrrrr.......",
+        ".......rrrrrcrrrr.......",
+        "......rrrrrrrrrrr.......",
+        "....rrrrrrrrrrrrrr......",
+        "..rrrrrrrrrrrrrrrrrr....",
+        "..rrrrcrrrrrrrrrrrrrr...",
+        "..rrrrrcrrrrrrrrrcrrrr..",
+        "..rrrrrcrrrrrrrrcrrrrr..",
+        "..rrrrrrcrrrrrrrrcrrrr..",
+        "..rrrrrrrrrrrrrrrrcrr...",
+        "...prrrrrrrddrrrrrrrd...",
+        ".ddppdrrrddddddrrrdppdd.",
+        "...ddddddddppdddddddd...",
+        "........dddddddd........",
+        "........................"
+      ],
+      [
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "..........rrrr..........",
+        "........rrrrrrrr........",
+        ".......rrrrrrrrrr.......",
+        ".......rrrrrrcrrr.......",
+        ".......rrrrrcrrrr.......",
+        ".......rrrrrcrrrr.......",
+        "......rrrrrrrrrrr.......",
+        "....rrrrrrrrrrrrrr......",
+        "..rrrrrrrrrrrrrrrrrr....",
+        "..rrrrcrrrrrrrrrrrrrr...",
+        "..rrrrrcrrrrrrrrrcrrrr..",
+        "..rrrrrcrrrrrrrrcrrrrr..",
+        "..rrrrrrcrrrrrrrrcrrrr..",
+        "..rrrrrrrrrrrrrrrrcrr...",
+        "...dprrrrrrddrrrrrrrd...",
+        ".dddpprrrddddddrrrppddd.",
+        "...dddddddddppddddddd...",
+        "........dddddddd........",
+        "........................"
+      ],
+      [
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "..........rrrr..........",
+        "........rrrrrrrr........",
+        ".......rrrrrrrrrr.......",
+        ".......rrrrrrcrrr.......",
+        ".......rrrrrcrrrr.......",
+        ".......rrrrrcrrrr.......",
+        "......rrrrrrrrrrr.......",
+        "....rrrrrrrrrrrrrr......",
+        "..rrrrrrrrrrrrrrrrrr....",
+        "..rrrrcrrrrrrrrrrrrrr...",
+        "..rrrrrcrrrrrrrrrcrrrr..",
+        "..rrrrrcrrrrrrrrcrrrrr..",
+        "..rrrrrrcrrrrrrrrcrrrr..",
+        "..rrrrrrrrrrrrrrrrcrr...",
+        "...drprrrrrddrrrrrrrd...",
+        ".ddddpprrddddddrrppdddd.",
+        "...ddddddddddppdddddd...",
+        "........dddddddd........",
+        "........................"
+      ]
+    ]
+  }
+}

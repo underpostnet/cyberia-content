@@ -1,0 +1,148 @@
+{
+  "id": "portal.vortex",
+  "name": "Vortex",
+  "description": "A round portal: a rim around three arms that turn into a bright core. Three idle frames turn the arms.",
+  "itemType": "portal",
+  "canvas": {
+    "width": 24,
+    "height": 24
+  },
+  "frameDurationMs": 200,
+  "outline": "#140d1f",
+  "legend": {
+    "r": "ring",
+    "s": "swirl",
+    "d": "depth",
+    "c": "core"
+  },
+  "roles": {
+    "rim": {
+      "regions": [
+        "ring"
+      ],
+      "palette": "secondary",
+      "tones": {
+        "shadow": "#2e2350",
+        "base": "#4a3a7a",
+        "highlight": "#6a58a6"
+      },
+      "artDirection": true
+    },
+    "swirl": {
+      "regions": [
+        "swirl"
+      ],
+      "palette": "primary",
+      "tones": {
+        "shadow": "#5b3fa8",
+        "base": "#8a63e0",
+        "highlight": "#b896ff"
+      },
+      "artDirection": true
+    },
+    "depth": {
+      "regions": [
+        "depth"
+      ],
+      "palette": "detail",
+      "tones": {
+        "shadow": "#160f2c",
+        "base": "#241a45",
+        "highlight": "#352760"
+      }
+    },
+    "core": {
+      "regions": [
+        "core"
+      ],
+      "palette": "feature",
+      "tones": {
+        "shadow": "#c9b6ff",
+        "base": "#e6dcff",
+        "highlight": "#ffffff"
+      }
+    }
+  },
+  "directions": {
+    "08": [
+      [
+        "........................",
+        "........rrrrrrrr........",
+        "......rrrrrrrrrrrr......",
+        ".....rrrrrrddrrrrrr.....",
+        "....rrrrsssssdddrrrr....",
+        "...rrrssssssssddddrrr...",
+        "..rrrsddddddsssddddrrr..",
+        "..rrrddddddddsssdddrrr..",
+        ".rrrddddddddddssddddrrr.",
+        ".rrrddddsssccdssddddrrr.",
+        ".rrrdddsssccccssddddrrr.",
+        ".rrdddsssccccccddddssrr.",
+        ".rrddsssdccccccddddssrr.",
+        ".rrrdsssddccccddddssrrr.",
+        ".rrrdssddddccddddsssrrr.",
+        ".rrrdssddddsssssssssrrr.",
+        "..rrrsssddddsssssssrrr..",
+        "..rrrsssddddddssdddrrr..",
+        "...rrrsssdddddddddrrr...",
+        "....rrrrssddddddrrrr....",
+        ".....rrrrrrddrrrrrr.....",
+        "......rrrrrrrrrrrr......",
+        "........rrrrrrrr........",
+        "........................"
+      ],
+      [
+        "........................",
+        "........rrrrrrrr........",
+        "......rrrrrrrrrrrr......",
+        ".....rrrrrrssrrrrrr.....",
+        "....rrrrddddssssrrrr....",
+        "...rrrddddddddsssdrrr...",
+        "..rrrddddddddddsssdrrr..",
+        "..rrrdddssdddddsssdrrr..",
+        ".rrrddssssssddddssddrrr.",
+        ".rrrdssssssccdddssddrrr.",
+        ".rrrsssdddccccdsssddrrr.",
+        ".rrsssdddccccccsssdddrr.",
+        ".rrsssdddccccccssddddrr.",
+        ".rrrssdddsccccssddddrrr.",
+        ".rrrsddddssccdddddddrrr.",
+        ".rrrsddddssddddddddsrrr.",
+        "..rrrsdddssssddddssrrr..",
+        "..rrrsddddsssssssssrrr..",
+        "...rrrdddddsssssssrrr...",
+        "....rrrrdddddsssrrrr....",
+        ".....rrrrrrddrrrrrr.....",
+        "......rrrrrrrrrrrr......",
+        "........rrrrrrrr........",
+        "........................"
+      ],
+      [
+        "........................",
+        "........rrrrrrrr........",
+        "......rrrrrrrrrrrr......",
+        ".....rrrrrrddrrrrrr.....",
+        "....rrrrddddddddrrrr....",
+        "...rrrddssddddddssrrr...",
+        "..rrrssssssssddddssrrr..",
+        "..rrrsssssssssdddssrrr..",
+        ".rrrsssddddsssddddssrrr.",
+        ".rrrssdddddccsddddssrrr.",
+        ".rrrsdddddccccdddsssrrr.",
+        ".rrsddddsccccccddsssdrr.",
+        ".rrsddddsccccccdsssddrr.",
+        ".rrrdddssdccccsssssdrrr.",
+        ".rrrdddssddccsssssddrrr.",
+        ".rrrdddssdddddssddddrrr.",
+        "..rrrddsssdddddddddrrr..",
+        "..rrrdddsssddddddddrrr..",
+        "...rrrddssssddddddrrr...",
+        "....rrrrdsssssssrrrr....",
+        ".....rrrrrrssrrrrrr.....",
+        "......rrrrrrrrrrrr......",
+        "........rrrrrrrr........",
+        "........................"
+      ]
+    ]
+  }
+}

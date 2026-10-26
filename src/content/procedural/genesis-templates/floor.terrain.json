@@ -1,0 +1,72 @@
+{
+  "id": "floor.terrain",
+  "name": "Terrain",
+  "description": "A seamless ground tile: one ground material with patches of a second material. Its edges wrap, so neighbor tiles join.",
+  "itemType": "floor",
+  "canvas": {
+    "width": 24,
+    "height": 24
+  },
+  "frameDurationMs": 1000,
+  "outline": "#1d1a16",
+  "legend": {
+    "g": "ground",
+    "p": "patch"
+  },
+  "roles": {
+    "ground": {
+      "regions": [
+        "ground"
+      ],
+      "palette": "primary",
+      "tones": {
+        "shadow": "#3e3226",
+        "base": "#5a4a3a",
+        "highlight": "#74624e"
+      },
+      "artDirection": true
+    },
+    "patch": {
+      "regions": [
+        "patch"
+      ],
+      "palette": "secondary",
+      "tones": {
+        "shadow": "#4b5a33",
+        "base": "#667a45",
+        "highlight": "#83985d"
+      },
+      "artDirection": true
+    }
+  },
+  "directions": {
+    "08": [
+      [
+        "gggggggggggggggppppggggg",
+        "gggggggggggggppppppggggg",
+        "ggppppgggggggppppppggggg",
+        "ppppppppgggggppppppggggg",
+        "ppppppppgggggppppppggggg",
+        "ppppppppgggggggppggggggg",
+        "ppppppppgggggggggggggggg",
+        "ggppppgggggggggggggggggg",
+        "gggggggggggggggggggggggg",
+        "gggggggggggggggggggggggg",
+        "gggggggggppppppggggggggg",
+        "ggggggggppppppppgggggppg",
+        "gggggggppppppppppgggpppp",
+        "pggggggppppppppppggppppp",
+        "pgggggggppppppppgggppppp",
+        "pggggggggppppppggggppppp",
+        "pggggggggggggggggggppppp",
+        "gggppppgggggggggggggpppp",
+        "ggppppppgggggggggggggppg",
+        "gppppppppggggggggggggggg",
+        "gppppppppggggggppppggggg",
+        "ggppppppggggggppppppgggg",
+        "gggppppgggggggppppppgggg",
+        "gggggggggggggggppppggggg"
+      ]
+    ]
+  }
+}

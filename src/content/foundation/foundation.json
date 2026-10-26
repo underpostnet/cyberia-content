@@ -16,7 +16,10 @@
       "loot": "consumable.med-gel"
     },
     "items": {
-      "skin": "skin.drifter"
+      "skin": "skin.drifter",
+      "floor": "floor.frontier-grass",
+      "portal": "portal.violet-gate",
+      "obstacle": "rock.rust-boulder"
     },
     "economy": "economy.standard"
   }
