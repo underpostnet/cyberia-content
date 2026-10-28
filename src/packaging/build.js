@@ -18,21 +18,21 @@ import { canonicalJson, filesUnder } from '../validation/format.js';
 import { PALETTE_FAMILIES } from '../validation/procedural.js';
 import { contentDigest, sha256 } from './digest.js';
 
-/** Version of the artifact layout and its document shapes: manifest, context, foundation, procedural, sagas, instances. */
-export const ARTIFACT_SCHEMA_VERSION = 10;
+/** Version of the artifact layout and its document shapes: manifest, context, foundation, procedural, sagas, instances, global. */
+export const ARTIFACT_SCHEMA_VERSION = 11;
 
 export const PACKAGE_ROOT = fileURLToPath(new URL('../../', import.meta.url));
 
 /**
  * The files of the artifact by artifact path: one file per document family of the foundation and
- * of each saga, the foundation baselines, the procedural templates, the context index, and the
- * instance backups.
+ * of each saga, the foundation baselines, the procedural templates, the context index, the instance
+ * backups, and the global content as its sources hold it.
  * @param {string} [root] - Content directory.
- * @returns {{files:Map<string,Buffer>, instances:string[], sagas:string[]}}
+ * @returns {{files:Map<string,Buffer>, instances:string[], sagas:string[], global:string[]}}
  * @throws {ContentError} When the content has findings.
  */
 export function artifactContent(root = CONTENT_ROOT) {
-  const { findings, registry, sagas, instances, procedural } = readContent(root);
+  const { findings, registry, sagas, instances, global, procedural } = readContent(root);
   if (findings.length > 0) throw new ContentError(findings);
   const files = new Map();
   const json = (file, value) => files.set(file, Buffer.from(canonicalJson(value)));
@@ -57,7 +57,8 @@ export function artifactContent(root = CONTENT_ROOT) {
     for (const file of filesUnder(directory))
       files.set(`instances/${code}/${file}`, fs.readFileSync(path.join(directory, file)));
   }
-  return { files, instances, sagas: [...sagas.keys()] };
+  for (const cid of global) files.set(`global/${cid}.json`, fs.readFileSync(path.join(root, 'global', `${cid}.json`)));
+  return { files, instances, sagas: [...sagas.keys()], global };
 }
 
 /**
@@ -66,11 +67,12 @@ export function artifactContent(root = CONTENT_ROOT) {
  * @param {Map<string,Buffer>} params.files - {@link artifactContent} files.
  * @param {string[]} params.instances
  * @param {string[]} params.sagas
+ * @param {string[]} params.global - The CIDs of the global content.
  * @param {string} params.sourceRevision - Commit the content was built from.
  * @param {string} [params.root] - Package root.
  * @returns {Object}
  */
-export function artifactManifest({ files, instances, sagas, sourceRevision, root = PACKAGE_ROOT }) {
+export function artifactManifest({ files, instances, sagas, global, sourceRevision, root = PACKAGE_ROOT }) {
   const { repository, version } = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
   const digests = Object.fromEntries([...files.keys()].sort().map((file) => [file, sha256(files.get(file))]));
   return {
@@ -82,6 +84,7 @@ export function artifactManifest({ files, instances, sagas, sourceRevision, root
     build: { definitionSchemaVersion: SCHEMA_VERSION, runtimeContract: sha256(fs.readFileSync(CONTRACT_FILE)) },
     instances,
     sagas,
+    global,
     files: digests,
   };
 }

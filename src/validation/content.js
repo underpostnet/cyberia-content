@@ -1,5 +1,5 @@
 /**
- * Validation of the whole content tree: format, foundation, sagas and instances.
+ * Validation of the whole content tree: format, foundation, sagas, instances and global content.
  *
  * @module src/validation/content.js
  */
@@ -89,12 +89,55 @@ const economyFindings = (root, code, registry) => {
     : [{ id, message: `economy ${economyCode} is neither in the backup nor in the foundation` }];
 };
 
+/** The CID form of an Object Layer definition: CIDv1, raw, sha2-256, base32. */
+const OBJECT_LAYER_CID = /^bafkrei[a-z2-7]{52}$/;
+
+/** Why global content stays, as the engine records it. */
+const GLOBAL_REASONS = new Set(['import', 'catalog', 'owned']);
+
+const isRecord = (value) => value !== null && typeof value === 'object' && !Array.isArray(value);
+const hasFields = (value, fields) =>
+  isRecord(value) && Object.keys(value).length === fields.length && fields.every((field) => Object.hasOwn(value, field));
+
 /**
- * The content of a content directory: its registry, saga packages, instance codes and procedural
- * templates.
+ * The problem of one global content file, or ''. The file is the engine export of one Object Layer
+ * definition with no world: its canonical payload, the render it names, the item ids bound to it and
+ * why it stays. The engine checks its identity and its render when it imports it.
+ */
+const globalFileProblem = (file) => {
+  if (!hasFields(file, ['definition', 'render', 'itemIds', 'registration']))
+    return 'must hold exactly definition, render, itemIds and registration';
+  if (!hasFields(file.definition, ['schemaVersion', 'profile', 'data']))
+    return 'definition must hold exactly schemaVersion, profile and data';
+  if (file.render !== null && !(hasFields(file.render, ['layout', 'primary']) && typeof file.render.primary === 'string'))
+    return 'render must be null, or hold exactly layout and the primary render as base64';
+  const { itemIds } = file;
+  if (!Array.isArray(itemIds) || !itemIds.every((id) => typeof id === 'string' && id))
+    return 'itemIds must list item ids';
+  if (itemIds.some((id, index) => index > 0 && itemIds[index - 1] >= id)) return 'itemIds must be sorted, each once';
+  const { reason, registeredAt } = file.registration ?? {};
+  if (!GLOBAL_REASONS.has(reason)) return `registration.reason must be one of ${[...GLOBAL_REASONS].join(', ')}`;
+  if (typeof registeredAt !== 'string' || Number.isNaN(Date.parse(registeredAt)))
+    return 'registration.registeredAt must be a date';
+  return '';
+};
+
+/** Findings of the global content: one file per definition, named by its CID. */
+const globalFindings = (root, cids) =>
+  cids.flatMap((cid) => {
+    const id = `global/${cid}.json`;
+    if (!OBJECT_LAYER_CID.test(cid)) return [{ id, message: 'must be named by the CID of its definition' }];
+    const message = globalFileProblem(readJson(path.join(root, 'global', `${cid}.json`)));
+    return message ? [{ id, message }] : [];
+  });
+
+/**
+ * The content of a content directory: its registry, saga packages, instance codes, global content
+ * CIDs and procedural templates.
  * @param {string} [root] - Content directory.
  * @returns {{findings:Array<{id:string,message:string}>, registry?:Object,
- *   sagas?:Map<string,Object>, instances?:string[], procedural?:{templates:Object[], palettes:Object[]}}}
+ *   sagas?:Map<string,Object>, instances?:string[], global?:string[],
+ *   procedural?:{templates:Object[], palettes:Object[]}}}
  *   Findings, and the content when there are none.
  */
 export function readContent(root = CONTENT_ROOT) {
@@ -123,7 +166,10 @@ export function readContent(root = CONTENT_ROOT) {
       findings.push({ id: `instances/${code}`, message: `cyberia-instance.json must hold instance ${code}` });
     findings.push(...pinFindings(root, code), ...economyFindings(root, code, registry));
   }
+
+  const global = entriesOf(root, 'global', false);
+  findings.push(...globalFindings(root, global));
   return findings.length > 0
     ? { findings }
-    : { findings, registry, sagas, instances, procedural: { templates, palettes } };
+    : { findings, registry, sagas, instances, global, procedural: { templates, palettes } };
 }

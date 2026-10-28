@@ -35,7 +35,11 @@ describe('artifact metadata', () => {
       build: { definitionSchemaVersion: 3, runtimeContract: expect.stringMatching(/^sha256:[0-9a-f]{64}$/) },
       instances: ['amethyst-strata-expansion', 'fallback', 'test'],
       sagas: ['amethyst-strata-expansion'],
+      global: content.global,
     });
+    expect(Object.keys(manifest.files).filter((file) => file.startsWith('global/'))).toEqual(
+      content.global.map((cid) => `global/${cid}.json`),
+    );
   });
 
   it('holds the context index, one file per document family of the foundation and of each saga, the procedural templates and the backups', () => {
@@ -54,7 +58,7 @@ describe('artifact metadata', () => {
     expect(files).toContain('instances/test/cyberia-instance.json');
     expect(files).toContain('context.json');
     expect(
-      files.every((file) => file === 'context.json' || /^(foundation|procedural|sagas|instances)\//.test(file)),
+      files.every((file) => file === 'context.json' || /^(foundation|procedural|sagas|instances|global)\//.test(file)),
     ).toBe(true);
   });
 

@@ -72,6 +72,54 @@ describe('an instance backup', () => {
   });
 });
 
+describe('global content', () => {
+  const CID = `bafkrei${'a'.repeat(52)}`;
+  const file = {
+    definition: { schemaVersion: 1, profile: { id: 'cyberia', version: 2 }, data: {} },
+    render: { layout: { atlasWidth: 1 }, primary: 'iVBORw0KGgo=' },
+    itemIds: ['lantern', 'torch'],
+    registration: { reason: 'import', by: 'a moderator', registeredAt: '2026-10-27T00:00:00.000Z', provenance: {} },
+  };
+  const globalRoot = (name, files) => {
+    const root = path.join(scratch, name);
+    fs.cpSync(path.join(CONTENT_ROOT, 'foundation'), path.join(root, 'foundation'), { recursive: true });
+    for (const [cid, value] of Object.entries(files)) {
+      fs.mkdirSync(path.join(root, 'global'), { recursive: true });
+      fs.writeFileSync(path.join(root, 'global', `${cid}.json`), canonicalJson(value));
+    }
+    return root;
+  };
+
+  it('lists one definition per file, named by its CID, with no world', () => {
+    const { findings, global, instances } = readContent(globalRoot('global-valid', { [CID]: file }));
+    expect(findings).toEqual([]);
+    expect(global).toEqual([CID]);
+    expect(instances).toEqual([]);
+    expect(readContent(globalRoot('global-unrendered', { [CID]: { ...file, render: null, itemIds: [] } })).findings).toEqual(
+      [],
+    );
+  });
+
+  it('names the file of each defect', () => {
+    const { findings } = readContent(
+      globalRoot('global-defects', {
+        'lantern-skin': file,
+        [`bafkrei${'b'.repeat(52)}`]: { ...file, ledger: {} },
+        [`bafkrei${'c'.repeat(52)}`]: { ...file, itemIds: ['torch', 'lantern'] },
+        [`bafkrei${'d'.repeat(52)}`]: { ...file, registration: { ...file.registration, reason: 'entity' } },
+        [`bafkrei${'e'.repeat(52)}`]: { ...file, render: { layout: {} } },
+      }),
+    );
+    expect(findings.map(({ id, message }) => `${id}: ${message}`)).toEqual([
+      `global/bafkrei${'b'.repeat(52)}.json: must hold exactly definition, render, itemIds and registration`,
+      `global/bafkrei${'c'.repeat(52)}.json: itemIds must be sorted, each once`,
+      `global/bafkrei${'d'.repeat(52)}.json: registration.reason must be one of import, catalog, owned`,
+      `global/bafkrei${'e'.repeat(52)}.json: render must be null, or hold exactly layout and the primary render as base64`,
+      'global/lantern-skin.json: must be named by the CID of its definition',
+    ]);
+  });
+});
+
 describe('canonical form', () => {
   it('reports and rewrites a file that is not in canonical form, and reports one that does not parse', () => {
     const root = path.join(scratch, 'format');

@@ -36,7 +36,7 @@ Comments state the live invariant in ≤1 line. The reader needs current behavio
 
 This repository creates content. The engine consumes it.
 
-- `src/content/` owns the authored content: foundation, instances and sagas.
+- `src/content/` owns the authored content: foundation, instances, sagas and global content.
 - `src/schema/` owns the definition schema and reads the runtime contract.
 - `src/validation/` owns the content rules and the canonical form.
 - `src/generator/` owns semantic generation: prompts, stages, the saga package and the Gemini client.
