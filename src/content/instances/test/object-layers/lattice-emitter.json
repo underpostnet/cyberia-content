@@ -1,0 +1,35 @@
+{
+  "_id": "6ae266441b8439165615efc3",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "lattice-emitter",
+      "type": "weapon",
+      "description": "A Nova hand device that projects a lattice of light shaped like its user.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 5,
+      "resistance": 0,
+      "agility": 2,
+      "range": 4,
+      "intelligence": 5,
+      "utility": 6
+    },
+    "render": {
+      "cid": "bafkreicudjrwucgrgr6gxlosni7b374dhs5bp5aocd2nl45ys6dfnfasf4",
+      "metadataCid": "bafkreieh3bskjwaobusfajwk4kfgu4fjgqq6qj6mr4ke2mzenatixf4xpy"
+    }
+  },
+  "cid": "bafkreig4m4iwpm5aolia2pws4kxnszyxdiu6ih5cvvn626bfddmwa7b5wu",
+  "contentHash": "dc671167b3a072d00d3ed2e2aed967171a29e41fa2ad5bed782518d9607c3db5",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-28T21:16:52.770Z",
+  "updatedAt": "2026-10-28T21:34:01.182Z",
+  "__v": 0
+}

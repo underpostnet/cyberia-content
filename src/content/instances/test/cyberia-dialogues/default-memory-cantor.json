@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6ae263d7086a219679982952",
+    "code": "default-memory-cantor",
+    "order": 0,
+    "speaker": "Memory Cantor",
+    "text": "Every song I sing is a memory someone lost. Tonight, perhaps, one of yours.",
+    "mood": "happy",
+    "__v": 0,
+    "createdAt": "2026-10-28T21:06:31.331Z",
+    "updatedAt": "2026-10-28T21:06:31.331Z"
+  }
+]

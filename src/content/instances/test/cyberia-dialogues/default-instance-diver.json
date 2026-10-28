@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "6ae263d7086a21967998294e",
+    "code": "default-instance-diver",
+    "order": 0,
+    "speaker": "Instance Diver",
+    "text": "I left my body on a cot two layers down. It is safe. I think it is safe.",
+    "mood": "sad",
+    "__v": 0,
+    "createdAt": "2026-10-28T21:06:31.286Z",
+    "updatedAt": "2026-10-28T21:06:31.286Z"
+  },
+  {
+    "_id": "6ae263d7086a21967998294f",
+    "code": "default-instance-diver",
+    "order": 1,
+    "speaker": "Instance Diver",
+    "text": "The archive remembers you differently than you do. Do not argue with it.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-10-28T21:06:31.286Z",
+    "updatedAt": "2026-10-28T21:06:31.286Z"
+  }
+]

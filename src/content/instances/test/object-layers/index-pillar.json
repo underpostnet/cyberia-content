@@ -1,0 +1,35 @@
+{
+  "_id": "6ae266251b8439165615efaa",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "index-pillar",
+      "type": "obstacle",
+      "description": "A glowing index column that holds a slice of an archive Instance.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreidnolv7bvahdc7uaogvcolchuponqaedftbiitjzhu4uu2qgcos2e",
+      "metadataCid": "bafkreidhh5aeheen67mpqqsmu2h7ugpfv6ge7irap64arhggfcuhat73bu"
+    }
+  },
+  "cid": "bafkreievweyi4p6ne63wip2kbn6pl6vmc3qi6xyg6fjhnqofzt676ucwki",
+  "contentHash": "95b1308e3fcd27b7643f4a0b7cf5faac16e08f5f06f15276c1c5ccfdff505652",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-28T21:16:21.565Z",
+  "updatedAt": "2026-10-28T21:34:00.070Z",
+  "__v": 0
+}

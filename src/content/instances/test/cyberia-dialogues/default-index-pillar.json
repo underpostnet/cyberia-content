@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6ae263d6086a219679982924",
+    "code": "default-index-pillar",
+    "order": 0,
+    "speaker": "Index Pillar",
+    "text": "A glowing index column that holds a slice of an archive Instance.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-10-28T21:06:30.503Z",
+    "updatedAt": "2026-10-28T21:06:30.503Z"
+  }
+]

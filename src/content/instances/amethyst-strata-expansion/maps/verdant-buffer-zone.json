@@ -9300,14 +9300,15 @@
   "status": "unlisted",
   "thumbnail": "6ad73148a2d6500b893f00e6",
   "preview": "6ad73149a2d6500b893f00e7",
+  "media": null,
+  "worldX": null,
+  "worldY": null,
   "gridX": 128,
   "gridY": 64,
   "cellWidth": 10,
   "cellHeight": 10,
   "revision": 5,
   "createdAt": "2026-10-09T17:06:46.973Z",
-  "updatedAt": "2026-10-20T09:15:53.124Z",
-  "__v": 0,
-  "worldX": null,
-  "worldY": null
+  "updatedAt": "2026-10-09T17:06:46.973Z",
+  "__v": 0
 }

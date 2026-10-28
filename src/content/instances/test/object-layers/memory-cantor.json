@@ -1,0 +1,35 @@
+{
+  "_id": "6ae2661c7ae22dce99f96262",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "memory-cantor",
+      "type": "skin",
+      "description": "A performer robed in pale blue light, with memory threads trailing from the sleeves.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 0,
+      "agility": 10,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreihebma7rmkjjplzcv4f2ip3kqx3vvlkky2jynkdktf3g3udrdr44e",
+      "metadataCid": "bafkreihtqmsackofyr6ke5fqtasmrj4twfwnwiamd6eax7r6ys6lnmiaua"
+    }
+  },
+  "cid": "bafkreicwglf37dbt55zc3mcvvbv7oqkaz4locer42azkndib6bwkcvlp3y",
+  "contentHash": "5632cbbf8c33ef722db055a86bf74140cf16e1123cd032a68d01f06ca1556fde",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-28T21:16:12.812Z",
+  "updatedAt": "2026-10-28T21:34:01.673Z",
+  "__v": 0
+}

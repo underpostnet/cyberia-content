@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "6ae263d7086a219679982945",
+    "code": "default-directive-prime",
+    "order": 0,
+    "speaker": "Directive Prime",
+    "text": "You are a variable I have already accounted for. Proceed as predicted.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-10-28T21:06:31.156Z",
+    "updatedAt": "2026-10-28T21:06:31.156Z"
+  },
+  {
+    "_id": "6ae263d7086a219679982946",
+    "code": "default-directive-prime",
+    "order": 1,
+    "speaker": "Directive Prime",
+    "text": "Civilization failed on flesh. It will not fail on logic.",
+    "mood": "angry",
+    "__v": 0,
+    "createdAt": "2026-10-28T21:06:31.156Z",
+    "updatedAt": "2026-10-28T21:06:31.156Z"
+  }
+]

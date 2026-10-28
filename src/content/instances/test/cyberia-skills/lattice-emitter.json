@@ -1,0 +1,18 @@
+{
+  "_id": "6ae263d5086a2196799828ed",
+  "triggerItemId": "lattice-emitter",
+  "logicEventIds": [
+    "doppelganger"
+  ],
+  "skills": [
+    {
+      "logicEventId": "doppelganger",
+      "name": "Echo Double",
+      "description": "Projects a passive double of the caster that wanders nearby and draws attention. Spawn chance scales with Intelligence.",
+      "summonedEntityItemId": "$active_skin"
+    }
+  ],
+  "createdAt": "2026-10-28T21:06:29.495Z",
+  "updatedAt": "2026-10-28T21:06:29.495Z",
+  "__v": 0
+}

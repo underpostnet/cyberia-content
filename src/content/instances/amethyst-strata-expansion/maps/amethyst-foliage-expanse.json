@@ -4731,12 +4731,15 @@
   "status": "published",
   "thumbnail": "6acd75f7b2afa72411f66397",
   "preview": "6acd75f7b2afa72411f66398",
+  "media": null,
+  "worldX": null,
+  "worldY": null,
   "gridX": 64,
   "gridY": 64,
   "cellWidth": 15,
   "cellHeight": 15,
   "revision": 3,
   "createdAt": "2026-06-27T18:13:51.314Z",
-  "updatedAt": "2026-10-13T00:06:15.328Z",
+  "updatedAt": "2026-06-27T18:13:51.314Z",
   "__v": 0
 }

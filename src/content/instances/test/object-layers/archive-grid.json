@@ -1,0 +1,35 @@
+{
+  "_id": "6ae265fe7ae22dce99f96252",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "archive-grid",
+      "type": "floor",
+      "description": "The white-lined floor grid of a civic archive Instance.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreie7aylgj4s2ozkykt5mxk24p64ek4w43e54vgea6xu4ynle7dufga",
+      "metadataCid": "bafkreiachxd7wl45c4fawap2o2o3hxzca6mxoxulozhop66inl75o2eume"
+    }
+  },
+  "cid": "bafkreigd4bhtckavjvo4xxugyo5ij7ebacxmsj5mt5udipkpxygxoyqqba",
+  "contentHash": "c3e04f3128154d5dcbde86c3ba84fc8100aec927ac9f68343d4fbe0d77621008",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-28T21:15:42.768Z",
+  "updatedAt": "2026-10-28T21:33:57.977Z",
+  "__v": 0
+}

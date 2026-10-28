@@ -6,6 +6,7 @@
   "entities": [
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 0,
       "dimX": 5,
@@ -23,6 +24,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 0,
       "dimX": 5,
@@ -40,6 +42,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 0,
       "dimX": 5,
@@ -57,6 +60,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 0,
       "dimX": 5,
@@ -74,6 +78,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 0,
       "dimX": 5,
@@ -91,6 +96,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 0,
       "dimX": 5,
@@ -108,6 +114,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 0,
       "dimX": 5,
@@ -125,6 +132,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 0,
       "dimX": 5,
@@ -142,6 +150,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 5,
       "dimX": 5,
@@ -159,6 +168,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 5,
       "dimX": 5,
@@ -176,6 +186,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 5,
       "dimX": 5,
@@ -193,6 +204,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 5,
       "dimX": 5,
@@ -210,6 +222,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 5,
       "dimX": 5,
@@ -227,6 +240,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 5,
       "dimX": 5,
@@ -244,6 +258,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 5,
       "dimX": 5,
@@ -261,6 +276,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 10,
       "dimX": 5,
@@ -278,6 +294,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 10,
       "dimX": 5,
@@ -295,6 +312,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 10,
       "dimX": 5,
@@ -312,6 +330,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 10,
       "dimX": 5,
@@ -329,6 +348,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 10,
       "dimX": 5,
@@ -346,6 +366,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 10,
       "dimX": 5,
@@ -363,6 +384,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 10,
       "dimX": 5,
@@ -380,6 +402,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 10,
       "dimX": 5,
@@ -397,6 +420,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 15,
       "dimX": 5,
@@ -414,6 +438,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 15,
       "dimX": 5,
@@ -431,6 +456,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 15,
       "dimX": 5,
@@ -448,6 +474,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 15,
       "dimX": 5,
@@ -465,6 +492,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 15,
       "dimX": 5,
@@ -482,6 +510,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 15,
       "dimX": 5,
@@ -499,6 +528,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 15,
       "dimX": 5,
@@ -516,6 +546,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 15,
       "dimX": 5,
@@ -533,6 +564,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 20,
       "dimX": 5,
@@ -550,6 +582,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 20,
       "dimX": 5,
@@ -567,6 +600,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 20,
       "dimX": 5,
@@ -584,6 +618,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 20,
       "dimX": 5,
@@ -601,6 +636,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 20,
       "dimX": 5,
@@ -618,6 +654,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 20,
       "dimX": 5,
@@ -635,6 +672,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 25,
       "dimX": 5,
@@ -652,6 +690,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 25,
       "dimX": 5,
@@ -669,6 +708,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 25,
       "dimX": 5,
@@ -686,6 +726,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 25,
       "dimX": 5,
@@ -703,6 +744,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 25,
       "dimX": 5,
@@ -720,6 +762,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 25,
       "dimX": 5,
@@ -737,6 +780,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 25,
       "dimX": 5,
@@ -754,6 +798,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 25,
       "dimX": 5,
@@ -771,6 +816,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 25,
       "dimX": 5,
@@ -788,6 +834,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 30,
       "dimX": 5,
@@ -805,6 +852,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 30,
       "dimX": 5,
@@ -822,6 +870,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 30,
       "dimX": 5,
@@ -839,6 +888,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 30,
       "dimX": 5,
@@ -856,6 +906,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 30,
       "dimX": 5,
@@ -873,6 +924,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 30,
       "dimX": 5,
@@ -890,6 +942,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 30,
       "dimX": 5,
@@ -907,6 +960,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 30,
       "dimX": 5,
@@ -924,6 +978,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 35,
       "dimX": 5,
@@ -941,6 +996,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 35,
       "dimX": 5,
@@ -958,6 +1014,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 35,
       "dimX": 5,
@@ -975,6 +1032,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 35,
       "dimX": 5,
@@ -992,6 +1050,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 35,
       "dimX": 5,
@@ -1009,6 +1068,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 35,
       "dimX": 5,
@@ -1026,6 +1086,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 35,
       "dimX": 5,
@@ -1043,6 +1104,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 35,
       "dimX": 5,
@@ -1060,6 +1122,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 40,
       "dimX": 5,
@@ -1077,6 +1140,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 40,
       "dimX": 5,
@@ -1094,6 +1158,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 40,
       "dimX": 5,
@@ -1111,6 +1176,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 40,
       "dimX": 5,
@@ -1128,6 +1194,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 40,
       "dimX": 5,
@@ -1145,6 +1212,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 40,
       "dimX": 5,
@@ -1162,6 +1230,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 40,
       "dimX": 5,
@@ -1179,6 +1248,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 45,
       "dimX": 5,
@@ -1196,6 +1266,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 45,
       "dimX": 5,
@@ -1213,6 +1284,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 45,
       "dimX": 5,
@@ -1230,6 +1302,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 45,
       "dimX": 5,
@@ -1247,6 +1320,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 45,
       "dimX": 5,
@@ -1264,6 +1338,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 45,
       "dimX": 5,
@@ -1281,6 +1356,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 45,
       "dimX": 5,
@@ -1298,6 +1374,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 45,
       "dimX": 5,
@@ -1315,6 +1392,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 50,
       "dimX": 5,
@@ -1332,6 +1410,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 50,
       "dimX": 5,
@@ -1349,6 +1428,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 50,
       "dimX": 5,
@@ -1366,6 +1446,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 50,
       "dimX": 5,
@@ -1383,6 +1464,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 50,
       "dimX": 5,
@@ -1400,6 +1482,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 50,
       "dimX": 5,
@@ -1417,6 +1500,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 50,
       "dimX": 5,
@@ -1434,6 +1518,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 50,
       "dimX": 5,
@@ -1451,6 +1536,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 55,
       "dimX": 5,
@@ -1468,6 +1554,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 55,
       "dimX": 5,
@@ -1485,6 +1572,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 55,
       "dimX": 5,
@@ -1502,6 +1590,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 55,
       "dimX": 5,
@@ -1519,6 +1608,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 55,
       "dimX": 5,
@@ -1536,6 +1626,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 55,
       "dimX": 5,
@@ -1553,6 +1644,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 55,
       "dimX": 5,
@@ -1570,6 +1662,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 55,
       "dimX": 5,
@@ -1587,6 +1680,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 55,
       "dimX": 5,
@@ -1604,6 +1698,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 60,
       "dimX": 5,
@@ -1621,6 +1716,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 60,
       "dimX": 5,
@@ -1638,6 +1734,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 60,
       "dimX": 5,
@@ -1655,6 +1752,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 60,
       "dimX": 5,
@@ -1672,6 +1770,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 60,
       "dimX": 5,
@@ -1689,6 +1788,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 0,
       "dimX": 5,
@@ -1706,6 +1806,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 0,
       "dimX": 5,
@@ -1723,6 +1824,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 10,
       "dimX": 5,
@@ -1740,6 +1842,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 0,
       "dimX": 5,
@@ -1757,6 +1860,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 5,
       "dimX": 5,
@@ -1774,6 +1878,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 15,
       "dimX": 5,
@@ -1791,6 +1896,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 20,
       "dimX": 5,
@@ -1808,6 +1914,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 10,
       "dimX": 5,
@@ -1825,6 +1932,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 25,
       "dimX": 5,
@@ -1842,6 +1950,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 25,
       "dimX": 5,
@@ -1859,6 +1968,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 20,
       "dimX": 5,
@@ -1876,6 +1986,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 15,
       "dimX": 5,
@@ -1893,6 +2004,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 20,
       "dimX": 5,
@@ -1910,6 +2022,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 30,
       "dimX": 5,
@@ -1927,6 +2040,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 45,
       "dimX": 5,
@@ -1944,6 +2058,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 40,
       "dimX": 5,
@@ -1961,6 +2076,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 40,
       "dimX": 5,
@@ -1978,6 +2094,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 45,
       "dimX": 5,
@@ -1995,6 +2112,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 35,
       "dimX": 5,
@@ -2012,6 +2130,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 55,
       "initCellY": 50,
       "dimX": 5,
@@ -2029,6 +2148,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 60,
       "dimX": 5,
@@ -2046,6 +2166,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 60,
       "dimX": 5,
@@ -2063,6 +2184,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 55,
       "dimX": 5,
@@ -2080,6 +2202,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 60,
       "dimX": 5,
@@ -2097,6 +2220,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 50,
       "dimX": 5,
@@ -2114,6 +2238,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 55,
       "dimX": 5,
@@ -2131,6 +2256,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 60,
       "dimX": 5,
@@ -2148,6 +2274,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 55,
       "dimX": 5,
@@ -2165,6 +2292,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 55,
       "dimX": 5,
@@ -2182,6 +2310,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 45,
       "dimX": 5,
@@ -2199,6 +2328,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 45,
       "dimX": 5,
@@ -2216,6 +2346,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 50,
       "dimX": 5,
@@ -2233,6 +2364,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 35,
       "dimX": 5,
@@ -2250,6 +2382,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 30,
       "dimX": 5,
@@ -2267,6 +2400,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 35,
       "dimX": 5,
@@ -2284,6 +2418,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 30,
       "dimX": 5,
@@ -2301,6 +2436,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 35,
       "dimX": 5,
@@ -2318,6 +2454,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 20,
       "dimX": 5,
@@ -2335,6 +2472,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 25,
       "dimX": 5,
@@ -2352,6 +2490,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 10,
       "dimX": 5,
@@ -2369,6 +2508,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 5,
       "dimX": 5,
@@ -2386,6 +2526,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 60,
       "dimX": 5,
@@ -2403,6 +2544,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 30,
       "dimX": 5,
@@ -2420,6 +2562,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 15,
       "dimX": 5,
@@ -2437,6 +2580,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 0,
       "dimX": 5,
@@ -2454,6 +2598,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 20,
       "dimX": 5,
@@ -2471,6 +2616,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 45,
       "dimX": 5,
@@ -2488,6 +2634,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 5,
       "dimX": 5,
@@ -2505,6 +2652,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 0,
       "dimX": 5,
@@ -2522,6 +2670,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 10,
       "dimX": 5,
@@ -2539,6 +2688,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 40,
       "dimX": 5,
@@ -2556,6 +2706,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 60,
       "dimX": 5,
@@ -2573,6 +2724,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 60,
       "dimX": 5,
@@ -2590,6 +2742,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 60,
       "dimX": 5,
@@ -2607,6 +2760,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 35,
       "dimX": 5,
@@ -2624,6 +2778,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 40,
       "dimX": 5,
@@ -2641,6 +2796,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 40,
       "dimX": 5,
@@ -2658,6 +2814,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 50,
       "dimX": 5,
@@ -2675,6 +2832,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 50,
       "dimX": 5,
@@ -2692,6 +2850,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 40,
       "dimX": 5,
@@ -2709,6 +2868,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 20,
       "dimX": 5,
@@ -2726,6 +2886,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 15,
       "dimX": 5,
@@ -2743,6 +2904,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 5,
       "dimX": 5,
@@ -2760,6 +2922,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 10,
       "dimX": 5,
@@ -2777,6 +2940,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 5,
       "dimX": 5,
@@ -2794,6 +2958,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 5,
       "dimX": 5,
@@ -2811,6 +2976,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 15,
       "dimX": 5,
@@ -2828,6 +2994,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 20,
       "dimX": 5,
@@ -2845,6 +3012,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 25,
       "dimX": 5,
@@ -2862,6 +3030,7 @@
     },
     {
       "entityType": "floor",
+      "respawnDurationMs": 3000,
       "initCellX": 50,
       "initCellY": 30,
       "dimX": 5,
@@ -2879,6 +3048,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 7,
       "initCellY": 5,
       "dimX": 5,
@@ -2896,6 +3066,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 37,
       "initCellY": 12,
       "dimX": 6,
@@ -2913,6 +3084,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 49,
       "initCellY": 5,
       "dimX": 2,
@@ -2930,6 +3102,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 19,
       "initCellY": 29,
       "dimX": 4,
@@ -2947,6 +3120,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 13,
       "initCellY": 14,
       "dimX": 3,
@@ -2964,6 +3138,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 28,
       "initCellY": 25,
       "dimX": 3,
@@ -2981,6 +3156,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 16,
       "dimX": 4,
@@ -2998,6 +3174,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 46,
       "initCellY": 38,
       "dimX": 4,
@@ -3015,6 +3192,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 49,
       "initCellY": 27,
       "dimX": 3,
@@ -3032,6 +3210,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 17,
       "initCellY": 43,
       "dimX": 3,
@@ -3049,6 +3228,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 36,
       "initCellY": 41,
       "dimX": 3,
@@ -3066,6 +3246,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 22,
       "initCellY": 49,
       "dimX": 4,
@@ -3083,6 +3264,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 31,
       "initCellY": 50,
       "dimX": 5,
@@ -3100,6 +3282,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 45,
       "initCellY": 52,
       "dimX": 4,
@@ -3117,6 +3300,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 54,
       "initCellY": 51,
       "dimX": 5,
@@ -3134,6 +3318,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 31,
       "dimX": 5,
@@ -3151,6 +3336,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 36,
       "initCellY": 32,
       "dimX": 6,
@@ -3168,6 +3354,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 9,
       "initCellY": 51,
       "dimX": 3,
@@ -3185,6 +3372,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 23,
       "initCellY": 37,
       "dimX": 3,
@@ -3202,6 +3390,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 31,
       "initCellY": 33,
       "dimX": 2,
@@ -3220,6 +3409,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 16,
       "initCellY": 21,
       "dimX": 2,
@@ -3238,6 +3428,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 35,
       "initCellY": 22,
       "dimX": 1,
@@ -3256,6 +3447,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 21,
       "initCellY": 6,
       "dimX": 2,
@@ -3274,6 +3466,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 37,
       "initCellY": 4,
       "dimX": 1,
@@ -3291,6 +3484,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 47,
       "initCellY": 15,
       "dimX": 3,
@@ -3309,6 +3503,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 54,
       "initCellY": 10,
       "dimX": 2,
@@ -3326,6 +3521,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 56,
       "dimX": 1,
@@ -3344,6 +3540,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 10,
       "initCellY": 42,
       "dimX": 2,
@@ -3362,6 +3559,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 49,
       "initCellY": 46,
       "dimX": 3,
@@ -3379,6 +3577,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 58,
       "initCellY": 37,
       "dimX": 1,
@@ -3396,6 +3595,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 38,
       "initCellY": 48,
       "dimX": 3,
@@ -3413,6 +3613,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 24,
       "initCellY": 56,
       "dimX": 3,
@@ -3430,6 +3631,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 56,
       "initCellY": 25,
       "dimX": 3,
@@ -3448,6 +3650,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 39,
       "initCellY": 23,
       "dimX": 2,
@@ -3465,6 +3668,7 @@
     },
     {
       "entityType": "bot",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 16,
       "dimX": 2,
@@ -3483,6 +3687,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 3,
       "initCellY": 28,
       "dimX": 4,
@@ -3500,6 +3705,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 3,
       "initCellY": 23,
       "dimX": 4,
@@ -3517,6 +3723,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 3,
       "initCellY": 35,
       "dimX": 5,
@@ -3534,6 +3741,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 3,
       "initCellY": 32,
       "dimX": 4,
@@ -3551,6 +3759,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 36,
       "initCellY": 56,
       "dimX": 5,
@@ -3568,6 +3777,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 32,
       "initCellY": 57,
       "dimX": 5,
@@ -3585,6 +3795,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 56,
       "initCellY": 15,
       "dimX": 4,
@@ -3602,6 +3813,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 47,
       "initCellY": 2,
       "dimX": 3,
@@ -3619,6 +3831,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 40,
       "initCellY": 1,
       "dimX": 5,
@@ -3636,6 +3849,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 31,
       "initCellY": 0,
       "dimX": 5,
@@ -3653,6 +3867,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 59,
       "initCellY": 31,
       "dimX": 3,
@@ -3670,6 +3885,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 58,
       "initCellY": 40,
       "dimX": 2,
@@ -3687,6 +3903,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 22,
       "initCellY": 23,
       "dimX": 3,
@@ -3704,6 +3921,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 15,
       "initCellY": 11,
       "dimX": 3,
@@ -3721,6 +3939,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 1,
       "initCellY": 26,
       "dimX": 3,
@@ -3738,6 +3957,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 3,
       "initCellY": 30,
       "dimX": 4,
@@ -3755,6 +3975,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 0,
       "initCellY": 29,
       "dimX": 5,
@@ -3772,6 +3993,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 36,
       "initCellY": 59,
       "dimX": 6,
@@ -3789,6 +4011,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 59,
       "dimX": 5,
@@ -3806,6 +4029,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 42,
       "initCellY": 58,
       "dimX": 6,
@@ -3823,6 +4047,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 41,
       "initCellY": 56,
       "dimX": 5,
@@ -3840,6 +4065,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 58,
       "initCellY": 18,
       "dimX": 2,
@@ -3857,6 +4083,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 59,
       "initCellY": 14,
       "dimX": 3,
@@ -3874,6 +4101,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 12,
       "dimX": 6,
@@ -3891,6 +4119,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 61,
       "initCellY": 39,
       "dimX": 2,
@@ -3908,6 +4137,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 61,
       "initCellY": 36,
       "dimX": 6,
@@ -3925,6 +4155,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 34,
       "dimX": 3,
@@ -3942,6 +4173,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 62,
       "initCellY": 32,
       "dimX": 5,
@@ -3959,6 +4191,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 62,
       "initCellY": 29,
       "dimX": 4,
@@ -3976,6 +4209,7 @@
     },
     {
       "entityType": "obstacle",
+      "respawnDurationMs": 3000,
       "initCellX": 60,
       "initCellY": 42,
       "dimX": 4,
@@ -3993,6 +4227,7 @@
     },
     {
       "entityType": "foreground",
+      "respawnDurationMs": 3000,
       "initCellX": 29,
       "initCellY": 8,
       "dimX": 5,
@@ -4010,6 +4245,7 @@
     },
     {
       "entityType": "foreground",
+      "respawnDurationMs": 3000,
       "initCellX": 42,
       "initCellY": 27,
       "dimX": 5,
@@ -4027,6 +4263,7 @@
     },
     {
       "entityType": "foreground",
+      "respawnDurationMs": 3000,
       "initCellX": 13,
       "initCellY": 40,
       "dimX": 5,
@@ -4044,6 +4281,7 @@
     },
     {
       "entityType": "foreground",
+      "respawnDurationMs": 3000,
       "initCellX": 42,
       "initCellY": 46,
       "dimX": 5,
@@ -4061,6 +4299,7 @@
     },
     {
       "entityType": "portal",
+      "respawnDurationMs": 3000,
       "initCellX": 57,
       "initCellY": 3,
       "dimX": 4,
@@ -4078,6 +4317,7 @@
     },
     {
       "entityType": "portal",
+      "respawnDurationMs": 3000,
       "initCellX": 5,
       "initCellY": 57,
       "dimX": 4,
@@ -4095,6 +4335,7 @@
     },
     {
       "entityType": "portal",
+      "respawnDurationMs": 3000,
       "initCellX": 25,
       "initCellY": 30,
       "dimX": 4,
@@ -4112,6 +4353,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 14,
       "initCellY": 28,
       "dimX": 5,
@@ -4129,6 +4371,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 4,
       "initCellY": 39,
       "dimX": 4,
@@ -4146,6 +4389,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 3,
       "initCellY": 41,
       "dimX": 2,
@@ -4163,6 +4407,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 3,
       "initCellY": 43,
       "dimX": 4,
@@ -4180,6 +4425,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 2,
       "initCellY": 47,
       "dimX": 5,
@@ -4197,6 +4443,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 53,
       "initCellY": 13,
       "dimX": 4,
@@ -4214,6 +4461,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 51,
       "initCellY": 11,
       "dimX": 4,
@@ -4231,6 +4479,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 48,
       "initCellY": 10,
       "dimX": 5,
@@ -4248,6 +4497,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 47,
       "initCellY": 32,
       "dimX": 2,
@@ -4265,6 +4515,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 38,
       "initCellY": 25,
       "dimX": 5,
@@ -4282,6 +4533,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 30,
       "initCellY": 45,
       "dimX": 2,
@@ -4299,6 +4551,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 53,
       "initCellY": 58,
       "dimX": 4,
@@ -4316,6 +4569,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 53,
       "initCellY": 45,
       "dimX": 4,
@@ -4333,6 +4587,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 53,
       "initCellY": 39,
       "dimX": 3,
@@ -4350,6 +4605,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 20,
       "initCellY": 51,
       "dimX": 3,
@@ -4367,6 +4623,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 16,
       "initCellY": 49,
       "dimX": 4,
@@ -4384,6 +4641,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 13,
       "initCellY": 2,
       "dimX": 2,
@@ -4401,6 +4659,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 4,
       "initCellY": 4,
       "dimX": 6,
@@ -4418,6 +4677,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 8,
       "initCellY": 11,
       "dimX": 6,
@@ -4435,6 +4695,7 @@
     },
     {
       "entityType": "resource",
+      "respawnDurationMs": 3000,
       "initCellX": 32,
       "initCellY": 18,
       "dimX": 3,
@@ -4458,6 +4719,9 @@
   "status": "published",
   "thumbnail": "6a9ebf08dbd096a8f6f7c3c2",
   "preview": "6a9ebf08dbd096a8f6f7c3c3",
+  "media": null,
+  "worldX": null,
+  "worldY": null,
   "gridX": 64,
   "gridY": 64,
   "cellWidth": 20,

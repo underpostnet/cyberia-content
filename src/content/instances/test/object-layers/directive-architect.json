@@ -1,0 +1,35 @@
+{
+  "_id": "6ae266047ae22dce99f96256",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "directive-architect",
+      "type": "skin",
+      "description": "A Singularity Directive systems architect in black, with lilac light at the collar and deep red lining.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 7,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 3
+    },
+    "render": {
+      "cid": "bafkreid5hroywlltjcvvrmgczf332svvi3d37qojrfbbpbsfk322ifuwz4",
+      "metadataCid": "bafkreihwt52grwm4hmvgqigrgfhhbyyfl4gt7cg63mlwgcb5etp6rufzre"
+    }
+  },
+  "cid": "bafkreibxzylzlaqbmdor2zzd2xqmjzlrmsof6fst2grtmgyfgtjhyv6jhi",
+  "contentHash": "37ce1795820160dd1d6723d5e0c4e571649c5f1653d1a3361b0534d27c57c93a",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-28T21:15:48.863Z",
+  "updatedAt": "2026-10-28T21:33:58.569Z",
+  "__v": 0
+}

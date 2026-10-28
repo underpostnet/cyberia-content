@@ -1,0 +1,35 @@
+{
+  "_id": "6ae2660c7ae22dce99f9625a",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "directive-prime",
+      "type": "skin",
+      "description": "The speaker of the Singularity Directive: a synthetic body of white shell and blue light with no face.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 6,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreibpxd4sll6ruwino3i3nogbyrafr2n47tha4zu2ak2ge4lrkfg2xy",
+      "metadataCid": "bafkreidznl5jge2bwrqo37amwwmifd6c6tlq6yndnm4z5fzc55n4hg3i3u"
+    }
+  },
+  "cid": "bafkreici4vf23htpvgwni23igcxw3dmhug43fwzbrcsjxpd4yuby347k7y",
+  "contentHash": "48e54bad9e6fa9acd46b6830af6d8d87a1b9b2db2188a49bbc7cc5038df3eafe",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-28T21:15:56.897Z",
+  "updatedAt": "2026-10-28T21:33:59.353Z",
+  "__v": 0
+}

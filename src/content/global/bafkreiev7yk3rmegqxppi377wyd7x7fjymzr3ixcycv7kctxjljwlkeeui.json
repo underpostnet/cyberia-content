@@ -1,0 +1,97 @@
+{
+  "definition": {
+    "schemaVersion": 1,
+    "profile": {
+      "id": "cyberia",
+      "version": 2
+    },
+    "data": {
+      "item": {
+        "id": "predictive-core",
+        "type": "resource",
+        "description": "A Nova forecasting module that models the choices of a crowd.",
+        "activable": false
+      },
+      "stats": {
+        "effect": 0,
+        "resistance": 0,
+        "agility": 0,
+        "range": 0,
+        "intelligence": 0,
+        "utility": 0
+      },
+      "render": {
+        "cid": "bafkreidtydaxc5muatnyv5bmrwekyr242rufsxkmqkie6vvpgf5fgw73fa",
+        "metadataCid": "bafkreiak2jv4hlasiktt2iikktvszocc3o63zumo2xxfzahmqizfe5vodm"
+      }
+    }
+  },
+  "render": {
+    "layout": {
+      "itemKey": "predictive-core",
+      "atlasWidth": 32,
+      "atlasHeight": 32,
+      "cellPixelDim": 1,
+      "upscaleFactor": 20,
+      "frame_duration": 100,
+      "frames": {
+        "up_idle": [],
+        "down_idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 16,
+            "height": 16,
+            "frameIndex": 0
+          }
+        ],
+        "right_idle": [],
+        "left_idle": [],
+        "up_right_idle": [],
+        "down_right_idle": [],
+        "up_left_idle": [],
+        "down_left_idle": [],
+        "default_idle": [
+          {
+            "x": 16,
+            "y": 0,
+            "width": 16,
+            "height": 16,
+            "frameIndex": 0
+          }
+        ],
+        "up_walking": [],
+        "down_walking": [],
+        "right_walking": [],
+        "left_walking": [],
+        "up_right_walking": [],
+        "down_right_walking": [],
+        "up_left_walking": [],
+        "down_left_walking": [],
+        "none_idle": [
+          {
+            "x": 0,
+            "y": 16,
+            "width": 16,
+            "height": 16,
+            "frameIndex": 0
+          }
+        ]
+      }
+    },
+    "primary": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAl0lEQVR4Ae3BsQ2DMABE0e9r2YPKC7n1AszCAm69kCv2SE1EhyIKE4iuCO/x9wIHhnFa6fRa5sCHYZxWOgkzYSbMxEmtVK5opbInOrVS2cSc+EYrlU3MiT3RKebEFTEnjggzYSbMhJl4PMwCB4ZxWun0WubABcJMmAkzcVIrlTuJTq1UNjEn7iQ6xZz4BWEmzISZMBMPszctABvOkO+I8gAAAABJRU5ErkJggg=="
+  },
+  "itemIds": [
+    "predictive-core"
+  ],
+  "registration": {
+    "reason": "catalog",
+    "by": "export-live 1793224525168",
+    "registeredAt": "2026-10-28T21:58:24.926Z",
+    "provenance": {
+      "domain": "localhost:4017",
+      "createdBy": "66bcdbc25c813ef40a58073f",
+      "createdAt": "2026-10-28T21:17:45.177Z"
+    }
+  }
+}

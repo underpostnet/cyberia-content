@@ -1,0 +1,35 @@
+{
+  "_id": "6ae266147ae22dce99f9625e",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "instance-diver",
+      "type": "skin",
+      "description": "A quiet diver with dark brown hair and pale skin, dressed plainly for long hours in an Instance.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 0,
+      "agility": 8,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreic62idpqaugxqxyssqpidx527nrmbh4u3zquahv2omdwiajvggkcm",
+      "metadataCid": "bafkreigmwcp2owngvpzsljnovnnrw2ynsna7x4c3kr4ddwcv4nwzamovg4"
+    }
+  },
+  "cid": "bafkreiaghfrjyxmp6ifupkgg4ylqlabcqzdilf3bhf3ff5eprtn4ht25za",
+  "contentHash": "0639629c5d8ff20b47a8c6e6170580228646859761397652f48f8cdbc3cf5dc8",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-28T21:16:04.860Z",
+  "updatedAt": "2026-10-28T21:34:00.673Z",
+  "__v": 0
+}

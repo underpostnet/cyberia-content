@@ -7,11 +7,12 @@
     "test"
   ],
   "creator": "66bcdbc25c813ef40a58073f",
-  "status": "published",
+  "status": "unlisted",
   "thumbnail": "6aa32d4ae419e76dc1b6cd91",
   "cyberiaMapCodes": [
     "test-a",
-    "test-b"
+    "test-b",
+    "archive-halls"
   ],
   "portals": [
     {
@@ -27,9 +28,18 @@
       "sourceMapCode": "test-b",
       "sourceCellX": 21,
       "sourceCellY": 42,
+      "targetMapCode": "archive-halls",
+      "targetCellX": 19,
+      "targetCellY": 4,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "archive-halls",
+      "sourceCellX": 50,
+      "sourceCellY": 31,
       "targetMapCode": "test-a",
-      "targetCellX": 25,
-      "targetCellY": 30,
+      "targetCellX": 5,
+      "targetCellY": 57,
       "portalMode": "inter-portal"
     },
     {
@@ -37,38 +47,102 @@
       "sourceCellX": 5,
       "sourceCellY": 57,
       "targetMapCode": "test-a",
-      "targetCellX": 25,
-      "targetCellY": 30,
-      "portalMode": "intra-portal"
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "intra-random"
     },
     {
       "sourceMapCode": "test-a",
       "sourceCellX": 25,
       "sourceCellY": 30,
-      "targetMapCode": "test-b",
-      "targetCellX": 11,
-      "targetCellY": 8,
+      "targetMapCode": "archive-halls",
+      "targetCellX": 20,
+      "targetCellY": 50,
       "portalMode": "inter-portal"
     },
     {
       "sourceMapCode": "test-b",
       "sourceCellX": 11,
       "sourceCellY": 8,
-      "targetMapCode": "test-a",
-      "targetCellX": -1,
-      "targetCellY": -1,
-      "portalMode": "inter-random"
+      "targetMapCode": "test-b",
+      "targetCellX": 21,
+      "targetCellY": 42,
+      "portalMode": "intra-portal"
     },
     {
       "sourceMapCode": "test-b",
       "sourceCellX": 56,
       "sourceCellY": 44,
       "targetMapCode": "test-b",
-      "targetCellX": 11,
-      "targetCellY": 8,
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "intra-random"
+    },
+    {
+      "sourceMapCode": "archive-halls",
+      "sourceCellX": 9,
+      "sourceCellY": 25,
+      "targetMapCode": "archive-halls",
+      "targetCellX": 47,
+      "targetCellY": 57,
       "portalMode": "intra-portal"
+    },
+    {
+      "sourceMapCode": "archive-halls",
+      "sourceCellX": 20,
+      "sourceCellY": 50,
+      "targetMapCode": "test-b",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "inter-random"
+    },
+    {
+      "sourceMapCode": "archive-halls",
+      "sourceCellX": 47,
+      "sourceCellY": 57,
+      "targetMapCode": "test-b",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "inter-random"
+    },
+    {
+      "sourceMapCode": "archive-halls",
+      "sourceCellX": 46,
+      "sourceCellY": 5,
+      "targetMapCode": "archive-halls",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "intra-random"
+    },
+    {
+      "sourceMapCode": "archive-halls",
+      "sourceCellX": 19,
+      "sourceCellY": 4,
+      "targetMapCode": "test-b",
+      "targetCellX": 21,
+      "targetCellY": 42,
+      "portalMode": "inter-portal"
     }
   ],
+  "mapLayout": [
+    {
+      "mapCode": "test-a",
+      "x": 2,
+      "y": 0
+    },
+    {
+      "mapCode": "test-b",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "mapCode": "archive-halls",
+      "x": 0,
+      "y": 1
+    }
+  ],
+  "preview": "6ae26a891b8439165615f451",
+  "previewKey": "444da36844073504ad50d372383dfcc9",
   "playerSpawn": {
     "sourceMapCode": "",
     "sourceCellX": 0,
@@ -78,11 +152,8 @@
   "seed": "",
   "topologyMode": "hybrid",
   "conf": "69ebf8d6c4913d7b6bdd6e43",
+  "revision": 6,
   "createdAt": "2026-04-18T17:10:30.346Z",
-  "updatedAt": "2026-10-19T23:50:57.620Z",
-  "__v": 0,
-  "preview": "6ad6a974071244c9e9717b95",
-  "previewKey": "476a8d199f51522060e7ac89b9c14b68",
-  "mapLayout": [],
-  "revision": 5
+  "updatedAt": "2026-10-28T21:34:02.581Z",
+  "__v": 0
 }
