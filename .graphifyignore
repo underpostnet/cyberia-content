@@ -1,0 +1,4 @@
+# Allowlist: scan the code under src/ only, not the content data.
+/*
+!/src/
+/src/content/

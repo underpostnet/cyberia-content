@@ -1,0 +1,9 @@
+{
+  "stampVersion": 1,
+  "graphify": "0.9.97",
+  "inputs": "sha256:a4e27797c2b663035bcb9f3b79c5c003bd565d1cd7f3fcd45c702f1b87e9cfe6",
+  "files": {
+    "GRAPH_REPORT.md": "13193c6ccf78e377287d37f063890876def53030",
+    "graph.json": "6d22fb4687f42ad8ac69d363e37cee53b199c67a"
+  }
+}
