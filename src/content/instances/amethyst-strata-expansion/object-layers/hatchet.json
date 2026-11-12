@@ -1,0 +1,35 @@
+{
+  "_id": "6ae37101193d8ac05776f573",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "hatchet",
+      "type": "weapon",
+      "description": "A frontier hatchet with a steel head and a timber handle, balanced for throwing.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 8,
+      "resistance": 2,
+      "agility": 5,
+      "range": 4,
+      "intelligence": 1,
+      "utility": 3
+    },
+    "render": {
+      "cid": "",
+      "metadataCid": ""
+    }
+  },
+  "cid": "bafkreib2bhiyj6bntrcwe4ezhtxio7quwvbueaw7fyexgt3mqza65m27fq",
+  "contentHash": "3a09d184f82d9c456270993cee877e14b5434202df2e09734f6c8641eeb35f2c",
+  "createdBy": "",
+  "archivedAt": null,
+  "createdAt": "2026-10-29T16:14:57.926Z",
+  "updatedAt": "2026-10-29T16:16:17.982Z",
+  "__v": 0
+}

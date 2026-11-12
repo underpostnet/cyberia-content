@@ -1,0 +1,62 @@
+{
+  "_id": "6ae37c21a75a1efa0282ea0f",
+  "objectLayerCid": "bafkreig3bz4rql3c3j6v2hvdwoerbxex7qtwiszxpw2azrbjil4r7whr6u",
+  "__v": 0,
+  "createdAt": "2026-10-29T17:02:25.005Z",
+  "fileId": "a520c905cd3dffba1ecffaf9",
+  "idlePreviewFileId": "3b307af86d433ac087070d91",
+  "metadata": {
+    "itemKey": "scrap-alloy",
+    "atlasWidth": 32,
+    "atlasHeight": 32,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 100,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 0,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-29T17:02:25.005Z",
+  "upscaleFileId": "0ec15b8e450606167d710269"
+}
