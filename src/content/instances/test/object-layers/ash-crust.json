@@ -1,0 +1,35 @@
+{
+  "_id": "6ae37b6d86926587d41908e5",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "ash-crust",
+      "type": "floor",
+      "description": "A crust of grey ash over dead soil, cracked in hexagons where it dried.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreiakvor5ycir5t2kcuop4crrmpyuri5n4bvjfaqc3mizwrs5cld4pu",
+      "metadataCid": "bafkreib2ntbwpqjfu4pd6fftmtlfolhlxly75rb2bnviogostydwzbt73u"
+    }
+  },
+  "cid": "bafkreiaflxqzjuqyjyiupj5j6uzq2yammwr5qqlxpwp2dzru2ozalaxj4m",
+  "contentHash": "055de194d2184e1147a7a9f5330d600c65a3d841777d9fa1e634d3b20582e9e3",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-29T16:59:25.584Z",
+  "updatedAt": "2026-10-29T17:06:31.866Z",
+  "__v": 0
+}

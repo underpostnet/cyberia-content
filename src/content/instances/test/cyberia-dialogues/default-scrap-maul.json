@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6ae37106193d8ac05776f633",
+    "code": "default-scrap-maul",
+    "order": 0,
+    "speaker": "Scrap Maul",
+    "text": "A heavy maul welded from a pipe and an engine block.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-10-29T16:15:02.952Z",
+    "updatedAt": "2026-10-29T16:15:02.952Z"
+  }
+]

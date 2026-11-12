@@ -1,0 +1,35 @@
+{
+  "_id": "6ae37b7d86926587d419091d",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "collapsed-tower",
+      "type": "obstacle",
+      "description": "The broken base of a pre-Cataclysm tower, its floors pancaked into a slope of concrete.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreicdikzefa3slpsrstwjse5zod3fe4ijv6oxgg377dndslci2rxqzy",
+      "metadataCid": "bafkreiewufz3a7hrcyv2bb4zcq4w7uule7mxhgqjncwvufwixmx3kx5k3y"
+    }
+  },
+  "cid": "bafkreicudrfp6vlzhroyruay3ub43ipypnifv67iuvcny7rbzqsuht5pzy",
+  "contentHash": "541c4aff55793c5d88d018dd03cda1f87b505afbe8a544dc7e21cc2543cfafce",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-29T16:59:41.505Z",
+  "updatedAt": "2026-10-29T17:06:33.183Z",
+  "__v": 0
+}

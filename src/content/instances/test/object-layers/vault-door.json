@@ -1,0 +1,35 @@
+{
+  "_id": "6ae37b8586926587d4190939",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "vault-door",
+      "type": "obstacle",
+      "description": "The sealed round door of a pre-Cataclysm bunker, set into a slope of concrete.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreibwlucj3no2qbwzsbenpuj64z6yzfiqmvva55wcqabm4bb4i6ksxq",
+      "metadataCid": "bafkreicvgl23upt3pov5jisynlafw4qk3ro76kjmxcqjayxoya47d2h7zm"
+    }
+  },
+  "cid": "bafkreidjjb5urti5ifuc2skfg3pyf5icakpvngm5ypm54akor3lutw3fgy",
+  "contentHash": "69487b48cd1d41682d494536df82f502029f56999dc3d9de014e8ed749db6536",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-29T16:59:49.522Z",
+  "updatedAt": "2026-10-29T17:06:34.008Z",
+  "__v": 0
+}

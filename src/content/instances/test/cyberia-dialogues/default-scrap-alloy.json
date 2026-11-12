@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6ae37106193d8ac05776f610",
+    "code": "default-scrap-alloy",
+    "order": 0,
+    "speaker": "Scrap Alloy",
+    "text": "A bundle of salvaged plate and wire, sorted for reuse.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-10-29T16:15:02.193Z",
+    "updatedAt": "2026-10-29T16:15:02.193Z"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6ae37105193d8ac05776f5fd",
+    "code": "default-ash-lichen",
+    "order": 0,
+    "speaker": "Ash Lichen",
+    "text": "A pale lichen that grows on ash and concrete and glows faintly at dusk.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-10-29T16:15:01.784Z",
+    "updatedAt": "2026-10-29T16:15:01.784Z"
+  }
+]

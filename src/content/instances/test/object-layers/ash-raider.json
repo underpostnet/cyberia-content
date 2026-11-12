@@ -1,0 +1,35 @@
+{
+  "_id": "6ae37b7586926587d4190901",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "ash-raider",
+      "type": "skin",
+      "description": "A Mutagen raider in scavenged plates bound with red cloth, ash ground into every seam.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 1,
+      "resistance": 2,
+      "agility": 6,
+      "range": 0,
+      "intelligence": 2,
+      "utility": 5
+    },
+    "render": {
+      "cid": "bafkreif46yq7trcsnzyu57nyxkm3pfvdaq2oyf2c3wmfawvoe2zjgwogea",
+      "metadataCid": "bafkreifzjvzhfsfn2a5mgl4eumaatjv4togvagy6rqt4ehzizsrfgd3fqa"
+    }
+  },
+  "cid": "bafkreidyr3ia2eqqwrersugvwlyyhr7u3hoe2o3yk45vkhsjely7kxs2xy",
+  "contentHash": "788ed00d1210b4491950d5b2f183c7f4d9dc4d3b78573b551e4922f1f55e5abe",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-29T16:59:33.713Z",
+  "updatedAt": "2026-10-29T17:06:32.760Z",
+  "__v": 0
+}

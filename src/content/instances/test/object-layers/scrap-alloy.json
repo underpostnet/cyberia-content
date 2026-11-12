@@ -1,0 +1,35 @@
+{
+  "_id": "6ae37c2086926587d4190977",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "scrap-alloy",
+      "type": "resource",
+      "description": "A bundle of salvaged plate and wire, sorted for reuse.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreiavi627n4xgrqzml5gu3tcaxjlxnfrrnlbsxltu36v3v6a2gpjnsq",
+      "metadataCid": "bafkreidoaoxfweukevzgoirwr5hmdtlzsb6hfie37poxb5dmqexilylgqy"
+    }
+  },
+  "cid": "bafkreig3bz4rql3c3j6v2hvdwoerbxex7qtwiszxpw2azrbjil4r7whr6u",
+  "contentHash": "db0e79182f62da7d5d1ea3b38910dc97fc27644b377db40cc42942f91fd8f1f5",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-29T17:02:24.958Z",
+  "updatedAt": "2026-10-29T17:06:34.566Z",
+  "__v": 0
+}

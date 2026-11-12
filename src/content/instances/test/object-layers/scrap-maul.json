@@ -1,0 +1,35 @@
+{
+  "_id": "6ae37bf086926587d419095e",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "scrap-maul",
+      "type": "weapon",
+      "description": "A heavy maul welded from a pipe and an engine block.",
+      "activable": true
+    },
+    "stats": {
+      "effect": 16,
+      "resistance": -4,
+      "agility": -5,
+      "range": 1,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreieoivmyahszpxsxxcjgc624obkfef3kvf2yabqaya3iy6htpbiz3a",
+      "metadataCid": "bafkreifmdih24c4l657nupnldeoqn2vai6vq5u2q3qocvumwjlnw5ateli"
+    }
+  },
+  "cid": "bafkreieijjtk7fbv5eiylfajlxrugtyts25ozurm2o7ot2iibp5usnkuqm",
+  "contentHash": "884a66af9435e9118594095de3434f1396baecd22cd3bee9e9080bfb49355483",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-29T17:01:36.607Z",
+  "updatedAt": "2026-10-29T17:06:33.667Z",
+  "__v": 0
+}

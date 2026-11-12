@@ -12,7 +12,8 @@
   "cyberiaMapCodes": [
     "test-a",
     "test-b",
-    "archive-halls"
+    "archive-halls",
+    "ash-plain"
   ],
   "portals": [
     {
@@ -29,54 +30,63 @@
       "sourceCellX": 21,
       "sourceCellY": 42,
       "targetMapCode": "archive-halls",
-      "targetCellX": 19,
-      "targetCellY": 4,
+      "targetCellX": 20,
+      "targetCellY": 50,
       "portalMode": "inter-portal"
     },
     {
       "sourceMapCode": "archive-halls",
       "sourceCellX": 50,
       "sourceCellY": 31,
-      "targetMapCode": "test-a",
+      "targetMapCode": "ash-plain",
       "targetCellX": 5,
-      "targetCellY": 57,
+      "targetCellY": 9,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "ash-plain",
+      "sourceCellX": 32,
+      "sourceCellY": 54,
+      "targetMapCode": "test-a",
+      "targetCellX": 25,
+      "targetCellY": 30,
       "portalMode": "inter-portal"
     },
     {
       "sourceMapCode": "test-a",
       "sourceCellX": 5,
       "sourceCellY": 57,
-      "targetMapCode": "test-a",
-      "targetCellX": -1,
-      "targetCellY": -1,
-      "portalMode": "intra-random"
+      "targetMapCode": "archive-halls",
+      "targetCellX": 50,
+      "targetCellY": 31,
+      "portalMode": "inter-portal"
     },
     {
       "sourceMapCode": "test-a",
       "sourceCellX": 25,
       "sourceCellY": 30,
-      "targetMapCode": "archive-halls",
-      "targetCellX": 20,
-      "targetCellY": 50,
-      "portalMode": "inter-portal"
+      "targetMapCode": "ash-plain",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "inter-random"
     },
     {
       "sourceMapCode": "test-b",
       "sourceCellX": 11,
       "sourceCellY": 8,
-      "targetMapCode": "test-b",
-      "targetCellX": 21,
-      "targetCellY": 42,
-      "portalMode": "intra-portal"
+      "targetMapCode": "ash-plain",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "inter-random"
     },
     {
       "sourceMapCode": "test-b",
       "sourceCellX": 56,
       "sourceCellY": 44,
       "targetMapCode": "test-b",
-      "targetCellX": -1,
-      "targetCellY": -1,
-      "portalMode": "intra-random"
+      "targetCellX": 11,
+      "targetCellY": 8,
+      "portalMode": "intra-portal"
     },
     {
       "sourceMapCode": "archive-halls",
@@ -91,24 +101,6 @@
       "sourceMapCode": "archive-halls",
       "sourceCellX": 20,
       "sourceCellY": 50,
-      "targetMapCode": "test-b",
-      "targetCellX": -1,
-      "targetCellY": -1,
-      "portalMode": "inter-random"
-    },
-    {
-      "sourceMapCode": "archive-halls",
-      "sourceCellX": 47,
-      "sourceCellY": 57,
-      "targetMapCode": "test-b",
-      "targetCellX": -1,
-      "targetCellY": -1,
-      "portalMode": "inter-random"
-    },
-    {
-      "sourceMapCode": "archive-halls",
-      "sourceCellX": 46,
-      "sourceCellY": 5,
       "targetMapCode": "archive-halls",
       "targetCellX": -1,
       "targetCellY": -1,
@@ -116,12 +108,57 @@
     },
     {
       "sourceMapCode": "archive-halls",
+      "sourceCellX": 47,
+      "sourceCellY": 57,
+      "targetMapCode": "test-a",
+      "targetCellX": 57,
+      "targetCellY": 3,
+      "portalMode": "inter-portal"
+    },
+    {
+      "sourceMapCode": "archive-halls",
+      "sourceCellX": 46,
+      "sourceCellY": 5,
+      "targetMapCode": "archive-halls",
+      "targetCellX": 50,
+      "targetCellY": 31,
+      "portalMode": "intra-portal"
+    },
+    {
+      "sourceMapCode": "archive-halls",
       "sourceCellX": 19,
       "sourceCellY": 4,
-      "targetMapCode": "test-b",
-      "targetCellX": 21,
-      "targetCellY": 42,
-      "portalMode": "inter-portal"
+      "targetMapCode": "ash-plain",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "inter-random"
+    },
+    {
+      "sourceMapCode": "ash-plain",
+      "sourceCellX": 5,
+      "sourceCellY": 9,
+      "targetMapCode": "ash-plain",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "intra-random"
+    },
+    {
+      "sourceMapCode": "ash-plain",
+      "sourceCellX": 17,
+      "sourceCellY": 20,
+      "targetMapCode": "ash-plain",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "intra-random"
+    },
+    {
+      "sourceMapCode": "ash-plain",
+      "sourceCellX": 40,
+      "sourceCellY": 3,
+      "targetMapCode": "ash-plain",
+      "targetCellX": -1,
+      "targetCellY": -1,
+      "portalMode": "intra-random"
     }
   ],
   "mapLayout": [
@@ -139,10 +176,15 @@
       "mapCode": "archive-halls",
       "x": 0,
       "y": 1
+    },
+    {
+      "mapCode": "ash-plain",
+      "x": 1,
+      "y": -1
     }
   ],
-  "preview": "6ae26a891b8439165615f451",
-  "previewKey": "444da36844073504ad50d372383dfcc9",
+  "preview": "6ae37dd386926587d4190bb1",
+  "previewKey": "6c0d84c91a9485e683f03a32f8ef2b98",
   "playerSpawn": {
     "sourceMapCode": "",
     "sourceCellX": 0,
@@ -152,8 +194,8 @@
   "seed": "",
   "topologyMode": "hybrid",
   "conf": "69ebf8d6c4913d7b6bdd6e43",
-  "revision": 6,
+  "revision": 7,
   "createdAt": "2026-04-18T17:10:30.346Z",
-  "updatedAt": "2026-10-28T21:34:02.581Z",
+  "updatedAt": "2026-10-29T17:06:34.882Z",
   "__v": 0
 }

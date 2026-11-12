@@ -3,24 +3,6 @@
   "code": "archive-halls",
   "name": "Archive Halls",
   "description": "Endless tiled halls of a civic Instance, where Nova indexes every record and the Conclave sings the lost ones.",
-  "tags": [
-    "archive-instance",
-    "hyperspace"
-  ],
-  "status": "unlisted",
-  "media": {
-    "revision": 3,
-    "status": "ready",
-    "error": "",
-    "at": "2026-10-29T12:33:05.987Z"
-  },
-  "worldX": null,
-  "worldY": null,
-  "gridX": 64,
-  "gridY": 64,
-  "cellWidth": 10,
-  "cellHeight": 10,
-  "revision": 3,
   "entities": [
     {
       "entityType": "floor",
@@ -3732,9 +3714,27 @@
       "_id": "6ae33d011b8439165615fe5b"
     }
   ],
-  "createdAt": "2026-10-28T21:06:29.538Z",
-  "updatedAt": "2026-10-29T12:33:05.785Z",
-  "__v": 0,
+  "tags": [
+    "archive-instance",
+    "hyperspace"
+  ],
+  "status": "unlisted",
+  "thumbnail": null,
   "preview": "6ae26a4a1b8439165615f446",
-  "thumbnail": null
+  "media": {
+    "revision": 3,
+    "status": "ready",
+    "error": "",
+    "at": "2026-10-29T12:33:05.987Z"
+  },
+  "worldX": null,
+  "worldY": null,
+  "gridX": 64,
+  "gridY": 64,
+  "cellWidth": 10,
+  "cellHeight": 10,
+  "revision": 3,
+  "createdAt": "2026-10-28T21:06:29.538Z",
+  "updatedAt": "2026-10-28T21:06:29.538Z",
+  "__v": 0
 }

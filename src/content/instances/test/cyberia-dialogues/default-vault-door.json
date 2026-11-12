@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6ae37105193d8ac05776f5f1",
+    "code": "default-vault-door",
+    "order": 0,
+    "speaker": "Vault Door",
+    "text": "The sealed round door of a pre-Cataclysm bunker, set into a slope of concrete.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-10-29T16:15:01.526Z",
+    "updatedAt": "2026-10-29T16:15:01.526Z"
+  }
+]

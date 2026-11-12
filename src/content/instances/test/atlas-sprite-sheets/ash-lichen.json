@@ -1,0 +1,62 @@
+{
+  "_id": "6ae37bc5a75a1efa0282ea07",
+  "objectLayerCid": "bafkreigctmqw67ifnns7hdjc2m2qleg6a4x2lq3nuprfsdcrd66grws4pi",
+  "__v": 0,
+  "createdAt": "2026-10-29T17:00:53.689Z",
+  "fileId": "59e290a67f9a7a320d6d7abd",
+  "idlePreviewFileId": "9af8883744706e65bb388c64",
+  "metadata": {
+    "itemKey": "ash-lichen",
+    "atlasWidth": 32,
+    "atlasHeight": 32,
+    "cellPixelDim": 1,
+    "upscaleFactor": 20,
+    "frame_duration": 100,
+    "frames": {
+      "up_idle": [],
+      "down_idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        }
+      ],
+      "right_idle": [],
+      "left_idle": [],
+      "up_right_idle": [],
+      "down_right_idle": [],
+      "up_left_idle": [],
+      "down_left_idle": [],
+      "default_idle": [
+        {
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        }
+      ],
+      "up_walking": [],
+      "down_walking": [],
+      "right_walking": [],
+      "left_walking": [],
+      "up_right_walking": [],
+      "down_right_walking": [],
+      "up_left_walking": [],
+      "down_left_walking": [],
+      "none_idle": [
+        {
+          "x": 0,
+          "y": 16,
+          "width": 16,
+          "height": 16,
+          "frameIndex": 0
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-10-29T17:00:53.689Z",
+  "upscaleFileId": "343eabff636402eb14ab84a9"
+}

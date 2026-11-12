@@ -1,0 +1,35 @@
+{
+  "_id": "6ae37bc586926587d419094d",
+  "schemaVersion": 1,
+  "profile": {
+    "id": "cyberia",
+    "version": 2
+  },
+  "data": {
+    "item": {
+      "id": "ash-lichen",
+      "type": "static",
+      "description": "A pale lichen that grows on ash and concrete and glows faintly at dusk.",
+      "activable": false
+    },
+    "stats": {
+      "effect": 0,
+      "resistance": 0,
+      "agility": 0,
+      "range": 0,
+      "intelligence": 0,
+      "utility": 0
+    },
+    "render": {
+      "cid": "bafkreiegomadjd2xrtnhfarohweu42kdnjut4guxsanltlwbvzf5qbxktm",
+      "metadataCid": "bafkreibxe3ugoceyfw3lno6z7ajib4ukco2xhydhxzrqlffj5qcltg2f7e"
+    }
+  },
+  "cid": "bafkreigctmqw67ifnns7hdjc2m2qleg6a4x2lq3nuprfsdcrd66grws4pi",
+  "contentHash": "c29b216f7d056b65f38d22d3350590de072fa5c36da3e2590c511fbc68da5c7a",
+  "createdBy": "66bcdbc25c813ef40a58073f",
+  "archivedAt": null,
+  "createdAt": "2026-10-29T17:00:53.639Z",
+  "updatedAt": "2026-10-29T17:06:32.191Z",
+  "__v": 0
+}

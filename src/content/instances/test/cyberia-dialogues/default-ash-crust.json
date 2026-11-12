@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6ae37104193d8ac05776f5d9",
+    "code": "default-ash-crust",
+    "order": 0,
+    "speaker": "Ash Crust",
+    "text": "A crust of grey ash over dead soil, cracked in hexagons where it dried.",
+    "mood": "neutral",
+    "__v": 0,
+    "createdAt": "2026-10-29T16:15:00.976Z",
+    "updatedAt": "2026-10-29T16:15:00.976Z"
+  }
+]
