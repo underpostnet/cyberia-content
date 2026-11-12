@@ -2,8 +2,9 @@ import { afterAll, describe, expect, it } from 'vitest';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { CONTENT_ROOT } from '../src/foundation.js';
-import { readContent } from '../src/validation/content.js';
+import { CONTENT_ROOT, CONTENT_VERSION } from '../src/foundation.js';
+import { PACKAGE_SCHEMA_VERSION } from '../src/generator/package.js';
+import { checkPackage, readContent } from '../src/validation/content.js';
 import { canonicalJson, formatContent, formatFindings } from '../src/validation/format.js';
 
 const scratch = fs.mkdtempSync(path.join(os.tmpdir(), 'cyberia-content-'));
@@ -116,6 +117,102 @@ describe('global content', () => {
       `global/bafkrei${'d'.repeat(52)}.json: registration.reason must be one of import, catalog, owned`,
       `global/bafkrei${'e'.repeat(52)}.json: render must be null, or hold exactly layout and the primary render as base64`,
       'global/lantern-skin.json: must be named by the CID of its definition',
+    ]);
+  });
+});
+
+describe('sagas that share content', () => {
+  const ACTIVE = 'amethyst-strata-expansion';
+  const errand = (extra = []) => ({
+    schemaVersion: PACKAGE_SCHEMA_VERSION,
+    foundationVersion: CONTENT_VERSION,
+    saga: { code: 'sap-errand', name: 'Sap Errand', description: 'A merchant asks for sap.' },
+    references: ['character.drift-merchant', 'currency.coin', 'resource.purplish-sap-vial'],
+    definitions: [
+      {
+        id: 'action.sap-errand-post',
+        name: 'Sap Errand Post',
+        description: 'Where the merchant takes the sap.',
+        role: 'Offers the errand.',
+        provider: 'character.drift-merchant',
+      },
+      {
+        id: 'quest.sap-errand',
+        name: 'The Sap Errand',
+        description: 'Bring one vial of violet sap.',
+        role: 'The errand of the saga.',
+        provider: 'character.drift-merchant',
+        steps: [
+          {
+            id: 'bring',
+            description: 'Bring a vial.',
+            objectives: [{ type: 'collect', target: 'resource.purplish-sap-vial', quantity: 1 }],
+          },
+        ],
+        rewards: [{ item: 'currency.coin', quantity: 2 }],
+      },
+      ...extra,
+    ],
+  });
+  const sagaRoot = (name, packages) => {
+    const root = path.join(scratch, name);
+    fs.cpSync(path.join(CONTENT_ROOT, 'foundation'), path.join(root, 'foundation'), { recursive: true });
+    fs.mkdirSync(path.join(root, 'sagas'), { recursive: true });
+    fs.copyFileSync(path.join(CONTENT_ROOT, 'sagas', `${ACTIVE}.json`), path.join(root, 'sagas', `${ACTIVE}.json`));
+    for (const pkg of packages)
+      fs.writeFileSync(path.join(root, 'sagas', `${pkg.saga.code}.json`), canonicalJson(pkg));
+    return root;
+  };
+
+  it('resolves a reference to a definition of another saga', () => {
+    const root = sagaRoot('shared', [errand()]);
+    expect(readContent(root).findings).toEqual([]);
+    const { findings, compiled, context } = checkPackage(errand(), root);
+    expect(findings).toEqual([]);
+    expect(compiled.saga.itemIds).toContain('purplish-sap-vial');
+    expect(compiled.families.quests[0].steps[0].objectives[0].itemId).toBe('purplish-sap-vial');
+    expect(compiled.families.objectLayers).toEqual([]);
+    expect(context.sources).toMatchObject({
+      'quest.sap-errand': 'sap-errand',
+      'resource.purplish-sap-vial': ACTIVE,
+      'character.drift-merchant': 'foundation',
+    });
+    expect(context.referencedBy['resource.purplish-sap-vial']).toContainEqual({
+      field: 'steps.objectives.target',
+      id: 'quest.sap-errand',
+    });
+  });
+
+  it('uses maps of other sources as places, and leaves their owner and the instance shell alone', () => {
+    const pkg = { ...errand(), places: ['map.athel-ferrum-outpost', 'map.frontier-outpost'] };
+    const root = sagaRoot('places', [pkg]);
+    expect(readContent(root).findings).toEqual([]);
+    const { findings, compiled, context } = checkPackage(pkg, root);
+    expect(findings).toEqual([]);
+    expect(compiled.saga).toMatchObject({ mapCodes: [], placeCodes: ['athel-ferrum-outpost', 'frontier-outpost'] });
+    expect(compiled.instance.cyberiaMapCodes).toEqual([]);
+    expect(compiled.families.maps).toEqual([]);
+    expect(compiled.saga.questCodes).toEqual([
+      { providerSkinItemId: expect.any(String), questCode: 'sap-errand', mapCode: 'frontier-outpost' },
+    ]);
+    expect(context.sources).toMatchObject({
+      'map.athel-ferrum-outpost': ACTIVE,
+      'map.frontier-outpost': 'foundation',
+    });
+  });
+
+  it('refuses an id another saga defines and a package of an ignored saga', () => {
+    const root = sagaRoot('duplicate', []);
+    const { findings } = checkPackage(
+      errand([{ ...errand().definitions[0], id: 'action.interact-thon-zheng', name: 'Another Post' }]),
+      root,
+    );
+    expect(findings).toContainEqual({
+      id: 'action.interact-thon-zheng',
+      message: 'id is already used by action.interact-thon-zheng',
+    });
+    expect(checkPackage({ ...errand(), saga: { code: 'sagapatchwork-clinic', name: 'x' } }, root).findings).toEqual([
+      { id: 'package', message: 'saga sagapatchwork-clinic is ignored by the configuration' },
     ]);
   });
 });

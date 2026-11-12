@@ -10,6 +10,7 @@ import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { compileFoundation, compileSaga } from './compiler.js';
+import { sagaBase } from './foundation.js';
 import { slugOf } from './schema/definitions.js';
 import { canonicalJson } from './validation/format.js';
 
@@ -48,15 +49,19 @@ function namedItemIds({ entityTypeDefaults, actions, quests }, economy) {
  * The instance backup of a saga. The instance has the saga code. Every document except an Object
  * Layer item has an `_id` from the saga code and its natural key, so the same saga always gives
  * the same bytes. The instance runs the skills its items trigger, and holds every item it names
- * or summons, from the saga or the foundation.
+ * or summons, from the saga, the foundation or another saga.
  * @param {Object} pkg - A saga package the validator accepts.
  * @param {Object} registry - Foundation registry.
+ * @param {Map<string,Object>} [sagas] - The saga packages of the content, by code.
  * @returns {Map<string,Object>} Documents by file, relative to the instance directory.
- * @throws {Error} When the instance names an item neither the saga nor the foundation holds.
+ * @throws {Error} When the instance names an item no source holds.
  */
-export function sagaInstanceBackup(pkg, registry) {
-  const { saga, instance, families } = compileSaga(pkg, registry);
+export function sagaInstanceBackup(pkg, registry, sagas = new Map()) {
+  const { saga, instance, families } = compileSaga(pkg, sagaBase(registry, sagas, pkg.saga.code));
   const foundation = compileFoundation(registry).families;
+  const shared = [...sagas]
+    .filter(([code]) => code !== pkg.saga.code)
+    .map(([code, other]) => compileSaga(other, sagaBase(registry, sagas, code)).families);
   const { code } = saga;
   const idOf = (...key) => objectId(code, ...key);
   const files = new Map();
@@ -88,22 +93,29 @@ export function sagaInstanceBackup(pkg, registry) {
     files.set(`cyberia-actions/${action.code}.json`, { _id: idOf('action', action.code), ...action });
 
   const itemIds = namedItemIds(families, economy);
-  const skills = [...families.skills, ...foundation.skills].filter(({ triggerItemId }) => itemIds.has(triggerItemId));
+  const skills = [...families.skills, ...foundation.skills, ...shared.flatMap((other) => other.skills)].filter(
+    ({ triggerItemId }) => itemIds.has(triggerItemId),
+  );
   for (const skill of skills) {
     files.set(`cyberia-skills/${skill.triggerItemId}.json`, { _id: idOf('skill', skill.triggerItemId), ...skill });
     for (const { summonedEntityItemId } of skill.skills)
       if (isItemId(summonedEntityItemId)) itemIds.add(summonedEntityItemId);
   }
 
-  const items = new Map([...foundation.objectLayers, ...families.objectLayers].map((item) => [item.itemId, item]));
+  const items = new Map(
+    [...foundation.objectLayers, ...shared.flatMap((other) => other.objectLayers), ...families.objectLayers].map(
+      (item) => [item.itemId, item],
+    ),
+  );
   for (const itemId of [...itemIds].sort()) {
     const item = items.get(itemId);
-    if (!item) throw new Error(`Saga ${code} names item ${itemId}, which neither the saga nor the foundation holds`);
+    if (!item) throw new Error(`Saga ${code} names item ${itemId}, which no source holds`);
     files.set(`object-layers/${itemId}.json`, { data: { ...item.payload.data, render: {} } });
   }
 
   const lines = new Map([
     ...Map.groupBy(foundation.dialogues, (line) => line.code),
+    ...shared.flatMap((other) => [...Map.groupBy(other.dialogues, (line) => line.code)]),
     ...Map.groupBy(families.dialogues, (line) => line.code),
   ]);
   const dialogueCodes = [

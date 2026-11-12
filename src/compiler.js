@@ -340,7 +340,8 @@ export function compileFoundation(registry) {
 /**
  * A saga as runtime documents: the families of its own definitions, its CyberiaSaga record and
  * the shell of its instance. Its entity-type defaults also cover each foundation entity its maps
- * place, so its instance runs every entity it holds.
+ * place, so its instance runs every entity it holds. A place is a map of another source: the record
+ * names it, and the instance shell holds only the maps the saga defines.
  * @param {Object} pkg - A saga package the validator accepts.
  * @param {Object} registry - Foundation registry.
  * @returns {{saga:Object, instance:Object, families:Object<string,Object[]>}}
@@ -348,8 +349,11 @@ export function compileFoundation(registry) {
 export function compileSaga(pkg, registry) {
   const extended = extendRegistry(registry, pkg.definitions);
   const maps = ofKind(pkg.definitions, 'map');
+  const places = (pkg.places ?? []).map((id) => extended.definitions.get(id));
   const mapOf = (characterId) =>
-    slugOf(maps.find((map) => map.composition.some(({ entity }) => entity === characterId))?.id ?? '');
+    slugOf(
+      [...maps, ...places].find((map) => map.composition.some(({ entity }) => entity === characterId))?.id ?? '',
+    );
   const labeled = [...pkg.references, ...pkg.definitions.map(({ id }) => id)].filter(
     (id) => isLabeled(id) || kindOf(id) === 'character',
   );
@@ -363,6 +367,7 @@ export function compileSaga(pkg, registry) {
     references: pkg.references,
     definitions: pkg.definitions,
     mapCodes: maps.map(({ id }) => slugOf(id)),
+    placeCodes: places.map(({ id }) => slugOf(id)),
     itemIds: [...new Set(labeled.map((id) => labelOf(extended, id)))].sort(),
     questCodes: ofKind(pkg.definitions, 'quest').map((quest) => ({
       providerSkinItemId: skinOf(extended, quest.provider),

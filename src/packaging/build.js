@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { CONTENT_ROOT, ContentError } from '../foundation.js';
+import { CONTENT_ROOT, ContentError, sagaBase } from '../foundation.js';
 import { FAMILIES, compileContext, compileFoundation, compileSaga } from '../compiler.js';
 import { CONTRACT_FILE } from '../schema/contract.js';
 import { SCHEMA_VERSION } from '../schema/definitions.js';
@@ -46,7 +46,7 @@ export function artifactContent(root = CONTENT_ROOT) {
   json('procedural/genesis-templates.json', procedural.templates);
   json('procedural/palettes.json', { families: PALETTE_FAMILIES, palettes: procedural.palettes });
   for (const [code, pkg] of sagas) {
-    const { saga, instance, families: documents } = compileSaga(pkg, registry);
+    const { saga, instance, families: documents } = compileSaga(pkg, sagaBase(registry, sagas, code));
     json(`sagas/${code}/saga.json`, saga);
     json(`sagas/${code}/instance.json`, instance);
     families(`sagas/${code}`, documents);

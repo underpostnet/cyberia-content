@@ -163,6 +163,41 @@ describe('saga package normalization', () => {
     expect(canonicalJson(normalizePackage(pkg, { registry }))).toBe(canonicalJson(pkg));
   });
 
+  it('makes each gate between two quests of the saga hold both ways', () => {
+    const quest = (id, fields) => ({
+      id,
+      name: id,
+      description: 'A quest.',
+      role: 'A quest.',
+      provider: 'character.mara-vex',
+      steps: [
+        { id: 'go', description: 'Go.', objectives: [{ type: 'talk', target: 'character.mara-vex', quantity: 1 }] },
+      ],
+      ...fields,
+    });
+    const raw = rawPackage();
+    raw.definitions.push(
+      quest('quest.first-watch', { unlocks: ['quest.second-watch'] }),
+      quest('quest.second-watch', {}),
+      quest('quest.third-watch', { prerequisites: ['quest.second-watch', 'quest.raider-toll'] }),
+    );
+    const byId = new Map(
+      normalizePackage(raw, { registry }).definitions.map((definition) => [definition.id, definition]),
+    );
+    expect(byId.get('quest.second-watch')).toMatchObject({
+      prerequisites: ['quest.first-watch'],
+      unlocks: ['quest.third-watch'],
+    });
+    expect(byId.get('quest.third-watch').prerequisites).toEqual(['quest.second-watch', 'quest.raider-toll']);
+  });
+
+  it('drops a reference that names a kind alone', () => {
+    const raw = rawPackage();
+    raw.definitions[0].artBrief = { ...brief, matches: ['relic', 'Weapon.Ash Repeater'] };
+    const [weapon] = normalizePackage(raw, { registry }).definitions.filter(({ id }) => id === 'weapon.ash-repeater');
+    expect(weapon.artBrief.matches).toEqual(['weapon.ash-repeater']);
+  });
+
   it('slugifies free text into codes', () => {
     expect(slugify('  The Bloom — Apex!  ')).toBe('the-bloom-apex');
   });
@@ -185,15 +220,33 @@ describe('saga package validation', () => {
   it('refuses world kinds, unknown fields, a stale format and references that drift', () => {
     const result = findings((pkg) => {
       pkg.schemaVersion = 1;
-      pkg.places = [];
+      pkg.cells = [];
       pkg.saga.mapCode = 'x';
       pkg.references = pkg.references.slice(1);
       pkg.definitions.push({ id: 'faction.new-order', name: 'New Order', description: 'x', role: 'x' });
     });
     expect(result).toContain('package: schemaVersion must be 2');
-    expect(result).toContain('package: unknown field(s): places, saga.mapCode');
+    expect(result).toContain('package: unknown field(s): cells, saga.mapCode');
     expect(result).toContain('faction.new-order: a saga cannot define a faction; the foundation owns the world');
     expect(result.some((finding) => finding.startsWith('package: references must list'))).toBe(true);
+  });
+
+  it('takes maps of other sources as places, each named once', () => {
+    const place = 'map.frontier-outpost';
+    const own = normalized().definitions.find(({ id }) => id.startsWith('map.')).id;
+    expect(findings((pkg) => (pkg.places = [place]))).toEqual([]);
+    expect(
+      normalizePackage({ ...normalized(), places: [' MAP.Frontier-Outpost ', place] }, { registry }).places,
+    ).toEqual([place]);
+    expect(findings((pkg) => (pkg.places = []))).toEqual([
+      'package: places must list map ids; leave it out when there is none',
+    ]);
+    expect(findings((pkg) => (pkg.places = ['weapon.hatchet', 'map.nowhere', place, place, own]))).toEqual([
+      'package: places[0] must name a map, not weapon.hatchet',
+      'package: places[1] names unknown definition map.nowhere',
+      `package: places[3] repeats ${place}`,
+      `package: places[4] names ${own}, a map this saga defines: its own maps are its places already`,
+    ]);
   });
 
   it('refuses spatial and render data in a package that skipped normalization', () => {

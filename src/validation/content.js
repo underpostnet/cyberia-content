@@ -6,7 +6,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { IGNORED_SAGAS } from '../config.js';
-import { CONTENT_ROOT, createRegistry, foundationFindings, readFoundation } from '../foundation.js';
+import { compileContext, compileSaga } from '../compiler.js';
+import { CONTENT_ROOT, createRegistry, foundationFindings, readFoundation, sagaBase } from '../foundation.js';
 import { validatePackage } from '../generator/package.js';
 import { readProcedural } from '../procedural.js';
 import { CONTRACT } from '../schema/contract.js';
@@ -132,6 +133,65 @@ const globalFindings = (root, cids) =>
   });
 
 /**
+ * The saga packages of a content directory as stored, by code. An ignored saga is absent.
+ * @param {string} [root] - Content directory.
+ * @returns {Map<string,Object>}
+ */
+export const readSagas = (root = CONTENT_ROOT) =>
+  new Map(
+    entriesOf(root, 'sagas', false)
+      .filter((code) => !IGNORED_SAGAS.has(code))
+      .map((code) => [code, readJson(path.join(root, 'sagas', `${code}.json`))]),
+  );
+
+/**
+ * Checks a saga package against the content of a directory, as `validate` would after it is
+ * written: the package against the foundation and the other sagas, and the ids and item labels of
+ * all sagas together. A valid package also gives its runtime documents and the context index entries
+ * of its definitions and places, of what they name and of what names them.
+ * @param {Object} pkg - A saga package.
+ * @param {string} [root] - Content directory.
+ * @returns {{findings:Array<{id:string,message:string}>, compiled?:Object, context?:Object}}
+ */
+export function checkPackage(pkg, root = CONTENT_ROOT) {
+  const code = pkg?.saga?.code;
+  const registry = createRegistry(readFoundation(path.join(root, 'foundation')));
+  if (IGNORED_SAGAS.has(code))
+    return { findings: [{ id: 'package', message: `saga ${code} is ignored by the configuration` }] };
+  const sagas = readSagas(root);
+  const base = sagaBase(registry, sagas, code);
+  const findings = validatePackage(pkg, base);
+  if (findings.length > 0) return { findings };
+  sagas.set(code, pkg);
+  let context;
+  try {
+    context = compileContext(registry, sagas);
+  } catch (error) {
+    if (!error.findings) throw error;
+    return { findings: error.findings };
+  }
+  const own = [...pkg.definitions.map(({ id }) => id), ...(pkg.places ?? [])];
+  const ids = new Set([
+    ...own,
+    ...own.flatMap((id) => context.references[id].map((entry) => entry.id)),
+    ...own.flatMap((id) => (context.referencedBy[id] ?? []).map((entry) => entry.id)),
+  ]);
+  const pick = (bucket) => Object.fromEntries(Object.entries(bucket).filter(([id]) => ids.has(id)));
+  return {
+    findings,
+    compiled: compileSaga(pkg, base),
+    context: {
+      definitions: pick(context.definitions),
+      sources: pick(context.sources),
+      labels: Object.fromEntries(Object.entries(context.labels).filter(([, id]) => ids.has(id))),
+      entities: pick(context.entities),
+      references: pick(context.references),
+      referencedBy: pick(context.referencedBy),
+    },
+  };
+}
+
+/**
  * The content of a content directory: its registry, saga packages, instance codes, global content
  * CIDs and procedural templates.
  * @param {string} [root] - Content directory.
@@ -150,13 +210,11 @@ export function readContent(root = CONTENT_ROOT) {
   const { templates, palettes, findings: proceduralFindings } = readProcedural(root, registry);
   findings.push(...proceduralFindings);
 
-  const sagas = new Map();
-  for (const code of entriesOf(root, 'sagas', false).filter((code) => !IGNORED_SAGAS.has(code))) {
-    const pkg = readJson(path.join(root, 'sagas', `${code}.json`));
+  const sagas = readSagas(root);
+  for (const [code, pkg] of sagas) {
     if (pkg.saga?.code !== code) findings.push({ id: `sagas/${code}.json`, message: `saga.code must be ${code}` });
-    for (const { id, message } of validatePackage(pkg, registry))
+    for (const { id, message } of validatePackage(pkg, sagaBase(registry, sagas, code)))
       findings.push({ id: `sagas/${code}.json ${id}`, message });
-    sagas.set(code, pkg);
   }
 
   const instances = entriesOf(root, 'instances', true);

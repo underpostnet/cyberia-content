@@ -1,7 +1,8 @@
 /**
- * The package of a saga: the definitions it adds to the foundation and the foundation ids they
- * name. A package uses the definition model of the foundation, so the compiler turns both into
- * the same runtime documents. It carries no spatial and no render data.
+ * The package of a saga: the definitions it adds to the foundation, the ids of other sources they
+ * name, and the maps of other sources it uses as places. A package uses the definition model of the
+ * foundation, so the compiler turns both into the same runtime documents. It carries no spatial and
+ * no render data.
  *
  * @module src/generator/package.js
  */
@@ -25,7 +26,14 @@ export const PACKAGE_SCHEMA_VERSION = 2;
 /** A content version: `major.minor.patch`. */
 const VERSION_PATTERN = /^\d+\.\d+\.\d+$/;
 
-const PACKAGE_KEYS = Object.freeze(['schemaVersion', 'foundationVersion', 'saga', 'references', 'definitions']);
+const PACKAGE_KEYS = Object.freeze([
+  'schemaVersion',
+  'foundationVersion',
+  'saga',
+  'references',
+  'places',
+  'definitions',
+]);
 const SAGA_KEYS = Object.freeze(['code', 'name', 'description']);
 
 /** Item types a runtime entity activates when it holds them. */
@@ -52,11 +60,13 @@ const text = (value) => (typeof value === 'string' ? value.trim() : '');
 const isPlainObject = (value) => value !== null && typeof value === 'object' && !Array.isArray(value);
 const nonEmpty = (list) => (list.length > 0 ? list : undefined);
 
-/** A definition id as `<kind>.<slug>`, whatever case or spacing the model used. */
+/** A definition id as `<kind>.<slug>`, whatever case or spacing the model used; a kind alone names nothing. */
 const normalizeRef = (value) => {
   const raw = text(value).toLowerCase();
   const kind = kindOf(raw);
-  return KINDS[kind] ? `${kind}.${slugify(slugOf(raw))}` : raw || undefined;
+  if (!KINDS[kind]) return raw || undefined;
+  const slug = slugify(slugOf(raw));
+  return slug ? `${kind}.${slug}` : undefined;
 };
 
 const normalizeObjectLayer = (layer, kind) => {
@@ -157,8 +167,8 @@ export const stageDefinitions = (answer, { kinds, existing }) =>
 
 /**
  * Makes each interaction of a saga complete: a map places an entity once, a greeting speaks for a
- * skin of the saga, a quest with a talk objective has talk, and each quest provider and talk target
- * stands behind an action of the saga.
+ * skin of the saga, a quest with a talk objective has talk, a gate between two quests of the saga
+ * holds both ways, and each quest provider and talk target stands behind an action of the saga.
  */
 function completeInteractions(definitions, { registry, saga }) {
   const lookup = (id) => definitions.get(id) ?? registry.definitions.get(id);
@@ -181,6 +191,15 @@ function completeInteractions(definitions, { registry, saga }) {
     [...definitions.values()].filter(({ id }) => kindOf(id) === 'action').map(({ provider }) => provider),
   );
   const quests = [...definitions.values()].filter(({ id }) => kindOf(id) === 'quest');
+  const link = (quest, field, id) => {
+    if (!definitions.has(id) || kindOf(id) !== 'quest') return;
+    const target = definitions.get(id);
+    if (!(target[field] ?? []).includes(quest.id)) target[field] = [...(target[field] ?? []), quest.id];
+  };
+  for (const quest of quests) {
+    for (const id of quest.prerequisites ?? []) link(quest, 'unlocks', id);
+    for (const id of quest.unlocks ?? []) link(quest, 'prerequisites', id);
+  }
   for (const character of new Set(quests.flatMap((quest) => [quest.provider, ...talkTargetsOf(quest)]))) {
     const definition = lookup(character);
     if (!definition || providers.has(character)) continue;
@@ -200,13 +219,14 @@ function completeInteractions(definitions, { registry, saga }) {
  * Normalize raw stage output, or a package file, into a package.
  *
  * Deterministic and idempotent. Only declared fields survive, so no spatial or render key can. A
- * definition that repeats a foundation id is a reference, not a new definition. A repeated saga id
- * adds only the fields the earlier definition lacks. `references` is the set of foundation ids the
- * definitions name. A package keeps the foundation version it was composed against.
+ * definition that repeats an id of the registry is a reference, not a new definition. A repeated saga
+ * id adds only the fields the earlier definition lacks. `references` is the set of registry ids the
+ * definitions name; `places` the map ids of other sources the saga plays on, absent when none. A
+ * package keeps the foundation version it was composed against.
  *
- * @param {Object} raw - `{ saga, definitions }`.
+ * @param {Object} raw - `{ saga, places, definitions }`.
  * @param {Object} params
- * @param {Object} params.registry - Foundation registry.
+ * @param {Object} params.registry - The foundation, and the sagas the package may reuse.
  * @param {string} [params.theme] - Theme seed, the fallback for the saga name and code.
  * @returns {Object} The package.
  */
@@ -235,14 +255,37 @@ export function normalizePackage(raw, { registry, theme = '' }) {
       : registry.contentVersion,
     saga,
     references: [...referencesOf(sorted)].filter((id) => registry.definitions.has(id)).sort(),
+    places: nonEmpty([...new Set(asArray(raw?.places).map(normalizeRef).filter(Boolean))].sort()),
     definitions: sorted,
   };
 }
 
+/** The findings of the places of a package: each one a map another source defines, named once. */
+function placeFindings(pkg, registry) {
+  if (pkg.places === undefined) return [];
+  if (!Array.isArray(pkg.places) || pkg.places.length === 0)
+    return [{ id: 'package', message: 'places must list map ids; leave it out when there is none' }];
+  const own = new Set(pkg.definitions.map(({ id }) => id));
+  return pkg.places.flatMap((id, index) => {
+    const at = `places[${index}]`;
+    const message =
+      kindOf(String(id)) !== 'map'
+        ? `${at} must name a map, not ${id}`
+        : own.has(id)
+          ? `${at} names ${id}, a map this saga defines: its own maps are its places already`
+          : !registry.definitions.has(id)
+            ? `${at} names unknown definition ${id}`
+            : pkg.places.indexOf(id) !== index
+              ? `${at} repeats ${id}`
+              : '';
+    return message ? [{ id: 'package', message }] : [];
+  });
+}
+
 /**
- * Every finding of a package against the foundation.
+ * Every finding of a package against the foundation and the sagas it may reuse.
  * @param {Object} pkg - A package.
- * @param {Object} registry - Foundation registry.
+ * @param {Object} registry - The foundation, and the sagas the package may reuse.
  * @returns {Array<{id:string,message:string}>} Findings, empty when the package compiles.
  */
 export function validatePackage(pkg, registry) {
@@ -272,6 +315,7 @@ export function validatePackage(pkg, registry) {
 
   const expected = [...referencesOf(pkg.definitions)].filter((id) => registry.definitions.has(id)).sort();
   if (JSON.stringify(pkg.references) !== JSON.stringify(expected))
-    report(`references must list the foundation ids the definitions name: ${expected.join(', ')}`);
+    report(`references must list the ids of other sources the definitions name: ${expected.join(', ')}`);
+  findings.push(...placeFindings(pkg, registry));
   return findings;
 }

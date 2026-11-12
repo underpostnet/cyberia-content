@@ -118,6 +118,23 @@ export function extendRegistry(base, definitions) {
   return indexRegistry(base, [...base.definitions.values(), ...definitions]);
 }
 
+/**
+ * The registry a saga resolves against: the foundation and the definitions of other sagas. Each saga
+ * validates on its own, so this adds their definitions as they are.
+ * @param {Object} registry - Foundation registry.
+ * @param {Map<string,Object>} sagas - Saga packages by code.
+ * @param {string} [except] - The code of the saga that resolves against it.
+ * @returns {Object} The registry.
+ */
+export const sagaBase = (registry, sagas, except = '') =>
+  indexRegistry(registry, [
+    ...registry.definitions.values(),
+    ...[...sagas]
+      .filter(([code]) => code !== except)
+      .flatMap(([, pkg]) => (Array.isArray(pkg?.definitions) ? pkg.definitions : []))
+      .filter((definition) => definition?.id && !registry.definitions.has(definition.id)),
+  ]);
+
 /** Definitions of one kind, in id order. */
 export const definitionsOfKind = (registry, kind) =>
   [...registry.definitions.values()].filter((definition) => kindOf(definition.id) === kind);
