@@ -5,11 +5,12 @@ import path from 'node:path';
 import { Command, InvalidArgumentError } from 'commander';
 import dotenv from 'dotenv';
 import { CONTENT_ROOT } from '../src/foundation.js';
-import { generateSaga } from '../src/generator/index.js';
+import { GeminiClient } from '../src/generator/gemini-client.js';
+import { generateSaga, generationRegistry, nextStep, runStep } from '../src/generator/index.js';
 import { PACKAGE_ROOT, artifactContent, artifactManifest, sourceRevision, writeArtifact } from '../src/packaging/build.js';
 import { sagaInstanceBackup, writeInstanceBackup } from '../src/saga-instance.js';
-import { readContent } from '../src/validation/content.js';
-import { formatContent } from '../src/validation/format.js';
+import { checkPackage, readContent } from '../src/validation/content.js';
+import { canonicalJson, formatContent } from '../src/validation/format.js';
 
 const { version } = JSON.parse(fs.readFileSync(path.join(PACKAGE_ROOT, 'package.json'), 'utf8'));
 const program = new Command();
@@ -88,6 +89,56 @@ saga
   });
 
 saga
+  .command('step')
+  .requiredOption('--state <file>', 'generation state file: each run advances it by one step')
+  .description(
+    'Run the next step of a stored generation: the theme, one stage or the package. A failed step leaves the ' +
+      'state as it was; exit code 2 means the request cannot run',
+  )
+  .action(async ({ state: file }) => {
+    const state = JSON.parse(fs.readFileSync(file, 'utf8'));
+    const step = nextStep(state);
+    if (!step) return console.log('Every step is done');
+    let client;
+    const { model, timeout } = state.request;
+    const lazyClient = { chatJson: (params) => (client ??= new GeminiClient({ model, timeout })).chatJson(params) };
+    try {
+      const next = await runStep(state, { registry: generationRegistry(state.request.sagas), client: lazyClient });
+      fs.writeFileSync(`${file}.next`, JSON.stringify(next));
+      fs.renameSync(`${file}.next`, file);
+      console.log(`Step ${step} done`);
+    } catch (error) {
+      console.error(error.message);
+      process.exit(error instanceof RangeError || error.permanent ? 2 : 1);
+    }
+  });
+
+saga
+  .command('check')
+  .requiredOption('--file <file>', 'saga package file')
+  .option('--write', 'write a valid package to src/content/sagas/<saga-code>.json in canonical form')
+  .description(
+    'Check a saga package against the content and print JSON: its findings, and for a valid package its ' +
+      'runtime documents and the context of its definitions',
+  )
+  .action(({ file, write }) => {
+    let pkg;
+    try {
+      pkg = JSON.parse(fs.readFileSync(path.resolve(file), 'utf8'));
+    } catch (error) {
+      return process.stdout.write(JSON.stringify({ findings: [{ id: 'package', message: error.message }] }));
+    }
+    const result = checkPackage(pkg);
+    let written = null;
+    if (write && result.findings.length === 0) {
+      written = path.join(CONTENT_ROOT, 'sagas', `${pkg.saga.code}.json`);
+      fs.writeFileSync(`${written}.next`, canonicalJson(pkg));
+      fs.renameSync(`${written}.next`, written);
+    }
+    process.stdout.write(JSON.stringify({ ...result, file: written }));
+  });
+
+saga
   .command('instance <saga-code>')
   .option('--force', 'replace the instance directory when it exists')
   .option('--dry-run', 'list the files without writing')
@@ -99,7 +150,7 @@ saga
     const { findings, registry, sagas } = readContent();
     if (findings.length > 0) fail(findings);
     if (!sagas.has(code)) fail([{ id: `sagas/${code}.json`, message: 'is not a saga of the content' }]);
-    const files = sagaInstanceBackup(sagas.get(code), registry);
+    const files = sagaInstanceBackup(sagas.get(code), registry, sagas);
     const directory = path.join(CONTENT_ROOT, 'instances', code);
     if (options.dryRun) {
       for (const file of [...files.keys()].sort()) console.log(file);

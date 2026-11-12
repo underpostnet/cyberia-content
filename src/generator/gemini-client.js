@@ -30,6 +30,22 @@ export function parseJsonLoose(text) {
   }
 }
 
+/** The most a quota answer can make one retry wait. */
+const RETRY_DELAY_LIMIT_MS = 120000;
+
+/** The retry delay a 429 answer names in its `RetryInfo`, in ms, or undefined. */
+export function retryDelayOf(body) {
+  let details = [];
+  try {
+    details = JSON.parse(body)?.error?.details ?? [];
+  } catch {
+    return undefined;
+  }
+  const delay = details.find((detail) => String(detail?.['@type']).endsWith('RetryInfo'))?.retryDelay;
+  const seconds = Number.parseFloat(String(delay ?? ''));
+  return Number.isFinite(seconds) ? Math.min(RETRY_DELAY_LIMIT_MS, Math.ceil(seconds * 1000)) : undefined;
+}
+
 export class GeminiClient {
   /**
    * @param {Object} [options]
@@ -63,7 +79,14 @@ export class GeminiClient {
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig }),
       signal: AbortSignal.timeout(this.timeout),
     });
-    if (!response.ok) throw new Error(`Gemini answered ${response.status}: ${await response.text()}`);
+    if (!response.ok) {
+      const body = await response.text();
+      throw Object.assign(new Error(`Gemini answered ${response.status}: ${body}`), {
+        retryDelayMs: retryDelayOf(body),
+        // A refused request fails the same way again; only a timeout and a quota answer pass.
+        permanent: response.status >= 400 && response.status < 500 && ![408, 429].includes(response.status),
+      });
+    }
     const data = await response.json();
     const text = (data?.candidates?.[0]?.content?.parts || [])
       .filter((part) => part && typeof part.text === 'string' && !part.thought)
@@ -81,7 +104,8 @@ export class GeminiClient {
 
   /**
    * One completion, parsed as JSON. The schema is asked for in the prompt, because Gemma models
-   * have no JSON response mode. A transient failure is retried with backoff.
+   * have no JSON response mode. A transient failure is retried with backoff, or after the delay a
+   * quota answer names; a refused request is not.
    * @param {Object} params
    * @param {string} params.system - The output ontology and schema.
    * @param {string} params.user - The theme and the ids to use.
@@ -103,8 +127,8 @@ export class GeminiClient {
       try {
         return parseJsonLoose(await this.generateContent({ prompt, generationConfig }));
       } catch (error) {
-        if (attempt >= this.maxRetries) throw error;
-        const backoffMs = 1000 * (attempt + 1);
+        if (attempt >= this.maxRetries || error.permanent) throw error;
+        const backoffMs = error.retryDelayMs ?? 1000 * (attempt + 1);
         this.log(
           `Gemini attempt ${attempt + 1}/${this.maxRetries + 1} failed (${error.message}); retry in ${backoffMs}ms`,
         );

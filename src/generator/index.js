@@ -5,8 +5,11 @@
  * bounded stages: composition (which foundation definitions the saga uses, and the few new ones
  * it needs), maps, quests, dialogues, actions and abilities. Every stage returns definitions of
  * the foundation model. The result is a saga package, normalized and validated against the
- * foundation, and written to `src/content/sagas/`. The foundation never changes; spatial and
- * graphic authoring follow.
+ * foundation and the sagas it may reuse, and written to `src/content/sagas/`. The foundation never
+ * changes; spatial and graphic authoring follow.
+ *
+ * A generation is a state that each step advances: the theme, each stage, then the package. The
+ * state is JSON, so a caller can store it after each step and resume a generation that stopped.
  *
  * @module src/generator/index.js
  */
@@ -14,8 +17,16 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { GeminiClient } from './gemini-client.js';
-import { CONTENT_ROOT, ContentError, createRegistry, definitionsOfKind } from '../foundation.js';
+import {
+  CONTENT_ROOT,
+  ContentError,
+  createRegistry,
+  definitionsOfKind,
+  readFoundation,
+  sagaBase,
+} from '../foundation.js';
 import { ENTITY_KINDS, FOUNDATION_KINDS, KINDS, isLabeled, kindOf } from '../schema/definitions.js';
+import { readSagas } from '../validation/content.js';
 import {
   SPACE_CONTEXTS,
   STAGES,
@@ -118,114 +129,223 @@ const fullDefinitions = (lookup, ids) =>
     .filter(Boolean)
     .map((definition) => Object.fromEntries(Object.entries(definition).filter(([key]) => key !== 'artBrief')));
 
+/** The steps of a generation, in order: the theme, the six stages, then the package. */
+export const GENERATION_STEPS = Object.freeze(['theme', ...STAGES, 'package']);
+
 /**
- * Run the six stages and return their output as one unnormalized package. The composition stage
- * reads the compact foundation index; each later stage reads the full definitions it works with.
- * @param {GeminiClient} client
- * @param {Object} params
- * @param {string} params.theme
- * @param {string} params.lore
- * @param {Object} params.registry
- * @param {Object} params.guidance - `{ naming, customization, spaceContextKey }`.
- * @param {string} [params.thinkingLevel]
- * @param {number} [params.temperature]
- * @param {(line:string)=>void} params.log
- * @returns {Promise<{saga:Object, definitions:Object[]}>}
+ * A generation that has run no step: what the moderator asks for.
+ * @param {Object} request
+ * @param {string} [request.prompt] - Theme seed; synthesized from the lore when omitted.
+ * @param {string} [request.lore] - Lore text for theme synthesis; the world foundation when empty.
+ * @param {{code?:string, name?:string, description?:string}} [request.saga] - The identity the saga keeps.
+ * @param {string[]} [request.reuse] - Ids of the foundation or of `sagas` the saga must use.
+ * @param {string[]} [request.sagas] - Codes of the sagas whose definitions the saga may reuse.
+ * @param {string} [request.spaceContext]
+ * @param {string} [request.tone]
+ * @param {string} [request.factionContext] - Comma-separated foundation faction slugs that drive the saga.
+ * @param {string} [request.characterContext]
+ * @param {string} [request.culturalExposure]
+ * @param {string} [request.thinkingLevel]
+ * @param {number} [request.temperature]
+ * @param {string} [request.model] - Gemini model id.
+ * @param {number} [request.timeout] - Per-request timeout in ms.
+ * @returns {{request:Object, steps:string[], done:string[]}} `steps` are every step in order; `done` the steps run.
  */
-async function composeSemantics(client, { theme, lore, registry, guidance, thinkingLevel, temperature, log }) {
-  const ask = (stage, { catalog = '', context } = {}) =>
-    client.chatJson({
-      system: buildStagePrompt(stage, guidance),
-      user: buildStageUser({ theme, lore, catalog, context }),
-      thinkingLevel,
-      temperature,
-    });
-  const step = (stage) => log(`Stage ${STAGES.indexOf(stage) + 1}/${STAGES.length}: ${stage}`);
+export const generationState = (request) => ({ request, steps: [...GENERATION_STEPS], done: [] });
 
-  step('composition');
-  const composition = await ask('composition', { catalog: foundationCatalog(registry) });
-  const raw = {
-    saga: composition?.saga,
-    definitions: stageDefinitions(composition, { kinds: STAGE_KINDS.composition, existing: new Set() }),
+/**
+ * The next step of a generation, or null when every step is done.
+ * @param {{done:string[]}} state
+ * @returns {string|null}
+ */
+export const nextStep = ({ done }) => GENERATION_STEPS.find((step) => !done.includes(step)) ?? null;
+
+/**
+ * The registry a generation composes against: the foundation and the sagas it may reuse.
+ * @param {string[]} [codes] - Saga codes.
+ * @param {string} [root] - Content directory.
+ * @returns {Object}
+ * @throws {RangeError} When a code names no saga of the content.
+ */
+export function generationRegistry(codes = [], root = CONTENT_ROOT) {
+  const registry = createRegistry(readFoundation(path.join(root, 'foundation')));
+  const sagas = readSagas(root);
+  const unknown = codes.filter((code) => !sagas.has(code));
+  if (unknown.length > 0) throw new RangeError(`No saga ${unknown.join(', ')} in the content`);
+  return sagaBase(registry, new Map(codes.map((code) => [code, sagas.get(code)])));
+}
+
+const nonEmpty = (identity = {}) =>
+  Object.fromEntries(Object.entries(identity).filter(([, value]) => typeof value === 'string' && value.trim()));
+
+/** The theme and the guidance every stage shares. */
+async function themeStep(state, { registry, client, log }) {
+  const { request } = state;
+  const unknown = (request.reuse ?? []).filter((id) => !registry.definitions.has(id));
+  if (unknown.length > 0) throw new RangeError(`Unknown definitions to reuse: ${unknown.join(', ')}`);
+  let facets;
+  if (!request.prompt) {
+    log('No prompt provided; synthesizing a distinct lore-grounded theme...');
+    facets = await synthesizeTheme(client, request.lore ?? '', { registry, ...request, log });
+    log(`Synthesized theme: "${facets.theme}"`);
+  } else {
+    // With a prompt the prompt is the creative driver: no subject bucket applies.
+    facets = {
+      theme: request.prompt,
+      spaceContext: resolveSpaceContext(request.spaceContext),
+      tone: resolveTone(request.tone),
+      factions: resolveFactionContext(request.factionContext, registry),
+      subject: '',
+    };
+    log(`Composing semantics from theme: "${facets.theme}"`);
+  }
+  const { theme, factions, ...kept } = facets;
+  return {
+    theme,
+    facets: { ...kept, factions: factions.map(({ id }) => id) },
+    guidance: {
+      naming: buildNamingGuidance(request),
+      customization: buildCustomizationGuidance({
+        spaceContextKey: facets.spaceContext,
+        toneKey: facets.tone,
+        factions,
+        subject: facets.subject,
+        registry,
+      }),
+      spaceContextKey: facets.spaceContext,
+    },
   };
-  let pkg = normalizePackage(raw, { registry, theme });
-  raw.saga = pkg.saga;
-  const references = [...(Array.isArray(composition?.references) ? composition.references : []), ...pkg.references];
-  const lookup = (id) => pkg.definitions.find((definition) => definition.id === id) ?? registry.definitions.get(id);
-  const own = (kind) => pkg.definitions.filter(({ id }) => kindOf(id) === kind);
-  const selected = () => fullDefinitions(lookup, [...references, ...pkg.definitions.map(({ id }) => id)]);
-  const run = async (stage, context) => {
-    step(stage);
-    const existing = new Set(pkg.definitions.map(({ id }) => id));
-    raw.definitions.push(...stageDefinitions(await ask(stage, { context }), { kinds: STAGE_KINDS[stage], existing }));
-    pkg = normalizePackage(raw, { registry, theme });
-  };
+}
 
-  const entities = [...registry.definitions.values(), ...pkg.definitions].filter(({ id }) =>
-    ENTITY_KINDS.includes(kindOf(id)),
-  );
-  await run('maps', {
-    saga: pkg.saga,
-    definitions: selected(),
-    biomes: definitionsOfKind(registry, 'biome').map(({ id, name, region }) => ({
-      id,
-      name,
-      entities: entities
-        .filter(({ locations = [] }) => locations.includes(id) || locations.includes(region))
-        .map((entity) => entity.id),
-    })),
-  });
-
-  await run('quests', { definitions: selected() });
-
-  const talking = own('quest').filter((quest) => talkTargetsOf(quest).length > 0);
-  await run('dialogues', {
+/** What each stage after the composition reads, from the package so far. */
+const STAGE_CONTEXTS = {
+  maps: ({ pkg, registry, selected }) => {
+    const entities = [...registry.definitions.values(), ...pkg.definitions].filter(({ id }) =>
+      ENTITY_KINDS.includes(kindOf(id)),
+    );
+    return {
+      saga: pkg.saga,
+      definitions: selected(),
+      biomes: definitionsOfKind(registry, 'biome').map(({ id, name, region }) => ({
+        id,
+        name,
+        entities: entities
+          .filter(({ locations = [] }) => locations.includes(id) || locations.includes(region))
+          .map((entity) => entity.id),
+      })),
+    };
+  },
+  quests: ({ selected }) => ({ definitions: selected() }),
+  dialogues: ({ own, lookup }) => ({
     characters: fullDefinitions(
       lookup,
       own('character').map(({ id }) => id),
     ),
-    quests: talking,
-  });
-
-  const providers = own('quest').flatMap((quest) => [quest.provider, ...talkTargetsOf(quest)]);
-  await run('actions', {
-    providers: fullDefinitions(lookup, providers),
-    items: selected().filter(({ id }) => isLabeled(id)),
-    currencies: definitionsOfKind(registry, 'currency').map(({ id, name }) => ({ id, name })),
-  });
-
-  const bearers = pkg.definitions.filter(({ id, abilities }) => KINDS[kindOf(id)].fields.abilities && !abilities);
-  if (bearers.length > 0)
-    await run('abilities', {
+    quests: own('quest').filter((quest) => talkTargetsOf(quest).length > 0),
+  }),
+  actions: ({ own, lookup, registry, selected }) => {
+    const economy = registry.definitions.get(registry.baseline.economy);
+    return {
+      providers: fullDefinitions(
+        lookup,
+        own('quest').flatMap((quest) => [quest.provider, ...talkTargetsOf(quest)]),
+      ),
+      items: selected().filter(({ id }) => isLabeled(id)),
+      currencies: definitionsOfKind(registry, 'currency').map(({ id, name }) => ({ id, name })),
+      markets: definitionsOfKind(registry, 'market').map(({ id, name, scope, modes }) => ({ id, name, scope, modes })),
+      economy: { id: economy.id, defaults: economy.defaults, items: economy.items ?? [] },
+    };
+  },
+  abilities: ({ pkg, lookup, registry }) => {
+    const bearers = pkg.definitions.filter(({ id, abilities }) => KINDS[kindOf(id)].fields.abilities && !abilities);
+    if (bearers.length === 0) return null;
+    return {
       items: fullDefinitions(
         lookup,
         bearers.map(({ id }) => id),
       ),
       abilities: definitionsOfKind(registry, 'ability'),
       effects: definitionsOfKind(registry, 'effect').map(({ id, name }) => ({ id, name })),
-    });
-  else log('Stage 6/6: abilities — no new item needs one');
+    };
+  },
+};
 
-  return raw;
+/** One stage: the model answers it, and the package takes the definitions of the kinds it creates. */
+async function stageStep(stage, state, { registry, client, log }) {
+  const { request, theme, guidance } = state;
+  const ask = ({ catalog = '', context } = {}) =>
+    client.chatJson({
+      system: buildStagePrompt(stage, guidance),
+      user: buildStageUser({ theme, lore: request.lore ?? '', catalog, context }),
+      thinkingLevel: request.thinkingLevel,
+      temperature: request.temperature,
+    });
+  log(`Stage ${STAGES.indexOf(stage) + 1}/${STAGES.length}: ${stage}`);
+  if (stage === 'composition') {
+    const identity = nonEmpty(request.saga);
+    const fixed = Object.keys(identity).length > 0 || request.reuse?.length > 0;
+    const answer = await ask({
+      catalog: foundationCatalog(registry),
+      context: fixed ? { saga: identity, reuse: request.reuse ?? [] } : undefined,
+    });
+    const raw = {
+      saga: answer?.saga,
+      definitions: stageDefinitions(answer, { kinds: STAGE_KINDS.composition, existing: new Set() }),
+    };
+    const pkg = normalizePackage(raw, { registry, theme });
+    raw.saga = { ...pkg.saga, ...identity };
+    const references = [
+      ...(Array.isArray(answer?.references) ? answer.references : []),
+      ...(request.reuse ?? []),
+      ...pkg.references,
+    ];
+    return { raw, references: [...new Set(references)] };
+  }
+  const pkg = normalizePackage(state.raw, { registry, theme });
+  const lookup = (id) => pkg.definitions.find((definition) => definition.id === id) ?? registry.definitions.get(id);
+  const own = (kind) => pkg.definitions.filter(({ id }) => kindOf(id) === kind);
+  const selected = () => fullDefinitions(lookup, [...state.references, ...pkg.definitions.map(({ id }) => id)]);
+  const context = STAGE_CONTEXTS[stage]({ pkg, registry, lookup, own, selected });
+  if (!context) {
+    log(`Stage ${STAGES.indexOf(stage) + 1}/${STAGES.length}: ${stage} — nothing needs it`);
+    return {};
+  }
+  const existing = new Set(pkg.definitions.map(({ id }) => id));
+  const added = stageDefinitions(await ask({ context }), { kinds: STAGE_KINDS[stage], existing });
+  return { raw: { ...state.raw, definitions: [...state.raw.definitions, ...added] } };
+}
+
+/**
+ * Runs the next step of a generation. A step reads only the state and the registry, so a step that
+ * fails runs again from the same state, and the steps done before it never run again.
+ * @param {Object} state - {@link generationState}, or the state a step returned.
+ * @param {Object} params
+ * @param {Object} params.registry - {@link generationRegistry}.
+ * @param {GeminiClient} params.client
+ * @param {(line:string)=>void} [params.log]
+ * @returns {Promise<Object>} The next state. After the `package` step it holds `package` and `findings`.
+ * @throws {RangeError} When the request cannot run; a retry meets the same refusal.
+ */
+export async function runStep(state, { registry, client, log = console.log }) {
+  const step = nextStep(state);
+  if (!step) return state;
+  let result;
+  if (step === 'theme') result = await themeStep(state, { registry, client, log });
+  else if (step === 'package') {
+    const pkg = normalizePackage(state.raw, { registry, theme: state.theme });
+    log(`Normalized: saga=${pkg.saga.code} references=${pkg.references.length} definitions=${pkg.definitions.length}`);
+    result = { package: pkg, findings: validatePackage(pkg, registry) };
+  } else result = await stageStep(step, state, { registry, client, log });
+  return { ...state, ...result, steps: [...GENERATION_STEPS], done: [...state.done, step] };
 }
 
 /**
  * Full pipeline: theme → staged Gemini composition → normalize → validate → write.
  *
  * An invalid package is written too, so a human can fix it; the call then fails with its findings.
- * @param {Object} params
- * @param {string} [params.prompt] - Theme seed; synthesized from the lore when omitted.
- * @param {string} [params.model] - Gemini model id.
- * @param {string} [params.apiKey]
- * @param {number} [params.timeout]
- * @param {string} [params.thinkingLevel]
+ * @param {Object} params - The request of {@link generationState}, and:
  * @param {string} [params.lorePath] - Lore document for theme synthesis; the world foundation by default.
- * @param {string} [params.spaceContext]
- * @param {string} [params.tone]
- * @param {string} [params.factionContext] - Comma-separated foundation faction slugs that drive the saga.
- * @param {string} [params.characterContext]
- * @param {string} [params.culturalExposure]
- * @param {number} [params.temperature]
+ * @param {string} [params.apiKey]
  * @param {string} [params.out] - Package file; `src/content/sagas/<saga-code>.json` by default.
  * @param {boolean} [params.dryRun=false] - Validate without writing.
  * @param {GeminiClient} [params.client]
@@ -233,68 +353,13 @@ async function composeSemantics(client, { theme, lore, registry, guidance, think
  * @returns {Promise<{pkg:Object, file:string|null}>}
  * @throws {ContentError} When the package has findings.
  */
-export async function generateSaga({
-  prompt,
-  model,
-  apiKey,
-  timeout,
-  thinkingLevel,
-  lorePath,
-  spaceContext,
-  tone,
-  factionContext,
-  characterContext,
-  culturalExposure,
-  temperature,
-  out,
-  dryRun = false,
-  log = console.log,
-  client = new GeminiClient({ apiKey, model, timeout, log }),
-}) {
-  const registry = createRegistry();
-
-  let theme = prompt;
-  let lore = '';
-  let facets;
-  if (!theme) {
-    if (lorePath) lore = fs.readFileSync(path.resolve(lorePath), 'utf8');
-    log('No --prompt provided; synthesizing a distinct lore-grounded theme...');
-    facets = await synthesizeTheme(client, lore, {
-      registry,
-      thinkingLevel,
-      spaceContext,
-      tone,
-      factionContext,
-      temperature,
-      log,
-    });
-    theme = facets.theme;
-    log(`Synthesized theme: "${theme}"`);
-  } else {
-    // With --prompt the prompt is the creative driver: no subject bucket applies.
-    facets = {
-      spaceContext: resolveSpaceContext(spaceContext),
-      tone: resolveTone(tone),
-      factions: resolveFactionContext(factionContext, registry),
-      subject: '',
-    };
-    log(`Composing semantics from theme: "${theme}"`);
-  }
-
-  const guidance = {
-    naming: buildNamingGuidance({ characterContext, culturalExposure }),
-    customization: buildCustomizationGuidance({
-      spaceContextKey: facets.spaceContext,
-      toneKey: facets.tone,
-      factions: facets.factions,
-      subject: facets.subject,
-      registry,
-    }),
-    spaceContextKey: facets.spaceContext,
-  };
-  const raw = await composeSemantics(client, { theme, lore, registry, guidance, thinkingLevel, temperature, log });
-  const pkg = normalizePackage(raw, { registry, theme });
-  log(`Normalized: saga=${pkg.saga.code} references=${pkg.references.length} definitions=${pkg.definitions.length}`);
+export async function generateSaga({ lorePath, apiKey, out, dryRun = false, log = console.log, client, ...request }) {
+  const registry = generationRegistry(request.sagas);
+  const lore = lorePath ? fs.readFileSync(path.resolve(lorePath), 'utf8') : request.lore;
+  client ??= new GeminiClient({ apiKey, model: request.model, timeout: request.timeout, log });
+  let state = generationState({ ...request, lore });
+  while (nextStep(state)) state = await runStep(state, { registry, client, log });
+  const { package: pkg, findings } = state;
   let file = null;
   if (!dryRun) {
     file = path.resolve(out || path.join(CONTENT_ROOT, 'sagas', `${pkg.saga.code}.json`));
@@ -302,7 +367,6 @@ export async function generateSaga({
     fs.writeFileSync(file, canonicalJson(pkg));
     log(`Package written to ${file}`);
   }
-  const findings = validatePackage(pkg, registry);
   if (findings.length > 0) throw new ContentError(findings);
   return { pkg, file };
 }

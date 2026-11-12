@@ -48,6 +48,8 @@ node bin/cyberia-content.js <command>
 | ------------------------------------------------- | ------------------------------------------------------------------------------- |
 | `validate [--fix]`                                | Validate canonical form, foundation, sagas and instances; `--fix` rewrites form |
 | `saga generate`                                   | Compose a saga with Google Gemini and write its package                         |
+| `saga step --state <file>`                        | Run the next step of a stored generation and write the state back               |
+| `saga check --file <file> [--write]`              | Print JSON: the findings of a package, its runtime documents and its context    |
 | `saga instance <saga-code> [--force] [--dry-run]` | Write the instance backup of a saga                                             |
 | `build`                                           | Write `dist/` from the committed content                                        |
 | `pack`                                            | Build and pack `artifacts/cyberia-content-<version>.tgz`                        |
@@ -80,8 +82,8 @@ definition, at `<category>/<id>.json`. Every definition has a `name`, a `descrip
 | `character`                                                                                                             | Loadout, carried items, the spawned `entity` and a `greeting`           |
 | `ability`, `effect`                                                                                                     | What items do: a runtime skill handler and its effects                  |
 | `map`                                                                                                                   | A place of one `biome`, and its `composition`: each entity and how many |
-| `quest`                                                                                                                 | Provider, steps, objectives, rewards and `talk`                         |
-| `action`                                                                                                                | What a provider offers: shop, recipes and storage                       |
+| `quest`                                                                                                                 | Provider, steps, objectives, rewards, `talk`, prerequisites and unlocks |
+| `action`                                                                                                                | What a provider offers: shop, recipes, storage, buyback, burn, market   |
 
 An item or environment definition carries an `objectLayer` block: the item type, the `activable`
 flag and the stats. Its item label is its slug. Its `artBrief` tells an artist what to draw. It holds
@@ -100,6 +102,14 @@ and optionally `accent` and `special`). The Studio paints with it; it is guidanc
 A map composes entities its biome holds. The compiled map holds none: Studio places each one and
 tracks the composition against the context index. A quest provider and each talk target stand
 behind an action of the same set.
+
+The runtime gates a quest by its `prerequisites` alone. A quest that `unlocks` another is one of its
+prerequisites, a prerequisite of the same set unlocks the quest it gates, and no chain of
+prerequisites loops. A `kill` objective targets a character that spawns as a bot.
+
+An action has no type: its capabilities are the fields it fills, and it may combine several. A
+`market` terminal names a market of the foundation; the market owns the shared terms. The economy
+item policy still decides what a buyback, a burn or a listing may take.
 
 `foundation.json` holds the `schemaVersion` of the definition format and the `baseline`: the
 definition each runtime entity type resolves against when a world authors none (`entities`), and
@@ -191,6 +201,20 @@ definitions of what the saga uses. The model follows these rules, and normalizat
 
 An invalid package is written for a human to fix. The command then fails with its findings.
 
+A generation is a JSON state that each step advances: the theme, each stage, then the package.
+`saga step --state <file>` runs the next step and writes the state back; a step that fails leaves
+the state as it was, and exit code 2 means the request cannot run. A step retries a timeout or a
+quota answer, after the delay the answer names; a request the model refuses fails at once with exit
+code 2. The engine stores the state after
+each step, so a generation resumes where it stopped. The request of a state may fix the saga
+identity (`saga`), name definitions the saga must use (`reuse`) and name the sagas whose definitions
+it may reuse (`sagas`).
+
+`saga check --file <file>` checks a package as `validate` would after it is written, against the
+foundation and every other saga. It prints JSON: `findings`, and for a valid package `compiled` (the
+runtime documents of the saga) and `context` (the context index entries of its definitions, of what
+they name and of what names them). `--write` writes a valid package to its file in canonical form.
+
 ```bash
 # A lore-grounded saga. The world foundation is the lore unless --lore-path names a document.
 node bin/cyberia-content.js saga generate
@@ -211,11 +235,22 @@ node bin/cyberia-content.js saga generate --prompt "A relay keeper in the ash wa
 | `schemaVersion`     | Version of the package format                                          |
 | `foundationVersion` | The content version the saga was composed against                      |
 | `saga`              | `code`, `name`, `description`                                          |
-| `references`        | Every foundation id the definitions name                               |
+| `references`        | Every id of the foundation or of another saga the definitions name     |
+| `places`            | Optional: the maps of the foundation or of another saga it plays on    |
 | `definitions`       | The new definitions, maps, quests and actions, in the foundation model |
 
 The build compiles a package with the compiler of the foundation. The saga adds its own documents
 of every family, its `CyberiaSaga` record and the shell of its instance.
+
+A saga may use a definition of another saga by its id, as it uses a foundation one. It never
+defines it again: the saga that defines it compiles its documents. An id or an item label belongs to
+one source only.
+
+A place is a map the saga uses and another source defines. The `CyberiaSaga` record names its own
+maps in `mapCodes` and its places in `placeCodes`. The source that defines a place stays its owner:
+the saga compiles no document of it, and its instance shell does not hold it. A quest or an action
+whose provider stands on a place gets that map as its source map. Each place names a map of
+another source, once.
 
 ### The instance of a saga
 
@@ -244,14 +279,15 @@ other pin.
 ## The runtime contract
 
 `src/schema/runtime-contract.json` holds the runtime vocabulary content uses: item types, entity
-types, stat bounds, skill handlers, quest step types and the item dialogue prefix. The engine owns
-that vocabulary and generates the file with `node bin/cyberia stat-contract`. Never edit it.
+types, stat bounds, skill handlers, quest step types, the item dialogue prefix and the dialogue
+moods. The engine owns that vocabulary and generates the file with `node bin/cyberia stat-contract`.
+Never edit it.
 
 ## Global content
 
 `src/content/global/<cid>.json` holds one Object Layer definition that Cyberia keeps with no world:
 an import, an item binding no world carries, or stacks players own keep it. The engine writes these
-files with `cyberia content-release export-live`; never author them by hand. Each file holds:
+files with `cyberia content source export-live`; never author them by hand. Each file holds:
 
 | Field          | Holds                                                                            |
 | -------------- | -------------------------------------------------------------------------------- |

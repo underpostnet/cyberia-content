@@ -3,7 +3,15 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { ContentError } from '../src/foundation.js';
-import { generateSaga } from '../src/generator/index.js';
+import {
+  GENERATION_STEPS,
+  generateSaga,
+  generationRegistry,
+  generationState,
+  nextStep,
+  runStep,
+} from '../src/generator/index.js';
+import { retryDelayOf } from '../src/generator/gemini-client.js';
 import { canonicalJson } from '../src/validation/format.js';
 import { brief } from './fixtures.js';
 
@@ -128,6 +136,72 @@ describe('saga generation', () => {
     expect(stage('actions')).toContain('"providers":[{"id":"character.drift-merchant"');
   });
 
+  it('gives the actions stage every capability, the markets and the economy policy', async () => {
+    const client = stubClient();
+    await generateSaga({ prompt: 'A relay keeper', dryRun: true, client, log });
+    const { system, user } = client.prompts.find((prompt) => prompt.system.includes('STAGE: actions.'));
+    for (const field of ['shop', 'recipes', 'storageSlots', 'buyback', 'burn', 'market'])
+      expect(system).toContain(`- ${field}`);
+    expect(user).toContain('"markets":[{"id":"market.frontier-exchange"');
+    expect(user).toContain('"economy":{"id":"economy.standard","defaults":{');
+  });
+
+  it('runs as steps over a JSON state that resumes after a failed stage', async () => {
+    const registry = generationRegistry();
+    const client = stubClient();
+    let failed = false;
+    const flaky = {
+      prompts: client.prompts,
+      chatJson: async (params) => {
+        if (!failed && params.system.includes('STAGE: quests.')) {
+          failed = true;
+          throw new Error('Gemini answered 503');
+        }
+        return client.chatJson(params);
+      },
+    };
+    let state = generationState({ prompt: 'A relay keeper' });
+    const done = [];
+    while (nextStep(state)) {
+      const step = nextStep(state);
+      try {
+        state = JSON.parse(JSON.stringify(await runStep(state, { registry, client: flaky, log })));
+        done.push(step);
+      } catch (error) {
+        expect([step, error.message]).toEqual(['quests', 'Gemini answered 503']);
+      }
+    }
+    expect(done).toEqual(GENERATION_STEPS);
+    expect(client.prompts.filter(({ system }) => system.includes('STAGE: composition.'))).toHaveLength(1);
+    expect(state.findings).toEqual([]);
+    const { pkg } = await generateSaga({ prompt: 'A relay keeper', dryRun: true, client: stubClient(), log });
+    expect(state.package).toEqual(pkg);
+  });
+
+  it('keeps the identity the moderator fixes and names what to reuse', async () => {
+    const client = stubClient();
+    const { pkg } = await generateSaga({
+      prompt: 'A relay keeper',
+      saga: { code: 'signal-watch', name: 'Signal Watch' },
+      reuse: ['weapon.hatchet'],
+      dryRun: true,
+      client,
+      log,
+    });
+    expect(pkg.saga).toEqual({ code: 'signal-watch', name: 'Signal Watch', description: 'A relay goes quiet.' });
+    expect(client.prompts.find(({ system }) => system.includes('STAGE: composition.')).user).toContain(
+      '{"saga":{"code":"signal-watch","name":"Signal Watch"},"reuse":["weapon.hatchet"]}',
+    );
+  });
+
+  it('refuses a request that names an unknown definition or saga', async () => {
+    const state = generationState({ prompt: 'A relay keeper', reuse: ['weapon.nothing'] });
+    await expect(runStep(state, { registry: generationRegistry(), client: stubClient(), log })).rejects.toThrow(
+      new RangeError('Unknown definitions to reuse: weapon.nothing'),
+    );
+    expect(() => generationRegistry(['no-saga'])).toThrow(new RangeError('No saga no-saga in the content'));
+  });
+
   it('writes nothing on a dry run', async () => {
     const { pkg, file } = await generateSaga({ prompt: 'A relay keeper', dryRun: true, client: stubClient(), log });
     expect(file).toBe(null);
@@ -182,5 +256,19 @@ describe('saga generation', () => {
       message: 'provider names unknown definition character.nobody',
     });
     expect(fs.existsSync(out)).toBe(true);
+  });
+});
+
+describe('the Gemini client', () => {
+  it('waits the delay a quota answer names, at most two minutes', () => {
+    const quota = (retryDelay) =>
+      JSON.stringify({
+        error: { code: 429, details: [{ '@type': 'type.googleapis.com/google.rpc.RetryInfo', retryDelay }] },
+      });
+    expect(retryDelayOf(quota('38s'))).toBe(38000);
+    expect(retryDelayOf(quota('0.5s'))).toBe(500);
+    expect(retryDelayOf(quota('900s'))).toBe(120000);
+    expect(retryDelayOf('not json')).toBeUndefined();
+    expect(retryDelayOf(JSON.stringify({ error: { details: [] } }))).toBeUndefined();
   });
 });
