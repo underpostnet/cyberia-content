@@ -16,7 +16,7 @@ export const CONTRACT_FILE = fileURLToPath(new URL('./runtime-contract.json', im
  *   inventoryCapacity:{base:number,step:number,every:number,max:number},
  *   skillLogic:Array<{id:string,summons:string|null,summonsTrigger:boolean}>, questStepTypes:string[],
  *   casterSkinPlaceholder:string,
- *   itemDialoguePrefix:string}} */
+ *   itemDialoguePrefix:string, dialogueMoods:string[]}} */
 export const CONTRACT = Object.freeze(JSON.parse(readFileSync(CONTRACT_FILE, 'utf8')));
 
 export const ENTITY_TYPES = Object.freeze(Object.keys(CONTRACT.entityItemTypes));

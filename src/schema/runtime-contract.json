@@ -434,6 +434,12 @@
   ],
   "casterSkinPlaceholder": "$active_skin",
   "itemDialoguePrefix": "default-",
+  "dialogueMoods": [
+    "neutral",
+    "happy",
+    "sad",
+    "angry"
+  ],
   "economy": {
     "defaultCode": "standard",
     "currencyCodes": [

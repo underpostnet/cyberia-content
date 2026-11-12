@@ -195,13 +195,16 @@ function checkComposition(definition, context) {
   }
 }
 
-/** Objective targets by type: an item to collect, a character to kill or to talk to. */
+/** Objective targets by type: an item to collect, a bot to kill, a character to talk to. */
 function checkQuest(definition, context) {
   const objectives = (definition.steps ?? []).flatMap((step) => step?.objectives ?? []);
   for (const { type, target } of objectives) {
     if (type === 'collect' && target && !isLabeled(target)) context.report(`collect targets an item, not ${target}`);
     if ((type === 'kill' || type === 'talk') && target && kindOf(target) !== 'character')
       context.report(`${type} targets a character, not ${target}`);
+    const entityType = context.lookup(target)?.entity?.type;
+    if (type === 'kill' && kindOf(target) === 'character' && entityType && entityType !== 'bot')
+      context.report(`kill targets a bot; ${target} spawns as a ${entityType}`);
   }
   if (objectives.some(({ type }) => type === 'talk') && !definition.talk?.length)
     context.report('talk is required when an objective is to talk');
@@ -344,6 +347,37 @@ function factionCycleFindings(definitions, lookup) {
 }
 
 /**
+ * The quest graph. The runtime gates a quest by its prerequisites alone, so a quest that unlocks
+ * another is one of its prerequisites, and a prerequisite of the same set unlocks the quest it
+ * gates. A loop of prerequisites makes every quest in it unreachable.
+ */
+function questGraphFindings(definitions, lookup) {
+  const quests = definitions.filter((definition) => kindOf(definition?.id) === 'quest');
+  const own = new Set(quests.map(({ id }) => id));
+  const findings = [];
+  for (const quest of quests) {
+    for (const target of quest.unlocks ?? []) {
+      const unlocked = lookup(target);
+      if (unlocked && !(unlocked.prerequisites ?? []).includes(quest.id))
+        findings.push({ id: quest.id, message: `unlocks ${target}, which does not name it in prerequisites` });
+    }
+    for (const prerequisite of quest.prerequisites ?? [])
+      if (own.has(prerequisite) && !(lookup(prerequisite).unlocks ?? []).includes(quest.id))
+        findings.push({ id: quest.id, message: `requires ${prerequisite}, which does not name it in unlocks` });
+    const seen = new Set();
+    const loops = (id) => {
+      if (id === quest.id && seen.size > 0) return true;
+      if (seen.has(id)) return false;
+      seen.add(id);
+      return (lookup(id)?.prerequisites ?? []).some(loops);
+    };
+    if ((quest.prerequisites ?? []).some(loops))
+      findings.push({ id: quest.id, message: 'its prerequisites loop back to it: no player can start it' });
+  }
+  return findings;
+}
+
+/**
  * The interactions a set of definitions owns. A quest provider and every character a quest has you
  * talk to stand behind an action of the same set, so each quest can be offered and completed. A
  * greeting is the dialogue of the greeter's skin, so the greeter wears a skin of the same set.
@@ -409,6 +443,7 @@ export function validateDefinitions(definitions, { base = null } = {}) {
     ...duplicateFindings(definitions, base),
     ...topologyFindings(definitions),
     ...factionCycleFindings(definitions, lookup),
+    ...questGraphFindings(definitions, lookup),
     ...interactionFindings(definitions),
   ];
 }

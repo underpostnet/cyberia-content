@@ -1077,8 +1077,16 @@ const STAGE_PROMPTS = {
     [
       'STAGE: actions. Return ONE JSON object: { "definitions": [...] } with one action per provider:',
       definitionGuide(STAGE_KINDS.actions),
-      'An action is what a character offers where it stands: a shop priced in a currency, recipes, a',
-      'vault, or only its quests. Use ONLY the provided ids.',
+      'An action is what a character offers where it stands. It has no type: its capabilities are the',
+      'fields it fills, and it may combine several. Choose them from the role of the provider:',
+      '- shop: items for sale, each priced in a provided currency;',
+      '- recipes: what it assembles from ingredients, with an optional fee;',
+      '- storageSlots: the vault it opens;',
+      '- buyback: the items it buys back;',
+      '- burn: the items it salvages;',
+      '- market: a terminal of one provided market id, what sellers list there and in which of its modes.',
+      'Buy back, burn or list only items the provided economy allows for that operation.',
+      'A provider of quests only offers its quests: leave every capability out. Use ONLY the provided ids.',
     ].join('\n'),
   abilities: () =>
     [

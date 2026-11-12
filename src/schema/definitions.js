@@ -47,7 +47,7 @@ export const RELATION_TYPES = Object.freeze([
   'found-with',
 ]);
 
-export const MOODS = Object.freeze(['neutral', 'happy', 'sad', 'angry']);
+export const MOODS = CONTRACT.dialogueMoods;
 
 export const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 

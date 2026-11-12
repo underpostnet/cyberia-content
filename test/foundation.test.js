@@ -411,6 +411,52 @@ describe('definition validation', () => {
     expect(findings).toContain('quest.logs: a quest cannot require or unlock itself');
   });
 
+  it('kills only a bot', () => {
+    const definitions = minimalDefinitions();
+    definitions.find(({ id }) => id === 'character.walker').entity = { type: 'player' };
+    definitions
+      .find(({ id }) => id === 'quest.logs')
+      .steps[0].objectives.push({ type: 'kill', target: 'character.walker', quantity: 1 });
+    expect(findingsOf(definitions)).toContain('quest.logs: kill targets a bot; character.walker spawns as a player');
+  });
+
+  it('gates a quest by its prerequisites: an unlock is a prerequisite and no prerequisite loops back', () => {
+    const quest = (id, extra) =>
+      common(id, {
+        provider: 'character.walker',
+        steps: [{ id: 'a', description: 'A.', objectives: [{ type: 'collect', target: 'resource.log', quantity: 1 }] }],
+        ...extra,
+      });
+    const graph = (quests) =>
+      findingsOf([...minimalDefinitions(), ...quests]).filter((finding) => /^quest\.(one|two|three)/.test(finding));
+    expect(
+      graph([
+        quest('quest.one', { unlocks: ['quest.two', 'quest.three'] }),
+        quest('quest.two', { prerequisites: ['quest.one'] }),
+        quest('quest.three', { prerequisites: ['quest.one'] }),
+      ]),
+    ).toEqual([]);
+    expect(
+      graph([
+        quest('quest.one', { unlocks: ['quest.two'] }),
+        quest('quest.two'),
+        quest('quest.three', { prerequisites: ['quest.one'] }),
+      ]),
+    ).toEqual([
+      'quest.one: unlocks quest.two, which does not name it in prerequisites',
+      'quest.three: requires quest.one, which does not name it in unlocks',
+    ]);
+    expect(
+      graph([
+        quest('quest.one', { prerequisites: ['quest.two'], unlocks: ['quest.two'] }),
+        quest('quest.two', { prerequisites: ['quest.one'], unlocks: ['quest.one'] }),
+      ]),
+    ).toEqual([
+      'quest.one: its prerequisites loop back to it: no player can start it',
+      'quest.two: its prerequisites loop back to it: no player can start it',
+    ]);
+  });
+
   it('stands every quest provider and talk target behind an action of the same set', () => {
     const findings = findingsOf(minimalDefinitions().filter(({ id }) => id !== 'action.walker-post'));
     expect(findings).toEqual(['quest.logs: character.walker needs an action to offer or complete this quest']);
