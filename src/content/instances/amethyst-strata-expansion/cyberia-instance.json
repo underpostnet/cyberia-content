@@ -7,7 +7,7 @@
     "saga",
     "generated"
   ],
-  "status": "unlisted",
+  "status": "published",
   "thumbnail": "6aa324dfce26181d4b2d22b7",
   "cyberiaMapCodes": [
     "amethyst-foliage-expanse",
@@ -135,8 +135,8 @@
   "seed": "",
   "topologyMode": "procedural",
   "conf": "6a4019d98df0fac6c13c2168",
-  "revision": 11,
+  "revision": 14,
   "createdAt": "2026-06-27T18:13:51.301Z",
-  "updatedAt": "2026-06-27T18:13:51.301Z",
+  "updatedAt": "2026-11-13T11:13:57.056Z",
   "__v": 0
 }
