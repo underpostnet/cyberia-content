@@ -3,24 +3,6 @@
   "code": "ash-plain",
   "name": "Ash Plain",
   "description": "A grey irradiated plain over the old continent, where raider clans camp among the collapsed towers.",
-  "tags": [
-    "ash-wastes",
-    "ruined-earth"
-  ],
-  "status": "unlisted",
-  "media": {
-    "revision": 2,
-    "status": "ready",
-    "error": "",
-    "at": "2026-10-29T17:06:35.199Z"
-  },
-  "worldX": null,
-  "worldY": null,
-  "gridX": 64,
-  "gridY": 64,
-  "cellWidth": 10,
-  "cellHeight": 10,
-  "revision": 2,
   "entities": [
     {
       "entityType": "floor",
@@ -3790,8 +3772,26 @@
       "_id": "6ae37d1a86926587d4190ba5"
     }
   ],
+  "tags": [
+    "ash-wastes",
+    "ruined-earth"
+  ],
+  "status": "unlisted",
+  "preview": "6ae37d1b86926587d4190ba6",
+  "media": {
+    "revision": 2,
+    "status": "ready",
+    "error": "",
+    "at": "2026-10-29T17:06:35.199Z"
+  },
+  "worldX": null,
+  "worldY": null,
+  "gridX": 64,
+  "gridY": 64,
+  "cellWidth": 10,
+  "cellHeight": 10,
+  "revision": 2,
   "createdAt": "2026-10-29T16:15:00.592Z",
-  "updatedAt": "2026-10-29T17:06:34.835Z",
-  "__v": 0,
-  "preview": "6ae37d1b86926587d4190ba6"
+  "updatedAt": "2026-10-29T16:15:00.592Z",
+  "__v": 0
 }
