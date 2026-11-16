@@ -1,7 +1,7 @@
-# Graph Report - cyberia-content  (2026-11-07)
+# Graph Report - cyberia-content  (2026-11-14)
 
 ## Corpus Check
-- 18 files · ~23,965 words
+- 18 files · ~23,962 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `744ad6a6`
+- Built from commit: `0bd88284`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
