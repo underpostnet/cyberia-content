@@ -114,17 +114,14 @@ function skills(registry, definitions) {
       .map((id) => registry.definitions.get(id))
       .filter((ability) => ability.logicEventId)
       .map((ability) => ({
+        skillId: slugOf(ability.id),
         logicEventId: ability.logicEventId,
         name: ability.name,
         description: ability.description,
         summonedEntityItemId: summonedEntityOf(ability),
       }));
     if (entries.length === 0) continue;
-    documents.push({
-      triggerItemId: slugOf(definition.id),
-      logicEventIds: [...new Set(entries.map((entry) => entry.logicEventId))],
-      skills: entries,
-    });
+    documents.push({ triggerItemId: slugOf(definition.id), skills: entries });
   }
   return documents;
 }

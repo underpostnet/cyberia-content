@@ -1,11 +1,9 @@
 {
   "_id": "6ace2969560e44404e2debee",
   "triggerItemId": "med-gel",
-  "logicEventIds": [
-    "zero-waste-auto-consume-heal"
-  ],
   "skills": [
     {
+      "skillId": "med-gel-dose",
       "logicEventId": "zero-waste-auto-consume-heal",
       "name": "Med Gel Doze",
       "description": "The holder takes one dose by itself once the missing life takes the whole dose, so no gel is wasted. A dose heals its Resistance as life.",

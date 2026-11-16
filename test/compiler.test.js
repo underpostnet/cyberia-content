@@ -81,16 +81,21 @@ describe('the compiled minimal foundation', () => {
     expect(families.skills).toEqual([
       {
         triggerItemId: 'gun',
-        logicEventIds: ['projectile'],
         skills: [
-          { logicEventId: 'projectile', name: 'shot', description: 'The ability.shot.', summonedEntityItemId: 'bolt' },
+          {
+            skillId: 'shot',
+            logicEventId: 'projectile',
+            name: 'shot',
+            description: 'The ability.shot.',
+            summonedEntityItemId: 'bolt',
+          },
         ],
       },
       {
         triggerItemId: 'salve',
-        logicEventIds: ['zero-waste-auto-consume-heal'],
         skills: [
           {
+            skillId: 'dose',
             logicEventId: 'zero-waste-auto-consume-heal',
             name: 'dose',
             description: 'The ability.dose.',

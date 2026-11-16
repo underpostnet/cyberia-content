@@ -1,11 +1,9 @@
 {
   "_id": "6aa5db7e917139c2a798d563",
   "triggerItemId": "tim-knife",
-  "logicEventIds": [
-    "projectile"
-  ],
   "skills": [
     {
+      "skillId": "tim-knife-projectile",
       "logicEventId": "projectile",
       "name": "",
       "description": "",

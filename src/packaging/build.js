@@ -19,7 +19,7 @@ import { PALETTE_FAMILIES } from '../validation/procedural.js';
 import { contentDigest, sha256 } from './digest.js';
 
 /** Version of the artifact layout and its document shapes: manifest, context, foundation, procedural, sagas, instances, global. */
-export const ARTIFACT_SCHEMA_VERSION = 11;
+export const ARTIFACT_SCHEMA_VERSION = 12;
 
 export const PACKAGE_ROOT = fileURLToPath(new URL('../../', import.meta.url));
 

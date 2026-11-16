@@ -1,11 +1,9 @@
 {
   "_id": "6a8fcb7f2ccebd1c7e97d20a",
   "triggerItemId": "hatchet",
-  "logicEventIds": [
-    "projectile"
-  ],
   "skills": [
     {
+      "skillId": "hatchet-throw",
       "logicEventId": "projectile",
       "name": "Projectile",
       "description": "Fires a projectile in the direction of the tap. Spawn chance and lifetime scale with Intelligence and Range.",
